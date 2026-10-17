@@ -1,0 +1,3353 @@
+{
+  "Factions": {
+    "Player": {
+      "Description": "The player's faction",
+      "Notes": [
+        "Anyone who is in this squad cannot harm or be harmed by the player"
+      ]
+    },
+    "TwoShoes": {
+      "Description": "The protagonist faction"
+    },
+    "AAHW": {
+      "Description": "The Agency Against Hank Wimbleton"
+    },
+    "Nexus": {
+      "Description": "The Nexus Core"
+    },
+    "MERCs": {
+      "Description": "The Matter Energy Reclamation Corporation"
+    },
+    "Bandits": {
+      "Description": "Scum"
+    },
+    "Daisies": {
+      "Description": "?????"
+    },
+    "Zeds": {
+      "Description": "Dead people"
+    },
+    "None": {
+      "Description": "No allegiance",
+      "Notes": [
+        "Will attack anyone that isn't in their squad regardless of faction",
+        "Can still commit friendly fire on squadmates"
+      ]
+    },
+    "Environment": {
+      "Description": "Wild"
+    },
+    "Neutral": {
+      "Description": "Non-combatant",
+      "Notes": [
+        "Will not attack anyone and cannot be hurt"
+      ]
+    },
+    "Enemy": {
+      "Description": "Default enemy faction",
+      "Notes": [
+        "All arena enemies are automatically set to this faction"
+      ]
+    },
+    "Toughs": {
+      "Description": "Street punks"
+    },
+    "Spaghett": {
+      "Description": "The Vendevice"
+    },
+    "Vampires": {
+      "Description": "Spooky creatures"
+    },
+    "N51": {
+      "Description": "Nevada 51"
+    },
+    "PrivSec": {
+      "Description": "The Private Sector"
+    },
+    "Machine": {
+      "Description": "The Machine"
+    },
+    "Any": {
+      "Description": "Used as Default faction identifier",
+      "Warnings": [
+        "Do not set as [DefaultFaction] for characters"
+      ]
+    }
+  },
+  "Behaviors": {
+    "Mindless": {
+      "Description": "Ignores fearful and tactical decisions",
+      "Warnings": [
+        "Spawns with a lower tier of weapons in Arena Mode",
+        "Does not swap weapons, pick them up, or side step in combat",
+        "Does not attempt to dodge hazards",
+        "Does not block with shields",
+        "Does not leap over cover",
+        "Does not throw grenades (Unless Weapon has [MindlessUsable] trait)"
+      ]
+    },
+    "Hunter": {
+      "Description": "Will be aware of nearest target and be automatically set to aware stance"
+    },
+    "Coward": {
+      "Description": "Will flee from target if it's too close",
+      "Notes": [
+        "Will also use [FriendDied] chatter"
+      ]
+    },
+    "Personal": {
+      "Description": "Will always try to close the distance to target regardless of ideal engagement distance"
+    },
+    "Turtle": {
+      "Description": "Will seek cover much more often"
+    },
+    "Evasive": {
+      "Description": "Will perform dodges from gunfire",
+      "Notes": [
+        "Has a 50% chance of being a snap dodge if character has [SnapDodge] skill",
+        "If [Personal] behavior applied, will always snap-dodge towards target"
+      ]
+    },
+    "Enraged": {
+      "Description": "Will attack more frequently for a short time after being struck"
+    },
+    "ItchyFinger": {
+      "Description": "Sustains a ranged attack for longer bursts"
+    },
+    "WhiteNinja": {
+      "Description": "Will not wait its turn to engage in melee combat",
+      "Warnings": [
+        "Does not apply to [Tough] or [Madness] difficulty"
+      ]
+    },
+    "GrenadeLover": {
+      "Description": "Throws grenades much more frequently"
+    },
+    "ChargeUpLover": {
+      "Description": "Will use charge-up attacks much more frequently",
+      "Warnings": [
+        "Requires the [FocusPunch] or [FocusSwing] skill"
+      ]
+    },
+    "BadBlock": {
+      "Description": "AI will attempt to block regardless of skill",
+      "Notes": [
+        "AI typically require [BetterBlock] or [BetterGuard] to decide on doing so. This will override it."
+      ]
+    },
+    "FavorDual": {
+      "Description": "Will attempt to pick up two weapons from the field\n[Does this work?]"
+    },
+    "Runner": {
+      "Description": "Will always dash in movement"
+    },
+    "Accurate": {
+      "Description": "Will attempt to off-hand aim more often with ranged weapons",
+      "Warnings": [
+        "Requies [OffHandAim] skill"
+      ]
+    },
+    "SlowWitted": {
+      "Description": "Has a slight delay before attacking",
+      "Notes": [
+        "Melee units are more inclined to block with this behavior"
+      ]
+    },
+    "Tactical": {
+      "Description": "Will move with respect to the squad leader, and form attack positions surrounding the player",
+      "Notes": [
+        "Squad leader is generally the unit with the highest [Level], who has to be level 5 or higher"
+      ]
+    },
+    "ChargeUpASAP": {
+      "Description": "Will always use the first level of charge-up attack"
+    },
+    "Defensive": {
+      "Description": "Blocks attacks much more frequently"
+    },
+    "ThrowsOften": {
+      "Description": "Will throw its melee weapon when far enough away from target",
+      "Notes": [
+        "Will not throw ranged weapons until they are out of ammo"
+      ]
+    },
+    "Focused": {
+      "Description": "Will not shift focus to new targets until current one is dead"
+    },
+    "ADD": {
+      "Description": "Will randomly choose targets even when engaging one"
+    },
+    "FarSight": {
+      "Description": "Can see and engage targets from off-screen"
+    },
+    "Indirect": {
+      "Description": "Will weave towards target with an uneven path"
+    },
+    "Bubble": {
+      "Description": "Will attempt to space out from targets when using a ranged weapon"
+    },
+    "HotFoot": {
+      "Description": "Always tries to move around, makes for erratic movement"
+    },
+    "Camper": {
+      "Description": "Will hold position at a sniper node, and retreat to a new one if target is too close"
+    },
+    "Sniper": {
+      "Description": "Will use sniper reticle to fire tac-ignoring shot on target",
+      "Notes": [
+        "Engagement distance is greatly increased with this behavior",
+        "Grace period of reticle is dependent on [Level]"
+      ]
+    },
+    "NoSprint": {
+      "Description": "Will never sprint"
+    },
+    "Sharky": {
+      "Description": "Will attempt to circle strafe around target before engaging"
+    },
+    "FreeAttacker": {
+      "Description": "Will freely swing at or engage the player regardless of turn order",
+      "Warnings": [
+        "Does not include navigation within melee distance, see [WhiteNinja]"
+      ]
+    },
+    "TargetShy": {
+      "Description": "will navigate around character's aim direction"
+    },
+    "HoldCover": {
+      "Description": "Will seek cover around desired area"
+    },
+    "SprintOnlyInPursuit": {
+      "Description": "Will only sprint while chasing target"
+    },
+    "Deadly": {
+      "Description": "Will attempt to execute dizzied targets",
+      "Notes": [
+        "Automatically applied to characters with [Bot] controller"
+      ]
+    },
+    "GetAwayFromMe": {
+      "Description": "Will attempt to pistol whip or special strike targets more frequently when using a ranged weapon"
+    },
+    "TattleTale": {
+      "Description": "Will retreat to squad leader and wake up the whole squad if leader is unaware"
+    },
+    "ChargeAttack_Angry": {
+      "Description": "Will perform special dash attacks",
+      "Notes": [
+        "Character will perform an [EmoteAngry] animation before charging",
+        "Character will perform the [DashSpecial] animation as a dash attack"
+      ]
+    },
+    "NeverStow": {
+      "Description": "Will never holster weapon"
+    },
+    "TurtleForever": {
+      "Description": "When a cover point is found, will stay in cover forever",
+      "Warnings": [
+        "Generally used in story missions where they are given specific cover points. Don't apply as a general behavior."
+      ]
+    },
+    "RearSmash": {
+      "Description": "If flanked from behind, perform a [RearSmash] animation"
+    },
+    "NoWakeupAlertAllies": {
+      "Description": "Will not wake up squadmates after finding a target"
+    },
+    "GrappleMasher": {
+      "Description": "Will be more aggressive in grapples"
+    },
+    "ForeverAutofire": {
+      "Description": "Will hold down the trigger on automatic weapons until ammo depleted"
+    },
+    "ButtonMasher": {
+      "Description": "Attacks more frequently"
+    },
+    "Catlike": {
+      "Description": "No delay between hitting the floor as a ragdoll and recovery"
+    },
+    "LeapSlam": {
+      "Description": "Will jump high into the air in an attempt to land on the target with a slam attack",
+      "Notes": [
+        "Leap animations determined by [FallLand] animation",
+        "Slam Attack determined by [SlamExplode] property"
+      ],
+      "Warnings": [
+        "Leaps happen very frequently"
+      ]
+    },
+    "LeapGrappler": {
+      "Description": "Will jump at the target and grapple with them if connection is made on landing",
+      "Notes": [
+        "Leap animations determined by [FallLand] animation"
+      ]
+    },
+    "ChargeAttack_Bullrush": {
+      "Description": "Will perform an angry charge attack at the player. Contact will ragdoll and dizzy the target",
+      "Notes": [
+        "Character will perform an [EmoteAngry] animation before charging",
+        "If character collides with a solid surface or another bullrushing ally, will use the [Bullrush] animation"
+      ]
+    },
+    "ChargeAttack_Grapple": {
+      "Description": "Will perform an angry charge attack at the player, contact will result in a grapple",
+      "Warnings": [
+        "Deprecated, use [DashSpecial] with grapple event instead"
+      ]
+    },
+    "Teleport_DodgeFlank": {
+      "Description": "Will teleport next to target if too far away",
+      "Warnings": [
+        "Uses [OverrideDodge] animation, which requires a teleporting event"
+      ]
+    },
+    "Teleport_DodgePursue": {
+      "Description": "Will randomly teleport closer to target",
+      "Warnings": [
+        "Uses [OverrideDodge] animation, which requires a teleporting event"
+      ]
+    },
+    "NoPathing": {
+      "Description": "Will not navigate by any means"
+    },
+    "CounterAttacks": {
+      "Description": "Will attempt to perform a perfect break or block while stunned",
+      "Notes": [
+        "Probability is determined by [Level] and number of hits"
+      ]
+    },
+    "LeapPursue": {
+      "Description": "Will attempt to leap towards the target if too far away",
+      "Notes": [
+        "Jump animations determined by [FallLand] animation"
+      ]
+    },
+    "NoCombat": {
+      "Description": "Will not be registered as a combatant"
+    },
+    "Teleport_Panic": {
+      "Description": "When a corpus block is broken, will teleport around the room 3 times"
+    },
+    "NeverHeavyH2H": {
+      "Description": "Never attempt to perform heavy attacks"
+    },
+    "NoMeleeFlocking": {
+      "Description": "Slight delay in pursuing target after target retreats"
+    },
+    "NoAttack": {
+      "Description": "Does not perform standard attacks",
+      "Notes": [
+        "Can still perform special strike and behavior based attacks"
+      ]
+    },
+    "JamAttack": {
+      "Description": "Will always try to attack, most aggressive form of attacking"
+    },
+    "UsePatrolPath": {
+      "Description": "Always follows a designated patrol path",
+      "Definitions": {
+        "Valid Stages": "[Arena_Battle2], [Arena_Infiltrate1], [Arena_Infiltrate2]"
+      },
+      "Warnings": [
+        "Only works in Select Stages"
+      ]
+    },
+    "UseGuardPosts": {
+      "Description": "Stays at a designated guard post",
+      "Definitions": {
+        "Valid Stages": "[Arena_Battle2], [Arena_Infiltrate1], [Arena_Infiltrate2]"
+      },
+      "Warnings": [
+        "Only works in Select Stages"
+      ]
+    },
+    "XRay": {
+      "Description": "Detects targets through geometry"
+    },
+    "MagicWandAllAutos": {
+      "Description": "Will wave aim with all ranged weapons when attacking"
+    },
+    "ChargeUpMax": {
+      "Description": "charge-up attacks will always go to maximum level"
+    },
+    "IgnoreSiege": {
+      "Description": "Will not follow orders in staging area to attack siege targets",
+      "Warnings": [
+        "Only applies to Siege arenas"
+      ]
+    },
+    "SpreadsJoy": {
+      "Description": "After killing or ragdolling a target, will perform a [Congratulate] animation with a nearby ally",
+      "Notes": [
+        "If chosen ally has their own [Congratulate] animation, will use that instead"
+      ]
+    }
+  },
+  "Vocations": {
+    "Nimble": {
+      "Description": "Can climb through vents"
+    },
+    "Demolition": {
+      "Description": "Can prime demo charges"
+    },
+    "Hacker": {
+      "Description": "Can hack terminals"
+    },
+    "Dissonant": {
+      "Description": "?????"
+    },
+    "Zed": {
+      "Description": "Can rise from the ground"
+    },
+    "Mag": {
+      "Description": "Takes the big boy entrance"
+    },
+    "Medical": {
+      "Description": "Can play with drugs"
+    },
+    "Service": {
+      "Description": "Can serve drinks"
+    },
+    "Swimmer": {
+      "Description": "Can leave water hazards"
+    },
+    "Civilian": {
+      "Description": "Has the keys to their own house"
+    },
+    "Excavator": {
+      "Description": "?????"
+    },
+    "Ghost": {
+      "Description": "Can phase through walls"
+    },
+    "Occult": {
+      "Description": "Can summon elders"
+    },
+    "Loner": {
+      "Description": "Ignores staging areas in sieges"
+    },
+    "Mechanic": {
+      "Description": "?????"
+    },
+    "Security": {
+      "Description": "Can spawn from heist police cars"
+    },
+    "Digital": {
+      "Description": "Can spawn in the nowhere"
+    },
+    "Clockwork": {
+      "Description": "?????"
+    },
+    "Marshmallow": {
+      "Description": "Can unlock the marshmallow box in [Hard Sell]"
+    },
+    "NONE": {
+      "Description": "",
+      "Warnings": [
+        "Do not use"
+      ]
+    },
+    "IMPOSSIBLE": {
+      "Description": "",
+      "Warnings": [
+        "Do not use"
+      ]
+    }
+  },
+  "Skills": {
+    "ReflectBullets": {
+      "Description": "Deflected bullets will travel in the direction of your aim as though you had shot them, allowing you to return fire back at your assailants."
+    },
+    "Unwavering": {
+      "Description": "You stand firm under fire. Taking Tac-Damage or full bodily damage does not hinder your aim whatsoever."
+    },
+    "HeavyArms": {
+      "Description": "Heavy firearms can be braced for aim, moved normally, and otherwise treated as a traditional weapon."
+    },
+    "DisarmingShot": {
+      "Description": "A center-mass shot on a reloading target will disarm their firearm, even if they Tac-Dodge the attack."
+    },
+    "MagicBullet": {
+      "Description": "Unless it's a wall, your shots tend to ricochet of of objects in the stage and find their way into the backs of opponents. Some luck!",
+      "Notes": [
+        "Aim [RMB] at stage objects and fire!"
+      ]
+    },
+    "Reciprocate": {
+      "Description": "Take the kinetic energy of the last attack you blocked, and quickly follow with a punch of your own to deal mega damage.",
+      "Notes": [
+        "Attack with Unarmed after Blocking"
+      ]
+    },
+    "MegaFinish": {
+      "Description": "Your unarmed kills are so mighty that they rock nearby opponents like the clap of thunder, knocking some of them to the ground!"
+    },
+    "Acrobatic1": {
+      "Description": "Improve the quality of your Dodge.",
+      "Notes": [
+        "Press [Space] to dodge."
+      ]
+    },
+    "MovingTarget": {
+      "Description": "Take less Tac damage while moving."
+    },
+    "TacticalNovice": {
+      "Description": "Your first level of Tac-Bar, which converts incoming gunfire into grazes.\n\nCertain conditions \"downgrade\" this graze back to a normal hit, such as being dizzied, struck from behind, over-encumbered, or within an opponent's Sweet Spot.\n\nYour Tac-Bar does not protect you when ragdolled."
+    },
+    "DeadlyThrow": {
+      "Description": "Your thrown melee or ranged weapons ignore your victim's Tac-Bar, and always count as a critical hit."
+    },
+    "AthleticSprint": {
+      "Description": "Move your feet a little faster by sprinting in a direction along flat terrain. Although you'll hit your maximum sprint speed instantly now, you still lack the ability to fire a ranged weapon while sprinting.",
+      "Notes": [
+        "Double tap a direction, or hold [Caps Lock]"
+      ]
+    },
+    "FastGetup": {
+      "Description": "When knocked to the floor, rising again happens more quickly."
+    },
+    "PreciseThrow": {
+      "Description": "Put a perfect spin on thrown melee weapons. Less likely to bounce away, and better damage."
+    },
+    "Acrobatic2": {
+      "Description": "Improve the quality of your Dodge."
+    },
+    "PickupKick": {
+      "Description": "Pickup items with a kick of your foot, equipping you with weapons much more quickly."
+    },
+    "PickupLeaping": {
+      "Description": "Pickup items while moving, and be invincible while doing so.  This will only occur when enemies are in the room."
+    },
+    "ShootDodge": {
+      "Description": "You can now fire your weapons while dodging."
+    },
+    "SnapDodge": {
+      "Description": "Zip to the side or out of the way of incoming attacks, or fly forward to close with a melee attack. You won't be invulnerable as with a normal dodge, but you'll be out of danger much more quickly. \n\nSnap-Dodge is melee cancellable.",
+      "Notes": [
+        "Quickly Tap [Space]"
+      ]
+    },
+    "TacticalJourneyman": {
+      "Description": "Your second level of Tac-Bar. Incoming gunfire is now considered a full miss.\n\nThe same conditions can downgrade this miss into a graze as with Tactical Novice. Conditions can stack to bring this attack all the way back down to a hit (such as being hit in the back while dizzied)."
+    },
+    "CatchThrown": {
+      "Description": "Thrown melee weapons and firearms can be caught right out of the air.",
+      "Notes": [
+        "Hold [Q] with your main hand empty."
+      ]
+    },
+    "LethalBluntThrow": {
+      "Description": "Firearms and blunt melee weapons will count as piercing weapons when thrown, negating their damage penalty."
+    },
+    "MadarangDisarm": {
+      "Description": "The Madarang is a special throwing weapon with the potential to disarm opponents when struck. This skill unlocks that ability. Be warned: some few enemy types cannot be disarmed."
+    },
+    "ShurikenThrow": {
+      "Description": "Whip tiny thrown weapons at enemies with lightning speed."
+    },
+    "FallTumble": {
+      "Description": "Falling from reasonably high ledges will deal far lesser damage."
+    },
+    "Plummet": {
+      "Description": "You're considered to be in a full dodge while falling through the air."
+    },
+    "TimedKipUp": {
+      "Description": "Being knocked to the floor will be mitigated with a much quicker recovery.",
+      "Notes": [
+        "Tap [Space] just before contacting the ground while in ragdoll."
+      ]
+    },
+    "Acrobatic3": {
+      "Description": "Improve the quality of your Dodge."
+    },
+    "SprintFire": {
+      "Description": "You've learned how to engage your firearms while sprinting across the battlefield."
+    },
+    "TacticalMaster": {
+      "Description": "Your second level Tac-Bar acts as a passive, first level Tac-Bar when depleted, giving you constant protection even after your bar is gone. This passive protection may still be downgraded as normal.\n\nYou are now also protected while ragdolled, though this counts as a downgrade."
+    },
+    "Lawnmower": {
+      "Description": "Slashing melee weapons will be thrown sideways and chop through as many opponents as possible before hitting the ground."
+    },
+    "ShurikenArc": {
+      "Description": "With a little flick of the wrist, your thrown shurikens will slightly heatseak toward your target. Some weapons will even boomerang back to you, such as hook weapons."
+    },
+    "ThrowBig": {
+      "Description": "Throwing heavy weapons is as easy for you as any other."
+    },
+    "FallRoll": {
+      "Description": "With practiced timing, you can negate falling damage from all but the most egregious heights.",
+      "Notes": [
+        "Tap [Space] just before contacting the ground."
+      ]
+    },
+    "HeadLeap": {
+      "Description": "Pop over the head of an enemy you're facing.",
+      "Notes": [
+        "Hold shift and tap [Space] while facing an enemy."
+      ]
+    },
+    "TacSprint": {
+      "Description": "While Sprinting, you will ignore a single downgrade to your Tac-Bar from enemy gunfire due to conditons such as being attacked from behind, being dizzied, and so on."
+    },
+    "Melee1": {
+      "Description": "Improve the quality of your Melee attacks.",
+      "Notes": [
+        "Press [LMB] to swing a weapon."
+      ]
+    },
+    "CritSwing": {
+      "Description": "With proper timing, your melee swings will deliver critical forces to opponents.",
+      "Notes": [
+        "Tap [LMB] just before your current hit lands."
+      ]
+    },
+    "LightSwing": {
+      "Description": "Your first light swing in a combo will be incredibly fast."
+    },
+    "MinorLeague": {
+      "Description": "Melee attacks that deal more damage than an opponent's full Corpus will destroy that Corpus outright - no need for a finisher attack!"
+    },
+    "Positioning": {
+      "Description": "Quickly dart forward to close with opponents when wielding a melee weapon."
+    },
+    "BasicBlock": {
+      "Description": "Use your melee weapon like a shield to block attacks from an opponent's melee or unarmed attacks. Incoming corpus damage will be significantly reduced, but only against enemies in front of you. For now, you can only block a single attack at a time.",
+      "Notes": [
+        "Hold [RMB] while equipping a melee weapon."
+      ]
+    },
+    "BetterBlock": {
+      "Description": "Your melee and shield block can be maintained after the first attack."
+    },
+    "Melee2": {
+      "Description": "Improve the quality of your Melee attacks."
+    },
+    "BigWeapons": {
+      "Description": "You wield large weapons based on your Attributes, rather than automatically defaulting to an encumbered swing. Does not apply to truly massive weapons."
+    },
+    "BlockBreaker": {
+      "Description": "If your melee weapon is bigger than theirs, you can knock an opponent's guard to the side with your heavy attacks, and possibly disarm them if your hit is a Critical. Opponents with Tac-Bar remaining can maintain their block, but it'll cost them.\n\nUnfortunately, this will not affect opponents larger than you or who carry shields."
+    },
+    "BluntKnockback": {
+      "Description": "Blunt melee weapons, when swung heavily, will often drive opponents to the floor, allowing you to control your position on the battlefield."
+    },
+    "FocusSwing": {
+      "Description": "Your melee attacks can be charged up and let loose for terrifying damage.",
+      "Notes": [
+        "Hold [LMB] and release."
+      ]
+    },
+    "EdgedTiming": {
+      "Description": "Time your light bladed weapon attacks properly during a quick (non-Heavy) swing in order to carry through to the next attack very quickly.",
+      "Notes": [
+        "Tap [LMB] just before your current light swing lands."
+      ]
+    },
+    "CritSwingBonus": {
+      "Description": "Critical melee hits count for two in your current combo, making your attacks in a combo even faster."
+    },
+    "DualMelee": {
+      "Description": "You can carry another melee weapons in your off-hand. Most normal sized weapons and larger in your second hand will encumber your attacks, however. Only weapons you can carry in a single hand may be dual wielded.",
+      "Notes": [
+        "Hold [Q] and target weapon with [RMB]."
+      ]
+    },
+    "QuickUnsheath": {
+      "Description": "Quickly draw your melee weapons."
+    },
+    "AdvancedBlock": {
+      "Description": "Your melee block offers much greater protection when aimed directly at an attacker."
+    },
+    "BlockAiming": {
+      "Description": "You can adjust the direction you're blocking by aiming in that direction."
+    },
+    "BlockMobility": {
+      "Description": "Movement is possible while defending with a melee weapon."
+    },
+    "AdvancedBlockMobility": {
+      "Description": "Moving while defending with a melee weapon is totally unhindered."
+    },
+    "Parry": {
+      "Description": "Stagger your opponents when responding to their attack with a perfectly-timed block. One-handed or dual wielded weapons only, please!",
+      "Notes": [
+        "Tap [RMB] just before an opponent's hit lands."
+      ]
+    },
+    "Melee3": {
+      "Description": "Improve the quality of your Melee attacks."
+    },
+    "EdgedSpeed": {
+      "Description": "Attack more quickly relative to combo counter when using an edged weapon."
+    },
+    "AdvancedDualMelee": {
+      "Description": "Normal sized melee weapons can be wielded in your off-hand without encumbering your attacks."
+    },
+    "FollowThrough": {
+      "Description": "Your slashing weapons deal full damage to all opponents struck during a heavy melee attack, not <i>just</i> your primary target."
+    },
+    "ZipAttack": {
+      "Description": "Once you reach a 10+ hit combo while wielding a bladed weapon in your main hand, you can fly great lengths across the battlefield to close with distant enemies."
+    },
+    "BlockBullets": {
+      "Description": "Bullets fall harmlessly to the ground when blocking with your melee weapon."
+    },
+    "DeflectBullets": {
+      "Description": "Blocked bullets bounce away and may even impact nearby opponents."
+    },
+    "Riposte": {
+      "Description": "Dual wielded weapons immediately strike back with lightning speed when Parrying."
+    },
+    "Ranged1": {
+      "Description": "Start with one extra magazine per non-Heavy firearm at the start of a stage. This ammo stacks with the magazines of any other firearm you start with that uses the same ammo type.\n\nAlso, you now hold your gun upright like a professional."
+    },
+    "Quickdraw": {
+      "Description": "Nearly instantly draw your ranged weapons."
+    },
+    "StationaryRecovery": {
+      "Description": "Standing still will improve your recoil recovery."
+    },
+    "GreatShot": {
+      "Description": "Ranged attacks that deal more damage than an opponent's full Corpus will destroy that Corpus outright. They don't need to be plugged with a finishing shot.\n\nShots that wouldn't kill in one hit must still drain the enemy's Corpus first before breaking it."
+    },
+    "Headshot": {
+      "Description": "Understanding target vulnerabilities is important, which is why you can aim higher on an opponent to put one right between their eyes.",
+      "Notes": [
+        "Hold [Shift] while wielding a ranged weapon."
+      ]
+    },
+    "OffHandAim": {
+      "Description": "Bracing your gun with your off-hand lowers the recoil of shots fired and boosts your general accuracy. Plus you look like a boss while doing it.\n\nWhile bracing an automatic weapon, light trigger pulls will fire off a single round rather than the full burst.\n\nUnfortunately, moving will cause your aim to drop.\n\n",
+      "Notes": [
+        "Hold [RMB] while wielding a ranged weapon."
+      ]
+    },
+    "SweetSpot": {
+      "Description": "Every firearm has its intended range. If you can land a shot on an opponent while they're standing in that zone, you will be more effective against their Tac-Bar by upgrading misses to grazes or grazes into full hits.",
+      "Notes": [
+        "Your aim reticle will indicate Green for your weapon's Sweet Spot."
+      ]
+    },
+    "Ranged2": {
+      "Description": "Start with two extra non-Heavy magazines per firearm."
+    },
+    "AutoFireComp": {
+      "Description": "Firing an automatic weapon offers an initial kick, but after a moment of continuous rapid fire, you're able to reduce your recoil significantly. Just don't release that trigger!"
+    },
+    "CoverBracing": {
+      "Description": "Firing over cover objects decreases the recoil you sustain."
+    },
+    "DirectionTracking": {
+      "Description": "Changing the direction you're aiming is taxing for most people. Not you, though. Rapidly altering your aim no longer incurrs accuracy penalties."
+    },
+    "Highground": {
+      "Description": "As you spit ammo downwards on your opponents below you, you'll find you deal more Tac-Damage to them because of your height advantage."
+    },
+    "Unphased": {
+      "Description": "Your aim doesn't suffer for graze attacks inflicted by attackers."
+    },
+    "DualRanged": {
+      "Description": "Wield medium-sized weapons or smaller firearms in your off-hand. You cannot dual wield while holding a two-handed weapon in your main hand.",
+      "Notes": [
+        "Hold [SHIFT] and press [Q], or hold [Q] and target weapon with [RMB]."
+      ]
+    },
+    "PistolWhip": {
+      "Description": "Your one-handed firearms can be swung in a Melee attack. Useful for bashing brains. Even more useful with a bayonet attached!",
+      "Notes": [
+        "Tap [MMB] with a Firearm equipped."
+      ]
+    },
+    "Unobstructed": {
+      "Description": "Your bullets have a chance to pass through opponents if they take enough damage and lose a corpus from that hit."
+    },
+    "ZeroTolerance": {
+      "Description": "Your enemies fear you, for they no longer need to be Finished by any ranged attack you deliver. If a shot would overcome an opponent's current Corpus Block, it is broken without needing to empty it first."
+    },
+    "AimAssist": {
+      "Description": "While bracing your ranged weapon, you'll be shown a clear direction the bullet will travel.",
+      "Notes": [
+        "Aim Assistance can be disabled from the pause menu."
+      ]
+    },
+    "CriticalShot": {
+      "Description": "Any opponent fired upon within your weapon's Sweet Spot zone will receieve a Critical Hit. Those killed this way will fall to the side and out of your line of fire, making further attacks on oncoming opponents easier."
+    },
+    "MobileAim": {
+      "Description": "Oh, would ya look at that? You can maintain your aim while moving, although you won't be moving at full speed."
+    },
+    "Ranged3": {
+      "Description": "Start with three extra non-Heavy magazines per firearm."
+    },
+    "AutoFireCorrect": {
+      "Description": "Even if you release the trigger, your Autofire Compensation will continue to reduce your recoil once you begin shooting again. Just don't wait too long!"
+    },
+    "MobileAcc": {
+      "Description": "Moving around the field of combat will no longer penalize your accuracy in any way."
+    },
+    "PerfectSights": {
+      "Description": "Tagging an enemy with a shot instantly bumps down your recoil."
+    },
+    "AdvancedDualRanged": {
+      "Description": "Wield two of any firearm you can lift with one hand."
+    },
+    "ShotgunBlastoff": {
+      "Description": "If your point-blank shotgun attack robs an enemy of Corpus, it'll send them flying away in a shower of blood and shame. Other than being a ton of fun, this has a high chance of frightening nearby opponents."
+    },
+    "Deadeye": {
+      "Description": "Grazing hits can now break an enemy's Corpus when using firearms."
+    },
+    "PinDown": {
+      "Description": "Enemies struck by, or Tac-Dodging, your shots will stop in their tracks. Larger enemies may only be slowed down."
+    },
+    "PrecisionShooter": {
+      "Description": "Dodging enemies take grazing damage from your shots rather than outright evading damage. \n\nAlso, enemies Tac-Dodging your Sweet Spot shots will have their bars drain instantly, rather than waiting for them to drain over time."
+    },
+    "Unarmed1": {
+      "Description": "Improve the quality of your Unarmed attacks.",
+      "Notes": [
+        "Press [LMB] when unarmed."
+      ]
+    },
+    "CritPunch": {
+      "Description": "Using precision and timing, your unarmed swing will land with critical devastation.",
+      "Notes": [
+        "Tap [LMB] just before your current hit lands."
+      ]
+    },
+    "LightPunch": {
+      "Description": "Your first light punch in a combo will be incredibly fast."
+    },
+    "Footwork": {
+      "Description": "You have mastered balance and placement in an unarmed bout. You'll dart toward enemies to deliver your punches, rather than hoping they didn't have anything better to do than to wander into your range."
+    },
+    "SpecialStrike": {
+      "Description": "Push attackers away with a vigorous shove.",
+      "Notes": [
+        "Hold [Shift] and tap [MMB]."
+      ]
+    },
+    "BasicGuard": {
+      "Description": "You know how to put up your dukes, but now you've learned how to block your opponent's. Without more training, your guard won't withstand more than one hit, and it'll be useless against melee attacks.",
+      "Notes": [
+        "Hold [RMB] while unarmed."
+      ]
+    },
+    "BetterGuard": {
+      "Description": "Replace your little noodle arms with big slabs of beef that never get tired, and a block that does not break after the first hit."
+    },
+    "Unarmed2": {
+      "Description": "Improve the quality of your Unarmed attacks."
+    },
+    "FocusPunch": {
+      "Description": "Charging up your swing will lend it terrifying power when it lands.",
+      "Notes": [
+        "Hold [LMB] and release."
+      ]
+    },
+    "CritPunchBonus": {
+      "Description": "Everyone will know how tough you are when your critical hits count for two combo hits rather than one, making your attacks in a combo even faster."
+    },
+    "Ablation": {
+      "Description": "Reduce an opponent's Tac-Bar as you pummel them."
+    },
+    "DashAttack": {
+      "Description": "Throw your shoulder into a dizzying attack when dashing!",
+      "Notes": [
+        "Tap [LMB] while sprinting."
+      ]
+    },
+    "ImprovWeapon": {
+      "Description": "Your broken melee weapon will leave you with a hilt that lets you execute opponents for free. You'll lose the item, but they'll lose their Corpus. Fair trade.\n\nThis auto-execute also applies to some small items, such as screwdrivers.",
+      "Notes": [
+        "Press [E] to Takedown with an appropriate weapon."
+      ]
+    },
+    "BetterSpecialStrike": {
+      "Description": "Your feeble shoves are replaced with the mighty front-kick of an ancient Greek warrior."
+    },
+    "Counter": {
+      "Description": "With a little shuffling of the feet, you can displace an opponent's unarmed energy and turn it against them, or sidestep out of the way of their melee attacks!",
+      "Notes": [
+        "Tap [RMB] just before an opponent's hit lands."
+      ]
+    },
+    "CounterCharging": {
+      "Description": "Your counters now apply to charging and leaping opponents!"
+    },
+    "AdvancedGuard": {
+      "Description": "Your unarmed guard is tremendously effective when aimed directly at your attacker."
+    },
+    "GuardAiming": {
+      "Description": "While guarding against attacks, you are able to aim in a direction to maximize your defense."
+    },
+    "GuardMobility": {
+      "Description": "Learning better foot placement and balance has given you the ability to move in combat while maintaining your guard."
+    },
+    "AdvancedGuardMobility": {
+      "Description": "Moving while guarding now happens at your standard speed."
+    },
+    "Unarmed3": {
+      "Description": "Improve the quality of your Unarmed attacks."
+    },
+    "PowerFinish": {
+      "Description": "Your killing blows are so massive that nearby opponents have a chance to be stunned."
+    },
+    "Revelator": {
+      "Description": "Enemies you catch within cover will automatically be knocked to the floor by your unarmed attacks. Surprise!"
+    },
+    "StunningFist": {
+      "Description": "Your everyday unarmed attacks rarely fail to dizzy your opponents once your Combo reaches 10 hits."
+    },
+    "DashHeavyAttack": {
+      "Description": "Offer your opponents a sweet jumpkick while sprinting to potentially send them flying across the battlefield.",
+      "Notes": [
+        "Hold [SHIFT] and tap [LMB] while sprinting."
+      ]
+    },
+    "DodgeTackle": {
+      "Description": "When dodging, contact with enemies has a chance to knock them down or away."
+    },
+    "PunchEnerv": {
+      "Description": "Not only do your strikes damage an opponent's Tac-Bar, but you'll deny your opponent ANY use of their Tac-Bar whatsoever for a couple seconds after every unarmed hit."
+    },
+    "MeleeCounter": {
+      "Description": "Batting fists aside is easy, but countering an enemy's melee swing with your bare palms is the mark of a true unarmed champion."
+    },
+    "MeleeGuard": {
+      "Description": "You can guard against melee attacks, be they swords or clubs, with as much ease as a fist or foot."
+    },
+    "Arcane": {
+      "Description": "You have access to your own pocket dimension between worlds, where you can study the mystical arts and customize your collection of wands.",
+      "Notes": [
+        "Enter the passage outside the HQ."
+      ]
+    },
+    "BribeEnemy": {
+      "Description": "You can spend your hard-earned cash to convert opponents to your side.",
+      "Notes": [
+        "Hold [SHIFT] when initiating a Takedown"
+      ]
+    },
+    "Corruption": {
+      "Description": "The essence of fallen opponents will sometimes return from death to aid you in battle. You'll also steal the essence of dizzied enemies to recover lost corpus blocks!"
+    },
+    "FreeExecute": {
+      "Description": "Once you have the <b>Improvised Weapon</b> skill, its effects apply to ALL melee weapons...so long as you can hold them in one hand.",
+      "Notes": [
+        "Press [E] to Takedown with a melee weapon"
+      ]
+    },
+    "Hungry": {
+      "Description": "Every Core Skill you purchase (excluding your weakeness) will make you bigger and slower, but much, much tougher."
+    },
+    "ImaginaryFriend": {
+      "Description": "You keep telling people about your imaginary friend who helps you out of tough spots. Why won't anyone believe you?!"
+    },
+    "Infiltrator": {
+      "Description": "Enemies in Infiltration stages won't know you're an opponent until you're caught being violent, while all others have to hunt you down."
+    },
+    "Operative": {
+      "Description": "Your pistols stunlock opponents, and will further ignore enemy Tac-Bar by one step once you have the <b>Sweet Spot</b> skill."
+    },
+    "Replicate": {
+      "Description": "Instead of additional corpus, Core Focus Skills earn you clones that spawn in to help you in battle."
+    },
+    "Scary": {
+      "Description": "Opponents startled by your takedowns and gruesome kills don't just react with surprise...they'll take off running!"
+    },
+    "Sturdy": {
+      "Description": "All skills you buy require you to pick from <b>Strength or Endurance</b> instead of their normal Attributes."
+    },
+    "Throwmaster": {
+      "Description": "Your grenade slot weapons (daggers, javelines, etc.) pass through targets when they lose a corpus, hitting anyone beyond them.\nPlus, once you have the <b>Lawnmower</b> skill, it will apply to <i>all</i> weapons you throw!"
+    },
+    "Tinkerer": {
+      "Description": "You can stick any modification onto any firearm whatsoever with zero restriction. Enjoy!",
+      "Notes": [
+        "Interact with the Weapon Modding Bench"
+      ]
+    },
+    "Vanisher": {
+      "Description": "Once you have the Positioning skill, you'll teleport the distance between you and your target while wielding a melee weapon."
+    }
+  },
+  "SkillTrees": {
+    "Melee": {
+      "Description": "Melee skills"
+    },
+    "Acrobatic": {
+      "Description": "Acrobatic skills"
+    },
+    "Unarmed": {
+      "Description": "Unarmed skills"
+    },
+    "Ranged": {
+      "Description": "Ranged skills"
+    },
+    "NONE": {
+      "Description": ""
+    }
+  },
+  "ItemGenres": {
+    "Improvised": {
+      "Description": "Ramshackle items"
+    },
+    "Tools": {
+      "Description": "Tools"
+    },
+    "Common": {
+      "Description": "Commonplace items"
+    },
+    "Professional": {
+      "Description": "Professional weapons"
+    },
+    "CuttingEdge": {
+      "Description": "State of the art weapons"
+    },
+    "Alphaware": {
+      "Description": "Prototype weapons"
+    },
+    "Artillery": {
+      "Description": "Explosive weapons"
+    },
+    "VideoGame": {
+      "Description": "Arcade style bullet-hell weapons"
+    },
+    "Magic": {
+      "Description": "Wizard wands and elemental magic",
+	  "Warnings": [
+        "Weapons can only be picked up by character with [Arcane] Skill"
+      ]
+    },
+    "Nothing": {
+      "Description": ""
+    }
+  },
+  "ArmorSlots": {},
+  "WeaponCategories": {
+    "Heavy": {
+      "Description": "",
+      "Notes": [
+        "Characters holding weapons of this category will have a sluggish turning speed"
+      ]
+    },
+    "Melee": {
+      "Description": "",
+      "Warnings": [
+        "Apply this to melee weapons only"
+      ]
+    },
+    "Unarmed": {
+      "Description": "",
+      "Notes": [
+        "Characters with this preference will never pick up weapons"
+      ],
+      "Warnings": [
+        "Apply this to Melee weapons only"
+      ]
+    },
+    "Thrown": {
+      "Description": "",
+      "Warnings": [
+        "Apply this to Thrown weapons only"
+      ]
+    },
+    "Shield": {
+      "Description": "",
+      "Notes": [
+        "Automatically attached to off hand"
+      ],
+      "Warnings": [
+        "Apply this to Melee weapons only"
+      ]
+    },
+    "Wand": {
+      "Description": ""
+    },
+    "None": {
+      "Description": ""
+    }
+  },
+  "Traits": {
+    "NoPain": {
+      "Description": "Cannot be stunned"
+    },
+    "Hero": {
+      "Description": "Character has regenerating helath, and temporary invunlerability after losing a corpus block"
+    },
+    "AutoDodgeThrown": {
+      "Description": "Automatically dodges thrown melee weapons",
+      "Warnings": [
+        "Does not apply to throwables"
+      ]
+    },
+    "NoCombo": {
+      "Description": "Melee attacks are chosen at random instead of sequentially"
+    },
+    "BulletsAutoHit": {
+      "Description": "Bullets will ignore tac bar"
+    },
+    "NoWeapons": {
+      "Description": "Will use unarmed attacks even with weapons of any kind"
+    },
+    "TrickyHead": {
+      "Description": "Head will twitch erratically",
+      "Notes": [
+        "amplitude of twitchiness dependent on [Level]"
+      ]
+    },
+    "SpawnDual": {
+      "Description": "Spawn with dual weapons"
+    },
+    "BowlingPin": {
+      "Description": "Will ragdoll if dodged into"
+    },
+    "Deadly_Contact": {
+      "Description": "Will attempt to perform execution when in contact",
+      "Warnings": [
+        "Can only perform executions where [Source] is designated as [Auto]"
+      ]
+    },
+    "NoMelee": {
+      "Description": "Will use unarmed attacks even with melee weapons"
+    },
+    "WalkPulse": {
+      "Description": "Oscillates between full speed and reduced speed when moving"
+    },
+    "NoRanged": {
+      "Description": "Cannot use ranged weapons, treated as unarmed."
+    },
+    "NoGore": {
+      "Description": "Does not bleed"
+    },
+    "InfiniteAmmo": {
+      "Description": "Infinite magazines"
+    },
+    "NoDisarm": {
+      "Description": "Cannot be disarmed and never reduces weapon durability"
+    },
+    "VanishDeath": {
+      "Description": "Body disappears on death"
+    },
+    "VanishDeactivate": {
+      "Description": "Body disappears after deactivation (happens after death)",
+      "Notes": [
+        "Time to deactivation determined by [DeactivationTime]"
+      ]
+    },
+    "Blind": {
+      "Description": "If unaware, can only wake up by sound",
+      "Notes": [
+        "Woken up by gunshots and other allies waking up"
+      ]
+    },
+    "ZeroGravityDeath": {
+      "Description": "Body floats away on death"
+    },
+    "EffectOnDeactivate": {
+      "Description": "[DeathEffect] occurs on deactivation instead of death"
+    },
+    "GrappleKiller": {
+      "Description": "Will maintain grapple even after breaking corpus block"
+    },
+    "NoCombatLock": {
+      "Description": "Does not lockdown the room while active",
+      "Warnings": [
+        "Only applies to [Story Mode]"
+      ]
+    },
+    "Unphased": {
+      "Description": "Does not use [WakeUpEmote] when spotting the player or when intimidated"
+    },
+    "DizzyRagdoll": {
+      "Description": "Dizzy effect replaced with ragdolling"
+    },
+    "TurretSpin": {
+      "Description": "Has a fixed turn speed dependent on [Dexterity]"
+    },
+    "Mushy": {
+      "Description": "Weapons stick into me, and gibs more easily",
+      "Warnings": [
+        "Players and Bots cannot be rezzed with this trait"
+      ]
+    },
+    "StartWounds": {
+      "Description": "Has random wounds on spawn"
+    },
+    "NoDizzy": {
+      "Description": "Cannot be dizzied by normal means"
+    },
+    "H2HAngry": {
+      "Description": "Will perform [Special_Angry] animation after hit 5 times"
+    },
+    "NoH2HSnap": {
+      "Description": "Does not keep tracking target during an Unarmed/Melee attack"
+    },
+    "NoExecute_Hilt": {
+      "Description": "Cannot be executed with [ImprovisedWeapons] skill"
+    },
+    "WeakHands": {
+      "Description": "Unarmed attacks do not stun target"
+    },
+    "ItemsGoneOnDeath": {
+      "Description": "Held items disappear when dying"
+    },
+    "StaggerOnLowHealth": {
+      "Description": "When trauma is full, will fall to a looping dizzy stun",
+      "Notes": [
+        "If enough time has passed, target will recover"
+      ]
+    },
+    "DualWieldOverride": {
+      "Description": "Allows targets to dual wield without dual wielding skills",
+      "Warnings": [
+        "Deprecated"
+      ]
+    },
+    "Lumbering": {
+      "Description": "When sprinting, will push smaller targets out of the way",
+      "Notes": [
+        "Will push equally sized targets out of the way if using Charging behaviors"
+      ]
+    },
+    "Sluggish": {
+      "Description": "Reloads more slowly"
+    },
+    "TwoHandOverride": {
+      "Description": "Can hold any weapon in one hand",
+      "Notes": [
+        "Does not apply to weapons with [TwoHands] trait"
+      ]
+    },
+    "Clumsy": {
+      "Description": "Will ragdoll and drop weapon if falling from any height"
+    },
+    "Deaf": {
+      "Description": "Can only be woken up by seeing the target"
+    },
+    "RemotePickup": {
+      "Description": "Can use the force to pick up weapons from afar"
+    },
+    "ZedProof": {
+      "Description": "Cannot be converted into another character"
+    },
+    "MegaKnockback": {
+      "Description": "Increased knockback with H2H attacks"
+    },
+    "AlwaysGoreDeath": {
+      "Description": "Will always gib on death"
+    },
+    "Heavy": {
+      "Description": "Cannot be knocked back as far"
+    },
+    "Uncounterable": {
+      "Description": "Cannot be countered"
+    },
+    "NoCombatRagdoll": {
+      "Description": "Cannot be ragdolled by weapons or losing a corpus block"
+    },
+    "ThrowForward": {
+      "Description": "Always throw items directly ahead of me instead of at my target"
+    },
+    "DashAttacker": {
+      "Description": "Always follow up sprinting at target with a dash attack"
+    },
+    "NoExecute_Local": {
+      "Description": "Cannot be executed while dizzy"
+    },
+    "Unconvertable": {
+      "Description": "Cannot be converted into a character, or bribed"
+    },
+    "GrappleAttack": {
+      "Description": "Perform grapple attacks infrequently with unarmed attacks"
+    },
+    "Robotic": {
+      "Description": "turning independent of movement",
+      "Warnings": [
+        "Body goes stiff on death"
+      ]
+    },
+    "IgnoreAutoEmbed": {
+      "Description": "Roped weapons do not work"
+    },
+    "StableRanged": {
+      "Description": "No recoil with any ranged weapons"
+    },
+    "HeftyOverride": {
+      "Description": "Can weild weapons normally too big for this character to use."
+    },
+    "Incorporeal": {
+      "Description": "Do not collide with enemies"
+    },
+    "Invisible": {
+      "Description": "Enemies cannot target me until I attack them"
+    },
+    "IncorporealFaction": {
+      "Description": "Do not collide with allies"
+    },
+    "BurnDeath": {
+      "Description": "Get set on fire while dying"
+    },
+    "NoMagazines": {
+      "Description": "Has no extra magazines regardless of ranged core skills"
+    },
+    "NinjaSpawn": {
+      "Description": "Spawn next to the player",
+      "Warnings": [
+        "Only works in [Arena] mode"
+      ]
+    },
+    "NoElementalDeath": {
+      "Description": "Do not use elemental death overrides"
+    },
+    "NoDrop": {
+      "Description": "Cannot drop weapons"
+    },
+    "NoSwap": {
+      "Description": "Cannot swap between weapons"
+    },
+    "AlwaysBadThrow": {
+      "Description": "Always use encumbered throw when throwing melee weapons"
+    },
+    "Soulless": {
+      "Description": "Cannot be resurrected as a servant of the [Offering]"
+    },
+    "LeaveToPlayer": {
+      "Description": "Cannot be actively targeted by other enemies"
+    },
+    "InvincibleStagger": {
+      "Description": "Cannot be damaged while staggered",
+      "Warnings": [
+        "Must have [StaggerOnLowHealth] applied"
+      ]
+    },
+    "NoFallDamage": {
+      "Description": "Take no fall damage"
+    },
+    "NoIncap": {
+      "Description": "Will always die regardless of player control."
+    },
+    "NoDeadZoneDamage": {
+      "Description": "Will not take Dead Zone damage and will instead just follow teleportation rules (if any)"
+    }
+  },
+  "WeaponTraits": {
+    "TwoHands": {
+      "Description": "This weapon always requires two hands to use"
+    },
+    "ShowInOffHand": {
+      "Description": "This weapon will appear as being held in the off hand when equipped in the main hand",
+      "Notes": [
+        "Held normally when dual wielding"
+      ]
+    },
+    "RemoveOnEmpty": {
+      "Description": "Weapon is destroyed when ammo is depleted",
+      "Notes": [
+        "Automatically applied to ranged weapons"
+      ]
+    },
+    "Shuriken": {
+      "Description": "Weapon gains heatseeking when user has [ShurikenArc] skill"
+    },
+    "DisarmHit": {
+      "Description": "Hits from this weapon can disarm opponent"
+    },
+    "FastThrow": {
+      "Description": "[ThrowAnimation] sped up rapidly"
+    },
+    "LeanBackHold": {
+      "Description": "User leans back while holding this weapon"
+    },
+    "NoStow": {
+      "Description": "When holstering attempted, will fall to floor instead"
+    },
+    "NotAWeapon": {
+      "Description": "Character holding this weapon will still use unarmed attacks and not benefit in any way"
+    },
+    "CannotPickUp": {
+      "Description": "Item beocmes debris on dropped"
+    },
+    "AutoEmbed": {
+      "Description": "Will wedge into anyone or anything it was thrown against"
+    },
+    "ReturnThrown": {
+      "Description": "Will return to the user after it hits the ground or comes to a stop",
+      "Warnings": [
+        "Requires [ShurikenArc] skill"
+      ]
+    },
+    "Roped": {
+      "Description": "Ties a string to a weapon when thrown",
+      "Notes": [
+        "Reels in targets after connection"
+      ],
+      "Warnings": [
+        "Requires [ShurikenArc] skill",
+        "Reduces damage of thrown weapon"
+      ]
+    },
+    "TooHeftyToWield": {
+      "Description": "User must be 2.5+ in [Scale] to use this weapon"
+    },
+    "ThrowOnly": {
+      "Description": "Attacking with this weapon will throw it"
+    },
+    "SolidOnFloor": {
+      "Description": "Item is considered a solid object, and can be collided with as a drop"
+    },
+    "StableHold": {
+      "Description": "Item does not bob with movement"
+    },
+    "RegenAmmo": {
+      "Description": "Ammo slowly regenerrates to maximum overtime"
+    },
+    "NoUnequip": {
+      "Description": "This item can never be dropped, only removed from the inventory screen"
+    },
+    "SpearThrow": {
+      "Description": "Item will be thrown with perfect forward facing and no spin"
+    },
+    "NeverEmbed": {
+      "Description": "Never stick into anything"
+    },
+    "OverheadCarry": {
+      "Description": "Weapon will be held with both hands over user's head"
+    },
+    "NoPistolWhip": {
+      "Description": "Cannot pistol whip with this weapon"
+    },
+    "InstaExecute": {
+      "Description": "Does not require the enemy to be dizzy to allow execution",
+      "Warnings": [
+        "Requires [ImprovisedWeapons] skill"
+      ]
+    },
+    "DropOnRagdoll": {
+      "Description": "Drop this weapon if user is ragdolled"
+    },
+    "DontShowAsPickup": {
+      "Description": "Omits weapons from showing up with a prompt to pick them up",
+      "Warnings": [
+        "Used by story mode events"
+      ]
+    },
+    "DropOnAttack": {
+      "Description": "Automatically drop this weapon when performing an attack"
+    },
+    "HoldInOffHand": {
+      "Description": "Always hold this item in the offhand slot"
+    },
+    "DecayOnFloor": {
+      "Description": "Weapon disappears on floor",
+      "Notes": [
+        "Automatically applied to ranged weapons when out of ammo"
+      ]
+    },
+    "NoBullets": {
+      "Description": "Weapon does not emit bullets when firing, instead enables a particle effect"
+    },
+    "GoreyKill": {
+      "Description": "Weapon will always gore slain targets"
+    },
+    "AmHuge": {
+      "Description": "Weapon will always use encumbered swing animations"
+    },
+    "BreakOnDecay": {
+      "Description": "Weapon breaks instead of decays on drop"
+    },
+    "NoImpactBounce": {
+      "Description": "Don't bounce off of a surface after striking it"
+    },
+    "NoBladeLock": {
+      "Description": "Do not engage in sword lock while using this weapon"
+    },
+    "SidewaysThrow": {
+      "Description": "Weapon is thrown sideways regardless of [LawnMower] skill"
+    },
+    "ZeroGravityThrow": {
+      "Description": "weapon does not drop when thrown",
+      "Warnings": [
+        "Requires [ShurikenArc] skill"
+      ]
+    },
+    "NoTeamDamage": {
+      "Description": "Enemies of the same faction cannot be damaged by this weapon"
+    },
+    "MagicWand": {
+      "Description": "Users will oscillate their aim from side to side when shooting"
+    },
+    "NoCrit": {
+      "Description": "Cannot land critical hits in sweetspot or with timing"
+    },
+    "BreakOnCollision": {
+      "Description": "Weapon breaks at any time it hits a solid surface"
+    },
+    "MindlessUsable": {
+      "Description": "Characters with [Mindless] behavior can use this weapon",
+      "Warnings": [
+        "Only applies to [Thrown] weapons"
+      ]
+    },
+    "ThrowAllowed": {
+      "Description": "If [NotAWeapon] applied, weapon can still be thrown"
+    },
+    "ForceStowOnBack": {
+      "Description": "Weapon is always stowed"
+    },
+    "NoTinkerer": {
+      "Description": "Excluded from Tinkerer usage"
+    },
+    "CountAllAmmoValues": {
+      "Description": "All addons contribute to ammo modifiers, including the weapon itself"
+    },
+    "SweepRagdolls": {
+      "Description": "All heavy attacks ragdoll"
+    },
+    "NoCasings": {
+      "Description": "Weapon will not eject casings when firing",
+      "Notes": [ "Casings can still be ejected in animations by calling [Event_Casing]" ]
+    },
+    "NoMagDrop": {
+      "Description": "Magazine will not be ejected as physics object when reloading",
+      "Notes": [ "Magazine will still be visible on weapon when loaded." ]
+    }
+  },
+  "ArmorTraits": {
+    "DestroyOnUnequip": {
+      "Description": "Armor will be remove from player's inventory if removed from character",
+      "Notes": [
+        "Automatically applied to any armor that hirelings wear"
+      ]
+    },
+    "Deflecty": {
+      "Description": "Will deflect bullets when struck in corresponding location",
+      "Warnings": [
+        "Character's armor value must be great enough to be bulletproof"
+      ]
+    },
+    "NoKnockoff": {
+      "Description": "Armor cannot be knocked off character on death",
+      "Warnings": [
+        "Does not apply to gibbing death"
+      ]
+    },
+    "NeverUnequip": {
+      "Description": "Item can never be removed from character once equipped"
+    },
+    "NoHands": {
+      "Description": "Forces character to use [HandsTied_Unarmed] animations"
+    },
+    "MeleeRemove": {
+      "Description": "Armor item is removed from a heavy melee attack",
+      "Warnings": [
+        "Applies to hat slot only"
+      ]
+    },
+    "NegateGore": {
+      "Description": "Does not allow character to be gored",
+	  "Warnings": [
+	    "Only applies to [Hat] and [Armor] slots"
+	  ]
+    },
+    "NeverSell": {
+      "Description": "Cannot sell this to [QuarterMaster]"
+    }
+  },
+  "AddonTypes": {
+    "Magazine": {
+      "Description": "",
+      "Warnings": [
+        "Only this addon type can affect ammo properties by default"
+      ]
+    }
+  },
+  "AddonLocations": {},
+  "AddonConfigs": {},
+  "ReloadRules": {
+    "Default": {
+      "Description": ""
+    },
+    "Wand_Health": {
+      "Description": "Bleeds out user"
+    },
+    "Wand_Dizzy": {
+      "Description": "Dizzies user"
+    },
+    "Wand_Ragdoll": {
+      "Description": "Ragdolls user"
+    },
+    "Wand_Bloodlust": {
+      "Description": "Grants nearby enemies bloodlust"
+    },
+    "NoReload": {
+      "Description": "Does not reload"
+    }
+  },
+  "BuffEffects": {
+    "None": {
+      "Description": ""
+    },
+    "Bloodlust": {
+      "Description": "Red skull buff",
+      "Notes": [
+        "+20% [UnarmedDamage] bonus",
+        "+20% [MeleeDamage] bonus",
+        "+2 [MoveSpeed] bonus",
+        "+1.8 [TraumaRegen] bonus"
+      ]
+    },
+    "Riposting": {
+      "Description": "Riposte Skill bonus",
+      "Notes": [
+        "+1 [MeleeDamage] bonus"
+      ]
+    },
+    "Kinetic": {
+      "Description": "Reciprocate Skill bonus",
+      "Notes": [
+        "+1 [UnarmedDamage] bonus"
+      ]
+    },
+    "Bleeding": {
+      "Description": "DoT effect"
+    },
+    "Dizzied": {
+      "Description": "Dizzy effect, opens to execution",
+      "Warnings": [
+        "-30% [MoveSpeed] bonus",
+        "-50% [TraumaRegen] bonus",
+        "-20% [H2HSpeed] bonus"
+      ]
+    },
+    "Distracted": {
+      "Description": "Designates target is open for an execution"
+    },
+    "Slowed": {
+      "Description": "",
+      "Warnings": [
+        "-30% [MoveSpeed] bonus",
+        "-40% [H2HSpeed] bonus",
+        "-40% [RangedAccuracy] bonus",
+        "-40% [RecoilRecovery] bonus"
+      ]
+    },
+    "Drugged": {
+      "Description": "Distorts screen colors"
+    },
+    "InfiniteAmmo": {
+      "Description": "Bottomless magazine powerup"
+    },
+    "DoubleDamage": {
+      "Description": "Triple damage powerup",
+      "Notes": [
+        "+200% [AllDamage] bonus"
+      ]
+    },
+    "SpeedBoost": {
+      "Description": "Speed Boost Powerup",
+      "Notes": [
+        "+3 [MoveSpeed] bonus"
+      ]
+    },
+    "Invulnerable": {
+      "Description": "Invulnerability powerup"
+    },
+    "ChargeAttack": {
+      "Description": "Angry Charger buff",
+      "Notes": [
+        "+3 [MoveSpeed] bonus"
+      ]
+    },
+    "Irradiate": {
+      "Description": "Radiation debuff",
+      "Warnings": [
+        "-2 [MoveSpeed] bonus"
+      ]
+    },
+    "Cold": {
+      "Description": "Ice debuff",
+      "Warnings": [
+        "-75% [MoveSpeed] bonus",
+        "-2 [ArmorDefense] bonus"
+      ]
+    },
+    "Acid": {
+      "Description": "DoT effect",
+      "Warnings": [
+        "-5 [ArmorDefense] bonus"
+      ]
+    },
+    "Doom": {
+      "Description": "Delivers 50 damage to target when buff expires"
+    },
+    "Bribed": {
+      "Description": "Bribed heart sumbol",
+      "Warnings": [
+        "Cosmetic only, does not change faction"
+      ]
+    }
+  },
+  "BonusTypes": {
+    "RangedDamage": {
+      "Description": "Damage with all ranged Weapons"
+    },
+    "MeleeDamage": {
+      "Description": "Damage with all melee weeapons"
+    },
+    "UnarmedDamage": {
+      "Description": "Damage with unarmed attacks"
+    },
+    "PistolDamage": {
+      "Description": "Damage with all pistols and revolvers"
+    },
+    "SlashingDamage": {
+      "Description": "Damage with all slashing melee weapons"
+    },
+    "BluntDamage": {
+      "Description": "Damage with all blunt melee weapons"
+    },
+    "H2HSpeed": {
+      "Description": "Unarmed speed and melee speed"
+    },
+    "MeleeSpeed": {
+      "Description": "Melee weapon speed"
+    },
+    "AllDamage": {
+      "Description": "Damage with all weapons"
+    },
+    "ExplosionDamage": {
+      "Description": "Damage with explosive weapons"
+    },
+    "UnarmedSpeed": {
+      "Description": "Unarmed attack speed"
+    },
+    "RateOfFireNon_Automatics": {
+      "Description": "Trigger speed with semi-automatic weapons"
+    },
+    "RecoilRecovery": {
+      "Description": "Recoil Recovery"
+    },
+    "RangedAccuracy": {
+      "Description": "Ranged Accuracy"
+    },
+    "ExtraMags": {
+      "Description": "Extra magazines for all weapon types"
+    },
+    "ExtraMags_Handgun": {
+      "Description": "Extra pistol mags/revolver rounds"
+    },
+    "ExtraMags_Standard": {
+      "Description": "Extra smg/rifle magazines/shotgun rounds"
+    },
+    "ExtraMags_Heavy": {
+      "Description": "Exttra magazines for heavy rifles and LMGs"
+    },
+    "ExtraAmmo_Thrown": {
+      "Description": "Extra throwables"
+    },
+    "ArmorDefense": {
+      "Description": "Total armor defense points"
+    },
+    "EncumbranceMax": {
+      "Description": "Total encumbrance capacity"
+    },
+    "ResistDizzy": {
+      "Description": "Resistance to being dizzied"
+    },
+    "TacDefense": {
+      "Description": "Tac Bar size"
+    },
+    "TraumaRegen": {
+      "Description": "Corpus trauma recovery"
+    },
+    "MoveSpeed": {
+      "Description": "Movement speed"
+    },
+    "DamageFromH2H": {
+      "Description": "Damage from unarmed/melee attacks"
+    },
+    "DamageFromSlash": {
+      "Description": "Damage from [DamageType].[Slashing]"
+    },
+    "DamageFromBlunt": {
+      "Description": "Damage from [DamageType].[Blunt]"
+    },
+    "DamageFromBullet": {
+      "Description": "Damage from [DamageType].[Ballistic]"
+    },
+    "DamageFromBite": {
+      "Description": "Damage from [DamageType].[Biting]"
+    },
+    "DamageFromPierce": {
+      "Description": "Damage from [DamageType].[Piercing]"
+    },
+    "DamageFromExplosive": {
+      "Description": "Damage from [DamageType].[Explosive]"
+    },
+    "DamageFromDeRes": {
+      "Description": "Damage from [DamageType].[DeRez]"
+    },
+    "DamageFromForce": {
+      "Description": "Damage from [DamageType].[Force]"
+    },
+    "DamageFromFire": {
+      "Description": "Damage from [DamageType].[Fire]"
+    },
+    "DamageFromShock": {
+      "Description": "Damage from [DamageType].[Shock]"
+    },
+    "DamageFromNega": {
+      "Description": "Damage from [DamageType].[Nega]"
+    },
+    "DamageFromStun": {
+      "Description": "Damage from [DamageType].[Kinetic]"
+    },
+    "DamageFromElements": {
+      "Description": "Damage from elemental atacks"
+    },
+    "DamageFromPhysical": {
+      "Description": "Damage from non-elemental attacks"
+    },
+    "DamageFromCold": {
+      "Description": "Damage from Damage from [DamageType].[Cold]"
+    },
+    "DamageFromAcid": {
+      "Description": "Damage from [DamageType].[Caustic]"
+    },
+    "DamageFromPrime": {
+      "Description": "Damage from [DamageType].[Prime]"
+    },
+    "DamageFromAll": {
+      "Description": "Damage from everything"
+    },
+    "CashBonus": {
+      "Description": "Arena wave cash bonus"
+    },
+    "MaxHirelingLevel": {
+      "Description": "Amount of times a hireling can level up after a mission."
+    },
+    "Stat_Strength": {
+      "Description": "",
+      "Warnings": [
+        "Does not affect sub-attributes"
+      ]
+    },
+    "Stat_Dexterity": {
+      "Description": "",
+      "Warnings": [
+        "Does not affect sub-attributes"
+      ]
+    },
+    "Stat_Endurance": {
+      "Description": "",
+      "Warnings": [
+        "Does not affect sub-attributes"
+      ]
+    },
+    "Stat_Tactics": {
+      "Description": "",
+      "Warnings": [
+        "Does not affect sub-attributes"
+      ]
+    },
+    "Stat_Force": {
+      "Description": ""
+    },
+    "Stat_Lethality": {
+      "Description": ""
+    },
+    "Stat_Critical": {
+      "Description": ""
+    },
+    "Stat_Athletics": {
+      "Description": ""
+    },
+    "Stat_Strive": {
+      "Description": ""
+    },
+    "Stat_Senses": {
+      "Description": ""
+    },
+    "HirelingRecoveryTime": {
+      "Description": "Recovery time for hirelings"
+    }
+  },
+  "DamageTypes": {
+    "Ballistic": {
+      "Description": ""
+    },
+    "Slashing": {
+      "Description": "",
+      "Notes": [
+        "Uses slashing sounds",
+        "Affected by slashing melee skills",
+        "Affected by [BonusType].[SlashingDamage]"
+      ]
+    },
+    "Blunt": {
+      "Description": "",
+      "Notes": [
+        "Uses blunt sounds",
+        "Affected by blunt melee skills",
+        "Affected by [BonusType].[BluntDamage]"
+      ]
+    },
+    "Explosive": {
+      "Description": "",
+      "Notes": [
+        "Ragdolls and gibs",
+        "Affected by [BonusType].[ExplosiveDamage]"
+      ]
+    },
+    "Burn": {
+      "Description": "",
+      "Notes": [
+        "Overrides Death animations with [Death_Burn]",
+        "Affected by [BonusType].[DamageFromFire]"
+      ]
+    },
+    "Piercing": {
+      "Description": "",
+      "Notes": [
+        "Uses piercing sounds",
+        "Automatically pierces armor by damage amount"
+      ]
+    },
+    "Biting": {
+      "Description": "",
+      "Notes": [
+        "Uses biting sounds"
+      ]
+    },
+    "Shock": {
+      "Description": "",
+      "Notes": [
+        "Overrides Death animations with [Death_Shock]",
+        "Affected by [BonusType].[DamageFromShock]"
+      ]
+    },
+    "Stun": {
+      "Description": ""
+    },
+    "Negative": {
+      "Description": "",
+      "Notes": [
+        "Banishes enemies to the other place on death",
+        "Affected by [BonusType].[DamageFromNega]"
+      ],
+      "Warnings": [
+        "Always ignores Death Events"
+      ]
+    },
+    "DeRes": {
+      "Description": "",
+      "Notes": [
+        "Makes enemies swell up and dissolve on death"
+      ]
+    },
+    "Cold": {
+      "Description": "",
+      "Notes": [
+        "Makes enemies freeze over on death",
+        "Affected by [BonusType].[DamageFromCold]"
+      ]
+    },
+    "Caustic": {
+      "Description": "",
+      "Notes": [
+        "Affected by [BonusType].[DamageFromAcid]"
+      ]
+    },
+    "Force": {
+      "Description": ""
+    },
+    "Prime": {
+      "Description": "",
+      "Notes": [
+        "Makes enemies break into cubes on death",
+        "Affected by [BonusType].[DamageFromPrime]"
+      ]
+    },
+    "None": {
+      "Description": ""
+    }
+  },
+  "ModelParts": {},
+  "Markets": {
+    "Quartermaster": {
+      "Description": "Sold at the Quartermaster shop"
+    },
+    "Blackmarket": {
+      "Description": "Sold at the Chef's Soup Kitchen",
+      "Warnings": [
+        "Affects Price"
+      ]
+    },
+    "Hairstyles": {
+      "Description": "Sold at Skinner's Barber Shop"
+    },
+    "Arcane": {
+      "Description": "Sold at Gambler's BackRooms"
+    },
+    "ArenaWave": {
+      "Description": "Reserved for Arena waves only"
+    },
+    "Fence": {
+      "Description": "Sold at Crackpot's token shop",
+      "Notes": [
+        "Cost starts at 1 token, and adds a token every 8 tiers."
+      ]
+    },
+    "NONE": {
+      "Description": ""
+    }
+  },
+  "DeathFlags": {
+    "NONE": {
+      "Description": ""
+    },
+    "MajorDamage": {
+      "Description": "Overwhelming damage sustained"
+    },
+    "Headshot": {
+      "Description": "Finishing blow to the head"
+    },
+    "HeadDestroyed": {
+      "Description": "Head gibbed"
+    },
+    "Executed": {
+      "Description": "Death by execution"
+    },
+    "BodyDestroyed": {
+      "Description": "Body gibbed"
+    },
+    "Obliterated": {
+      "Description": "",
+      "Warnings": [
+        "Always applied"
+      ]
+    },
+    "Bodyshot": {
+      "Description": "Finishing blow to the torso"
+    },
+    "Electrocuted": {
+      "Description": "Death by [DamageType].[Shock]"
+    },
+    "Burned": {
+      "Description": "Death by [DamageType].[Burn]"
+    },
+    "Nega": {
+      "Description": "Death by [DamageType].[Negative]"
+    },
+    "Frozen": {
+      "Description": "Death by [DamageType].[Cold]"
+    },
+    "GodKilled": {
+      "Description": "",
+      "Warnings": [
+        "Always Applied"
+      ]
+    },
+    "PermaQuiet": {
+      "Description": "",
+      "Warnings": [
+        "Always Applied"
+      ]
+    }
+  },
+  "Invincibility": {
+    "Full": {
+      "Description": "Unbreakable and Intangible"
+    },
+    "Unbreakable": {
+      "Description": "Cannot be damaged"
+    },
+    "Intangible": {
+      "Description": "Cannot be collided"
+    }
+  },
+  "ExecuteConditions": {
+    "Front": {
+      "Description": "Can only execute from the front"
+    },
+    "Back": {
+      "Description": "Can only execute from behind"
+    },
+    "Melee": {
+      "Description": "Melee weapon required"
+    },
+    "Unarmed": {
+      "Description": "Unarmed required"
+    },
+    "Ranged": {
+      "Description": "Ranged weapon required"
+    },
+    "InExecute": {
+      "Description": "ONly while target is currently in an execution"
+    },
+    "Ragdolled": {
+      "Description": "Only while target is ragdolled"
+    },
+    "OnHoldHeavy": {
+      "Description": "Only with two handed weapons"
+    },
+    "Sprint": {
+      "Description": "Only while sprinting"
+    },
+    "PlayerBotsOnly": {
+      "Description": "Only allied bots can perform this"
+    },
+    "HoldMelee_0": {
+      "Description": "Only with a mainhand weapon"
+    },
+    "HoldMelee_1": {
+      "Description": "Only with an offhand weapon"
+    },
+    "LastCorpus": {
+      "Description": "Only with targets on their last corpus"
+    },
+    "NonEssentials": {
+      "Description": "Only to characters not deemed as essential"
+    },
+    "FirstCorpus": {
+      "Description": "Only on targets with full corpus"
+    },
+    "PlayerOnly": {
+      "Description": "Only the player can perform this"
+    }
+  },
+  "ExecuteSource": {
+    "Dizzy": {
+      "Description": "Can only execute dizzied targets"
+    },
+    "Backstab": {
+      "Description": "Can only execute unaware targets from behind"
+    },
+    "Auto": {
+      "Description": "Can execute automatically",
+      "Warnings": [
+        "Character must have [Deadly_Contact] trait"
+      ]
+    }
+  },
+  "ExecuteRules": {
+    "NONE": {
+      "Description": ""
+    },
+    "Bribe": {
+      "Description": "Hold shift to use this execution"
+    },
+    "ImprovWeapon": {
+      "Description": "Used for broken weapons",
+      "Warnings": [
+        "Character must have [ImprovisedWeapons] skill"
+      ]
+    }
+  },
+  "ExecuteColors": {
+    "Select": {
+      "Description": "Highlights red"
+    },
+    "Highlight": {
+      "Description": "Highlights Blue"
+    },
+    "Invalid": {
+      "Description": "Highlights red"
+    },
+    "Important": {
+      "Description": "Highlights yellow"
+    }
+  },
+  "DoTEffects": {
+    "CrazyRagdoll": {
+      "Description": "Ragdoll stretches and contorts beyond acceptable bounds"
+    }
+  },
+  "DoTResolutions": {
+    "DodgeLanding": {
+      "Description": "Must perform a dodge"
+    },
+    "Ragdoll": {
+      "Description": "Must be ragdolled"
+    },
+    "Water": {
+      "Description": "Must fall into water hazard"
+    }
+  },
+  "ControllerTypes": {
+    "Player": {
+      "Description": "Player Controller, accepts user input"
+    },
+    "Network": {
+      "Description": "Remote player controller"
+    },
+    "NPC": {
+      "Description": "Default NPC Controller"
+    },
+    "Boss": {
+      "Description": "Boss Controller",
+      "Notes": [
+        "Has visible health bar when active"
+      ]
+    },
+    "Simple": {
+      "Description": "Does nothing but stand there"
+    },
+    "Bot": {
+      "Description": "Allied bot controller"
+    },
+    "Notes": [
+      "Does not perform combat emotes",
+      "Respects [FlankMe] property of enemies",
+      "Has small chance of taking cover or dodging",
+      "Has more environmental awareness depending on stage"
+    ],
+    "Turret": {
+      "Description": "Turret Controller",
+      "Notes": [
+        "Does not move, actions tied to alert state",
+        "Fires continuously when in combat mode",
+        "Swivels when in alert state"
+      ]
+    }
+  },
+  "ActionTypes": {
+    "None": {
+      "Description": "No Action taken."
+    },
+    "SpawnUnit": {
+      "Description": "Spawn a number of units from an entrance.",
+      "Definitions": {
+        "CharParam1": "The Character to spawn",
+        "Amount": "How many",
+        "Bool1": "Add to Player Squad",
+        "Bool2": "Ignore Default Weapons from Statcard",
+        "Location": "Serial Number of Entrance",
+        "CardRef": "AnimationProfile override for these characters"
+      },
+      "Overrides": {
+        "CardRef": "AnimationProfile"
+      }
+    },
+    "KillUnit": {
+      "Description": "Kill the specified unit",
+      "Definitions": {
+        "CharParam1": "The Character to kill",
+        "Bool1": "Remove character instead",
+        "Bool2": "Disable incapacitation on bosses or players",
+        "Location": "If serial number specified, only look for this character in the specified zone."
+      }
+    },
+    "HealSquad": {
+      "Description": "Heal player squad",
+      "Definitions": {
+        "Bool1": "Heal based on difficulty",
+        "Bool2": "Do not regen if dead?"
+      }
+    },
+    "SwapFactions": {
+      "Description": "Find all characters of appropriate type and set faction",
+      "Definitions": {
+        "CharParam1": "Filter and Faction",
+        "Bool1": "Allow player squad if setting to Player Faction",
+        "Location": "If serial number specified, only look for this character in the specified zone.",
+        "CharParam2": "Faction to set to."
+      },
+      "Notes": [
+        "If faction set to [Faction.Any], all set to [Faction.None]"
+      ]
+    },
+    "WakeupUnits": {
+      "Description": "Set qualified units from UNAWARE or COMBAT alert status",
+      "Definitions": {
+        "CharParam1": "Filter and Faction",
+        "BoolOp": "True to Combat, False to Unaware",
+        "Location": "If serial number specified, only look for this character in the specified zone."
+      },
+      "Notes": [],
+      "Warnings": []
+    },
+    "RegenerateSquad": {
+      "Description": "Regen Player Squad"
+    },
+    "SendToDoor": {
+      "Description": "Find qualified characters and give them a door to enter",
+      "Definitions": {
+        "SerialNumber": "Serial Number of Door",
+        "CharParam1": "Filter and Faction",
+        "Bool1": "Destroy this character on arrival",
+        "Bool2": "Force sprint",
+        "Location": "If serial number specified, only look for this character in the specified zone."
+      }
+    },
+    "UnitSays": {
+      "Description": "Find qualified characters and choose someone to say this line.",
+      "Definitions": {
+        "CharParam1": "Filter and Faction",
+        "String1": "Spoken Line",
+        "String2": "Show Name (if no character is specified)",
+        "Bool1": "Speak as Narration?",
+        "Bool2": "Interrupt existing narration?",
+        "CardRef": "Chatter override for this narration",
+        "Enum": "The voice to use when speaking"
+      },
+      "Overrides": {
+        "CardRef": "Chatter",
+        "Enum": ["Angry", "Attack", "BigAttack", "Cheer", "Laugh", "Grunt", "Death", "Pain", "Affirmative", "Dialogue", "Gasp", "Buy", "Sell", "Interact"]
+      }
+    },
+    "SetAIModule": {
+      "Description": "Add AI Modules to character",
+      "Definitions": {
+        "CharParam1": "Filter and Faction",
+        "BoolOp": "Add/Remove/Toggle",
+        "String1": "Modules separated by commas"
+      }
+    },
+    "MoveUnits": {
+      "Description": "Move number of units from one zone to another",
+      "Definitions": {
+        "CharParam1": "Filter and Faction",
+        "Amount": "How many to send, 0 or less is all of them",
+        "Location": "Zone where matching units are",
+        "String1": "Serial number of Destination (Room points or entrances)"
+      }
+    },
+    "MakeInvincible": {
+      "Description": "Make unit invincible for amount of time",
+      "Definitions": {
+        "CharParam1": "Filter and Faction",
+        "BoolOp": "True/False/Toggle",
+        "Location":"If serial number specified, only look for this character in the specified zone.",
+        "Amount": "Invincibility timer, 0 or less is forever.",
+        "Bool1": "Resurrect if dead",
+        "Bool2": "Make unbreakeable instead of invinicble"
+      }
+    },
+    "EnableNPCZone": {
+      "Description": "Enable NPC Interaction zone",
+      "Definitions": {
+        "BoolOp": "Enabled/Disabled/Toggle",
+        "SerialNumber": "Serial numbers of NPC Area"
+      }
+    },
+    "FollowUnit": {
+      "Description": "Have these characters follow this unit",
+      "Definitions": {
+        "CharParam1": "Filter and Faction",
+        "SerialNumber": "All characters follow this target",
+        "Amount": "How many to send, 0 or less is all of them",
+        "Location": "Zone where matching units are",
+        "Bool1": "Remove existing characters orders."
+      }
+    },
+    "PickUpOrUse": {
+      "Description": "Have these characters pickup these items",
+      "Definitions": {
+        "CharParam1": "Filter and Faction",
+        "SerialNumber": "All characters pickup this item",
+        "Amount": "How many to send, 0 or less is all of them",
+        "Location": "Zone where matching units are",
+        "Bool1": "Remove existing characters orders."
+      },
+      "Notes": [
+        "Items with multiple serial numbers should allow multiple pickups"
+      ]
+    },
+    "SummonUnit": {
+      "Description": "Summon one set of units to another unit",
+      "Definitions": {
+        "CharParam1": "Filter and Faction for the summoner",
+        "CharParam2": "The units to summon.",
+        "Amount": "How many to summon",
+        "Bool1": "Allow player squad if setting to Player Faction (Does not apply in Arena Mode)",
+        "Location": "If serial number specified, only look for this character in the specified zone.",
+        "Int1": "Limit number of summoned units to this max amount."
+      },
+      "Notes": [
+        "Summoning in Arena Mode is restricted to active arena waves."
+      ]
+    },
+    "SpawnItem": {
+      "Description": "Create an item",
+      "Definitions": {
+        "ItemParam": "Item to spawn\n{Does not accept armor}",
+        "Amount": "How many",
+        "Location": "Serial Number of Spawn Point or Locker",
+        "Bool1": "Enable Start Velocity?",
+        "Bool2": "Create spawning particles and sound?"
+      }
+    },
+    "KillItem": {
+      "Description": "Destroy this item",
+      "Definitions": {
+        "SerialNumber": "Items to destroy\n{Does not accept armor}",
+        "Bool1": "Depsawn instead of break?",
+        "Bool2": "If true, don't destroy quest items",
+        "Location": "Serial of zone where characters are located who get these items removed."
+      }
+    },
+    "GiveGear": {
+      "Description": "Attach items/armor to these characters",
+      "Definitions": {
+        "ItemParam": "Item or Armor to give\n(Accepts Serial Numbers)",
+        "Amount": "How many to give",
+        "Location": "If serial number specified, only look for this character in the specified zone.",
+        "CharParam1": "Filter & Faction",
+        "Int1": "Slot (if Held item)\n[0]: Main hand\n[1]: Off hand\n[2]: Stowed main hand\n[3]: Stowed off hand\n[4]: Throwable"
+      }
+    },
+    "SetFlashlight": {
+      "Description": "Attach headlamps to these characters",
+      "Definitions": {
+        "CharParam1": "Filter & Faction",
+        "Amount": "How Many To Give",
+        "BoolOp": "Enabled/Disabled/Toggle"
+      }
+    },
+    "OpenLocker": {
+      "Description": "Opens this Locker",
+      "Definitions": {
+        "SerialNumber": "Serial of Locker"
+      }
+    },
+    "RemoveGear": {
+      "Description": "Remove items/armor on these characters",
+      "Definitions": {
+        "SerialNumber": "Serial of items to destroy",
+        "Location": "If serial number specified, only look for this character in the specified zone.",
+        "CharParam1": "Filter & Faction",
+        "ItemParam": "Item or Armor to give\n(Accepts Serial Numbers)",
+        "Bool1": "Can be on any character",
+        "Bool2": "Destroys items/armor if true"
+      }
+    },
+    "ClearAwayWeapons": {
+      "Description": "Remove all weapons from room",
+      "Definitions": {
+        "Location": "If specified, remove weapons from this room (use Room Name in Scene)",
+        "Bool1": "Despawn instead of decay"
+      }
+    },
+    "ResetPlayerLoadout": {
+      "Description": "Rest player loadout for player squad",
+      "Warnings": [
+        "Only use in story mode"
+      ]
+    },
+    "Notification": {
+      "Description": "Create a new notification",
+      "Definitions": {
+        "String1": "Notification text"
+      }
+    },
+    "EnableWorldObject": {
+      "Description": "Enables a world object",
+      "Definitions": {
+        "SerialNumber": "Serial number of Object",
+        "BoolOp": "True/False/Toggle",
+        "Bool1": "Affect the GameObject itself"
+      }
+    },
+    "SetDoorLock": {
+      "Description": "Set lock state of specified door",
+      "Definitions": {
+        "SerialNumber": "Serial of Door",
+        "BoolOp": "Locked/Unlocked/Toggle",
+        "Bool1": "Open door?",
+        "Bool2": "Force Open Door?"
+      }
+    },
+    "GiveInteractiveTask": {
+      "Description": "Give tasks to all interactive opjects of matching serial",
+      "Definitions": {
+        "SerialNumber": "Serial of interactive(s)",
+        "TaskInteractive": "Purpose to give",
+        "Amount": "Total amount to give regardless of number of interactives found (Negative to catch all)",
+        "Bool1": "If true, randomly divide number of [Popup_Complete] messages among all valid interactives",
+        "Bool2": "If [Bool1] is also true, make sure [Popup_Complete] messages are unique {But only if there are enough.}"
+      }
+    },
+    "GiveZoneTask": {
+      "Description": "Give tasks to all Zone triggers of matching serial",
+      "Definitions": {
+        "SerialNumber": "Serial of zone(s)",
+        "TaskZone": "Purpose to give",
+        "Int1": "Total amount to give regardless of number of interactives found (Negative to catch all)"
+      }
+    },
+    "ClearTasks": {
+      "Description": "Clear all tasks from interactives/zones",
+      "Definitions": {
+        "SerialNumber": "Serial of interactive(s)/zone(s)"
+      }
+    },
+    "SetSerialNumber": {
+      "Description": "Change the serial of this object to another",
+      "Definitions": {
+        "SerialNumber": "Serial to change",
+        "String1": "New Serial",
+        "Amount": "Number of matching serials to change (negative to catch all)"
+      }
+    },
+    "LockInteractiveTask": {
+      "Description": "Lock/Unlock all specified tasks",
+      "Definitions": {
+        "SerialNumber": "Serial of task(s)",
+        "BoolOp": "Lock/Unlock/Toggle"
+      }
+    },
+    "GiveDestroyTask": {
+      "Description": "Give tasks to all target objects of matching serial",
+      "Definitions": {
+        "SerialNumber": "Serial of targets(s)",
+        "TaskDestroy": "Purpose to give",
+        "Amount": "Total amount to give regardless of number of targets found (Negative to catch all)",
+        "Bool1": "If true, randomly divide number of [Popup_Complete] messages among all valid targets",
+        "Bool2": "If [Bool1] is also true, make sure [Popup_Complete] messages are unique {But only if there are enough.}"
+      }
+    },
+    "SetTogglable": {
+      "Description": "Set state of Togglable objects",
+      "Definitions": {
+        "SerialNumber": "Serial of Toggleable_Main",
+        "BoolOp": "Enabled/Disabled/Toggle"
+      }
+    },
+    "FlashObject": {
+      "Description": "Make this object flash white 3 times",
+      "Definitions": {
+        "SerialNumber": "Serial of Object"
+      }
+    },
+    "SetHazardEnable": {
+      "Description": "Set state of Hazard Object",
+      "Definitions": {
+        "SerialNumber": "Serial of Hazard_Toggleable",
+        "BoolOp": "Enabled/Disabled/Toggle"
+      }
+    },
+    "SetSpawnerActive": {
+      "Description": "Enable/Disable Character Based Data Assigners",
+      "Definitions": {
+        "SerialNumber": "Serial of DataAssigner",
+        "BoolOp": "Enable/Disable/Toggle"
+      }
+    },
+    "CameraAreaOn": {
+      "Description": "Enable/Disable Camera Zone",
+      "Definitions": {
+        "SerialNumber": "Serial of Camera Zone",
+        "BoolOp": "Enable/Disable/Toggle"
+      }
+    },
+    "SetDoorConnection": {
+      "Description": "Links door to a new door",
+      "Definitions": {
+        "SerialNumber": "Serial of door to change connection",
+        "String1": "Serial of new door to connect to (Make empty for no connection)",
+        "String2": "Name of scene door will lead to ([String1] will specify door in that scene)",
+        "Bool1": "Mutual connection?",
+        "Bool2": "Play Lock SFX?"
+      }
+    },
+    "PurgeSeat": {
+      "Description": "Force evacuation of all characters inside seat",
+      "Definitions": {
+        "SerialNumber": "Serial of Seat"
+      },
+      "Notes": ["Seat is typically a spawner or vehicle that has a character inside it and hasn't exited."]
+    },
+    "RunDynamicMethod": {
+      "Description": "Run a built in script function of a target object",
+      "Definitions": {
+        "SerialNumber": "Serial Number of the object",
+        "String1": "Name of function (in Assembly)",
+        "String2": "Arguments to pass in as parameters (separated by commas)",
+        "Location": "If method is static, specify the class of where it is located."
+      },
+      "Notes": [
+        "Works for any object that extends [Target_Object], including [Combatant_Base] and [Automaton_Base]",
+        "[String] parameters surrounded by [']",
+        "[Float] parameters specified as decimal numbers [#.#]",
+        "[Boolean] parameters accepted as [true]/[false]"
+      ],
+      "Warnings": [
+        "Requires prior knowledge of assembly functions to fully understand."
+      ]
+    },
+    "SetRoomLockout": {
+      "Description": "Set Lockout rules for a room: [True] leaves them enabled after leaving. [False] removes them after leaving",
+      "Definitions": {
+        "SerialNumber": "Serial of room to affect, no Serial means all rooms",
+        "BoolOp": "True/False/Toggle"
+      }
+    },
+    "BooleanSet": {
+      "Description": "Set boolean value of a custom local scene variable",
+      "Definitions": {
+        "String1": "Global boolean to set",
+        "BoolOp": "True/False/Toggle"
+      },
+      "Notes": [],
+      "Warnings": []
+    },
+    "IntegerSet": {
+      "Description": "Set integer value of a custom local variable",
+      "Definitions": {
+        "String1": "Global integer to set",
+        "String2": "Global integer to use as Operand",
+        "Int1": "Fixed value to use as Operand if [String2] not specified",
+        "Int2": "Upper bound for randomized value",
+        "Bool1": "If true, operand will be randomized value between [Int1] and [Int2]",
+        "MathOp": "Operator to use"
+      },
+      "Notes": [],
+      "Warnings": []
+    },
+    "SetWorldChange": {
+      "Description": "Adds/Removes a new world value to the career's global record",
+      "Definitions": {
+        "String1": "Name of world value to change",
+        "BoolOp": "Add/Remove/Toggle"
+      }
+    },
+    "SetStartScene": {
+      "Description": "Designate which scene and entrance the player will start in when opening this career",
+      "Definitions": {
+        "String1": "Name of Scene",
+        "String2": "Serial of Door"
+      }
+    },
+    "EnableCutscene": {
+      "Description": "Enable/Disable Cutscene_Instance",
+      "Definitions": {
+        "SerialNumber": "Serial of Cutscene_Instance",
+        "BoolOp": "True/False/Toggle",
+        "Bool1": "Affect the GameObject itself"
+      }
+    },
+    "PlayMusic": {
+      "Description": "Play the specified music track",
+      "Definitions": {
+        "String1": "Name of MusicEvent",
+        "Bool1": "Maintain current playback cursor"
+      }
+    },
+    "StopMusic": {
+      "Description": "Stop all Music Playing",
+      "Definitions": {
+        "Int1": "Amount of seconds to fade out"
+      }
+    },
+    "ResetMusic": {
+      "Description": "Plays the default music of the stage",
+      "Definitions": {
+        "Bool1": "Maintain playback cursor from previous track"
+      },
+      "Warnings": [
+        "Must have a stage"
+      ]
+    },
+    "ClearAnnouncements": {
+      "Description": "Clears announcements from screen"
+    },
+    "SetStageMusic": {
+      "Description": "Sets the music for the stage itself",
+      "Definitions": {
+        "String1": "Track name"
+      }
+    },
+    "SlowMo": {
+      "Description": "Slow down time for a specified amount",
+      "Definitions": {
+        "Int1": "Time slows down the much: [1] = 1/100th of time scale, [100] = standard time scale",
+        "Int2": "1/1ooth of Speedup/Slowdown to use"
+      }
+    },
+    "SetStageStatus": {
+      "Description": "Designate stage complete",
+      "Definitions": {
+        "Enum": "StageCompletion type"
+      },
+      "Overrides": {
+        "Enum": [
+          "Victory",
+          "Failure",
+          "Draw",
+          "None"
+        ]
+      }
+    },
+    "SetLoadout": {
+      "Description": "Add a loadout to current career data",
+      "Definitions": {
+        "CardRef": "Name of loadout card to save to data.",
+        "Bool1": "Remove instead?"
+      },
+      "Overrides": {
+        "CardRef": "Loadout"
+      }
+    },
+    "SetWardrobe": {
+      "Description": "Add a wardrobe to current career data",
+      "Definitions": {
+        "CardRef": "Name of wardrobe card to save to data.",
+        "Bool1": "Remove instead?"
+      },
+      "Overrides": {
+        "CardRef": "Wardrobe"
+      }
+    },
+    "EndStage": {
+      "Description": "Ends stage"
+    },
+    "PlayStage": {
+      "Description": "Starts a stage from the current scene.",
+      "Definitions": {
+        "Bool1": "Mark this stage as the reload point for this career?",
+        "Bool2": "Enable Stage Selector for non-hub levels?",
+        "Enum": "TransitionTypes",
+        "CardRef": "Stage_Custom to play"
+      },
+      "Overrides": {
+        "CardRef": "Stage_Custom",
+        "Enum": [
+          "WipeSide",
+          "FadeOut",
+          "DramaticFade",
+          "FadeOutSlowIn"
+        ]
+      }
+    },
+    "Announcement": {
+      "Description": "Create an announcement with a title and subtitle",
+      "Definitions": {
+        "Enum": "AnnouncementTypes",
+        "String1": "Name of Event to fire off after announcement",
+        "String2": "Announcement title",
+        "String3": "Announcement text"
+      },
+      "Overrides": {
+        "Enum": [
+          "Mission",
+          "Objective",
+          "ObjectiveComplete",
+          "Wave",
+          "Overworld"
+        ]
+      }
+    },
+    "TimerStart": {
+      "Description": "Start a countdown timer",
+      "Definitions": {
+        "String1": "Name of Event to fire after timer counts down",
+        "Int1": "Number of frames timer lasts [60 = 1 second]",
+        "Bool1": "Show timer?",
+        "Bool2": "Allow skipping of timer by holding enter?"
+      }
+    },
+    "LoadStageWaves": {
+      "Description": "Prepare all arena stage waves for creation",
+      "Definitions": {
+        "Bool1": "All characters are in combat alertness, and know where the player is."
+      }
+    },
+    "SpawnNextWave": {
+      "Description": "Begin the next set of Arena Waves"
+    },
+    "PauseSpawning": {
+      "Description": "Pause spawning of designated Squad Assigners",
+      "Definitions": {
+        "SerialNumber": "Serial of Squad_DataAssigner",
+        "BoolOp": "On/Off/Toggle"
+      }
+    },
+    "ForceBeginMission": {
+      "Description": "Force a mission card to start regardless of start conditions",
+      "Definitions": {
+        "SerialNumber": "Name of mission to start"
+      }
+    },
+    "ToggleNeverendingWaves": {
+      "Description": "Toggle Squad Assigners that spawn infinitely",
+      "Definitions": {
+        "SerialNumber": "Serial of Squad_DataAssigner",
+        "BoolOp": "On/Off/Toggle"
+      },
+      "Warnings": ["Must be a never ending wave"]
+    },
+    "ClearAllWaves": {
+      "Description": "Clear out all waves, including looping ones."
+    },
+    "RestartScene": {
+      "Description": "Restart the scene"
+    },
+    "GoToScene": {
+      "Description": "Transitions to a new scene",
+      "Definitions": {
+        "String1": "Scene to go to [blank = default scene]",
+        "String2": "Serial of Door to use when scene loads",
+        "Bool1": "Use transition?",
+        "Bool2": "Wipe player squad?",
+        "Enum": "TransitionTypes"
+      },
+      "Overrides": {
+        "Enum": [
+          "WipeSide",
+          "FadeOut",
+          "DramaticFade",
+          "FadeOutSlowIn"
+        ]
+      }
+    },
+    "CancelAllTimers": {
+      "Description": "Clear All Timers"
+    },
+    "SetQuestStatus": {
+      "Description": "Sets the quest status of a door, item, or character",
+      "Definitions": {
+        "BoolOp": "True/False/Toggle",
+        "SerialNumber": "Serial of quest item"
+      }
+    },
+    "SetQuestMarker": {
+      "Description": "Highlight a door, item, or character with a quest marker arrow",
+      "Definitions": {
+        "BoolOp": "True/False/Toggle",
+        "Enum": "QuestType",
+        "Bool1": "Does the marker appear outside the target room?",
+        "SerialNumber": "Serial of object to highlight"
+      },
+      "Overrides": {
+        "Enum": ["Default", "Kill", "Help"]
+      }
+    }
+  },
+  "ConditionTypes": {
+    "None": {
+      "Description": "No Condition, always true"
+    },
+    "CharacterDies": {
+      "Description": "Character(s) have died",
+      "Definitions": {
+        "CharParam1": "Filter & Faction",
+        "Amount": "Amount of these characters to die",
+        "Operator": "Compare value"
+      }
+    },
+    "FactionDead": {
+      "Description": "All characters of this faction are dead",
+      "Definitions": {
+        "Enum": "Factions",
+        "Bool1": "True = current room, False = anywhere",
+        "Bool2": "Check this condition with each death, if false, this statement will always be true when condition returns true."
+      },
+      "Overrides":{
+        "Enum": [ "Player", "TwoShoes", "AAHW", "Nexus", "MERCs", "Bandits", "Daisies", "Zeds", "None", "Environment", "Neutral", "Enemy", "Toughs", "Spaghett", "Vampires", "N51", "PrivSec", "Machine", "Any" ]
+      },
+      "AllowUnlisted": true
+    },
+    "MapStart": {
+      "Description": "Applied when the map starts"
+    },
+    "BringItemToArea": {
+      "Description": "Has this item been brought within a zone?",
+      "Definitions": {
+        "SerialNumber": "Serial of Zone",
+        "ItemParam": "Item to be brought, including Serial",
+        "Bool1": "Destroy item on condition met?"
+      }
+    },
+    "BringCharacterToArea": {
+      "Description": "Has this character been brought within a zone?",
+      "Definitions": {
+        "SerialNumber": "Serial of Zone",
+        "CharParam1": "Character to be brought, including Serial",
+        "Bool1": "Destroy Character on condition met?"
+      }
+    },
+    "EnterRoom": {
+      "Description": "Player has entered this room",
+      "Definitions": {
+        "Location": "Serial Number of the room"
+      }
+    },
+    "BooleanIs": {
+      "Description": "Check if this local boolean is true",
+      "Definitions": {
+        "String1": "Name of boolean",
+        "Bool1": "Boolean equals this"
+      }
+    },
+    "IntegerIs": {
+      "Description": "Check if this local integer compares to another value",
+      "Definitions": {
+        "String1": "Name of integer",
+        "String2": "Is Integer equal to this integer?",
+        "Int1": "Is integer equal to this value?\n{ignored if String2 specified}",
+        "Operator": "Compare value"
+      }
+    },
+    "CheckWorldChange": {
+      "Description": "Check if this global record is present",
+      "Definitions": {
+        "String1": "Name of record",
+        "Bool1": "Record equals this"
+      }
+    },
+    "StageStatusIs": {
+      "Description": "The status of the stage is equal to this",
+      "Definitions": {
+        "Enum": "StageCompletion type"
+      },
+      "Overrides": {
+        "Enum": [
+          "Victory",
+          "Failiure",
+          "Draw",
+          "None"
+        ]
+      },
+      "Notes": [
+        "This does not mean the level is over, it can still be swapped to another status."
+      ]
+    },
+    "WaveCount": {
+      "Description": "Current amount of waves completed",
+      "Definitions": {
+        "Int1": "Amount of waves completed",
+        "Operator": "Compare value"
+      }
+    },
+    "WaveComplete": {
+      "Description": "Automatic when a wave completes",
+      "Definitions": {
+        "Bool1": "False = Must be mission wave, True = any wave"
+      }
+    },
+    "TimedEvent": {
+      "Description": "Is this timed event complete?",
+      "Definitions": {
+        "String1": "The tracked condition name of the timed event"
+      }
+    },
+    "WavesRemaining": {
+      "Description": "How many waves are left in the current mission wave?",
+      "Definitions": {
+        "Int1": "Waves remaining",
+        "Operator": "Compare value"
+      }
+    },
+    "TrackedEvent": {
+      "Description": "Has this task from an interactive/zone been completed?",
+      "Definitions": {
+        "String1": "The tracked condition name of the interactive/zone",
+        "Amount": "How many times this event must be completed",
+        "Operator": "Compare value"
+      }
+    },
+    "TasksRemaining": {
+      "Description": "interactive/zone has this many tasks remaining",
+      "Definitions": {
+        "SerialNumber": "Serial of interactive(s)/zone(s)",
+        "Int1": "Threshold of remaining purposes",
+        "Operator": "Compare value"
+      }
+    },
+      "CheckStageWasCompleted": {
+      "Description": "The completion status of the marked stage",
+      "Definitions": {
+        "String1": "Name of the stage card",
+        "Bool1": "True = Stage must be completed, FALSE = Stage must be not completed"
+      }
+    }
+  },
+  "InteractiveEvents": {
+    "ColorPicker": {
+      "Description": "Opens the colorizer station"
+    },
+    "Storage": {
+      "Description": "Opens your personal storage inventory",
+      "Notes": [
+        "Arena compatible"
+      ]
+    },
+    "Workbench": {
+      "Description": "Opens the weapon modding workbench"
+    },
+    "Ammo": {
+      "Description": "Refills your ammo"
+    },
+    "Hire": {
+      "Description": "Opens the hire menu for hirelings",
+      "Warnings": [
+        "Arena only"
+      ]
+    },
+    "Locker": {
+      "Description": "Opens up the locker",
+      "Warnings": [
+        "Don't use?"
+      ]
+    },
+    "Heal": {
+      "Description": "Heals the user"
+    },
+    "KillUser": {
+      "Description": "Kills the user"
+    },
+    "AmmoNexus": {
+      "Description": "Refills dissonance weapons"
+    },
+    "AmmoGrenades": {
+      "Description": "Refills throwables"
+    },
+    "SkillTrain": {
+      "Description": "Opens up the skill training menu",
+      "Warnings": [
+        "Arena Only"
+      ]
+    },
+    "FacePicker": {
+      "Description": "Opens the Loft Mirror",
+      "Warnings": [
+        "Arena Only"
+      ]
+    },
+    "GibUser": {
+      "Description": "Asplodes the user"
+    },
+    "Wandbench": {
+      "Description": "Opens the wand modding workbench"
+    },
+    "Arena_StartWaves": {
+      "Description": "Starts the Arena stage wave",
+      "Warnings": [
+        "Only usable in [StatCard_Stage_Arena]"
+      ]
+    },
+    "Arena_LevelSelect": {
+      "Description": "Opens up the pilot's map",
+      "Warnings": [
+        "Arena Only"
+      ]
+    },
+    "Arena_Imprint": {
+      "Description": "Imprints the arena character",
+      "Warnings": [
+        "Arena Only"
+      ]
+    },
+    "Int_SpawnUnit": {
+      "Description": "Opens up the Playground unit spawn menu"
+    },
+    "Int_SpawnWeapon": {
+      "Description": "Opens up the Playground weapon spawn menu"
+    },
+    "Int_PlayCharacter": {
+      "Description": "Opens up the Playground Character Selection menu"
+    },
+    "Int_Music": {
+      "Description": "Opens up the playground jukebox"
+    },
+    "Int_ClearAll": {
+      "Description": "Opens the Playground clear prompt"
+    },
+    "Int_Stages": {
+      "Description": "Opens up the Playground stage selection menu"
+    },
+    "Int_Difficulty": {
+      "Description": "Opens up the Playground difficulty modifier"
+    },
+    "Story_LevelSelect": {
+      "Description": "Opens up the Nexus City Map",
+      "Warnings": [
+        "Story Only"
+      ]
+    },
+    "Holiday": {
+      "Description": "???????"
+    }
+  },
+  "TargetTypes": {
+    "SerialNumber":
+    {
+      "Description": "Find all characters by their [SerialNumber]"
+    },
+    "Card":
+    {
+      "Description": "Find all characters by matching [MadCard]"
+    },
+    "Player":
+    {
+      "Description": "Return the player"
+    },
+    "Any":
+    {
+      "Description": "Return any living character"
+    }
+  },
+  "StageCompletion": {
+    "Victory": {
+        "Description": "Arena Victory!"
+      },
+    "Failiure": {
+        "Description": "Arreenaa faaiilliuuurrreee..."
+      },
+    "Draw": {
+        "Description": "Draw???"
+      },
+      "None": {
+        "Description": "Continue"
+      }
+  },
+  "AnnouncementTypes": {
+  "Mission": {
+      "Description": "Mission announcement"
+    },
+  "Objective": {
+      "Description": "Blue Objective popup"
+    },
+  "ObjectiveComplete": {
+      "Description": "Blue Objective complete popup"
+    },
+  "Wave": {
+      "Description": "New Wave Banner"
+    },
+    "Overworld": {
+      "Description": "Overworld announcement"
+    }
+  },
+  "TransitionTypes": {
+    "WipeSide": {
+        "Description": "Default wipe to side transition"
+      },
+    "FadeOut": {
+        "Description": "Default fade transition"
+      },
+    "DramaticFade": {
+        "Description": "Slow fadeout and slow fadein transition"
+      },
+      "FadeOutSlowIn": {
+        "Description": "Default Fade out with Slow Fadein transition"
+      }
+  },
+  "QuestTypes": {
+    "Default": {
+        "Description": "Green Arrow points to marker"
+      },
+    "Kill": {
+        "Description": "Red Arrow points to target"
+      },
+    "Help": {
+        "Description": "Incapacitated icon pointing to target"
+      }
+  },
+  "VoiceTypes": {},
+  "StepActionTypes": {
+    "RagdollActor": {
+      "Description": "Ragdoll this actor"
+    },
+    "DieActor": {
+      "Description": "Kill this actor"
+    },
+    "RemoveActor": {
+      "Description": "Despawn this actor"
+    },
+    "DespawnMissionActor": {
+      "Description": "Despawn any mission-specific actors"
+    },
+    "ResetAiModules": {
+      "Description": "Reset actor to default AI Modules"
+    },
+    "TeleportToMark": {
+      "Description": "Teleport actor to listed mark"
+    },
+    "WalkToMark": {
+      "Description": "Actor walks slowly to listed mark"
+    },
+    "SprintToMark": {
+      "Description": "Actor dashes to listed mark"
+    },
+    "NoSprint": {
+      "Description": "Cancel sprinting of all actors"
+    },
+    "DestroyWeapons": {
+      "Description": "Destroy actor's equipped weapons"
+    },
+    "RezActor": {
+      "Description": "Resurrect actor if dead"
+    },
+    "CamShake": {
+      "Description": "Shake the camera"
+    },
+    "ForceActorList": {
+      "Description": "Spawn [ForcePlayerSquad] actors at this step"
+    },
+    "EndEmotes": {
+      "Description": "End all looping emotes"
+    },
+    "FacePlayer": {
+      "Description": "All actors face the player at this step"
+    },
+    "EmoteIsMelee": {
+      "Description": "Actor will be put in Melee state to cause hit damage"
+    }
+  },
+  "GameDifficulty": {
+    "Madness": {
+      "Notes": ["Reduces all character health down to 1/3rd of original health"],
+      "Warnings": [ "Not a default difficulty" ]
+    }
+  },
+  "ArenaMode": {
+    "Battle": {
+      "Description": "Hold out against wave after wave in one room."
+    },
+    "Infiltration": {
+      "Description": "Clear waves from room to room."
+    },
+    "Siege": {
+      "Description": "Defend an objective from waves."
+    },
+    "Contract": {
+      "Description": "Plays like a story mode mission."
+    }
+  },
+  "StartLocation": {
+    "Helipad": {
+      "Description": "Dropped off by Dave."
+    },
+    "BusStop": {
+      "Description": "Dropped off at Bus Stop."
+    },
+    "SleeperBed": {
+      "Description": "Wake up in gym bed."
+    },
+    "Medbay": {
+      "Description": "Wake up in med bay."
+    },
+    "Car_Doc": {
+      "Description": "Dropped off by a horrible driver"
+    },
+    "BVan": {
+      "Description": "Dropped off at van."
+    },
+    "Hub": {
+      "Description": "Spawn in central hub."
+    },
+    "NewGame": {
+      "Description": "Dropped off at Bus Stop, but include title credits."
+    }
+  },
+  "DriverChecks": {
+    "TargetIsDir": {
+      "Description": ""
+    },
+    "AimIsDir": {
+      "Description": ""
+    },
+    "WaypointIsDir": {
+      "Description": ""
+    },
+    "WaypointFacingIsDir": {
+      "Description": ""
+    },
+    "HaveTarget": {
+      "Description": ""
+    },
+    "HaveUser": {
+      "Description": ""
+    },
+    "TouchingFloor": {
+      "Description": ""
+    },
+    "CurrentPhase": {
+      "Description": ""
+    },
+    "CurrentPhaseCounter": {
+      "Description": ""
+    },
+    "PlayerSquadCount": {
+      "Description": ""
+    },
+    "CurrentWaypoint": {
+      "Description": ""
+    },
+    "DistanceFromTarget": {
+      "Description": ""
+    },
+    "AngleFromTarget": {
+      "Description": ""
+    },
+    "CurrentDamage": {
+      "Description": ""
+    },
+    "CurrentSpeed": {
+      "Description": ""
+    },
+    "TookAHit": {
+      "Description": ""
+    },
+    "StoppedAHit": {
+      "Description": ""
+    },
+    "LostCorpus": {
+      "Description": ""
+    },
+    "Died": {
+      "Description": ""
+    },
+    "SniperDone": {
+      "Description": ""
+    },
+    "SensorAny": {
+      "Description": ""
+    },
+    "SensorEnemy": {
+      "Description": ""
+    },
+    "SensorTarget": {
+      "Description": ""
+    },
+    "SensorPlayer": {
+      "Description": ""
+    },
+    "SensorPlayerSquad": {
+      "Description": ""
+    },
+    "Up": {
+      "Description": ""
+    },
+    "Down": {
+      "Description": ""
+    },
+    "Left": {
+      "Description": ""
+    },
+    "Right": {
+      "Description": ""
+    },
+    "Attack": {
+      "Description": ""
+    },
+    "Block": {
+      "Description": ""
+    },
+    "Whip": {
+      "Description": ""
+    },
+    "Grenade": {
+      "Description": ""
+    },
+    "Jump": {
+      "Description": ""
+    },
+    "Headshot": {
+      "Description": ""
+    }
+  }
+}

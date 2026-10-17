@@ -1,0 +1,46 @@
+using System;
+using System.Drawing;
+using System.Linq;
+using System.Drawing.Drawing2D;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Windows.Forms;
+namespace MadCardMaker;
+public static class DossierWindow
+{
+ static readonly ConditionalWeakTable<Form,Chrome> Windows=new ConditionalWeakTable<Form,Chrome>();
+ static readonly ConditionalWeakTable<Control,object> Quiet=new ConditionalWeakTable<Control,object>();
+ public static void Attach(Form form){if(Windows.TryGetValue(form,out _))return;var chrome=new Chrome(form);Windows.Add(form,chrome);Silence(form);form.Load+=(_,__)=>chrome.Install();if(form.Visible)chrome.Install();}
+ static void Silence(Control root){if(Quiet.TryGetValue(root,out _))return;Quiet.Add(root,new object());if(root is TextBoxBase text)text.KeyPress+=(_,e)=>{if((e.KeyChar=='\r'||e.KeyChar==(char)27)&&!text.Multiline||text.ReadOnly&&(e.KeyChar>=32||e.KeyChar=='\r'||e.KeyChar=='\b'||e.KeyChar==(char)22||e.KeyChar==(char)24)||e.KeyChar>=32&&text.TextLength>=text.MaxLength&&text.SelectionLength==0)e.Handled=true;};foreach(Control child in root.Controls)Silence(child);root.ControlAdded+=(_,e)=>Silence(e.Control);}
+ sealed class Chrome:NativeWindow
+ {
+  readonly Form form;readonly string fontName=DossierTheme.Load().FontFamily;Panel header;Label title;ChromeButton minimize,maximize,close;bool installed,resizable,canMax,canMin,canClose;Padding padding;int bar;
+  public Chrome(Form form){this.form=form;form.HandleCreated+=(_,__)=>{AssignHandle(form.Handle);if(installed)NativeStyle();};form.HandleDestroyed+=(_,__)=>ReleaseHandle();if(form.IsHandleCreated)AssignHandle(form.Handle);form.Disposed+=(_,__)=>{ReleaseHandle();};}
+  public void Install(){if(installed||form.IsDisposed||!form.TopLevel)return;installed=true;var floating=form.Controls.Cast<Control>().Where(c=>c.Dock==DockStyle.None).Select(c=>Tuple.Create(c,c.Bounds)).ToArray();int clientHeight=form.ClientSize.Height;resizable=form.FormBorderStyle==FormBorderStyle.Sizable||form.FormBorderStyle==FormBorderStyle.SizableToolWindow;canMax=resizable&&form.MaximizeBox;canMin=form.MinimizeBox;canClose=form.ControlBox;padding=form.Padding;form.FormBorderStyle=FormBorderStyle.None;form.AutoSize=false;
+   header=new Panel{BackColor=Color.FromArgb(20,20,23),TabStop=false};title=new Label{AutoEllipsis=true,Text=form.Text,ForeColor=Color.FromArgb(235,230,230),TextAlign=ContentAlignment.MiddleLeft,BackColor=header.BackColor};
+   minimize=new ChromeButton("Minimize",0){Visible=canClose&&canMin};maximize=new ChromeButton("Maximize or restore",1){Visible=canClose&&canMax};close=new ChromeButton("Close",2){Visible=canClose};header.Controls.Add(title);header.Controls.Add(minimize);header.Controls.Add(maximize);header.Controls.Add(close);form.Controls.Add(header);
+   title.MouseDown+=Drag;header.MouseDown+=Drag;title.DoubleClick+=(_,__)=>ToggleMax();header.DoubleClick+=(_,__)=>ToggleMax();minimize.Click+=(_,__)=>form.WindowState=FormWindowState.Minimized;maximize.Click+=(_,__)=>ToggleMax();close.Click+=(_,__)=>form.Close();form.TextChanged+=(_,__)=>title.Text=form.Text;form.Resize+=(_,__)=>Layout();form.DpiChanged+=(_,__)=>Layout();form.Paint+=(_,e)=>{e.Graphics.SmoothingMode=SmoothingMode.AntiAlias;using(var path=Outline(form.ClientRectangle,DossierDpi.Pixels(form,11)))using(var line=new Pen(Color.FromArgb(70,39,44)))e.Graphics.DrawPath(line,path);};
+   form.KeyDown+=(_,e)=>{if(e.KeyCode==Keys.Enter&&form.AcceptButton==null&&form.ActiveControl is TextBoxBase input&&!input.Multiline)e.SuppressKeyPress=true;else if(e.KeyCode==Keys.Escape&&form.CancelButton==null){e.SuppressKeyPress=true;if(form.Modal)form.Close();}};form.KeyPreview=true;if(floating.Length>0)form.ClientSize=new Size(form.ClientSize.Width,clientHeight+DossierDpi.Pixels(form,42));Layout();foreach(var item in floating){var bounds=item.Item2;bounds.Offset(0,bar);item.Item1.Bounds=bounds;}NativeStyle();DossierFeedback.PrepareSettings();DossierFeedback.Attach(form);DossierMotion.Attach(form);
+  }
+  void ToggleMax(){if(resizable&&form.MaximizeBox)form.WindowState=form.WindowState==FormWindowState.Maximized?FormWindowState.Normal:FormWindowState.Maximized;}
+  void Drag(object sender,MouseEventArgs e){if(e.Button!=MouseButtons.Left||e.Clicks>1)return;ReleaseCapture();SendMessage(form.Handle,0xA1,(IntPtr)2,IntPtr.Zero);}
+  void Layout(){if(header==null)return;bar=DossierDpi.Pixels(form,42);int edge=DossierDpi.Pixels(form,1),width=DossierDpi.Pixels(form,46);form.Padding=new Padding(padding.Left+edge,padding.Top+bar+edge,padding.Right+edge,padding.Bottom+edge);header.Bounds=new Rectangle(edge,edge,Math.Max(0,form.ClientSize.Width-edge*2),bar);int right=header.Width;foreach(var button in new[]{close,maximize,minimize}){bool show=canClose&&(button==close||button==maximize&&canMax||button==minimize&&canMin);button.Visible=show;if(show){right-=width;button.Bounds=new Rectangle(right,0,width,bar);}}title.Bounds=new Rectangle(DossierDpi.Pixels(form,16),0,Math.Max(1,right-DossierDpi.Pixels(form,24)),bar);header.BringToFront();UpdateRegion();maximize.Restored=form.WindowState==FormWindowState.Maximized;maximize.Invalidate();if(title.Font.Name!=fontName){title.Font=DossierFonts.Create(fontName,10,FontStyle.Bold);}}
+  void UpdateRegion(){var old=form.Region;if(form.WindowState==FormWindowState.Maximized)form.Region=null;else using(var path=Outline(new Rectangle(0,0,form.Width,form.Height),DossierDpi.Pixels(form,12)))form.Region=new Region(path);old?.Dispose();}
+  void NativeStyle(){if(!form.IsHandleCreated)return;int style=GetWindowLong(form.Handle,-16);style&=~0x00C00000;style|=0x80000;if(resizable)style|=0x40000;if(form.MinimizeBox)style|=0x20000;if(resizable&&form.MaximizeBox)style|=0x10000;SetWindowLong(form.Handle,-16,style);int extended=GetWindowLong(form.Handle,-20);SetWindowLong(form.Handle,-20,extended&~(0x100|0x200|0x20000|1));SetWindowPos(form.Handle,IntPtr.Zero,0,0,0,0,0x37);try{int policy=1;DwmSetWindowAttribute(form.Handle,2,ref policy,4);int noBorder=unchecked((int)0xfffffffe);DwmSetWindowAttribute(form.Handle,34,ref noBorder,4);int round=2;DwmSetWindowAttribute(form.Handle,33,ref round,4);}catch(DllNotFoundException){}catch(EntryPointNotFoundException){}}
+  protected override void WndProc(ref Message m){if(installed){if(m.Msg==0x85){m.Result=IntPtr.Zero;return;}if(m.Msg==0x86){m.Result=(IntPtr)1;return;}if(m.Msg==0x83){m.Result=IntPtr.Zero;return;}if(m.Msg==0x24){base.WndProc(ref m);var info=(MinMaxInfo)Marshal.PtrToStructure(m.LParam,typeof(MinMaxInfo));var screen=Screen.FromHandle(form.Handle);info.MaxPosition=new Point(screen.WorkingArea.Left-screen.Bounds.Left,screen.WorkingArea.Top-screen.Bounds.Top);info.MaxSize=screen.WorkingArea.Size;Marshal.StructureToPtr(info,m.LParam,false);return;}if(m.Msg==0x84&&resizable&&form.WindowState==FormWindowState.Normal){long point=m.LParam.ToInt64();var at=form.PointToClient(new Point((short)(point&0xffff),(short)((point>>16)&0xffff)));int grip=DossierDpi.Pixels(form,7);bool left=at.X<grip,right=at.X>=form.ClientSize.Width-grip,top=at.Y<grip,bottom=at.Y>=form.ClientSize.Height-grip;int hit=top?(left?13:right?14:12):bottom?(left?16:right?17:15):left?10:right?11:0;if(hit!=0){m.Result=(IntPtr)hit;return;}}}base.WndProc(ref m);}
+ }
+ sealed class ChromeButton:Button
+ {
+  readonly int kind;public bool Restored;bool hover;
+  public ChromeButton(string name,int kind){this.kind=kind;AccessibleName=name;TabStop=false;FlatStyle=FlatStyle.Flat;FlatAppearance.BorderSize=0;BackColor=Color.FromArgb(20,20,23);ForeColor=Color.White;MouseEnter+=(_,__)=>{hover=true;Invalidate();};MouseLeave+=(_,__)=>{hover=false;Invalidate();};}
+  protected override void OnPaint(PaintEventArgs e){e.Graphics.Clear(BackColor);float cx=Width/2f,cy=Height/2f,span=DossierDpi.Pixels(this,5);using(var pen=new Pen(ForeColor,Math.Max(1,DossierDpi.Pixels(this,1)))){if(kind==0)e.Graphics.DrawLine(pen,cx-span,cy+span/2,cx+span,cy+span/2);else if(kind==2){e.Graphics.DrawLine(pen,cx-span,cy-span,cx+span,cy+span);e.Graphics.DrawLine(pen,cx+span,cy-span,cx-span,cy+span);}else{if(Restored)e.Graphics.DrawRectangle(pen,cx-span+3,cy-span-3,span*2,span*2);e.Graphics.DrawRectangle(pen,cx-span,cy-span,span*2,span*2);}}}
+ }
+ static GraphicsPath Outline(Rectangle bounds,int radius){var path=new GraphicsPath();if(bounds.Width<3||bounds.Height<3)return path;path.Dispose();return DossierGeometry.Rounded(Rectangle.Inflate(bounds,-1,-1),radius);}
+ [StructLayout(LayoutKind.Sequential)]struct MinMaxInfo{public Point Reserved;public Size MaxSize;public Point MaxPosition;public Size MinTrackSize;public Size MaxTrackSize;}
+ [DllImport("user32.dll")]static extern bool ReleaseCapture();
+ [DllImport("user32.dll")]static extern IntPtr SendMessage(IntPtr handle,int message,IntPtr wParam,IntPtr lParam);
+ [DllImport("user32.dll")]static extern int GetWindowLong(IntPtr handle,int index);
+ [DllImport("user32.dll")]static extern int SetWindowLong(IntPtr handle,int index,int value);
+ [DllImport("user32.dll")]static extern bool SetWindowPos(IntPtr handle,IntPtr after,int x,int y,int width,int height,int flags);
+ [DllImport("dwmapi.dll")]static extern int DwmSetWindowAttribute(IntPtr handle,int attribute,ref int value,int size);
+}

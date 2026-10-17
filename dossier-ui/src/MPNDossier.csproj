@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>MPNDossier</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net48</TargetFramework>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Prefer32Bit>True</Prefer32Bit>
+    <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="app.ico"><LogicalName>Dossier.AppIcon</LogicalName></EmbeddedResource>
+    <EmbeddedResource Include="Help\*.json"><LogicalName>Dossier.Help.%(Filename)%(Extension)</LogicalName></EmbeddedResource>
+    <EmbeddedResource Include="Fonts\*.ttf"><LogicalName>Dossier.Fonts.%(Filename)%(Extension)</LogicalName></EmbeddedResource>
+    <EmbeddedResource Include="*.resources"><LogicalName>%(Filename)%(Extension)</LogicalName></EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,4261 @@
+{
+  "Vec2": {
+    "Description": "A 2 dimensional vector",
+    "Properties": {}
+  },
+  "Vec3": {
+    "Description": "A 3 dimensional vector",
+    "Properties": {}
+  },
+  "ArmorList": {
+    "Description": "A random selection of armor.",
+    "Properties": {
+      "Armor": {
+        "Description": "A random selection of armor.",
+        "Notes": [
+          "If [None] selected, no armor will be applied from this set."
+        ]
+      }
+    }
+  },
+  "Uniform": {
+    "Description": "A random selection of armor with specified colors and styles.",
+    "Properties": {
+      "ArmorPicks": {
+        "Description": "A random selection of armor.",
+        "Warnings": [
+          "Cannot contain a null reference"
+        ]
+      },
+      "TintPrimary": {
+        "Description": "The primary colors of this uniform."
+      },
+      "TintSecondary": {
+        "Description": "The secondary colors of this uniform."
+      },
+      "TintGlass": {
+        "Description": "The glass/glow colors of this uniform."
+      },
+      "AltMaterial": {
+        "Description": "The chosen material index for alternate styles.",
+        "Notes": [
+          "Leave at -1 to choose randomly"
+        ]
+      },
+      "AltMesh": {
+        "Description": "The chosen mesh index for alternate styles.",
+        "Notes": [
+          "Leave at -1 to choose randomly"
+        ]
+      }
+    }
+  },
+  "MatSwap": {
+    "Description": "Swaps materials on the specified body parts with these",
+    "Properties": {
+      "AssignedParts": {
+        "Description": "Swaps materials for all listed parts."
+      },
+      "Materials": {
+        "Description": "A material chosen at random to swap with."
+      }
+    }
+  },
+  "AnimationPair": {
+    "Description": "A pair of animations",
+    "Properties": {}
+  },
+  "Reskin": {
+    "Description": "Replace all instances of this skin with the specified material",
+    "Properties": {
+      "Old": {
+        "Description": "The name of the material to replace."
+      },
+      "New": {
+        "Description": "The replacement material."
+      }
+    }
+  },
+  "DeathEvent": {
+    "Properties": {
+      "PreventRegen": {
+        "Description": "The conditions that prevent this death event from occurring."
+      },
+      "Chance": {
+        "Description": "The percent chance this death event will succeed.",
+        "Definitions": {
+          "0.0": "Event will always fail.",
+          "1.0": "Event will always succeed."
+        }
+      },
+      "Retries": {
+        "Description": "The amount of times this death event can repeat.",
+        "Definitions": {
+          "-1": "Infinite repeats"
+        }
+      },
+      "RegenHealth": {
+        "Description": "The amount of health this character regenerates from the death event.",
+        "Notes": [
+          "Caps out at maximum"
+        ]
+      },
+      "ReplaceCorpus": {
+        "Description": "If specified, replace the current corpus block with this one."
+      },
+      "InertRagdoll": {
+        "Description": "Character ragdolls before rising up again, feigns death"
+      },
+      "PreventDeathAnimation": {
+        "Description": "Death animations do not play when death event is about to occur."
+      },
+      "NoAdvanceOnFail": {
+        "Description": "Sequence of death events is cancelled if this one fails to occur."
+      },
+      "LastCorpusOnly": {
+        "Description": "Only apply this death event when on the last corpus block."
+      },
+      "InvincibileTime": {
+        "Description": "Time (in seconds) that character is invincible"
+      },
+      "InvincibleType": {
+        "Description": "The type of invincibility"
+      },
+      "GiveSkills": {
+        "Description": "Character acquires this set of skills from this death event."
+      },
+      "DestroyArmor": {
+        "Description": "Armor attached to these armor slots are destroyed by this death event."
+      },
+      "RecoveryAnimation": {
+        "Description": "The animation that plays when recovering from this death event.",
+        "Definitions": {
+          "Clips[0]": "Standing up from lying on stomach",
+          "Clips[1]": "Standing up from lying on back"
+        },
+        "Warnings": [
+          "[InnertRagdoll] must be set to true"
+        ]
+      },
+      "FlashColor": {
+        "Description": "Flash this color when recovery occurs."
+      },
+      "FlashTimes": {
+        "Description": "The amount of times the color flashes."
+      },
+      "RezSFX": {
+        "Description": "The sound effect that plays when death event happens.",
+        "Notes": [
+          "If [RecoveryAnimation] specified, sound will play when animation starts."
+        ]
+      }
+    }
+  },
+  "BonusStat": {
+    "Description": "A bonus modifier applied to characters.",
+    "Properties": {
+      "Name": {
+        "Description": "The display name of this bonus.",
+        "Warnings": [
+          "Only displayed on origins."
+        ]
+      },
+      "Description": {
+        "Description": "The display description of this bonus.",
+        "Warnings": [
+          "Only displayed on origins."
+        ]
+      },
+      "Type": {
+        "Description": "The type of bonus this provides."
+      },
+      "Amount": {
+        "Description": "The amount this bonus adds or subtracts."
+      },
+      "AmPercent": {
+        "Description": "If true, reads the amount as an added percentage multiplier."
+      },
+      "ShowAsGood": {
+        "Description": "If true, mark this as a beneficial bonus.",
+        "Notes": [
+          "Affects display and pricing for items in inventories and stores."
+        ]
+      }
+    }
+  },
+  "BuffEffect": {
+    "Description": "A status effect temporarily attached to a character.",
+    "Properties": {
+      "Effect": {
+        "Description": "The status effect"
+      },
+      "Chance": {
+        "Description": "Percent chance this buff effect can occur",
+        "Definitions": {
+          "1.0": "100% chance"
+        }
+      },
+      "Duration": {
+        "Description": "Time (in frames) this duration lasts."
+      }
+    }
+  },
+  "ColorPair": {
+    "Description": "A color pair attached to armor from swatches.",
+    "Properties": {
+      "Name": {
+        "Description": "The display name in a swatch."
+      },
+      "Color1": {
+        "Description": "Primary Color"
+      },
+      "Color2": {
+        "Description": "Secondary Color"
+      }
+    }
+  },
+  "ColorSolo": {
+    "Description": "A glow color attached to armor from swatches",
+    "Properties": {
+      "Name": {
+        "Description": "The display name in a swatch."
+      },
+      "Color1": {
+        "Description": "The glow color"
+      }
+    }
+  },
+  "CharacterSet": {
+    "Description": "A playable character with a starting loadout and wardrobe for story stages.",
+    "Properties": {
+      "Character": {
+        "Description": "The playable character."
+      },
+      "Loadout": {
+        "Description": "The starting loadout."
+      },
+      "Wardrobe": {
+        "Description": "The starting wardrobe."
+      }
+    }
+  },
+  "WaveCharacter": {
+    "Description": "A unit slider for arena stages, controls the flow of units.",
+    "Properties": {
+      "Type": {
+        "Description": "The type of unit."
+      },
+      "Total": {
+        "Description": "THe total amount of units in the first wave.",
+        "Notes": [
+          "Negative amounts can still be controlled by AddUnitsPerWave"
+        ]
+      },
+      "GenerationScale": {
+        "Description": "The distribution of these units in the wave based on a 0-1 ratio.",
+        "Definitions": {
+          "0.0": "Distribute units uniformly",
+          "1.0": "Save all units for after all others in the list before me have spawned."
+        },
+        "Notes": [
+          "If specified on the first unit, values > 0 will restrict the starting squad size and have it build to full strength."
+        ]
+      },
+      "AddUnitsPerWave": {
+        "Description": "The amount of units added or subtracted with each subsequent wave.",
+        "Notes": [
+          "Final unit amount does not account for decimals, but decimals can still be used to control rate."
+        ]
+      }
+    }
+  },
+  "SingleCharacter": {
+    "Description": "A single character with a specified arsenal of weapons",
+    "Properties": {
+      "Type": {
+        "Description": "The single character"
+      },
+      "Weapon": {
+        "Description": "The character's primary weapon.",
+        "Notes": [
+          "Overrides [DefaultPrimary]"
+        ]
+      },
+      "Sidearm": {
+        "Description": "The character's sidearm",
+        "Notes": [
+          "Overrides [DefaultSideArm]"
+        ]
+      },
+      "Throwable": {
+        "Description": "The character's attached throwable weapon."
+      },
+      "Collectible": {
+        "Description": "Collectible item dropped from this character.",
+        "Warnings": [
+          "Doesn't work with powerups."
+        ]
+      },
+      "Gear": {
+        "Description": "Special gear attached to this character",
+        "Notes": [
+          "Overrides any attached gear with matching slots."
+        ]
+      }
+    }
+  },
+  "Trooper": {
+    "Description": "A reinforcement unit in Arena Mode.",
+    "Properties": {
+      "Unit": {
+        "Description": "The unit type"
+      },
+      "Loadout": {
+        "Description": "A random weapon to equip."
+      }
+    }
+  },
+  "Reinforce": {
+    "Description": "A squad of reinforcements to summon",
+    "Properties": {
+      "Troops": {
+        "Description": "The total list of units to summon."
+      }
+    }
+  },
+  "WaveSequence": {
+    "Description": "A sequence of events that occurs with each checkpoint, determines enemy roster and reward flow.",
+    "Properties": {
+      "TotalWaves": {
+        "Description": "The total amount of waves to the next checkpoint.",
+        "Definitions": {
+          "-1": "Infinite waves"
+        }
+      },
+      "Cash": {
+        "Description": "The amount of cash earned from the first wave."
+      },
+      "XP": {
+        "Description": "The amount of total XP earned from the first wave."
+      },
+      "WaveMult_Cash": {
+        "Description": "Multiply cash reward by this amount for subsequent waves."
+      },
+      "WaveMult_XP": {
+        "Description": "Multiply total XP reward by this amount for subsequent waves."
+      },
+      "Units": {
+        "Description": "The list of unit spawners for this wave."
+      },
+      "Bosses": {
+        "Description": "List of bosses that appear throughout the wave sequence.",
+        "Notes": [
+          "Bosses are distributed uniformly throughout the waves.",
+          "If there are more bosses than waves, bosses will begin stacking up on each other."
+        ],
+        "Warnings": [
+          "Bosses cannot spawn by themselves. Units must have at least one WaveCharacter spawn."
+        ]
+      }
+    }
+  },
+  "EventAction": {
+    "Description": "An event action in a scene",
+    "Properties": {
+      "Type": {
+        "Description": "The action"
+      },
+      "myParameters": {
+        "Description": "Action parameters"
+      }
+    }
+  },
+  "EventCondition": {
+    "Description": "An event condition in a scene",
+    "Properties": {
+      "Type": {
+        "Description": "The condition"
+      },
+      "AmCheckpoint": {
+        "Description": "Don't check any conditions after this one until this one is satisfied."
+      },
+      "myParameters": {
+        "Description": "Condition parameters"
+      }
+    }
+  },
+  "CharParam": {
+    "Description": "An amorphous set of character parameters",
+    "Properties": {
+      "Target": {
+        "Description": "How to filter the desired character"
+      },
+      "SerialNumber": {
+        "Description": "If filtering by serial number, choose characters by this serial"
+      },
+      "StartVelocity": {
+        "Description": "Starting velocity of this character",
+        "Warnings": [
+          "Probably doesn't work when spawned from entrances"
+        ]
+      },
+      "MadCard": {
+        "Description": "If filtering by card, choose characters by this card type"
+      },
+      "Faction": {
+        "Description": "Created/filtered characters are of this matching faction"
+      },
+      "Awake": {
+        "Description": "If spawning characters, set status to aware"
+      }
+    }
+  },
+  "ItemParam": {
+    "Description": "An amorphous set of item parameters",
+    "Properties": {
+      "Target": {
+        "Description": "How to filter the desired item"
+      },
+      "SerialNumber": {
+        "Description": "If filtering by serial number, choose item by this serial, otherwise, apply this serial to created item"
+      },
+      "StartVelocity": {
+        "Description": "Starting velocity of this item when spawned"
+      },
+      "MadCard": {
+        "Description": "If filtering by card, choose items by this card type"
+      },
+      "AmQuest": {
+        "Description": "Does this item respawn when disposed of?"
+      },
+      "Registered": {
+        "Description": "Is this item registered to a specific mission?"
+      },
+      "RandomSpawn": {
+        "Description": "If multiple locations specified, do we spawn in a random order?"
+      }
+    }
+  },
+  "AreaParam": {
+    "Description": "An amorphous set of zone parameters",
+    "Properties": {
+      "SerialNumber": {
+        "Description": "The Serial of this purpose"
+      },
+      "TrackedEvent": {
+        "Description": "When completed, the EventSystem will increase the value of your TrackedEvent by 1 (starting at 0). The Event System can track this value as a Condition."
+      },
+      "Repeating": {
+        "Description": "Does this purpose repeat?"
+      },
+      "RunTaskEvent": {
+        "Description": "On completion of this Task, the Interactive will run all Actions on its TaskEvent."
+      },
+      "PopupComplete": {
+        "Description": "Display one of these messages when the task is complete."
+      },
+      "TrackPlayer":
+      {
+        "Description": "If True, ignore other tracking and only check if object is Player."
+      },
+      "TrackSerialNumber":
+      {
+        "Description": "The SerialNumber of the Character or Weapon.",
+        "Warnings": ["Ignored if TrackPlayer is True."]
+      },
+      "TrackFaction":
+      {
+        "Description": "The Faction of the Character.",
+        "Warnings": ["Ignored if TrackSerialNumber is not empty."]
+      },
+      "Amount":
+      {
+        "Description": "The number of qualified entrants required before the Task is complete.",
+        "Notes": [ "Any value lower than 1 is assumed to be 1."]
+      },
+      "TrackOutsideArea": {
+        "Description": "Inverts the Task to track when a valid target leaves the area instead of enters."
+      },
+      "DisplayTimer": {
+        "Description": "Visualize the timer if in use"
+      },
+      "TimerName": {
+        "Description": "The name to appear above the timer if in use"
+      },
+      "TimerLength": {
+        "Description": "Time in seconds for the timer to last"
+      }
+    }
+  },
+  "InteractParam": {
+    "Description": "An amorphous set of interactive parameters",
+    "Properties": {
+      "SerialNumber": {
+        "Description": "The Serial of this purpose"
+      },
+      "TrackedEvent": {
+        "Description": "When completed, the EventSystem will increase the value of your TrackedEvent by 1 (starting at 0). The Event System can track this value as a Condition."
+      },
+      "Repeating": {
+        "Description": "Does this purpose repeat?"
+      },
+      "RunTaskEvent": {
+        "Description": "On completion of this Task, the Interactive will run all Actions on its TaskEvent."
+      },
+      "PopupComplete": {
+        "Description": "Display one of these messages when the task is complete."
+      },
+      "HighlightText": {
+        "Description": "User prompt when action when selectable."
+      },
+      "UseText": {
+        "Description": "Prompt displayed when performing this task.",
+        "Warnings": ["Action must be continuous to display."]
+      },
+      "UseColor": {
+        "Description": "Highlight this color when selectable"
+      },
+      "Icon": {
+        "Description": "Display this icon when task is available"
+      },
+      "TimeGoal": {
+        "Description": "Amount of time it takes to complete this task",
+        "Definitions": {
+          "0": "Task will use Single-use animation",
+          ">0": "Task will use Continuous animation"
+        }
+      },
+      "TimeDisuse": {
+        "Description": "Amount of time it takes for task to undo its progress.",
+        "Definitions": {
+          "0": "Task will not undo"
+        }
+      },
+      "TimeDelay": {
+        "Description": "Amount of time it takes before Disuse occurs"
+      },
+      "SuccessEffect": {
+        "Description": "Create this particle effect when task completed"
+      },
+      "Priority": {
+        "Description": "Priority this task will take over others"
+      },
+      "AutoEvent": {
+        "Description": "Performs the following event automatically"
+      },
+      "Locked": {
+        "Description": "Is this task locked"
+      }
+    }
+  },
+  "TargetParam": {
+    "Description": "An amorphous set of interactive parameters",
+    "Properties": {
+      "SerialNumber": {
+        "Description": "The Serial of this purpose"
+      },
+      "TrackedEvent": {
+        "Description": "When completed, the EventSystem will increase the value of your TrackedEvent by 1 (starting at 0). The Event System can track this value as a Condition."
+      },
+      "Repeating": {
+        "Description": "Does this purpose repeat?"
+      },
+      "RunTaskEvent": {
+        "Description": "On completion of this Task, the Interactive will run all Actions on its TaskEvent."
+      },
+      "PopupComplete": {
+        "Description": "Display one of these messages when the task is complete."
+      },
+      "Heal": {
+        "Description": "Does this target heal itself?"
+      },
+      "Heal_Wait": {
+        "Description": "Period of time not receiving any damage before healing begins"
+      },
+      "Heal_Speed": {
+        "Description": "How rapidly target heals"
+      }
+    }
+  },
+  "Event": {
+    "Description": "An event in a scene.",
+    "Properties": {
+      "RepeatEvent": {
+        "Description": "Is this a repeating event?"
+      },
+      "Conditions": {
+        "Description": "All conditions that must be met for actions to occur",
+        "Warnings": ["Conditions only apply to events specified in the [SceneRules] object of your scene."]
+      },
+      "Actions": {
+        "Description": "All actions that occur when all conditions are met"
+      }
+    }
+  },
+  "Step": {
+    "Description": "A cutscene step.",
+    "Properties": {
+      "Blurb": {
+        "Description": "The actor's speech in this step."
+      },
+      "Timespan": {
+        "Description": "The amount of time to remain on this step before continuing.",
+        "Definitions": {
+          "<= 0": "Auto-calculated by [Blurb] Length"
+        }
+      },
+      "StartSound": {
+        "Description": "Sound to play."
+      },
+      "SkipOverride": {
+        "Description": "Invert the cutscene's Unskippable value for just this Step."
+      },
+      "ActorSerial": {
+        "Description": "The actor(s) performing this step.",
+        "Notes": ["Separate by commas to include other actors"]
+      },
+      "SpeakingTo": {
+        "Description": "The serial of the current actor to be looking at"
+      },
+      "Voice": {
+        "Description": "The voice the actor will emit"
+      },
+      "Emote": {
+        "Description": "The animation clip to play"
+      },
+      "ViewCamera": {
+        "Description": "Index of the camera to use on this step",
+        "Definitions": {
+          "<0": "Use default camera"
+        }
+      },
+      "FocusOnSpeakerAmount": {
+        "Description": "Strength of focus on [SpeakingTo]"
+      },
+      "Mark": {
+        "Description": "Index of mark to send actor to",
+        "Defintions": {
+          "<0": "Don't move"
+        }
+      },
+      "MoveOrderPermanent": {
+        "Description": "Actors sent to a mark will remain until given a new order"
+      },
+      "Action": {
+        "Description": "Optional action to occur at this step"
+      },
+      "CutsceneEvent": {
+        "Description": "The event to fire at this step"
+      },
+      "TrackedEvent": {
+        "Description": "Increments this TrackedEvent to the Event System"
+      }
+    }
+  },
+  "Cutscene": {
+    "Description": "A chreographed set of acting steps.",
+    "Properties": {
+      "Steps": {
+        "Description": "The sequence of events that take place in a cutscene."
+      }
+    }
+  },
+  "DriverAction": {
+    "Description": "An action a driver takes",
+    "Properties": {
+      "ParamName": {
+        "Description": "The name of this parameter to be referenced in your Vessel Object"
+      },
+      "Check": {
+        "Description": "The parameter to evaluate with this action"
+      },
+      "CheckDir": {
+        "Description": "Optional Parameter for direction related checks"
+      }
+    }
+  },
+  "Driver": {
+    "Description": "A programmable driver for vessels",
+    "Properties": {
+      "Actions": {
+        "Description": "A list of parameters this driver evaluates"
+      }
+    }
+  },
+  "MissionObjective": {
+    "Description": "An objective to fulfill in a mission.",
+    "Properties": {
+      "Name": {
+        "Description": "The display of the objective."
+      },
+      "CanFail": {
+        "Description": "Can this objective be failed?"
+      },
+      "Hidden": {
+        "Description": "Is this objective hidden from display?"
+      },
+      "ShowProgress": {
+        "Description": "Show the progress on this objective's satisfied conditions?"
+      },
+      "Conditions_Completed": {
+        "Description": "Conditions to be met to satisfy this objective",
+        "Notes": [ "Will be displayed if [ShowProgress] is true"]
+      },
+      "Actions_Completed": {
+        "Description": "Actions that occur when conditions are completed"
+      }
+    }
+  },
+  "MissionAct": {
+    "Description": "A set of objectives to fulfill",
+    "Properties": {
+      "Name": {
+        "Description": "Name of this Act."
+      },
+      "Description": {
+        "Description": "Description for this act."
+      },
+      "Actions_Start": {
+        "Description": "Actions that occur when act is started"
+      },
+      "Actions_Completed": {
+        "Description": "Actions that occur when all objectives are completed"
+      },
+      "Objectives": {
+        "Description": "The objectives started to complete this act"
+      }
+    }
+  },
+  "Mission": {
+    "Descripiton": "A stage mission that comes with its own conditions and actions",
+    "Properties": {
+      "SerialNumber": {
+        "Description": "The Serial Number of this mission"
+      },
+      "Description": {
+        "Description": "Display this text when the mission starts"
+      },
+      "ShowMission": {
+        "Description": "Show this mission's objectives in the top left corner when active"
+      },
+      "EndText": {
+        "Description": "Display this text when completing the mission"
+      },
+      "XP": {
+        "Description": "Amount of XP rewarded when completing this mission",
+        "Warnings": ["Arena Only"]
+      },
+      "Cash": {
+        "Description": "Amount of cash rewarded when completing this mission"
+      },
+      "Conditions_Start": {
+        "Description": "Conditions to be satisfied before this mission starts"
+      },
+      "Actions_Exists": {
+        "Description": ""
+      },
+      "Actions_Start": {
+        "Description": "Actions that occur when the mission starts"
+      },
+      "Actions_Success": {
+        "Description": "Actions that occur when the mission succeeds"
+      },
+      "Actions_Failure": {
+        "Description": "Actions that occur when the mission fails"
+      },
+      "Acts": {
+        "Description": "Sequence of acts in this mission.",
+        "Notes": ["Complete one act to proceed to the next one. Complete all acts to complete misison."]
+      }
+    }
+  },
+  "Armor": {
+    "Description": "A wearable outfit piece that a character can wear.",
+    "Properties": {
+      "Name": {
+        "Description": "The full name of this armor.",
+        "Notes": [
+          "Displays in the inventory menu."
+        ]
+      },
+      "NameShort": {
+        "Description": "The short hand name of this armor."
+      },
+      "Description": {
+        "Description": "A brief summary of this armor.",
+        "Notes": [
+          "Displays from a selected item in the inventory menu."
+        ]
+      },
+      "ObjRef": {
+        "Description": "The physical representation of this armor."
+      },
+      "BreakObj": {
+        "Description": "The effect object when this armor is dislodged from the character."
+      },
+      "Reskins": {
+        "Description": "Replaces all materials on this object with the following."
+      },
+      "Size": {
+        "Description": "The programmatic size of this item",
+        "Warnings": [
+          "No effect on gameplay"
+        ]
+      },
+      "Weight": {
+        "Description": "The weight of this armor.",
+        "Warnings": [
+          "No effect on gameplay"
+        ]
+      },
+      "Tier": {
+        "Description": "Determines the availability of this item from the Quartermaster.",
+        "Definitions": {
+          "0": "Available from the start",
+          "10+": "Unobtainable"
+        }
+      },
+      "Genre": {
+        "Description": "The genre of this armor.",
+        "Warnings": [
+          "No effect on gameplay"
+        ]
+      },
+      "Store": {
+        "Description": "The store that this item is available from."
+      },
+      "CustomPrice": {
+        "Description": "A custom price for this item",
+        "Definitions": {
+          "0": "Price autocalculated"
+        }
+      },
+      "Buffs": {
+        "Description": "List of bonus stats that this armor provides.",
+        "Definitions": {
+          "MarkAsGood": "Affects display color"
+        },
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "MenuIcon": {
+        "Description": "The menu icon displayed in the inventory menu."
+      },
+      "ArmorRating": {
+        "Description": "The amount of armor points this armor applies.\n[Slot] determines location of where armor is applied.",
+        "Definitions": {
+          "Body": "Outfit, Armor, Belt, Gloves, Boots, Shoulders",
+          "Head": "Hat, Face, Mouth, Hair, Ears, FullHead"
+        },
+        "Warnings": [
+          "Does not apply to characters with [CountWornArmor] disabled"
+        ]
+      },
+      "Encumbrance": {
+        "Description": "The amount of encumbrance points this armor applies.",
+        "Notes": [
+          "Negative values subtract encumbrance."
+        ]
+      },
+      "Slot": {
+        "Description": "The slot that this armor equips to."
+      },
+      "DisablePartOnEquip": {
+        "Description": "If true, will visibly disable a model part of a character when attached.\n[Slot] determines which model part is disabled.",
+        "Definitions": {
+          "Hat": "Hair",
+          "Outfit": "Body",
+          "Gloves": "Hands",
+          "Boots": "Feet",
+          "FullHead": "Head"
+        }
+      },
+      "Traits": {
+        "Description": "List of armor traits this armor has."
+      },
+      "TintsPrimary": {
+        "Description": "List of random primary colors this armor spawns with."
+      },
+      "TintsSecondary": {
+        "Description": "List of random secondary colors this armor spawns with."
+      },
+      "TintsGlass": {
+        "Description": "List of random glow colors this armor spawns with.",
+        "Warnings": [
+          "Any glow colors with [Alpha = 0] will not allow glow colors to be colorized."
+        ]
+      },
+      "Swatch": {
+        "Description": "A special set of colors available to only this armor on purchase."
+      },
+      "Executions": {
+        "Description": "A set of desfensive executions granted when wearing this armor."
+      },
+      "DeathEvents": {
+        "Description": "A set of death events granted when wearing this armor."
+      },
+      "AltDamageType": {
+        "Description": "Alters the damage type for unarmed attacks.",
+        "Warnings": [
+          "Only works on gloves."
+        ]
+      }
+    }
+  },
+  "Keycard": {
+    "Description": "A collectible item that can be used for interactive objects (used in story mode levels).",
+    "Properties": {
+      "Name": {
+        "Description": "The full name of this collectible."
+      },
+      "NameShort": {
+        "Description": "The short hand name of this collectible.",
+        "Notes": [
+          "Displayed when picked up"
+        ]
+      },
+      "ObjRef": {
+        "Description": "The physical representation of this collectible."
+      },
+      "CollectSound": {
+        "Description": "The sound path for when this collectible is picked up."
+      }
+    }
+  },
+  "Melee": {
+    "Description": "A held weapon that a character can use.",
+    "Properties": {
+      "Name": {
+        "Description": "The full name of this weapon.",
+        "Notes": [
+          "Displays in the inventory menu."
+        ]
+      },
+      "NameShort": {
+        "Description": "The short hand name of this weapon.",
+        "Notes": [
+          "Displayed for weapon pickups and loadout selections"
+        ]
+      },
+      "Description": {
+        "Description": "A brief summary of this weapon.",
+        "Notes": [
+          "Displays from a selected item in the inventory menu."
+        ]
+      },
+      "ObjRef": {
+        "Description": "The physical representation of this weapon."
+      },
+      "BreakObj": {
+        "Description": "The effect object when this weapon is broken."
+      },
+      "Reskins": {
+        "Description": "Replaces all materials on this object with the following."
+      },
+      "Size": {
+        "Description": "The programmatic size of this item.\ndetermines character's ability to hold in one hand.",
+        "Definitions": {
+          "Character Strength Formula": "1.7 + [STRENGTH] / 15"
+        },
+        "Notes": [
+          "If [Strength >= Size], character can hold in one hand."
+        ]
+      },
+      "Weight": {
+        "Description": "The weight of this weapon.",
+        "Warnings": [
+          "Affects movement speed when carrying.",
+          "Affects price of ranged weapons."
+        ]
+      },
+      "Tier": {
+        "Description": "Determines the availability of this item from the Quartermaster.",
+        "Definitions": {
+          "0": "Available from the start",
+          "10+": "Unobtainable"
+        },
+        "Warnings": [
+          "Arena enemies can only spawn with weapon of available tier based on the arena."
+        ]
+      },
+      "Genre": {
+        "Description": "The genre of this weapon.",
+        "Warnings": [
+          "Arena enemies can only spawn with weapons of a matching [ItemGenre]"
+        ]
+      },
+      "Store": {
+        "Description": "The store that this item is available from."
+      },
+      "CustomPrice": {
+        "Description": "A custom price for this item",
+        "Definitions": {
+          "0": "Price autocalculated"
+        }
+      },
+      "Buffs": {
+        "Description": "List of bonus stats that this weapon provides.",
+        "Warnings": [
+          "No effect on gameplay"
+        ]
+      },
+      "MenuIcon": {
+        "Description": "The menu icon displayed in the inventory menu."
+      },
+      "Category": {
+        "Description": "The type of weapon."
+      },
+      "Traits": {
+        "Description": "The traits this weapon has."
+      },
+      "Scale": {
+        "Description": "The physical scale size multiplier of this weapon.",
+        "Warnings": [
+          "Negative scales invert the weapon facing and swing speeds."
+        ]
+      },
+      "UsageAnimation": {
+        "Description": "How the character uses this weapon when held in one hand.\nAnimation properties must follow a specific format.",
+        "Definitions": {
+          "Clips": "Define character's combat stance",
+          "  Clips[0]": "The idle stance this character assumes for a short while after attacking.",
+          "  Clips[1]": "The blocking stance this character assumes when blocking.",
+          "  Clips[2]": "The parry animation that plays during a perfect block.",
+          "  Clips[3]": "The animation that plays if a character attempts to block during the follow-through of an attack.",
+          "Pairs": "Define attacks",
+          "  Pairs.Clip1": "Standard attack",
+          "  Pairs.Clip2": "Heavy attack",
+          "LinkedGroups": "Determines replacements for different attacks",
+          "  LinkedGroups[0]": "Replaces Finisher Attacks",
+          "  LinkedGroups[1]": "Replaces Charge-Up Attacks",
+          "BoolVals": "Define behavioral styles",
+          "  BoolVals[0]": "Defines order of attacks: [True] = Random, [False] = Sequential",
+          "  BoolVals[1]": "If True, weapon speed is scaled by character's attributes.",
+          "  BoolVals[2]": "If True, all attacks are considered heavy attacks.",
+          "FloatVals[0]": "Applies to minimum distance AI has to be from target before attacking."
+        },
+		"Notes": [
+          "If [Category] is [Unarmed], will adjust unarmed attacks instead."
+        ]
+      },
+      "UsageAnimation2Hand": {
+        "Description": "How the character uses this weapon when held in two hands.\nAnimation properties must follow a specific format.",
+        "Definitions": {
+          "Clips": "Define character's combat stance",
+          "  Clips[0]": "The idle stance this character assumes for a short while after attacking.",
+          "  Clips[1]": "The blocking stance this character assumes when blocking.",
+          "  Clips[2]": "The parry animation that plays during a perfect block.",
+          "  Clips[3]": "The animation that plays if a character attempts to block during the follow-through of an attack.",
+          "Pairs": "Define attacks",
+          "  Pairs.Clip1": "Standard attack",
+          "  Pairs.Clip2": "Heavy attack",
+          "LinkedGroups": "Determines replacements for different attacks",
+          "  LinkedGroups[0]": "Replaces Finisher Attacks",
+          "  LinkedGroups[1]": "Replaces Charge-Up Attacks",
+          "BoolVals": "Define behavioral styles",
+          "  BoolVals[0]": "Defines order of attacks: [True] = Random, [False] = Sequential",
+          "  BoolVals[1]": "If True, weapon speed is scaled by character's attributes.",
+          "  BoolVals[2]": "If True, all attacks are considered heavy attacks.",
+          "FloatVals[0]": "Applies to minimum distance AI has to be from target before attacking."
+        }
+      },
+      "UsageAnimationDual": {
+        "Description": "How the character uses this weapon when dual wielding (Decided by Main Hand)",
+        "Definitions": {
+          "Clips": "Define character's combat stance",
+          "  Clips[0]": "The idle stance this character assumes for a short while after attacking.",
+          "  Clips[1]": "The blocking stance this character assumes when blocking.",
+          "  Clips[2]": "The parry animation that plays during a perfect block.",
+          "  Clips[3]": "The animation that plays if a character attempts to block during the follow-through of an attack.",
+          "Pairs": "Define attacks",
+          "  Pairs.Clip1": "Standard attack",
+          "  Pairs.Clip2": "Heavy attack",
+          "LinkedGroups": "Determines replacements for different attacks",
+          "  LinkedGroups[0]": "Replaces Finisher Attacks",
+          "  LinkedGroups[1]": "Replaces Charge-Up Attacks",
+          "BoolVals": "Define behavioral styles",
+          "  BoolVals[0]": "Defines order of attacks: [True] = Random, [False] = Sequential",
+          "  BoolVals[1]": "If True, weapon speed is scaled by character's attributes.",
+          "  BoolVals[2]": "If True, all attacks are considered heavy attacks.",
+          "FloatVals[0]": "Applies to minimum distance AI has to be from target before attacking."
+        }
+      },
+      "UseageAnimLevel": {
+        "Description": "The core skill level this character must be to apply usage animations.",
+        "Definitions": {
+          "0": "Always override"
+        }
+      },
+      "ThrowAnimation": {
+        "Description": "The throwing animations for this weapon.Animation must follow a specific format.",
+        "Definitions": {
+          "Pairs.Clip1": "Throwing from main hand",
+          "Pairs.Clip2": "Throwing from off hand"
+        }
+      },
+      "PistolWhip": {
+        "Description": "The pistol whipping animation for this weapon.\nAnimation must follow a specific format:",
+        "Definitions": {
+          "Clips": "Animations chosen at random for pistol-whip attack"
+        }
+      },
+      "UsageSounds": {
+        "Description": "Replacement sounds for weapon.",
+        "Notes": [
+          "If none specified, will determine default sounds based on [MeleeDamageType]"
+        ]
+      },
+      "ExecutionsMainHand": {
+        "Description": "Override offensive executions when wielding this weapon in main hand."
+      },
+      "ExecutionsOffHand": {
+        "Description": "Override offensive executions when wielding this weapon in off hand."
+      },
+      "BrokenReplacement": {
+        "Description": "If weapon is broken, replace it with this one."
+      },
+      "BrokenExplosion": {
+        "Description": "If weapon is broken, result in this explosion."
+      },
+      "MeleeAmmo": {
+        "Description": "Amount of hits this weapon can apply before breaking.",
+        "Definitions": {
+          "-1": "Infinite durability"
+        },
+        "Notes": [
+          "If weapon is shield, applies to blocks too."
+        ],
+        "Warnings": [
+          "Applies to [MadCard_Melee] only"
+        ]
+      },
+      "MeleeDamage": {
+        "Description": "Amount of damage this weapon applies with a standard hit.\nAssumes different multipliers depending on hit",
+        "Definitions": {
+          "Light": "x0.8",
+          "Heavy": "x1.1"
+        },
+        "Warnings": [
+          "Affected by character's [Lethality]"
+        ]
+      },
+      "MeleeDamageType": {
+        "Description": "The type of damage this weapon applies."
+      },
+      "MeleeArmorPiercing": {
+        "Description": "The amount of armor points this weapon overcomes with each attack.",
+        "Notes": [
+          "If greater than attached armor, armor is completely ignored",
+          "If armor is greater by 50 points, no damage will be dealt."
+        ]
+      },
+      "MeleeDefense": {
+        "Description": "The amount of damage reduced from each received attack."
+      },
+      "MeleeDoT": {
+        "Description": "The Damage Over Time effect applied from a weapon hit."
+      },
+      "SweepWidth": {
+        "Description": "Distance (in meters) how far heavy attacks reach."
+      },
+      "Trail": {
+        "Description": "The trail to give off when swinging the weapon in a standard attack."
+      },
+      "TrailHeavy": {
+        "Description": "The trail to give off when swinging the weapon in a heavy attack."
+      },
+      "WallHit": {
+        "Description": "The effect to give off if this weapon hits a wall."
+      },
+      "UseEffects": {
+        "Description": "The status effect this weapon administers"
+      }
+    }
+  },
+  "Thrown": {
+    "Description": "A throwable weapon that characters can carry as a tertiary weapon.\n(Ranged stats are additive to selected Ammo type)",
+    "Properties": {
+      "Name": {
+        "Description": "The full name of this weapon.",
+        "Notes": [
+          "Displays in the inventory menu."
+        ]
+      },
+      "NameShort": {
+        "Description": "The short hand name of this weapon.",
+        "Notes": [
+          "Displayed for weapon pickups and loadout selections"
+        ]
+      },
+      "Description": {
+        "Description": "A brief summary of this weapon.",
+        "Notes": [
+          "Displays from a selected item in the inventory menu."
+        ]
+      },
+      "ObjRef": {
+        "Description": "The physical representation of this weapon."
+      },
+      "BreakObj": {
+        "Description": "The effect object when this weapon is broken."
+      },
+      "Reskins": {
+        "Description": "Replaces all materials on this object with the following."
+      },
+      "Size": {
+        "Description": "The programmatic size of this item.\ndetermines character's ability to hold in one hand.",
+        "Definitions": {
+          "Character Strength Formula": "1.7 + [STRENGTH] / 15"
+        },
+        "Notes": [
+          "If [Strength >= Size], character can hold in one hand."
+        ]
+      },
+      "Weight": {
+        "Description": "The weight of this weapon.",
+        "Warnings": [
+          "Affects movement speed when carrying.",
+          "Affects price of ranged weapons."
+        ]
+      },
+      "Tier": {
+        "Description": "Determines the availability of this item from the Quartermaster.",
+        "Definitions": {
+          "0": "Available from the start",
+          "10+": "Unobtainable"
+        },
+        "Warnings": [
+          "Arena enemies can only spawn with weapon of available tier based on the arena."
+        ]
+      },
+      "Genre": {
+        "Description": "The genre of this weapon.",
+        "Warnings": [
+          "Arena enemies can only spawn with weapons of a matching [ItemGenre]"
+        ]
+      },
+      "Store": {
+        "Description": "The store that this item is available from."
+      },
+      "CustomPrice": {
+        "Description": "A custom price for this item",
+        "Definitions": {
+          "0": "Price autocalculated"
+        }
+      },
+      "Buffs": {
+        "Description": "List of bonus stats that this weapon provides.",
+        "Warnings": [
+          "No effect on gameplay"
+        ]
+      },
+      "MenuIcon": {
+        "Description": "The menu icon displayed in the inventory menu."
+      },
+      "Category": {
+        "Description": "The type of weapon."
+      },
+      "Traits": {
+        "Description": "The traits this weapon has."
+      },
+      "Scale": {
+        "Warnings": [
+          "Does not apply to thrown weapons"
+        ]
+      },
+      "UsageAnimation": {
+        "Warnings": [
+          "Does not apply to thrown weapons"
+        ]
+      },
+      "UsageAnimation2Hand": {
+        "Warnings": [
+          "Does not apply to thrown weapons"
+        ]
+      },
+      "UsageAnimationDual": {
+        "Warnings": [
+          "Does not apply to thrown weapons"
+        ]
+      },
+      "UseageAnimLevel": {
+        "Warnings": [
+          "Does not apply to thrown weapons"
+        ]
+      },
+      "ThrowAnimation": {
+        "Description": "The throwing animations for this weapon.Animation must follow a specific format.",
+        "Definitions": {
+          "Pairs.Clip1": "Throwing from main hand",
+          "Pairs.Clip2": "Throwing from off hand"
+        }
+      },
+      "PistolWhip": {
+        "Warnings": [
+          "Does not apply to thrown weapons"
+        ]
+      },
+      "UsageSounds": {
+        "Description": "Replacement sounds for weapon.",
+        "Notes": [
+          "If none specified, will determine default sounds based on [MeleeDamageType]"
+        ]
+      },
+      "ExecutionsMainHand": {
+        "Description": "Override offensive executions when wielding this weapon in main hand."
+      },
+      "ExecutionsOffHand": {
+        "Description": "Override offensive executions when wielding this weapon in off hand."
+      },
+      "BrokenReplacement": {
+        "Warnings": [
+          "Does not apply to thrown weapons"
+        ]
+      },
+      "BrokenExplosion": {
+        "Warnings": [
+          "Does not apply to thrown weapons"
+        ]
+      },
+      "MeleeAmmo": {
+        "Warnings": [
+          "Does not apply to thrown weapons"
+        ]
+      },
+      "MeleeDamage": {
+        "Warnings": [
+          "Does not apply to thrown weapons"
+        ]
+      },
+      "MeleeDamageType": {
+        "Warnings": [
+          "Does not apply to thrown weapons"
+        ]
+      },
+      "MeleeArmorPiercing": {
+        "Warnings": [
+          "Does not apply to thrown weapons"
+        ]
+      },
+      "MeleeDefense": {
+        "Warnings": [
+          "Does not apply to thrown weapons"
+        ]
+      },
+      "MeleeDoT": {
+        "Warnings": [
+          "Does not apply to thrown weapons"
+        ]
+      },
+      "SweepWidth": {
+        "Warnings": [
+          "Does not apply to thrown weapons"
+        ]
+      },
+      "UseEffects": {
+        "Warnings": [
+          "Does not apply to thrown weapons"
+        ]
+      },
+      "Trail": {
+        "Description": "The trail to give off when swinging the weapon in a standard attack."
+      },
+      "TrailHeavy": {
+        "Description": "The trail to give off when swinging the weapon in a heavy attack."
+      },
+      "WallHit": {
+        "Description": "The effect to give off if this weapon hits a wall."
+      },
+      "Accuracy": {
+        "Description": "The natural accuracy of this weapon.",
+        "Definitions": {
+          "Minimum": "0",
+          "Maximum": "100"
+        },
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "ArmorPiercing": {
+        "Description": "The additional amount of armor this weapon pierces",
+        "Notes": [
+          "Adds to ammo type"
+        ],
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "Damage": {
+        "Description": "The additional amount of damage this weapon provides",
+        "Notes": [
+          "Adds to ammo type"
+        ],
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "Loudness": {
+        "Description": "The volume of this weapon, affects range that enemies will take notice",
+        "Definitions": {
+          "Minimum": "0",
+          "Maximum": "100"
+        },
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "Range": {
+        "Description": "The effective sweet-spot range of this weapon in meters",
+        "Notes": [
+          "Adds to ammo type"
+        ]
+      },
+      "Recoil": {
+        "Description": "The amount of recoil control with each shot",
+        "Definitions": {
+          "Minimum": "0",
+          "Maximum": "100"
+        },
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "Ammo": {
+        "Description": "The amount of ammo this weapon has",
+        "Notes": [
+          "Overriden by magazine attachment"
+        ],
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "AmmoType": {
+        "Description": "The type of munition this weapon has",
+        "Notes": [
+          "Overriden by magazine attachment"
+        ],
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "BurstFire": {
+        "Description": "The amount of shots this weapon fires in a burst"
+      },
+      "SoundPath": {
+        "Description": "The sound effect this weapon plays when firing"
+      },
+      "ROF": {
+        "Description": "The weapon's rate of fire (measured in rounds per minute)",
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "Recovery": {
+        "Description": "The rate that this weapon recovers from recoil",
+        "Definitions": {
+          "Minimum": "0",
+          "Maximum": "100"
+        },
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "BonusAOERange": {
+        "Description": "Additional radius to ammo type's explosion (if provided)",
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "BonusGravity": {
+        "Description": "Additional gravity multiplier to ammo type's multiplier",
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "BonusHeatseek": {
+        "Description": "Additional homing strength to ammo type",
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "BonusShots": {
+        "Description": "Additional shots with each shot fired",
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "BonusSpread": {
+        "Description": "Additional spread with each shot",
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "BonusSpeed": {
+        "Description": "Additional muzzle velocity to weapon",
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "BonusSpeedBoost": {
+        "Description": "Additional acceleration properties",
+        "Definitions": {
+          "X": "Acceleration multiplier",
+          "Y": "Maximum speed"
+        },
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "AmHeld": {
+        "Description": "If true, this weapon is held in primary hand instead of stored in grenade slot"
+      }
+    }
+  },
+  "Ranged": {
+    "Description": "A ranged weapon that accepts weapon attachments",
+    "Properties": {
+      "Name": {
+        "Description": "The full name of this weapon.",
+        "Notes": [
+          "Displays in the inventory menu."
+        ]
+      },
+      "NameShort": {
+        "Description": "The short hand name of this weapon.",
+        "Notes": [
+          "Displayed for weapon pickups and loadout selections"
+        ]
+      },
+      "Description": {
+        "Description": "A brief summary of this weapon.",
+        "Notes": [
+          "Displays from a selected item in the inventory menu."
+        ]
+      },
+      "ObjRef": {
+        "Description": "The physical representation of this weapon."
+      },
+      "BreakObj": {
+        "Description": "The effect object when this weapon is broken."
+      },
+      "Reskins": {
+        "Description": "Replaces all materials on this object with the following."
+      },
+      "Size": {
+        "Description": "The programmatic size of this item.\ndetermines character's ability to hold in one hand.",
+        "Definitions": {
+          "Character Strength Formula": "1.7 + [STRENGTH] / 15"
+        },
+        "Notes": [
+          "If [Strength >= Size], character can hold in one hand."
+        ]
+      },
+      "Weight": {
+        "Description": "The weight of this weapon.",
+        "Warnings": [
+          "Affects movement speed when carrying.",
+          "Affects price of ranged weapons."
+        ]
+      },
+      "Tier": {
+        "Description": "Determines the availability of this item from the Quartermaster.",
+        "Definitions": {
+          "0": "Available from the start",
+          "10+": "Unobtainable"
+        },
+        "Warnings": [
+          "Arena enemies can only spawn with weapon of available tier based on the arena."
+        ]
+      },
+      "Genre": {
+        "Description": "The genre of this weapon.",
+        "Warnings": [
+          "Arena enemies can only spawn with weapons of a matching [ItemGenre]"
+        ]
+      },
+      "Store": {
+        "Description": "The store that this item is available from."
+      },
+      "CustomPrice": {
+        "Description": "A custom price for this item",
+        "Definitions": {
+          "0": "Price autocalculated"
+        }
+      },
+      "Buffs": {
+        "Description": "List of bonus stats that this weapon provides.",
+        "Warnings": [
+          "No effect on gameplay"
+        ]
+      },
+      "MenuIcon": {
+        "Description": "The menu icon displayed in the inventory menu."
+      },
+      "Category": {
+        "Description": "The type of weapon."
+      },
+      "Traits": {
+        "Description": "The traits this weapon has."
+      },
+      "Scale": {
+        "Warnings": ["Does not apply to ranged weapons"]
+      },
+      "UsageAnimation": {
+        "Warnings": ["Does not apply to ranged weapons"]
+      },
+      "UsageAnimation2Hand": {
+        "Warnings": ["Does not apply to ranged weapons"]
+      },
+      "UsageAnimationDual": {
+        "Warnings": ["Does not apply to ranged weapons"]
+      },
+      "UseageAnimLevel": {
+        "Warnings": ["Does not apply to ranged weapons"]
+      },
+      "ThrowAnimation": {
+        "Description": "The throwing animations for this weapon.Animation must follow a specific format.",
+        "Definitions": {
+          "Pairs.Clip1": "Throwing from main hand",
+          "Pairs.Clip2": "Throwing from off hand"
+        }
+      },
+      "PistolWhip": {
+        "Description": "The pistol whipping animation for this weapon.\nAnimation must follow a specific format:",
+        "Definitions": {
+          "Clips": "Animations chosen at random for pistol-whip attack"
+        }
+      },
+      "UsageSounds": {
+        "Description": "Replacement sounds for weapon.",
+        "Notes": [
+          "If none specified, will determine default sounds based on [MeleeDamageType]"
+        ]
+      },
+      "ExecutionsMainHand": {
+        "Description": "Override offensive executions when wielding this weapon in main hand."
+      },
+      "ExecutionsOffHand": {
+        "Description": "Override offensive executions when wielding this weapon in off hand."
+      },
+      "BrokenReplacement": {
+        "Warnings": ["Does not apply to ranged weapons"]
+      },
+      "BrokenExplosion": {
+        "Warnings": ["Does not apply to ranged weapons"]
+      },
+      "MeleeAmmo": {
+        "Warnings": ["Does not apply to ranged weapons"]
+      },
+      "MeleeDamage": {
+        "Description": "Amount of damage this weapon applies with a standard hit.\nAssumes different multipliers depending on hit",
+        "Definitions": {
+          "Light": "x0.8",
+          "Heavy": "x1.1"
+        },
+        "Warnings": [
+          "Affected by character's [Lethality]"
+        ]
+      },
+      "MeleeDamageType": {
+        "Description": "The type of damage this weapon applies."
+      },
+      "MeleeArmorPiercing": {
+        "Description": "The amount of armor points this weapon overcomes with each attack.",
+        "Notes": [
+          "If greater than attached armor, armor is completely ignored",
+          "If armor is greater by 50 points, no damage will be dealt."
+        ]
+      },
+      "MeleeDefense": {
+        "Warnings": ["Does not apply to ranged weapons"]
+      },
+      "MeleeDoT": {
+        "Description": "The Damage Over Time effect applied from a weapon hit."
+      },
+      "SweepWidth": {
+        "Warnings": ["Does not apply to ranged weapons"]
+      },
+      "Trail": {
+        "Description": "The trail to give off when swinging the weapon in a standard attack."
+      },
+      "TrailHeavy": {
+        "Description": "The trail to give off when swinging the weapon in a heavy attack."
+      },
+      "WallHit": {
+        "Description": "The effect to give off if this weapon hits a wall."
+      },
+      "UseEffects": {
+        "Warnings": ["Does not apply to ranged weapons"]
+      },
+      "Accuracy": {
+        "Description": "The natural accuracy of this weapon.",
+        "Definitions": {
+          "Minimum": "0",
+          "Maximum": "100"
+        },
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "ArmorPiercing": {
+        "Description": "The additional amount of armor this weapon pierces",
+        "Notes": [
+          "Adds to ammo type"
+        ],
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "Damage": {
+        "Description": "The additional amount of damage this weapon provides",
+        "Notes": [
+          "Adds to ammo type"
+        ],
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "Loudness": {
+        "Description": "The volume of this weapon, affects range that enemies will take notice",
+        "Definitions": {
+          "Minimum": "0",
+          "Maximum": "100"
+        },
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "Range": {
+        "Description": "The effective sweet-spot range of this weapon in meters",
+        "Notes": [
+          "Adds to ammo type"
+        ]
+      },
+      "Recoil": {
+        "Description": "The amount of recoil control with each shot",
+        "Definitions": {
+          "Minimum": "0",
+          "Maximum": "100"
+        },
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "Ammo": {
+        "Description": "The amount of ammo this weapon has",
+        "Notes": [
+          "Overriden by magazine attachment"
+        ],
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "AmmoType": {
+        "Description": "The type of munition this weapon has",
+        "Notes": [
+          "Overriden by magazine attachment"
+        ],
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "BurstFire": {
+        "Description": "The amount of shots this weapon fires in a burst"
+      },
+      "SoundPath": {
+        "Description": "The sound effect this weapon plays when firing"
+      },
+      "ROF": {
+        "Description": "The weapon's rate of fire (measured in rounds per minute)",
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "Recovery": {
+        "Description": "The rate that this weapon recovers from recoil",
+        "Definitions": {
+          "Minimum": "0",
+          "Maximum": "100"
+        },
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "BonusAOERange": {
+        "Description": "Additional radius to ammo type's explosion (if provided)",
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "BonusGravity": {
+        "Description": "Additional gravity multiplier to ammo type's multiplier",
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "BonusHeatseek": {
+        "Description": "Additional homing strength to ammo type",
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "BonusShots": {
+        "Description": "Additional shots with each shot fired",
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "BonusSpread": {
+        "Description": "Additional spread with each shot",
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "BonusSpeed": {
+        "Description": "Additional muzzle velocity to weapon",
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "BonusSpeedBoost": {
+        "Description": "Additional acceleration properties",
+        "Definitions": {
+          "X": "Acceleration multiplier",
+          "Y": "Maximum speed"
+        },
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "AmAutomatic": {
+        "Description": "If true, weapon keeps firing when trigger is held."
+      },
+      "AmBreach": {
+        "Description": "If true, All shells are also ejected on reload."
+      },
+      "InfiniteReloads": {
+        "Description": "If true, weapon has infinite magazines"
+      },
+      "AutomaticWarmup": {
+        "Description": "Amount of time before shot fires after pulling the trigger"
+      },
+      "EmptyMagSFX": {
+        "Description": "Sound effect when weapon runs out of ammo"
+      },
+      "DefaultAddons": {
+        "Description": "The default addons that this weapon comes with",
+        "Notes": [
+          "Multiple addon types are chosen at random"
+        ],
+        "Warnings": [
+          "All addons affect price"
+        ]
+      },
+      "DefaultGroups": {
+        "Description": "All available addon groups that can be interchanged",
+        "Warnings": [
+          "All addons affect price"
+        ]
+      },
+      "CoreAddons": {
+        "Description": "Required addons that this weapon comes with",
+        "Notes": [
+          "Multiple addon types are chosen at random"
+        ],
+        "Warnings": [
+          "Addons cannot be removed in workbench, only swapped",
+          "All addons affect price"
+        ]
+      },
+      "CoreGroups": {
+        "Description": "List of addons that core addons can swap with",
+        "Warnings": [
+          "Addons cannot be removed in workbench, only swapped",
+          "All addons affect price"
+        ]
+      },
+      "AllowedAddons": {
+        "Description": "List of addons that can be bought in the workbench"
+      },
+      "AllowedGroups": {
+        "Description": "List of addons that can be bought in the workbench"
+      },
+      "ReloadRule": {
+        "Description": "A special effect that happens with each reload"
+      }
+    }
+  },
+  "Addon": {
+    "Description": "A weapon attachment for ranged weapons\n(Additively modifies ranged weapon properties)",
+    "Properties": {
+      "Name": {
+        "Description": "The full name of this addon.",
+        "Notes": [
+          "Displays in the workbench menu."
+        ]
+      },
+      "NameShort": {
+        "Description": "The short hand name of this addon.",
+        "Notes": [
+          "Displayed for weapon pickups and loadout selections"
+        ]
+      },
+      "Description": {
+        "Description": "A brief summary of this addon.",
+        "Notes": [
+          "Displays from a selected item in the inventory menu."
+        ]
+      },
+      "ObjRef": {
+        "Description": "The physical representation of this addon."
+      },
+      "BreakObj": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "Reskins": {
+        "Description": "Replaces all materials on this object with the following."
+      },
+      "Size": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "Weight": {
+        "Description": "The weight of this addon.",
+        "Warnings": [
+          "Affects price of ranged weapons."
+        ]
+      },
+      "Tier": {
+        "Description": "Determines the availability of this item from the Quartermaster.",
+        "Definitions": {
+          "0": "Available from the start",
+          "10+": "Unobtainable"
+        },
+        "Warnings": [
+          "Arena enemies can only spawn with weapon of available tier based on the arena."
+        ]
+      },
+      "Genre": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "Store": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "CustomPrice": {
+        "Description": "A custom price for this item",
+        "Definitions": {
+          "0": "Price autocalculated"
+        }
+      },
+      "Buffs": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "MenuIcon": {
+        "Description": "The menu icon displayed in the inventory menu."
+      },
+      "Category": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "Traits": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "Scale": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "UsageAnimation": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "UsageAnimation2Hand": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "UseageAnimLevel": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "ThrowAnimation": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "PistolWhip": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "UsageSounds": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "ExecutionsMainHand": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "ExecutionsOffHand": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "BrokenReplacement": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "BrokenExplosion": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "MeleeAmmo": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "MeleeDamage": {
+        "Description": "Melee damage modifier for pistol whip attacks",
+        "Notes": [
+          "Negative values subtract from weapon"
+        ],
+        "Warnings": [
+          "Only applies to bayonet attachments"
+        ]
+      },
+      "MeleeDamageType": {
+        "Description": "Overrides the melee damage type of the ranged weapon",
+        "Warnings": [
+          "Only applies to bayonet attachments"
+        ]
+      },
+      "MeleeArmorPiercing": {
+        "Description": "Melee armor piercing modifier.",
+        "Notes": [
+          "Negative values subtract from weapon"
+        ],
+        "Warnings": [
+          "Only applies to bayonet attachments"
+        ]
+      },
+      "MeleeDefense": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "MeleeDoT": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "SweepWidth": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "Trail": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "TrailHeavy": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "WallHit": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "UseEffects": {
+        "Warnings": ["Does not apply to weapon addons"]
+      },
+      "Accuracy": {
+        "Description": "Accuracy modifier.",
+        "Notes": [
+          "Negative values subtract from weapon"
+        ],
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "ArmorPiercing": {
+        "Description": "Armor Piercing modifier",
+        "Notes": [
+          "Negative values subtract from weapon"
+        ],
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "Damage": {
+        "Description": "Damage modifier",
+        "Notes": [
+          "Negative values subtract from weapon"
+        ],
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "Loudness": {
+        "Description": "volume modifier",
+        "Notes": [
+          "Negative values subtract from weapon"
+        ],
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "Range": {
+        "Description": "Range modifier",
+        "Notes": [
+          "Negative values subtract from weapon"
+        ]
+      },
+      "Recoil": {
+        "Description": "Recoil modifier",
+        "Notes": [
+          "Negative values subtract from weapon"
+        ],
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "Ammo": {
+        "Description": "New ammo value for weapon",
+        "Warnings": [
+          "Only applies to magazine addons unless weapon has [CountAllAmmoValues] trait",
+          "Affects price"
+        ]
+      },
+      "AmmoType": {
+        "Description": "The new type of munition this weapon has",
+        "Warnings": [
+          "Only applies to magazine addons",
+          "Affects price"
+        ]
+      },
+      "BurstFire": {
+        "Warnings": [
+          "Doesn't apply to addons"
+        ]
+      },
+      "SoundPath": {
+        "Description": "The new sound effect this weapon plays when firing",
+        "Warnings": [
+          "Only applies to barrel cores and caps. Caps override both."
+        ]
+      },
+      "ROF": {
+        "Warnings": [
+          "Doesn't apply to addons"
+        ]
+      },
+      "Recovery": {
+        "Description": "Recoil recovery modifier",
+        "Notes": [
+          "Negative values subtract from weapon"
+        ],
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "BonusAOERange": {
+        "Description": "Additional radius to ammo type's explosion (if provided)",
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "BonusGravity": {
+        "Description": "Additional gravity multiplier to ammo type's multiplier",
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "BonusHeatseek": {
+        "Description": "Additional homing strength to ammo type",
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "BonusShots": {
+        "Description": "Additional shots with each shot fired",
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "BonusSpread": {
+        "Description": "Additional spread with each shot",
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "BonusSpeed": {
+        "Description": "Additional muzzle velocity to weapon",
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "BonusSpeedBoost": {
+        "Description": "Additional acceleration properties",
+        "Definitions": {
+          "X": "Acceleration multiplier",
+          "Y": "Maximum speed"
+        },
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "AddonType": {
+        "Description": "The type of addon"
+      }
+    }
+  },
+  "AddonGroup": {
+    "Description": "A collection of addons that can be bought from the arena workbench.\n{New addons typically have to be added to default groups to be registered}",
+    "Properties": {
+      "Addons": {
+        "Description": "The list of addons in this group"
+      },
+      "TetherTo": {
+        "Description": "Attach these addons to specified addon groups",
+        "Notes": [ "Used to add seamlessly to other addon groups without overriding them." ]
+      }
+    }
+  },
+  "Ammo": {
+    "Description": "An active projectile",
+    "Properties": {
+      "Size": {
+        "Description": "The size of this projectile",
+        "Notes": [
+          "A size greater than 1 will ignore tacbar"
+        ]
+      },
+      "Bullet": {
+        "Description": "The physical model of the projectile"
+      },
+      "Flare": {
+        "Description": "The particle effect emited when firing"
+      },
+      "Casing": {
+        "Description": "The casing ejected with each shot"
+      },
+      "Hit": {
+        "Description": "The effect when hitting a character"
+      },
+      "Impact": {
+        "Description": "The effect when hitting geometry"
+      },
+      "Deflect": {
+        "Description": "The effect when deflected by a melee weapon"
+      },
+      "Accuracy": {
+        "Description": "The natural accuracy of this weapon",
+        "Definitions": {
+          "Minimum": "0",
+          "Maximum": "100"
+        },
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "ArmorPiercing": {
+        "Description": "The additional amount of armor this weapon pierces",
+        "Notes": [
+          "Adds to ammo type"
+        ],
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "Damage": {
+        "Description": "The additional amount of damage this weapon provides",
+        "Notes": [
+          "Adds to ammo type"
+        ],
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "Loudness": {
+        "Description": "The volume of this weapon, affects range that enemies will take notice",
+        "Definitions": {
+          "Minimum": "0",
+          "Maximum": "100"
+        },
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "Range": {
+        "Description": "The effective sweet-spot range of this weapon in meters",
+        "Notes": [
+          "Adds to ammo type"
+        ]
+      },
+      "Recoil": {
+        "Description": "The amount of recoil control with each shot",
+        "Definitions": {
+          "Minimum": "0",
+          "Maximum": "100"
+        },
+        "Warnings": [
+          "Affects price"
+        ]
+      },
+      "Shots": {
+        "Description": "The amount of shots ejected"
+      },
+      "Spread": {
+      },
+      "ShotSpeed": {
+        "Description": "The velocity of this projectile"
+      },
+      "SpeedBoost": {
+        "Description": "The acceleration and max speed of this projectile",
+        "Definitions": {
+          "x": "Acceleration",
+          "y": "Maximum Speed"
+        }
+      },
+      "GravityMult": {
+        "Description": "Multiply the gravity of the projectile by this amount"
+      },
+      "HeatSeek": {
+        "Description": "Homing strength of projectile",
+        "Definitions": {
+          "0": "No heatseek"
+        }
+      },
+      "AOERange": {
+        "Description": "Adds range to ammo's resulting explosion",
+        "Warnings": [
+          "Only applies when [Explosion] is specified"
+        ]
+      },
+      "DamageType": {
+        "Description": "The damage type of this projectile"
+      },
+      "DoT": {
+        "Description": "Applies this DoT effect on contact with valid target"
+      },
+      "Explosion": {
+        "Description": "Results in this explosion on detonation"
+      },
+      "ExplodeTimer": {
+        "Description": "Time (in seconds) before projectile explodes",
+        "Notes": [
+          "If [BecomeDebris] is true, timer starts after munition has become debris"
+        ]
+      },
+      "CasingSound": {
+        "Description": "Sound path for the casing being ejected"
+      },
+      "ImpactSound": {
+        "Description": "Sound path for when the projectile has collided"
+      },
+      "BecomeDebris": {
+        "Description": "If true, projectile becomes a physical object on impact"
+      },
+      "UseBulletNormal": {
+        "Description": "Projectile effect alligns with normal of contact surface"
+      },
+      "NoSFXOnHit": {
+        "Description": "Do not use [ImpactSound]"
+      }
+    }
+  },
+  "DoT": {
+    "Description": "A damage over time effect applied to a character.",
+    "Properties": {
+      "Damage": {
+        "Description": "The total amount of damage dealt by this DoT"
+      },
+      "DamageTick": {
+        "Description": "The interval (in frames) that damage is applied from this DoT",
+        "Definitions": {
+          "60": "1 Second"
+        }
+      },
+      "Duration": {
+        "Description": "Amount of time (in seconds) this DoT lasts"
+      },
+      "Chance": {
+        "Description": "The percent chance this DoT has of being applied.",
+        "Definitions": {
+          "1.0": "100%"
+        }
+      },
+      "FlashColor": {
+        "Description": "Flash this color when damage is applied."
+      },
+      "DamageType": {
+        "Description": "Register damage as this type."
+      },
+      "NoBlood": {
+        "Description": "Does this DoT apply blood?"
+      },
+      "Debuffs": {
+        "Description": "List of debuffs this DoT effect applies while active.",
+        "Notes": [
+          "Lasts for the duration amount."
+        ]
+      },
+      "Effects": {
+        "Description": "Special DoT effects applied from this."
+      },
+      "AttachPart": {
+        "Description": "Attach particle effects to this part of the body"
+      },
+      "EndActions": {
+        "Description": "Perform this following action to remove the DoT effect"
+      },
+      "ReduceActions": {
+        "Description": "Perform this following action to reduce the severity of the DoT effect"
+      }
+    }
+  },
+  "Explosion": {
+    "Description": "A radial explosion",
+    "Properties": {
+      "Effect": {
+        "Description": "The visual particle effects of this explosion."
+      },
+      "Crater": {
+        "Description": "The decal applied to the surface where this explosion occurs.",
+        "Definitions": {
+          "Materials1": "Floor Decals"
+        }
+      },
+      "ExplosionSound": {
+        "Description": "The sound path for the explosion."
+      },
+      "Damage": {
+        "Description": "Maximum amount of damage this explosion emits from its epicenter"
+      },
+      "DamageType": {
+        "Description": "Damage from explosion is registered as this type."
+      },
+      "DoT": {
+        "Description": "Apply this DoT effect to anyone caught in the explosion."
+      },
+      "ArmorPiercing": {
+        "Description": "Explosion damage pierces through this amount of armor points.",
+        "Notes": [
+          "armor is ignored if [ArmorPiercing] > [Total Armor Amount]"
+        ]
+      },
+      "Range": {
+        "Description": "The range (in meters) of this explosion"
+      },
+      "Dropoff": {
+        "Description": "Linear amount of damage dropoff from the explosion's center"
+      },
+      "HitThroughWalls": {
+        "Description": "If true, geometry does not block explosion."
+      },
+      "Ragdoll": {
+        "Description": "Ragdolls characters for this amount of frames",
+        "Definitions": {
+          "60": "1 Second"
+        }
+      },
+      "RagdollYMultiplier": {
+        "Description": "Multiplies the vertical force of explosions by this amount."
+      },
+      "VictimsImmuneFallDamage": {
+        "Description": "If true, characters who hit the ground after being caught in this explosion will not receive fall damage."
+      }
+    }
+  },
+  "Execution": {
+    "Description": "An execution performed on a target",
+    "Properties": {
+      "Source": {
+        "Description": "The source of this execution"
+      },
+      "Conditions": {
+        "Description": "The conditions required for this execution to occur"
+      },
+      "Urgency": {
+        "Description": "The priority of this execution"
+      },
+      "ScaleDifference": {
+        "Description": "The necessary size scale difference between the user and the target",
+        "Definitions": {
+          "ScaleDifference[0]": "Minimum Threshold",
+          "ScaleDifference[1]": "Maximum Threshold"
+        }
+      },
+      "Keycard": {
+        "Description": "The required item that must be on the character's person or inventory for this execution to be occurred"
+      },
+      "CheckOffHand": {
+        "Description": "Check the user's offhand for the [Keycard] weapon."
+      },
+      "SpecialRule": {
+        "Description": "The special rule for this execution"
+      },
+      "SelectColor": {
+        "Description": "Highlights the target in this color"
+      },
+      "ClipPairs": {
+        "Description": "The executions performed on the target",
+        "Definitions": {
+          "Clip1": "The leader's animation",
+          "Clip2": "The target's animation"
+        }
+      },
+      "NoKillPairs": {
+        "Description": "The executions performed on a target when they don't kill their target",
+        "Definitions": {
+          "Clip1": "The leader's animation",
+          "Clip2": "The target's animation"
+        }
+      }
+    }
+  },
+  "SoundPack": {
+    "Description": "A directory of sound events to override that of a melee weapon.",
+    "Properties": {
+      "Hit": {
+        "Description": "The sound to play when hitting a target"
+      },
+      "HitLight": {
+        "Description": "The sound to play when hitting a non target"
+      },
+      "Swing": {
+        "Description": "The sound to play when swinging in a heavy attack"
+      },
+      "SwingLight": {
+        "Description": "The sound to play when swinging in a light attack"
+      },
+      "Block": {
+        "Description": "The sound to play when blocking an attack"
+      },
+      "Drop": {
+        "Description": "The sound to play when dropping the wepaon"
+      },
+      "Equip": {
+        "Description": "The sound to play when equipping a weapon"
+      },
+      "Stow": {
+        "Description": "The sound to play when stowing a weapon"
+      }
+    }
+  },
+  "Swatch": {
+    "Description": "A collection of color swatches that can be applied to armor and characters.\n(Automatically added to the Fence)",
+    "Properties": {
+      "Name": {
+        "Description": "The full name of this swatch",
+        "Notes": [
+          "Displays in store"
+        ]
+      },
+      "NameShort": {
+        "Description": "The shorthand name of this swatch"
+      },
+      "Description": {
+      },
+      "CanBuy": {
+        "Description": "If true, swatch can be bought in this store"
+      },
+      "TokenCost": {
+        "Description": "The amount of boon tokens this swatch is worth"
+      },
+      "ColorPairs": {
+        "Description": "All primary/secondary color combinations available with this swatch",
+        "Definitions": {
+          "Armor": "Colors main colors and accents",
+          "Character": "Colors head/hands and body/feet"
+        }
+      },
+      "Colors": {
+        "Description": "All single colors available with this swatch",
+        "Definitions": {
+          "Armor": "Colors glass",
+          "Character": "Colors blood"
+        }
+      }
+    }
+  },
+  "Character": {
+    "Description": "A base character, represents players, NPCs, and Bots.",
+    "Properties": {
+      "Name": {
+        "Description": "The full name of this character.",
+        "Notes": [
+          "Appears above character health bars"
+        ]
+      },
+      "NameShort": {
+        "Description": "The shorthand name of this character",
+        "Notes": [
+          "Appears in narration dialog and from serial number references."
+        ]
+      },
+      "Description": {
+        "Description": "A brief summary of this character."
+      },
+      "Enabled": {
+        "Description": "If true, this character can be summoned in the Playground."
+      },
+      "Title": {
+        "Description": "The title of this character.",
+        "Notes": [
+          "Appears below a character's name in the inventory menu."
+        ]
+      },
+      "Level": {
+        "Description": "The general danger level of this character.",
+        "Notes": [
+          "Affects bribe cost, AI reflexes, aggression of attacks, and sniper aim time"
+        ],
+        "Warnings": [
+          "Characters < 3 cannot pick up weapons",
+          "Characters < 5 not elligible to be squad leaders"
+        ]
+      },
+      "TacBar": {
+        "Description": "Multiplier for this character's tac bar.",
+        "Warnings": [
+          "Applies before [TacDefense] bonuses"
+        ]
+      },
+      "Scale": {
+        "Description": "The physical size scale of this character.",
+        "Definitions": {
+          "Default Size": "1.0",
+          "G03LM size": "1.5",
+          "Mag Size": "3.0"
+        },
+        "Notes": [
+          "Affects chosen executions, and madness mode health reduction"
+        ],
+        "Warnings": [
+          "Do not set to 0 or lower."
+        ]
+      },
+      "Speed": {
+        "Description": "The base speed properties of this character.",
+        "Definitions": {
+          "X": "Add/subtract this amount of movement speed to a character",
+          "Y": "Multiplier for acceleration",
+          "Z": "Multiplier for deceleration"
+        }
+      },
+      "SprintBonus": {
+        "Description": "Adds dashing speed by this amount"
+      },
+      "Toughness": {
+        "Description": "Inherit amount of armor points this character has",
+        "Warnings": [
+          "Cannot be pierced"
+        ]
+      },
+      "Health": {
+        "Description": "The amount of health this character has with every corpus block"
+      },
+      "CorpusBlocks": {
+        "Description": "The types of corpus blocks this character has",
+        "Notes": [
+          "The last one in the list is the first corpus block to be broken"
+        ]
+      },
+      "Attributes": {
+        "Description": "Measure of the character's attributes",
+        "Definitions": {
+          "Attributes[0]": "Strength",
+          "Attributes[1]": "Endurance",
+          "Attributes[2]": "Dexterity",
+          "Attributes[3]": "Tactics"
+        },
+        "Warnings": [
+          "Sub-attributes are automatically derived from these values."
+        ]
+      },
+      "ArmorHead": {
+        "Description": "The amount of armor points this character has on the head.",
+        "Warnings": [
+          "[CountWornArmor] must be disabled"
+        ]
+      },
+      "ArmorBody": {
+        "Description": "The amount of armor points this character has on the torso.",
+        "Warnings": [
+          "[CountWornArmor] must be disabled"
+        ]
+      },
+      "ObjRef": {
+        "Description": "The physical representation of this character",
+        "Warnings": [
+          "Must have all valid bone names for animator"
+        ]
+      },
+      "AltModels": {
+        "Description": "List of all model parts to apply to this character."
+      },
+      "AltMaterials": {
+        "Description": "List of all materials to apply to this character."
+      },
+      "Reskins": {
+        "Description": "Replaces all materials on this object with the following."
+      },
+      "TintsPrimary": {
+        "Description": "List of tints to apply at random to the head and hands"
+      },
+      "TintsSecondary": {
+        "Description": "List of tints to apply at random to the torso and feet"
+      },
+      "TintEffect": {
+        "Description": "The colors of this life/death effect."
+      },
+      "AnimationSet": {
+        "Description": "The animation profile of this character"
+      },
+      "ExecutionsOffensive": {
+        "Description": "Special set of executions to apply when character executes another."
+      },
+      "ExecutionsDefensive": {
+        "Description": "If executed, character will attempt to use these executions instead."
+      },
+      "VoiceSet": {
+        "Description": "The voice set this character has"
+      },
+      "TextChatter": {
+        "Description": "The chatter type of this character"
+      },
+      "Blood": {
+        "Description": "The character's blood color"
+      },
+      "BloodSpray": {
+        "Description": "Decals to apply to the floor when blood spills.",
+        "Definitions": {
+          "Materials1": "Light blood decals",
+          "Materials2": "Heavy blood decals",
+          "Materials3": "Gorey blood decals",
+          "Texture1": "Light blood decals",
+          "Texture2": "Heavy blood decals",
+          "Texture3": "Gorey blood decals"
+        }
+      },
+      "BloodSpurt": {
+        "Description": "Blood effects to apply with gorey kills."
+      },
+      "HitSFX": {
+        "Description": "Sound paths for when this character gets hit",
+        "Definitions": {
+          "HitSFX[0]": "Hit in body",
+          "HitSFX[1]": "Hit in head"
+        },
+        "Notes": "Leaving empty will use default sounds"
+      },
+      "Gibs": {
+        "Description": "Types of gibs to produce from dismembering deaths.",
+        "Definitions": {
+          "Objects1": "Small chunks",
+          "Objects2": "Big chunks"
+        }
+      },
+      "FallPuff": {
+        "Description": "Particle effects on landing from any height."
+      },
+      "DefaultArmor": {
+        "Description": "Set of default armor to apply to this character.",
+        "Notes": [
+          "Colors applied at random from armor Tint properties."
+        ],
+        "Warnings": [
+          "Duplicate armor slots overriden"
+        ]
+      },
+      "RandomArmor": {
+        "Description": "Sets of armor to assign at random from each set"
+      },
+      "Uniform": {
+        "Description": "A set of armor that matches specific colors and styles.",
+        "Warnings": [
+          "Duplicate armor slots overriden"
+        ]
+      },
+      "CountWornArmor": {
+        "Description": "If enabled, characters armor and encumbrance values measured by worn armor."
+      },
+      "CountAmmoLikePlayer": {
+        "Description": "If enabled, character follows player based ammo count regardless of controller.",
+        "Definitions": {
+          "True": "Ranged Core + Bonuses",
+          "False": "1 + 1 Magazine for every 5 levels"
+        }
+      },
+      "Fist": {
+        "Description": "The natural unarmed weapon of this character",
+        "Warnings": [
+          "Must be of [Unarmed] category"
+        ]
+      },
+      "Kick": {
+        "Description": "The natural special strike attack of this character",
+        "Warnings": [
+          "Must be of [Unarmed] category"
+        ]
+      },
+      "Headbutt": {
+        "Description": "The natural headbutt attack of this character",
+        "Warnings": [
+          "Must be of [Unarmed] category"
+        ]
+      },
+      "SlamExplode": {
+        "Description": "An explosion that radiates from this character from animation clips that call the SlamExplode event",
+        "Notes": [
+          "Also applies to [LeapSlam] behavior",
+          "Explosion does not damage itself"
+        ]
+      },
+      "WeaponPref": {
+        "Description": "The type of weapon this character prefers to use",
+        "Notes": [
+          "Characters that spawn with random weapons will only attempt to spawn with weapons of this category",
+          "Characters that are disarmed will only pick up a weapon of this category",
+          "Characters of the [Unarmed] preference will never try to pick up weapons."
+        ]
+      },
+      "WeaponGenres": {
+        "Description": "List of weapon genres that character is allowed to spawn with in Arena Mode"
+      },
+      "DefaultWeapon": {
+        "Description": "The primary weapon of this character",
+        "Warnings": [
+          "Cannot be overridden from random weapons assigned to squads"
+        ]
+      },
+      "DefaultOffHand": {
+        "Description": "The default weapon attached to the character's off hand",
+        "Warnings": [
+          "Cannot be overridden from random weapons assigned to squads"
+        ]
+      },
+      "DefaultSidearm": {
+        "Description": "The default weapon holstered from this character."
+      },
+      "DefaultThrown": {
+        "Description": "The default throwable attached to this character."
+      },
+      "UnarmedReplacement": {
+        "Description": "If character spawns without an assigned weapon, will spawn with this weapon instead"
+      },
+      "DefaultLoadout": {
+        "Description": "A random selection of weapons to select if character spawns without a weapon",
+        "Warnings": [
+          "Does not follow [WeaponPreference]"
+        ]
+      },
+      "Faction": {
+        "Description": "The allegiance of this character"
+      },
+      "Behaviors": {
+        "Description": "A list of different behaviors this character exhibits under artificial control"
+      },
+      "Traits": {
+        "Description": "A list of traits this character has."
+      },
+      "Vocations": {
+        "Description": "A list of vocations this character has",
+        "Notes": [
+          "Affects world interaction and spawning"
+        ]
+      },
+      "Skills": {
+        "Description": "A list of skills this character has"
+      },
+      "SkillGroups": {
+        "Description": "A set of pre-defined skill groups this character has"
+      },
+      "RemovedSkills": {
+        "Description": "Removes these skills from all character skill groups"
+      },
+	  "SpecialSkills": {
+        "Description": "List of starting skills attached to this origin"
+      },
+      "FlankMe": {
+        "Description": "If true, characters will try to get directly behind me.",
+        "Warnings": [
+          "Only applies to characters with [Bot] controllers"
+        ]
+      },
+      "LifeEffect": {
+        "Description": "A passive particle effect attached to this character"
+      },
+      "DeathEffect": {
+        "Description": "Performs this particle effect on death or deactivation"
+      },
+      "TeleportEffect": {
+        "Description": "Performs this particle effect when teleporting",
+        "Definitions": {
+          "TeleportEffect[0]": "Teleporting from destination",
+          "TeleportEffect[1]": "Teleporting to destination"
+        }
+      },
+      "Footprint": {
+        "Description": "Leaves this kind of footprint when stepping through blood or terrain",
+        "Notes": [
+          "Automatically colored by blood's color"
+        ]
+      },
+      "DeactivateTime": {
+        "Description": "The amount of time (in frames) before character deactivates after death",
+        "Definitions": {
+          "60": "1 Second"
+        }
+      }
+    }
+  },
+  "Animations": {
+    "Description": "A set of animations that serve context-senstive functions",
+    "Properties": {
+      "Clips": {
+        "Description": "A list of separate animation clips"
+      },
+      "ClipPairs": {
+        "Description": "A list of paired animations"
+      },
+      "LinkedGroups": {
+        "Description": "A list of other animation sets"
+      },
+      "BoolVals": {
+        "Description": "An arbitrary list of boolean values"
+      },
+      "FloatVals": {
+        "Description": "An arbitrary list of float values"
+      }
+    }
+  },
+  "AnimationProfile": {
+    "Description": "The animation profile of a character",
+    "Properties": {
+      "Idle": {
+        "Description": "The idle animation of a character",
+        "Definitions": {
+          "Clips[0]": "the looping idle animation"
+        }
+      },
+      "Walk": {
+        "Description": "The looping walking animation of a character",
+        "Definitions": {
+          "Clips[0]": "Moving forward",
+          "Clips[1]": "Moving backward",
+          "Clips[2]": "Strafing left",
+          "Clips[3]": "Strafing right"
+        },
+        "Notes": [
+          "Used while aiming, or if unalerted"
+        ]
+      },
+      "Run": {
+        "Description": "The looping animation of a character moving at normal speed",
+        "Definitions": {
+          "Clips[0]": "Moving forward",
+          "Clips[1]": "Moving backward",
+          "Clips[2]": "Strafing left",
+          "Clips[3]": "Strafing right"
+        }
+      },
+      "Dash": {
+        "Description": "The looping animation of a character sprinting",
+        "Definitions": {
+          "Clips[0]": "Moving forward"
+        },
+        "Notes": [
+          "Overrides Skill based Dash animation"
+        ]
+      },
+      "Pickup": {
+        "Description": "The weapon-pickup animation",
+        "Definitions": {
+          "Pairs.Clip1": "Main hand",
+          "Pairs.Clip2": "Off hand"
+        },
+        "Notes": [
+          "Overrides Skill based pickup animation"
+        ]
+      },
+      "LandFall": {
+        "Description": "Landing (and jumping) animations",
+        "Definitions": {
+          "Clips": "Landing on the floor",
+          "  Clips[0]": "Landing from non damaging height",
+          "  Clips[1]": "Landing with fall damage",
+          "  Clips[2]": "Landing with successful [Fall Roll] skill",
+          "Pairs[0]": "Jumping and falling animations",
+          "  Pair.Clip1": "Jump animation used with leap behaviors and events",
+          "  Pair.Clip2": "Falling animation",
+          "BoolVals[0]": "Always do a landing animation when falling from any speed at all."
+        }
+      },
+      "Stand": {
+        "Description": "Animations when recovering from ragdolling",
+        "Definitions": {
+          "Clips[0]": "Standing up from lying on stomach",
+          "Clips[1]": "Standing up from lying on back"
+        }
+      },
+      "EmoteIdle": {
+        "Description": "Random NPC Emotes when unalerted",
+        "Definitions": {
+          "Clips": "Emotes chosen at random"
+        }
+      },
+      "EmoteHunt": {
+        "Description": "Random NPC emotes when alerted and searching for target",
+        "Definitions": {
+          "Clips": "Emotes chosen at random"
+        },
+        "Warnings": [
+          "Does not apply to [Bot] controllers"
+        ]
+      },
+      "EmoteWakeUp": {
+        "Description": "Random NPC Emotes played when character alerted",
+        "Definitions": {
+          "Clips": "Emotes chosen at random"
+        },
+        "Notes": [
+          "NPCs play this emote when opponent is performing a finisher attack or intimidated"
+        ],
+        "Warnings": [
+          "Does not apply to [Bot] controllers"
+        ]
+      },
+      "EmoteCombat": {
+        "Description": "Random NPC Emotes when character has killed or ragdolled a target",
+        "Definitions": {
+          "Clips": "Emotes chosen at random"
+        },
+        "Notes": [
+          "Lower level NPCs will also play this emote when a friendly dies"
+        ],
+        "Warnings": [
+          "Does not apply to [Bot] controllers"
+        ]
+      },
+      "EmoteMad": {
+        "Description": "Special emote played for characters initiating in angry charge behavior",
+        "Definitions": {
+          "Clips": "Emotes chosen at random"
+        }
+      },
+      "OverrideGrapple": {
+        "Description": "Override animations in a grapple event",
+        "Definitions": {
+          "Clips[0]": "The attack to perform to intiate this grapple",
+          "Pairs[0].Clip1": "The idle of the grappling character",
+          "Pairs[0].Clip2": "The idle of the character being grappled",
+          "LinkedGroups": "The result of a character winning a grapple",
+          "  LinkedGroups[0]": "Character wins a grapple while opponent's trauma is not at max",
+          "  LinkedGroups[1]": "Character wins a grapple while opponent is at max trauma",
+          "  LinkedGroups[2]": "Opponent escapes grapple",
+          "BoolVals[0]": "Mash attack instead of dodge to break grapple"
+        },
+        "Notes": ["If no [LinkedGroups] are specified, character will straight up execute opponent instead"]
+      },
+      "OverrideUnarmed": {
+        "Description": "Overrides the character's base unarmed moveset",
+        "Definitions": {
+          "Clips": "Define character's combat stance",
+          "  Clips[0]": "The idle stance this character assumes for a short while after attacking.",
+          "  Clips[1]": "The blocking stance this character assumes when blocking.",
+          "  Clips[2]": "The parry animation that plays during a perfect block.",
+          "  Clips[3]": "The animation that plays if a character attempts to block during the follow-through of an attack.",
+          "Pairs": "Define attacks",
+          "  Pairs.Clip1": "Standard attack",
+          "  Pairs.Clip2": "Heavy attack",
+          "LinkedGroups": "Determines replacements for different attacks",
+          "  LinkedGroups[0]": "Replaces Finisher Attacks",
+          "  LinkedGroups[1]": "Replaces Charge-Up Attacks",
+          "BoolVals": "Define behavioral styles",
+          "  BoolVals[0]": "Defines order of attacks: [True] = Random, [False] = Sequential",
+          "  BoolVals[1]": "If True, weapon speed is scaled by character's attributes.",
+          "  BoolVals[2]": "If True, all attacks are considered heavy attacks.",
+          "FloatVals[0]": "Applies to minimum distance AI has to be from target before attacking."
+        }
+      },
+      "OverrideCoreUnarmed": {
+        "Description": "Overrides the character's unarmed movesets at each core unarmed skill",
+        "Definitions": {
+          "OverrideCoreUnarmed[0]": "Core 0 moveset",
+          "OverrideCoreUnarmed[1]": "Core 1 moveset",
+          "OverrideCoreUnarmed[2]": "Core 2 moveset",
+          "OverrideCoreUnarmed[3]": "Core 3 moveset"
+        },
+        "Notes": [
+          "Attached animations follow same rules as [OverrideUnarmed]"
+        ]
+      },
+      "OverrideMelee": {
+        "Description": "Overrides the character's one handed melee moveset",
+        "Definitions": {
+          "Clips": "Define character's combat stance",
+          "  Clips[0]": "The idle stance this character assumes for a short while after attacking.",
+          "  Clips[1]": "The blocking stance this character assumes when blocking.",
+          "  Clips[2]": "The parry animation that plays during a perfect block.",
+          "  Clips[3]": "The animation that plays if a character attempts to block during the follow-through of an attack.",
+          "Pairs": "Define attacks",
+          "  Pairs.Clip1": "Standard attack",
+          "  Pairs.Clip2": "Heavy attack",
+          "LinkedGroups": "Determines replacements for different attacks",
+          "  LinkedGroups[0]": "Replaces Finisher Attacks",
+          "  LinkedGroups[1]": "Replaces Charge-Up Attacks",
+          "BoolVals": "Define behavioral styles",
+          "  BoolVals[0]": "Defines order of attacks: [True] = Random, [False] = Sequential",
+          "  BoolVals[1]": "If True, weapon speed is scaled by character's attributes.",
+          "  BoolVals[2]": "If True, all attacks are considered heavy attacks.",
+          "FloatVals[0]": "Applies to minimum distance AI has to be from target before attacking."
+        },
+        "Notes": [
+          "Melee weapon's [UsageAnimation] still overrides this if character meets core requirement"
+        ]
+      },
+      "OverrideCoreMelee": {
+        "Description": "Overrides the character's melee movesets at each core melee skill",
+        "Definitions": {
+          "OverrideCoreMelee[0]": "Core 0 moveset",
+          "OverrideCoreMelee[1]": "Core 1 moveset",
+          "OverrideCoreMelee[2]": "Core 2 moveset",
+          "OverrideCoreMelee[3]": "Core 3 moveset"
+        },
+        "Notes": [
+          "Attached animations follow same rules as [OverrideMelee]"
+        ]
+      },
+      "OverrideMelee2h": {
+        "Description": "Overrides the character's two handed melee moveset",
+        "Definitions": {
+          "Clips": "Define character's combat stance",
+          "  Clips[0]": "The idle stance this character assumes for a short while after attacking.",
+          "  Clips[1]": "The blocking stance this character assumes when blocking.",
+          "  Clips[2]": "The parry animation that plays during a perfect block.",
+          "  Clips[3]": "The animation that plays if a character attempts to block during the follow-through of an attack.",
+          "Pairs": "Define attacks",
+          "  Pairs.Clip1": "Standard attack",
+          "  Pairs.Clip2": "Heavy attack",
+          "LinkedGroups": "Determines replacements for different attacks",
+          "  LinkedGroups[0]": "Replaces Finisher Attacks",
+          "  LinkedGroups[1]": "Replaces Charge-Up Attacks",
+          "BoolVals": "Define behavioral styles",
+          "  BoolVals[0]": "Defines order of attacks: [True] = Random, [False] = Sequential",
+          "  BoolVals[1]": "If True, weapon speed is scaled by character's attributes.",
+          "  BoolVals[2]": "If True, all attacks are considered heavy attacks.",
+          "FloatVals[0]": "Applies to minimum distance AI has to be from target before attacking."
+        },
+        "Notes": [
+          "Melee weapon's [UsageAnimation2Hand] still overrides this if character meets core requirement"
+        ]
+      },
+      "OverrideCoreMelee2h": {
+        "Description": "Overrides the character's two handed movesets at each core melee skill",
+        "Definitions": {
+          "OverrideCoreMelee2Hand[0]": "Core 0 moveset",
+          "OverrideCoreMelee2Hand[1]": "Core 1 moveset",
+          "OverrideCoreMelee2Hand[2]": "Core 2 moveset",
+          "OverrideCoreMelee2Hand[3]": "Core 3 moveset"
+        },
+        "Notes": [
+          "Attached animations follow same rules as [OverrideMelee]"
+        ]
+      },
+      "OverrideCoreMeleeDual": {
+        "Description": "Overrides the character's dual melee movesets at each core melee skill",
+        "Definitions": {
+          "OverrideCoreMelee[0]": "Core 0 moveset",
+          "OverrideCoreMelee[1]": "Core 1 moveset",
+          "OverrideCoreMelee[2]": "Core 2 moveset",
+          "OverrideCoreMelee[3]": "Core 3 moveset"
+        },
+        "Notes": [
+          "Attached animations follow same rules as [OverrideMelee]",
+          "Melee weapon's [UsageAnimation2Hand] still overrides this if character meets core requirement"
+        ]
+      },
+      "OverrideRanged": {
+        "Description": "Overrides the character's based ranged moveset",
+        "Definitions": {
+          "Clips": "Define character's combat stance",
+          "  Clips[0]": "The idle stance this character assumes for a short while after attacking.",
+          "  Clips[1]": "The blocking stance this character assumes when blocking.",
+          "  Clips[2]": "The parry animation that plays during a perfect block.",
+          "  Clips[3]": "The animation that plays if a character attempts to block during the follow-through of an attack.",
+          "Pairs": "Define attacks",
+          "  Pairs.Clip1": "Standard attack",
+          "  Pairs.Clip2": "Heavy attack",
+          "LinkedGroups": "Determines replacements for different attacks",
+          "  LinkedGroups[0]": "Replaces Finisher Attacks",
+          "  LinkedGroups[1]": "Replaces Charge-Up Attacks",
+          "BoolVals": "Define behavioral styles",
+          "  BoolVals[0]": "Defines order of attacks: [True] = Random, [False] = Sequential",
+          "  BoolVals[1]": "If True, weapon speed is scaled by character's attributes.",
+          "  BoolVals[2]": "If True, all attacks are considered heavy attacks.",
+          "FloatVals[0]": "Applies to minimum distance AI has to be from target before attacking."
+        }
+      },
+      "OverrideBlock": {
+        "Description": "Overrides the block animation of this character",
+        "Definitions": {
+          "Clips[0]": "Idle blocking animation"
+        }
+      },
+      "OverrideCounterUvU": {
+        "Description": "Overrides the character's unarmed counter animation against unarmed targets",
+        "Definitions": {
+          "Pairs.Clip1": "Counter animation",
+          "Pairs.Clip2": "Countered animation"
+        }
+      },
+      "OverrideCounterUvM": {
+        "Description": "Overrides the character's unarmed counter animation against melee targets",
+        "Definitions": {
+          "Pairs.Clip1": "Counter animation",
+          "Pairs.Clip2": "Countered animation"
+        }
+      },
+      "OverrideCounterMvU": {
+        "Description": "Overrides the character's melee counter animation against unarmed targets",
+        "Definitions": {
+          "Pairs.Clip1": "Counter animation",
+          "Pairs.Clip2": "Countered animation"
+        }
+      },
+      "OverrideCounterMvM": {
+        "Description": "Overrides the character's melee counter animation against melee targets",
+        "Definitions": {
+          "Pairs.Clip1": "Counter animation",
+          "Pairs.Clip2": "Countered animation"
+        }
+      },
+      "OverrideDashAttack": {
+        "Description": "Overrides the character's skill base dash attack",
+        "Definitions": {
+          "Pairs.Clip1": "A low momentum dash attack",
+          "Pairs.Clip2": "A standard dash attack"
+        }
+      },
+      "OverrideDashSpecial": {
+        "Description": "Special dash attack used by characters with [AngryCharge] behaviors",
+        "Definitions": {
+          "Clips[0]": "The dash attack to perform"
+        }
+      },
+      "OverrideDodge": {
+        "Description": "Overrides the skill based dodging animation of this character",
+        "Definitions": {
+          "Clips[0]": "Dodging forward",
+          "Clips[1]": "Dodging backward",
+          "Clips[2]": "Dodging left",
+          "Clips[3]": "Dodging right",
+          "BoolVals[0]": "Does not offer invincibility while dodging"
+        }
+      },
+      "OverrideSnapDodge": {
+        "Description": "Overrides the snap dodging animation of this character",
+        "Definitions": {
+          "Clips[0]": "Dodging forward",
+          "Clips[1]": "Dodging backward",
+          "Clips[2]": "Dodging left",
+          "Clips[3]": "Dodging right"
+        }
+      },
+      "OverrideCoreDodge": {
+        "Description": "Overrides the character's dodge movesets at each core acrobatic skill",
+        "Definitions": {
+          "OverrideCoreDodge[0]": "Core 0 moveset",
+          "OverrideCoreDodge[1]": "Core 1 moveset",
+          "OverrideCoreDodge[2]": "Core 2 moveset",
+          "OverrideCoreDodge[3]": "Core 3 moveset"
+        },
+        "Notes": [
+          "Attached animations follow same rules as [OverrideDodge]"
+        ]
+      },
+      "OverrideChargeUp": {
+        "Description": "Overrides the character's charge up animation regardless of unarmed/melee stance",
+        "Definitions": {
+          "Clips[0]": "The animation to assume when charging",
+          "Pairs[0].Clip1": "The single chargeup attack",
+          "Pairs[0].Clip2": "The double chargeup attack",
+          "BoolVals[0]": "Flash red when charging",
+          "BoolVals[1]": "Do not end charge after initiating",
+          "FloatVals[0]": "AI distance buffer to initiate charge up attack"
+        }
+      },
+      "OverrideShove": {
+        "Description": "Overrides the skill based special strike animation of this character",
+        "Definitions": {
+          "Clips[0]": "The shove animation"
+        }
+      },
+      "OverrideHeadLeap": {
+        "Description": "Overrides the head leap animation",
+        "Definitions": {
+          "Pairs.Clip1": "The leaper animation",
+          "Pairs.Clip2": "The target animation"
+        }
+      },
+      "UnarmedTiedUp": {
+        "Description": "The unarmed move set to use if armor ties the character's hands.",
+        "Definitions": {
+          "Clips": "Define character's combat stance",
+          "  Clips[0]": "The idle stance this character assumes for a short while after attacking.",
+          "  Clips[1]": "The blocking stance this character assumes when blocking.",
+          "  Clips[2]": "The parry animation that plays during a perfect block.",
+          "  Clips[3]": "The animation that plays if a character attempts to block during the follow-through of an attack.",
+          "Pairs": "Define attacks",
+          "  Pairs.Clip1": "Standard attack",
+          "  Pairs.Clip2": "Heavy attack",
+          "LinkedGroups": "Determines replacements for different attacks",
+          "  LinkedGroups[0]": "Replaces Finisher Attacks",
+          "  LinkedGroups[1]": "Replaces Charge-Up Attacks",
+          "BoolVals": "Define behavioral styles",
+          "  BoolVals[0]": "Defines order of attacks: [True] = Random, [False] = Sequential",
+          "  BoolVals[1]": "If True, weapon speed is scaled by character's attributes.",
+          "  BoolVals[2]": "If True, all attacks are considered heavy attacks.",
+          "FloatVals[0]": "Applies to minimum distance AI has to be from target before attacking."
+        }
+      },
+      "RearSmash": {
+        "Description": "The animation to play when target sneaks behind me",
+        "Definitions": {
+          "Clips[0]": "The rear smash animation"
+        },
+        "Warnings": [
+          "Requires [RearSmash] behavior to use."
+        ]
+      },
+      "Bullrush": {
+        "Description": "Animations for Bullrushing behavior",
+        "Definitions": {
+          "Clips[0]": "The animation to perform when connecting to a character",
+          "Pairs[0].Clip1": "The reaction to hitting a wall",
+          "Pairs[0].Clip2": "The reaction to hitting a bullrushing ally"
+        },
+        "Warnings": [
+          "Must have [ChargeAngry_Bullrush] behavior to use"
+        ]
+      },
+      "SpawnIn": {
+        "Description": "The spawn in animation for characters that don't use an entrance",
+        "Definitions": {
+          "Clips[0]": "The animation to use when spawning"
+        },
+        "Notes": [
+          "Applies to troopers, and characters with [NinjaSpawn] trait in Arena Mode"
+        ]
+      },
+      "SpecialAngry": {
+        "Description": "The animation to play when character has been angered with enough hits",
+        "Definitions": {
+          "Clips": "Retaliation chosen at random"
+        },
+        "Warnings": [
+          "Must have [H2HAngry] trait to use"
+        ]
+      },
+      "Congratulate": {
+        "Description": "A synchronized animation pair between two characters congratulating each other",
+        "Definitions": {
+          "Pairs[0]": "The animation pair to perform when initiating a congratulation",
+          "  Pairs[0].Clip1": "The leader animation",
+          "  Pairs[0].Clip2": "The target animation",
+          "Pairs[1]": "The animation pair to perform when receiving a congratulation",
+          "  Pairs[1].Clip1": "The leader animation",
+          "  Pairs[1].Clip2": "The target animation"
+        },
+        "Warnings": [
+          "Must have [SpreadsJoy] behavior to use"
+        ]
+      },
+      "StunBody": {
+        "Description": "Animation to play when hit in the torso",
+        "Definitions": {
+          "Clips": "Random stun animation",
+          "LinkedGroups[0]": "Set of critical stun animations"
+        }
+      },
+      "StunHead": {
+        "Description": "Animation to play when hit in the head",
+        "Definitions": {
+          "Clips": "Random stun animation",
+          "LinkedGroups[0]": "Set of critical stun animations"
+        }
+      },
+      "DeathBody": {
+        "Description": "Animation to play when killing blow deliveed to the torso",
+        "Definitions": {
+          "Clips": "Random death animation"
+        }
+      },
+      "DeathHead": {
+        "Description": "Animation to play when killing blow deliveed to the head",
+        "Definitions": {
+          "Clips": "Random death animation"
+        }
+      },
+      "FootstepSFX": {
+        "Description": "Sound paths for footsteps",
+        "Definitions": {
+          "FootStepSFX[0]": "Standard footstep sound",
+          "FootstepSFX[1]": "Dashing footstep sound"
+        }
+      },
+      "FallLandSFX": {
+        "Description": "Sound paths for landing from falls",
+        "Definitions": {
+          "FallLandSFX[0]": "Sound from ragdoll landing",
+          "FallLandSFX[1]": "Sound from light landing",
+          "FallLandSFX[2]": "Sound from moderate landing (triggers [FallLand.Clip[0]])",
+          "FallLandSFX[3]": "Sound from heavy handing (triggers [FallLand.Clip[1]])"
+        }
+      }
+    }
+  },
+  "Chatter": {
+    "Description": "Represents a character speaking, and a list of lines spoken during character events.\n(Text style also used in narration)",
+    "Properties": {
+      "Font": {
+        "Description": "The font used for this chatter"
+      },
+      "Style": {
+        "Description": "The font style used for this chatter"
+      },
+      "Size": {
+        "Description": "The font size of this chatter"
+      },
+      "Color": {
+        "Description": "The text color of this chatter"
+      },
+      "WakeUp": {
+        "Description": "A line spoken at random when a character is alerted to a target",
+        "Definitions": {
+          "<>": "Tags can be used to modify the style of text",
+          "  <b>text</b>": "Boldens the enclosed text",
+          "  <i>text</i>": "Italicizes the enclosed text",
+          "  <color=#FFFFFF>text</color>": "Colors the font with the specified hex value",
+          "  <size=##>text</size>": "Resizes the font to the following number",
+          "[]": "serial numbers enclosed in brackets allow characters to refer to characters with the designated serial by name.",
+          "  [PSQUAD#]": "Refers to a character in the player squad based on order (PSQUAD0 is typically the player)",
+          "  [PLAYER]": "Refers to the player controlled character by name",
+          "  [ENEMY]": "Refers to the character's current enemy"
+        }
+      },
+      "Spawned": {
+        "Description": "A line spoken at random when a character first enters the room, or finds a new target in combat",
+        "Definitions": {
+          "<>": "Tags can be used to modify the style of text",
+          "  <b>text</b>": "Boldens the enclosed text",
+          "  <i>text</i>": "Italicizes the enclosed text",
+          "  <color=#FFFFFF>text</color>": "Colors the font with the specified hex value",
+          "  <size=##>text</size>": "Resizes the font to the following number",
+          "[]": "serial numbers enclosed in brackets allow characters to refer to characters with the designated serial by name.",
+          "  [PSQUAD#]": "Refers to a character in the player squad based on order (PSQUAD0 is typically the player)",
+          "  [PLAYER]": "Refers to the player controlled character by name",
+          "  [ENEMY]": "Refers to the character's current enemy"
+        }
+      },
+      "Chasing": {
+        "Description": "A line spoken at random when a character is chasing down a target",
+        "Definitions": {
+          "<>": "Tags can be used to modify the style of text",
+          "  <b>text</b>": "Boldens the enclosed text",
+          "  <i>text</i>": "Italicizes the enclosed text",
+          "  <color=#FFFFFF>text</color>": "Colors the font with the specified hex value",
+          "  <size=##>text</size>": "Resizes the font to the following number",
+          "[]": "serial numbers enclosed in brackets allow characters to refer to characters with the designated serial by name.",
+          "  [PSQUAD#]": "Refers to a character in the player squad based on order (PSQUAD0 is typically the player)",
+          "  [PLAYER]": "Refers to the player controlled character by name",
+          "  [ENEMY]": "Refers to the character's current enemy"
+        }
+      },
+      "Waiting": {
+        "Description": "A line spoken at random when a character is queued to attack a target",
+        "Definitions": {
+          "<>": "Tags can be used to modify the style of text",
+          "  <b>text</b>": "Boldens the enclosed text",
+          "  <i>text</i>": "Italicizes the enclosed text",
+          "  <color=#FFFFFF>text</color>": "Colors the font with the specified hex value",
+          "  <size=##>text</size>": "Resizes the font to the following number",
+          "[]": "serial numbers enclosed in brackets allow characters to refer to characters with the designated serial by name.",
+          "  [PSQUAD#]": "Refers to a character in the player squad based on order (PSQUAD0 is typically the player)",
+          "  [PLAYER]": "Refers to the player controlled character by name",
+          "  [ENEMY]": "Refers to the character's current enemy"
+        },
+        "Warnings": [
+          "Only applies to tourist and normal difficulties"
+        ]
+      },
+      "Attacking": {
+        "Description": "A line spoken at random when a character performs a melee attack or fires a ranged weapon",
+        "Definitions": {
+          "<>": "Tags can be used to modify the style of text",
+          "  <b>text</b>": "Boldens the enclosed text",
+          "  <i>text</i>": "Italicizes the enclosed text",
+          "  <color=#FFFFFF>text</color>": "Colors the font with the specified hex value",
+          "  <size=##>text</size>": "Resizes the font to the following number",
+          "[]": "serial numbers enclosed in brackets allow characters to refer to characters with the designated serial by name.",
+          "  [PSQUAD#]": "Refers to a character in the player squad based on order (PSQUAD0 is typically the player)",
+          "  [PLAYER]": "Refers to the player controlled character by name",
+          "  [ENEMY]": "Refers to the character's current enemy"
+        }
+      },
+      "Wounded": {
+        "Description": "A line spoken at random when a character has been hit",
+        "Definitions": {
+          "<>": "Tags can be used to modify the style of text",
+          "  <b>text</b>": "Boldens the enclosed text",
+          "  <i>text</i>": "Italicizes the enclosed text",
+          "  <color=#FFFFFF>text</color>": "Colors the font with the specified hex value",
+          "  <size=##>text</size>": "Resizes the font to the following number",
+          "[]": "serial numbers enclosed in brackets allow characters to refer to characters with the designated serial by name.",
+          "  [PSQUAD#]": "Refers to a character in the player squad based on order (PSQUAD0 is typically the player)",
+          "  [PLAYER]": "Refers to the player controlled character by name",
+          "  [ENEMY]": "Refers to the character's current enemy"
+        }
+      },
+      "Died": {
+        "Description": "A line spoken at random when a character dies",
+        "Definitions": {
+          "<>": "Tags can be used to modify the style of text",
+          "  <b>text</b>": "Boldens the enclosed text",
+          "  <i>text</i>": "Italicizes the enclosed text",
+          "  <color=#FFFFFF>text</color>": "Colors the font with the specified hex value",
+          "  <size=##>text</size>": "Resizes the font to the following number",
+          "[]": "serial numbers enclosed in brackets allow characters to refer to characters with the designated serial by name.",
+          "  [PSQUAD#]": "Refers to a character in the player squad based on order (PSQUAD0 is typically the player)",
+          "  [PLAYER]": "Refers to the player controlled character by name",
+          "  [ENEMY]": "Refers to the character's current enemy"
+        }
+      },
+      "FriendDied": {
+        "Description": "A line spoken at random when a squad member dies",
+        "Definitions": {
+          "<>": "Tags can be used to modify the style of text",
+          "  <b>text</b>": "Boldens the enclosed text",
+          "  <i>text</i>": "Italicizes the enclosed text",
+          "  <color=#FFFFFF>text</color>": "Colors the font with the specified hex value",
+          "  <size=##>text</size>": "Resizes the font to the following number",
+          "[]": "serial numbers enclosed in brackets allow characters to refer to characters with the designated serial by name.",
+          "  [PSQUAD#]": "Refers to a character in the player squad based on order (PSQUAD0 is typically the player)",
+          "  [PLAYER]": "Refers to the player controlled character by name",
+          "  [ENEMY]": "Refers to the character's current enemy"
+        },
+        "Notes": [
+          "Characters with the [Coward] behavior will also spout these lines every time their target gets too close"
+        ]
+      },
+      "EnemyDown": {
+        "Description": "A line spoken at random when a character kills or ragdolls a target",
+        "Definitions": {
+          "<>": "Tags can be used to modify the style of text",
+          "  <b>text</b>": "Boldens the enclosed text",
+          "  <i>text</i>": "Italicizes the enclosed text",
+          "  <color=#FFFFFF>text</color>": "Colors the font with the specified hex value",
+          "  <size=##>text</size>": "Resizes the font to the following number",
+          "[]": "serial numbers enclosed in brackets allow characters to refer to characters with the designated serial by name.",
+          "  [PSQUAD#]": "Refers to a character in the player squad based on order (PSQUAD0 is typically the player)",
+          "  [PLAYER]": "Refers to the player controlled character by name",
+          "  [ENEMY]": "Refers to the character's current enemy"
+        }
+      }
+    }
+  },
+  "Corpus": {
+    "Description": "A character's life bar, a broken corpus block behaves functionally like losing a life.",
+    "Properties": {
+      "Name": {
+      },
+      "NameShort": {
+      },
+      "Description": {
+      },
+      "Color": {
+        "Description": "The border color of this corpus block"
+      },
+      "Icon": {
+        "Description": "Icon for this corpus block"
+      },
+      "Buffs": {
+        "Description": "List of bonuses this corpus block provides when active",
+        "Warnings": [
+          "Bonuses removed when corpus block is broken"
+        ]
+      },
+      "DamageMultiplier": {
+        "Description": "Damage multiplied by this amount when corpus block is active"
+      },
+      "DeathEvents": {
+        "Description": "List of death events attached to this corpus block"
+      },
+      "BonusTraits": {
+        "Description": "List of bonus traits applied to this corpus block",
+        "Warnings": [
+          "This doesn't seem to work."
+        ]
+      }
+    }
+  },
+  "Skin": {
+    "Description": "Changes physical features on a character by replacing textures or model parts.\n(Automatically added to Loft Mirror)",
+    "Properties": {
+      "Name": {
+        "Description": "The full name of this skin",
+        "Notes": [
+          "Appears in the mirror inventory"
+        ]
+      },
+      "NameShort": {
+        "Description": "The shorthand name of this skin"
+      },
+      "Description": {
+        "Description": "A brief summary of this skin"
+      },
+      "CanBuy": {
+        "Description": "If true, can be bought from the mirror"
+      },
+      "Cost": {
+        "Description": "Amount of boon tokens this skin costs"
+      },
+      "MenuIcon": {
+        "Description": "The menu icon to display in the inventory"
+      },
+      "MenuColor": {
+        "Description": "The item color in this inventory"
+      },
+      "AltParts": {
+        "Description": "A list of model parts to swap",
+        "Notes": [
+          "Materials apply after replacement"
+        ]
+      },
+      "AltMaterials": {
+        "Description": "A list of materials to swap",
+        "Notes": [
+          "Multiple skins in one swap chosen at random"
+        ]
+      }
+    }
+  },
+  "SkillGroup": {
+    "Description": "A skill card used for displaying and applying skills in arena mode",
+    "Properties": {
+      "Skills": {
+        "Description": "A list of skills"
+      },
+      "IncludeGroup": {
+        "Description": "Include the skills from these skill groups"
+      }
+    }
+  },
+  "Skill": {
+    "Description": "A set of skills attached to a character",
+    "Properties": {
+      "Name": {
+        "Description": "The display name of this skill."
+      },
+      "NameShort": {
+        "Description": "The shorthand name of this skill."
+      },
+      "Description": {
+        "Description": "A brief summary of this skill.",
+        "Notes": [
+          "Displayed in Skill Card"
+        ]
+      },
+      "Category": {
+        "Description": "The sub category of this skill."
+      },
+      "Tier": {
+        "Description": "The core level of this skill."
+      },
+      "Skill": {
+        "Description": "The skill enumerator this card applies to characters.",
+        "Warnings": [
+          "Custom Skills won't do anything here without a plugin to make sense of it"
+        ]
+      },
+      "SkillTree": {
+        "Description": "The skill tree this skill is a part of.",
+        "Notes": [
+          "Determines visual information and appropriate XP to spend"
+        ]
+      },
+      "CoreRank": {
+        "Description": "The shorthand name of this skill."
+      },
+      "Instructions": {
+        "Description": "Extra control instructions on how to use this skill"
+      },
+      "PreReqSkills": {
+        "Description": "These skills must be unlocked first before unlocking this one"
+      },
+      "PrioritySkill": {
+        "Description": "Adds a star in the skillcard to identify this skill as a must-have"
+      },
+      "ProficientOnly": {
+        "Description": "Only allow this skill to be unlocked if character has a focus in this skill tree"
+      },
+      "SkillUnavailable": {
+        "Description": "Do not register as an available skill"
+      },
+      "XP_Cost": {
+        "Description": "Amount of XP required to unlock this skill"
+      }
+    }
+  },
+  "VisualStockpile": {
+    "Properties": {
+      "Textures1": {
+      },
+      "Textures2": {
+      },
+      "Textures3": {
+      },
+      "Textures4": {
+      },
+      "Materials1": {
+      },
+      "Materials2": {
+      },
+      "Materials3": {
+      },
+      "Materials4": {
+      },
+      "Objects1": {
+      },
+      "Objects2": {
+      },
+      "Sprites1": {
+      },
+      "Colors": {
+      }
+    }
+  },
+  "VoiceSet": {
+    "Description": "The voice of a character",
+    "Properties": {
+      "Name": {
+      },
+      "NameShort": {
+      },
+      "Description": {
+      },
+      "Angry": {
+        "Description": "Sound event for when a character wakes up",
+        "Notes": [
+          "Also typically played when character initiates an angry charge attack or a special angry attack"
+        ]
+      },
+      "Attack": {
+        "Description": "Sound event for when a character performs an attack"
+      },
+      "BigAttack": {
+        "Description": "Sound event for when a character performs a finisher attack",
+        "Notes": [
+          "Typically plays in sieges when a sneaky target is announced"
+        ]
+      },
+      "Cheer": {
+        "Description": "Sound event for when a character cheers",
+        "Notes": [
+          "Triggers when a character kills or ragdolls a target"
+        ]
+      },
+      "Laugh": {
+        "Description": "Sound event for when a character takes a swing at a target"
+      },
+      "Affirmative": {
+        "Description": "Sound event played when a character is given an order"
+      },
+      "Dialogue": {
+        "Description": "Defauls Sound event played when a character initiaties narration"
+      },
+      "Grunt": {
+        "Description": "Sound event for when a character dodges"
+      },
+      "Pain": {
+        "Description": "Sound event for when a character's corpus block is broken",
+        "Notes": [
+          "Typically plays during executions"
+        ]
+      },
+      "Death": {
+        "Description": "Sound event for when a character dies"
+      },
+      "Gasp": {
+        "Description": "Sound event for when a character is resurrected"
+      },
+      "Buy": {
+        "Description": "Sound event for when the player buys from the character"
+      },
+      "Sell": {
+        "Description": "Sound event for when the player sells to the character"
+      },
+      "Interact": {
+        "Description": "Sound event for when the player interacts with the character"
+      }
+    }
+  },
+  "Stage_Arena": {
+    "Description": "An arena stage",
+    "Properties": {
+      "Name": {
+        "Description": "The full name of this stage",
+        "Notes": [
+          "Displays in the menu selection stage"
+        ]
+      },
+      "NameShort": {
+        "Description": "The shorthand name of this stage"
+      },
+      "Description": {
+        "Description": "A brief summary of this stage",
+        "Notes": [
+          "Displays in the stage selection screen"
+        ]
+      },
+      "Tier": {
+        "Description": "The tier of this stage",
+        "Notes": [
+          "Affects enemy aggression, and quartermaster unlocks"
+        ]
+      },
+      "SceneName": {
+        "Description": "The name of the scene this arena takes place in.",
+        "Warnings": [
+          "An invalid ref will soft-lock your session."
+        ]
+      },
+      "LoadScreenTips": {
+        "Description": "Loading screen tips that appear specifically for this stage"
+      },
+      "IgnorePlayerDeathLoss": {
+        "Description": "Will this stage automatically fail when all playable characters die?"
+      },
+      "Music": {
+        "Description": "The music that plays during this stage",
+        "Notes": [
+          "Plays sequentially"
+        ]
+      },
+      "MaxEnemyMult": {
+        "Description": "Multiplier for the maximum amount of enemies in a stage",
+        "Notes": [
+          "True enemy count affected by stage tier, and current wave"
+        ]
+      },
+      "EnemySquadMult": {
+        "Description": "Multiplier for the maximum amount of enemies per squad",
+        "Notes": [
+          "True enemy count affected by stage tier, and current wave"
+        ]
+      },
+      "WaveName": {
+        "Description": "Displayed with the wave banner"
+      },
+      "ArenaMode": {
+        "Description": "The type of arena"
+      },
+      "ReturnOnWin": {
+        "Description": "Where in HQ the player ends up after winning the stage."
+      },
+      "ReturnOnDie": {
+        "Description": "Where in HQ the player ends up after dying."
+      },
+      "ReturnOnQuit": {
+        "Description": "Where in HQ the player ends up after leaving, or failing the stage."
+      },
+      "DeathIsFake": {
+        "Description": "Ignore Return location on death, use Quit instead"
+      },
+      "SceneOnWin": {
+        "Description": "Go to this scene if you've beaten the stage"
+      },
+      "DoorOnWin": {
+        "Description": "Serial number of door to enter scene if you've beaten the stage"
+      },
+      "PrereqStages": {
+        "Description": "Required stages to complete all checkpoints before playing this stage"
+      },
+      "WorldChangeOnVictory": {
+        "Description": "Adds this save record to the attached career.",
+        "Warnings": [
+          "Can affect Arena Progrssion"
+        ]
+      },
+      "MaxHirelings": {
+        "Description": "An override limiter of how many hirelings you can bring in an arena",
+        "Warnings": [
+          "This does not affect the hard limit of your squad size defined by your headquarters"
+        ]
+      },
+      "TrooperOverride": {
+        "Description": "Override reinforcement replacement for this stage, chosen by upgrade tier.",
+        "Warnings": [
+          "Additional tiers are redundant unless modded with a plugin."
+        ]
+      },
+      "TrooperChatterOverride": {
+        "Description": "A random phrase for the first trooper deployed to say when summoned."
+      },
+      "WaveSequences": {
+        "Description": "The checkpoints for this stage",
+        "Notes": [
+          "Completing all checkpoints completes the stage"
+        ]
+      },
+      "InfiniteSequence": {
+        "Description": "The final checkpoint for this stage"
+      }
+    }
+  },
+  "Stage_Story": {
+    "Description": "A story mode stage",
+    "Properties": {
+      "Name": {
+        "Description": "The full name of this stage",
+        "Notes": [
+          "Displays in the menu selection stage"
+        ]
+      },
+      "NameShort": {
+        "Description": "The shorthand name of this stage"
+      },
+      "Description": {
+        "Description": "A brief summary of this stage",
+        "Notes": [
+          "Displays in the stage selection screen"
+        ]
+      },
+      "Tier": {
+        "Description": "The tier of this stage",
+        "Notes": [
+          "Affects enemy aggression"
+        ]
+      },
+      "LoadScreenTips": {
+        "Description": "Loading screen tips that appear specifically for this stage"
+      },
+      "Music": {
+        "Description": "The music that plays during this stage",
+        "Notes": [
+          "Plays sequentially"
+        ]
+      },
+      "IgnorePlayerDeathLoss": {
+        "Description": "Will this stage automatically fail when all playable characters die?"
+      },
+      "RequiredCharacters": {
+        "Description": "The main player characters for this stage"
+      },
+      "BonusCharacters": {
+        "Description": "Bonus characters for this stage",
+        "Notes": [
+          "Accessed only from [Remote Play]"
+        ]
+      },
+      "PrizeLoadout": {
+        "Description": "The loadouts awarded from completing this stage"
+      },
+      "PrizeWardrobe": {
+        "Description": "The wardrobes awarded from completing this stage"
+      },
+      "WipeSquadOnVictory": {
+        "Description": "Resets the squad after the stage is completed"
+      }
+    }
+  },
+  "Stage_Custom": {
+    "Description": "A custom story mode stage",
+    "Properties": {
+      "Name": {
+        "Description": "The full name of this stage",
+        "Notes": [
+          "Displays in the menu selection stage"
+        ]
+      },
+      "NameShort": {
+        "Description": "The shorthand name of this stage"
+      },
+      "Description": {
+        "Description": "A brief summary of this stage",
+        "Notes": [
+          "Displays in the stage selection screen"
+        ]
+      },
+      "Tier": {
+        "Description": "The tier of this stage",
+        "Notes": [
+          "Affects enemy aggression"
+        ]
+      },
+      "LoadScreenTips": {
+        "Description": "Loading screen tips that appear specifically for this stage"
+      },
+      "IgnorePlayerDeathLoss": {
+        "Description": "Will this stage automatically fail when all playable characters die?"
+      },
+      "Music": {
+        "Description": "The music that plays during this stage",
+        "Notes": [
+          "Plays sequentially"
+        ]
+      },
+      "RequiredCharacters": {
+        "Description": "The main player characters for this stage"
+      },
+      "BonusCharacters": {
+        "Description": "Bonus characters for this stage",
+        "Notes": [
+          "Accessed only from [Remote Play]"
+        ]
+      },
+      "PrizeLoadout": {
+        "Description": "The loadouts awarded from completing this stage"
+      },
+      "PrizeWardrobe": {
+        "Description": "The wardrobes awarded from completing this stage"
+      },
+      "WipeSquadOnVictory": {
+        "Description": "Resets the squad after the stage is completed"
+      },
+      "Enabled": {
+        "Description": "Is this stage's overworld marker enabled?"
+      },
+      "SceneName": {
+        "Description": "The name of the scene that this stage transitions to on start"
+      },
+      "Snapshot": {
+        "Description": "The backdrop for this mission on stage selection"
+      },
+      "Missions": {
+        "Description": "List of missions that are built into this stage"
+      },
+      "PrereqStages": {
+        "Description": "These stages must be completed before being able to select this stage"
+      },
+      "PrereqStages_ToSee": {
+        "Description": "These stages must be completed before the stage's overworld marker even becomes visible"
+      },
+      "LinkedStageVictory": {
+        "Description": "Auto completes these stages on completing this one"
+      },
+      "AmHub": {
+        "Description": "Is this a Hub overworld meant for selecting other stages?",
+        "Notes": [
+          "Stage name is automatically announced when entering this stage",
+          "If [WipeSquadOnVictory] was enabled on a connected stage, [RequiredCharacters] will be used."
+        ]
+      },
+      "NoSaveHub": {
+        "Description": "If [True], hub will not be saved as reload point in career",
+        "Notes": [
+          "Hub can still be accessed via Stage Leave properties, but will not be considered a restore point",
+          "Useful for one-time intros and closing scenes"
+        ]
+      },
+      "HubDifficulty": {
+        "Description": "Difficulty set when entering this Hub World"
+      },
+      "LinkedOverworld": {
+        "Description": "If not a hub world, return to this hub world after stage is complete"
+      },
+      "Leave_Default_ToStage": {
+        "Description": "Stage to exit to after all other cases"
+      },
+      "Leave_Default_ToDoor": {
+        "Description": "The door to exit to for this stage"
+      },
+      "Leave_NeverWon_ToStage": {
+        "Description": "Stage to exit to if this stage was never beaten before"
+      },
+      "Leave_NeverWon_ToDoor": {
+        "Description": "The door to exit to for this stage"
+      },
+      "Leave_Forbid_ToStage": {
+        "Description": "If this stage's [ForbidWorldChange] hasn't been fulfilled, go to this scene on completion",
+        "Notes": ["Used for the one-time flashbacks in between story mode overworlds"]
+      },
+      "Leave_Forbid_ToDoor": {
+        "Description": "The door to exit to for this stage"
+      },
+      "Leave_Forbid_WorldChange": {
+        "Description": "The record change to be unfilled to go to the Forbid stage"
+      },
+      "Leave_Prereq_ToStage": {
+        "Description": "The scene to exit to for completing this stage if all pre-reqs were completed"
+      },
+      "Leave_Prereq_ToDoor": {
+        "Description": "The door to exit to for this stage"
+      },
+      "Leave_Victory_ToStage": {
+        "Description": "The stage to exit to for completing this stage"
+      },
+      "Leave_Victory_ToDoor": {
+        "Description": "The door to exit to for this stage"
+      }
+    }
+  },
+  "Campaign": {
+    "Description": "A custom campaign",
+    "Properties": {
+      "Name": {
+        "Description": "The name of this campaign"
+      },
+      "NameShort": {
+        "Description": "The name of this campaign"
+      },
+      "Description": {
+        "Description": "The description of this campaign"
+      },
+      "StartStage": {
+        "Description": "The stage that this campaign will start on"
+      },
+      "Hubs": {
+        "Description": "The Hub worlds attached to this campaign",
+        "Warnings": ["All hub worlds must be registered as their own stage cards."]
+      },
+      "NoLoadScenes": {
+        "Description": "These scenes will not have a loading screen when loading."
+      },
+      "ColdOpenScene": {
+        "Description": "The opening scene that plays for the first time you start a new campaign"
+      },
+      "ColdOpenDifficulty": {
+        "Description": "The difficulty of the cold open scene"
+      },
+      "MenuIcon": {
+        "Description": "The icon for selecting this campaign"
+      },
+      "LoadScreenTips": {
+        "Description": "The special loading screen tips for this campaign"
+      },
+      "UnlockLoadouts": {
+        "Description": "Loadouts and Wardrobes will not be locked to the default if mission hasn't been beaten"
+      }
+    }
+  },
+  "Loadout": {
+    "Description": "A selection of weapons typically used for character loadouts, or as a random selection of weapons to choose from",
+    "Properties": {
+      "Name": {
+        "Description": "The name of this loadout",
+        "Notes": [
+          "Displays in story stage selection menus"
+        ]
+      },
+      "NameShort": {
+      },
+      "Description": {
+      },
+      "Tier": {
+      },
+      "Weapons": {
+        "Description": "The assortment of weapons to use.\nFollows the following definitions when used as a story loadout",
+        "Definitions": {
+          "Weapons[0]": "Main hand weapon",
+          "Weapons[1]": "Off hand weapon",
+          "Weapons[2]": "Stowed main hand weapon",
+          "Weapons[3]": "Stowed off hand weapon",
+          "Weapons[4]": "Throwable slot"
+        }
+      },
+      "BorrowLoadouts": {
+        "Description": "If used as a weapon stockpile, include weapons from these loadouts also",
+        "Warnings": [
+          "Only accepts loadouts of a later load priority"
+        ]
+      }
+    }
+  },
+  "Wardrobe": {
+    "Properties": {
+      "Name": {
+        "Description": "The name of this wardrobe"
+      },
+      "NameShort": {
+      },
+      "Gear": {
+        "Description": "Adds these armor pieces to the player character"
+      },
+      "Uniform": {
+        "Description": "Add these uniform pieces to the player character"
+      },
+      "EmptySlots": {
+        "Description": "Removes the armor pieces of these slots from the character"
+      },
+      "BonusCorpus": {
+        "Description": "Adds these corpus blocks to the player character"
+      },
+      "WipeDefaultCorpus": {
+        "Description": "Will replace the original character's corpus blocks with the Bonus Corpus"
+      }
+    }
+  },
+  "Origin": {
+    "Description": "A starting disposition for the player character in Arena Mode\n(Automatically added to origin selection)",
+    "Properties": {
+      "Name": {
+        "Description": "The full name of this origin",
+        "Notes": [
+          "Displays in the origin selection screen"
+        ]
+      },
+      "NameShort": {
+        "Description": "The shorthand name of this origin",
+        "Notes": [
+          "Displays as the player's title in the inventory menu"
+        ]
+      },
+      "Description": {
+        "Description": "A brief summary of this origin",
+        "Notes": [
+          "Displays in the origin selection screen"
+        ]
+      },
+      "Imprints": {
+        "Description": "The amount of imprints required to unlock this origin"
+      },
+      "Icon": {
+        "Description": "The origin selection icon"
+      },
+      "LinkedCharacter": {
+        "Description": "The character template to use for this origin",
+        "Notes": [
+          "+1 added to health with every imprint after unlocking"
+        ]
+      },
+      "Buffs": {
+        "Description": "List of bonuses to apply with this origin",
+        "Notes": [
+          "Origin names and descriptions are displayed in origin selection screen"
+        ]
+      },
+      "SkillFocus": {
+        "Description": "Allow origin to unlock focus skills from this skill tree",
+        "Notes": [
+          "Also grants attribute bonus from purchasing related skills"
+        ]
+      },
+      "SkillWeakness": {
+        "Description": "Prevent origin from unlocking Core 3 skills of this skill tree",
+        "Notes": [
+          "Also prevents attribute gains from purchasing related skills"
+        ]
+      },
+      "AttributeBonuses": {
+        "Description": "Add/Subtract attribute value from character template",
+        "Definitions": {
+          "Attributes[0]": "Strength",
+          "Attributes[1]": "Dexterity",
+          "Attributes[2]": "Endurance",
+          "Attributes[3]": "Tactics"
+        },
+        "Notes": [
+          "+1 added to all with every imprint after unlocking"
+        ]
+      },
+      "SpecialSkills": {
+        "Description": "List of starting skills attached to this origin"
+      },
+      "DefaultArmor": {
+        "Description": "List of default armor attached to this character"
+      },
+      "DefaultUniforms": {
+        "Description": "List of default armor with specific color/styles attached to this character"
+      },
+      "Swatch": {
+        "Description": "Specifies all unique color swatches gained from playing this origin",
+        "Notes": [
+          "Colors are kept after imprinting"
+        ]
+      },
+      "WarchestGear": {
+        "Description": "List of armor available to the character in the warchest"
+      },
+      "WarchestWeapons": {
+        "Description": "List of weapons available to the character in the warchest"
+      },
+      "ExpandNowhere": {
+      }
+    }
+  }
+}

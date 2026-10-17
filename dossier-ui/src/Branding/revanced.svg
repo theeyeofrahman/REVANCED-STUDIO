@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+ <title>MPN Dossier REVANCED</title>
+ <rect x="4" y="4" width="248" height="248" rx="52" fill="#171a1f"/>
+ <path d="M54 38h73l18 21h60v146H54z" fill="#d3443c"/>
+ <path d="M38 62h71l18 20h91l-15 137H38z" fill="#e9e1cb"/>
+ <path d="M58 103h136v91H58z" fill="#171a1f"/>
+ <path d="M80 118h52l19 15v17l-13 12 23 30h-25l-20-27h-14v27H80z" fill="#e45648"/>
+ <path d="M102 137h24l4 4v4l-4 4h-24z" fill="#171a1f"/>
+ <path d="M58 91h38" stroke="#171a1f" stroke-width="5"/>
+</svg>

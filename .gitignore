@@ -1,0 +1,11 @@
+**/bin/
+**/obj/
+**/package/
+**/package-check/
+**/previews/
+**/Data/
+**/.vs/
+*.log
+*.tmp
+*.bak
+*.user

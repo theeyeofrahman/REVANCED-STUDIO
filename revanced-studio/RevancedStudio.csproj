@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><TargetFramework>net48</TargetFramework><UseWindowsForms>true</UseWindowsForms><OutputType>WinExe</OutputType><AssemblyName>REVANCED Studio</AssemblyName><RootNamespace>RevancedStudio</RootNamespace><LangVersion>latest</LangVersion><AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects><GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType><NuGetAudit>false</NuGetAudit><ApplicationManifest>../madcard-revanced/src/app.manifest</ApplicationManifest><ApplicationIcon>../madcard-revanced/src/app.ico</ApplicationIcon></PropertyGroup>
+ <ItemGroup><ProjectReference Include="../madcard-revanced/src/MadCard Maker.csproj"/><ProjectReference Include="../dossier-ui/src/MPNDossier.csproj"/><Reference Include="Newtonsoft.Json"><HintPath>../madcard-revanced/lib/Newtonsoft.Json.dll</HintPath></Reference></ItemGroup>
+ <ItemGroup><Compile Remove="checks/**/*.cs;package/**/*.cs"/><PackageReference Include="NAudio" Version="2.3.0"/></ItemGroup>
+</Project>
