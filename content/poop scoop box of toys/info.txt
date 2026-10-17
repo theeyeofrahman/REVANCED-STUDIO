@@ -1,0 +1,9 @@
+{
+  "Name": "poop scoop box of toys",
+  "Description": "Z-52: ten original units and their individual combat chatter, in typed MadCard format.",
+  "Author": "Zayden",
+  "Tags": [
+    "Characters",
+    "Chatter"
+  ]
+}

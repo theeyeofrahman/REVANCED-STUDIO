@@ -1,0 +1,2542 @@
+{
+  "Chatter": [
+    {
+      "Description": "Original event dialogue written for Z-52 Receiver. Font refers only to an installed MPN typeface.",
+      "Font": "BlackOpsOne-Regular",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Receiver on the forward frequency."
+      ],
+      "WakeUp": [
+        "Signal bounce. Contact beside the cab."
+      ],
+      "Attacking": [
+        "Scout lane is closing!"
+      ],
+      "Chasing": [
+        "I have their movement on the relay!"
+      ],
+      "Waiting": [
+        "Dead air ahead. Checking the next carriage."
+      ],
+      "FriendDied": [
+        "We lost a signal carrier!"
+      ],
+      "EnemyDown": [
+        "Forward contact removed."
+      ],
+      "Wounded": [
+        "Receiver hit. Transmission continues."
+      ],
+      "Died": [
+        "Frequency... dropping..."
+      ],
+      "Name": "Z-52 Receiver - custom chatter",
+      "NameShort": "Z-52 Receiver",
+      "Filename": "CC_Z52_01_Receiver",
+      "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Description": "Original event dialogue written for Z-52 Enforcer. Font refers only to an installed MPN typeface.",
+      "Font": "BlackOpsOne-Regular",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Z-52 enforcement. End of the road."
+      ],
+      "WakeUp": [
+        "Targets on the transport deck."
+      ],
+      "Attacking": [
+        "Drive them off our lane!"
+      ],
+      "Chasing": [
+        "You are staying inside our perimeter!"
+      ],
+      "Waiting": [
+        "Nobody boards without Marshal approval."
+      ],
+      "FriendDied": [
+        "Enforcement line took a casualty!"
+      ],
+      "EnemyDown": [
+        "Another intruder off the deck."
+      ],
+      "Wounded": [
+        "Vest caught it. Keep pressing."
+      ],
+      "Died": [
+        "The perimeter... failed..."
+      ],
+      "Name": "Z-52 Enforcer - custom chatter",
+      "NameShort": "Z-52 Enforcer",
+      "Filename": "CC_Z52_02_Enforcer",
+      "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Description": "Original event dialogue written for Z-52 Breacher. Font refers only to an installed MPN typeface.",
+      "Font": "BlackOpsOne-Regular",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Stand clear of the entry team."
+      ],
+      "WakeUp": [
+        "Someone braced the far door."
+      ],
+      "Attacking": [
+        "Hinge side! Push through!"
+      ],
+      "Chasing": [
+        "You cannot shut enough doors!"
+      ],
+      "Waiting": [
+        "Check the latch. Then check the charge."
+      ],
+      "FriendDied": [
+        "Breach partner down! Cover the opening!"
+      ],
+      "EnemyDown": [
+        "Entry obstruction cleared."
+      ],
+      "Wounded": [
+        "Door plates held. Shoulder did not."
+      ],
+      "Died": [
+        "Entry team... needs... another..."
+      ],
+      "Name": "Z-52 Breacher - custom chatter",
+      "NameShort": "Z-52 Breacher",
+      "Filename": "CC_Z52_03_Breacher",
+      "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Description": "Original event dialogue written for Z-52 Deadwire. Font refers only to an installed MPN typeface.",
+      "Font": "BlackOpsOne-Regular",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "No transmission. You already heard too much."
+      ],
+      "WakeUp": [
+        "Footstep on the outer rail."
+      ],
+      "Attacking": [
+        "Quiet work. Sharp edge."
+      ],
+      "Chasing": [
+        "I do not need a radio to follow you."
+      ],
+      "Waiting": [
+        "The engine covers the sound of a blade."
+      ],
+      "FriendDied": [
+        "Our quietest channel just went silent."
+      ],
+      "EnemyDown": [
+        "That mouth will stay shut."
+      ],
+      "Wounded": [
+        "Cut hand. Grip still holds."
+      ],
+      "Died": [
+        "Wire... severed..."
+      ],
+      "Name": "Z-52 Deadwire - custom chatter",
+      "NameShort": "Z-52 Deadwire",
+      "Filename": "CC_Z52_04_Deadwire",
+      "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Description": "Original event dialogue written for Z-52 Surveyor. Font refers only to an installed MPN typeface.",
+      "Font": "BlackOpsOne-Regular",
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Range markers set along the chase route."
+      ],
+      "WakeUp": [
+        "Movement between the trailers."
+      ],
+      "Attacking": [
+        "Measured. Marked. Firing."
+      ],
+      "Chasing": [
+        "Keep running along my sightline."
+      ],
+      "Waiting": [
+        "Wind correction ready. Waiting for the turn."
+      ],
+      "FriendDied": [
+        "Our spotter is off the scope!"
+      ],
+      "EnemyDown": [
+        "Range marker confirmed empty."
+      ],
+      "Wounded": [
+        "Optic is clean. Face is not."
+      ],
+      "Died": [
+        "Coordinates... incomplete..."
+      ],
+      "Name": "Z-52 Surveyor - custom chatter",
+      "NameShort": "Z-52 Surveyor",
+      "Filename": "CC_Z52_05_Surveyor",
+      "Root": "MERC",
+      "Priority": 1
+    },
+    {
+      "Description": "Original event dialogue written for Z-52 Suppressor. Font refers only to an installed MPN typeface.",
+      "Font": "BlackOpsOne-Regular",
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Suppression belt ready. Stay behind my arc."
+      ],
+      "WakeUp": [
+        "Multiple silhouettes across the deck."
+      ],
+      "Attacking": [
+        "Heads down until the barrel cools!"
+      ],
+      "Chasing": [
+        "I can rake the whole escape route!"
+      ],
+      "Waiting": [
+        "Feeding another belt. Keep the lane watched."
+      ],
+      "FriendDied": [
+        "Cover gun lost! Tighten the formation!"
+      ],
+      "EnemyDown": [
+        "The deck is looking quieter."
+      ],
+      "Wounded": [
+        "Plate strike. The belt is still feeding."
+      ],
+      "Died": [
+        "Barrel... still... hot..."
+      ],
+      "Name": "Z-52 Suppressor - custom chatter",
+      "NameShort": "Z-52 Suppressor",
+      "Filename": "CC_Z52_06_Suppressor",
+      "Root": "MERC",
+      "Priority": 1
+    },
+    {
+      "Description": "Original event dialogue written for Z-52 Spark. Font refers only to an installed MPN typeface.",
+      "Font": "BlackOpsOne-Regular",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Spark brought a little electrical interference."
+      ],
+      "WakeUp": [
+        "Somebody is crouched near the fuel line."
+      ],
+      "Attacking": [
+        "Catch a flash!"
+      ],
+      "Chasing": [
+        "Your hiding spot has excellent conductivity."
+      ],
+      "Waiting": [
+        "Counting the fuse. Do not bump my elbow."
+      ],
+      "FriendDied": [
+        "They cut off our light show!"
+      ],
+      "EnemyDown": [
+        "That connection is permanently interrupted."
+      ],
+      "Wounded": [
+        "That was not my capacitor popping!"
+      ],
+      "Died": [
+        "Do not... touch... the contacts..."
+      ],
+      "Name": "Z-52 Spark - custom chatter",
+      "NameShort": "Z-52 Spark",
+      "Filename": "CC_Z52_07_Spark",
+      "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Description": "Original event dialogue written for Z-52 Warden. Font refers only to an installed MPN typeface.",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "The cab stays sealed under my watch."
+      ],
+      "WakeUp": [
+        "Unauthorized hand on the access rail."
+      ],
+      "Attacking": [
+        "Back from the secured hatch!"
+      ],
+      "Chasing": [
+        "The protected route ends at me!"
+      ],
+      "Waiting": [
+        "Inspecting armor seals. Nobody slips past."
+      ],
+      "FriendDied": [
+        "Inner guard breached! Lock the next hatch!"
+      ],
+      "EnemyDown": [
+        "Restricted access enforced."
+      ],
+      "Wounded": [
+        "Outer shell cracked. Inner guard stands."
+      ],
+      "Died": [
+        "The hatch... is... unguarded..."
+      ],
+      "Name": "Z-52 Warden - custom chatter",
+      "NameShort": "Z-52 Warden",
+      "Filename": "CC_Z52_08_Warden",
+      "Root": "NEXUS",
+      "Priority": 1
+    },
+    {
+      "Description": "Original event dialogue written for Z-52 Marshal. Font refers only to an installed MPN typeface.",
+      "Font": "BlackOpsOne-Regular",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Marshal assuming chase coordination."
+      ],
+      "WakeUp": [
+        "Pattern change. They are switching sides."
+      ],
+      "Attacking": [
+        "Enforcers forward. Surveyor, take the gap."
+      ],
+      "Chasing": [
+        "Cut their route at the next junction."
+      ],
+      "Waiting": [
+        "Report positions. Nobody improvises a pursuit."
+      ],
+      "FriendDied": [
+        "Replace the fallen sector. Do not leave it open."
+      ],
+      "EnemyDown": [
+        "Advance the perimeter one trailer."
+      ],
+      "Wounded": [
+        "Command is hit. Continue the pattern."
+      ],
+      "Died": [
+        "Blackout... take... command..."
+      ],
+      "Name": "Z-52 Marshal - custom chatter",
+      "NameShort": "Z-52 Marshal",
+      "Filename": "CC_Z52_09_Marshal",
+      "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Description": "Original event dialogue written for Z-52 Director Blackout. Font refers only to an installed MPN typeface.",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "All chase channels answer to Blackout now."
+      ],
+      "WakeUp": [
+        "Engines heard. Light up the crossing."
+      ],
+      "Attacking": [
+        "Erase that entire firing lane!"
+      ],
+      "Chasing": [
+        "Every exit gets the same treatment!"
+      ],
+      "Waiting": [
+        "Last belt counted. I intend to use it."
+      ],
+      "FriendDied": [
+        "Whole section went dark. Fill their arc!"
+      ],
+      "EnemyDown": [
+        "Another patch of silence behind us."
+      ],
+      "Wounded": [
+        "Armor sparks. Weapon works."
+      ],
+      "Died": [
+        "Blackout... confirmed..."
+      ],
+      "Name": "Z-52 Director Blackout - custom chatter",
+      "NameShort": "Z-52 Director Blackout",
+      "Filename": "CC_Z52_10_Blackout",
+      "Root": "N51_Officer",
+      "Priority": 1
+    }
+  ],
+  "Character": [
+    {
+      "Name": "Z-52 Receiver",
+      "NameShort": "Receiver",
+      "Description": "The first carrier of a dead frequency. Receivers race ahead of Z-52 formations and attack from the edges. Dark fatigues, pale light armor and a cyan goggle strip identify the scouts.",
+      "Level": 10,
+      "Title": "Signal Scout",
+      "Faction": "Z-52",
+      "Health": 18.0,
+      "Attributes": [
+        16,
+        18,
+        17,
+        16
+      ],
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_B",
+      "TextChatter": "CC_Z52_01_Receiver",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "DefaultWeapon": "R_MP5",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_N51BattleDress"
+          ],
+          "TintPrimary": {
+            "r": 0.0627451,
+            "g": 0.0901961,
+            "b": 0.1215686,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_N51Recon"
+          ],
+          "TintPrimary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Goggles_N51Recon"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Helmet_n51Recon"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_FullGloves"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "Z52_01_Receiver",
+      "Root": "N51_0_Recon",
+      "Priority": 1
+    },
+    {
+      "Name": "Z-52 Enforcer",
+      "NameShort": "Enforcer",
+      "Description": "Z-52 treats an occupied room as a containment breach. Enforcers advance behind porcelain-colored carriers, using disciplined carbine fire to pin down anything still transmitting.",
+      "Level": 14,
+      "Title": "Containment Rifleman",
+      "Faction": "Z-52",
+      "Health": 28.0,
+      "Attributes": [
+        22,
+        22,
+        18,
+        20
+      ],
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_B",
+      "TextChatter": "CC_Z52_02_Enforcer",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "DefaultWeapon": "R_FNC",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_Agent"
+          ],
+          "TintPrimary": {
+            "r": 0.0627451,
+            "g": 0.0901961,
+            "b": 0.1215686,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_N51KevlarKarrier_pouches"
+          ],
+          "TintPrimary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_N51FacePlate_Goggles"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Helmet_n51Commando"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_FullGloves"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "Z52_02_Enforcer",
+      "Root": "N51_2_Commando",
+      "Priority": 1
+    },
+    {
+      "Name": "Z-52 Breacher",
+      "NameShort": "Breacher",
+      "Description": "White riot plating and a sealed black face distinguish the breach teams. Their pump shotguns punish close approaches, but their heavy equipment gives opponents room to reposition.",
+      "Title": "Door Suppression",
+      "Scale": 1.05,
+      "Faction": "Z-52",
+      "Health": 40.0,
+      "Attributes": [
+        26,
+        25,
+        14,
+        18
+      ],
+      "Speed": {
+        "x": -1.0,
+        "y": 0.9,
+        "z": 0.85
+      },
+      "ArmorBody": 7.0,
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_B",
+      "TextChatter": "CC_Z52_03_Breacher",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "WeaponPref": "Shotgun",
+      "DefaultWeapon": "R_Shot_ChopPump5",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_N51BattleDress"
+          ],
+          "TintPrimary": {
+            "r": 0.0627451,
+            "g": 0.0901961,
+            "b": 0.1215686,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_N51RiotVest"
+          ],
+          "TintPrimary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_Nexus 2"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_Nexus_Riot"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_FullGloves"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "Z52_03_Breacher",
+      "Root": "N51_2_Commando",
+      "Priority": 1
+    },
+    {
+      "Name": "Z-52 Deadwire",
+      "NameShort": "Deadwire",
+      "Description": "A cyan visor beneath a dark hood is the last warning before a Deadwire reaches striking distance. These visible, lightly armored sword specialists trade staying power for evasive movement. No camouflage augmentation is used.",
+      "Level": 17,
+      "Title": "Silent Interdictor",
+      "TacBar": 0.0,
+      "Scale": 0.95,
+      "Faction": "Z-52",
+      "Health": 24.0,
+      "Attributes": [
+        22,
+        18,
+        29,
+        20
+      ],
+      "ArmorHead": 1.0,
+      "ArmorBody": 3.0,
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_B",
+      "TextChatter": "CC_Z52_04_Deadwire",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "WeaponPref": "Melee",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_Merc"
+          ],
+          "TintPrimary": {
+            "r": 0.0627451,
+            "g": 0.0901961,
+            "b": 0.1215686,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_N51MilitaryVest_slim"
+          ],
+          "TintPrimary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_N51AssassinVisor"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_HoodTactical"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_FullGloves"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "Z52_04_Deadwire",
+      "Root": "N51_1_Assassin",
+      "Priority": 1
+    },
+    {
+      "Name": "Z-52 Surveyor",
+      "NameShort": "Surveyor",
+      "Description": "Surveyors mark their perimeter with the sound of a heavy rifle. A long charcoal hood breaks up the helmet silhouette; thin pale armor keeps them mobile while they seek distant firing positions.",
+      "Level": 16,
+      "Title": "Range Acquisition",
+      "TacBar": 0.0,
+      "Faction": "Z-52",
+      "Health": 23.0,
+      "Attributes": [
+        17,
+        17,
+        21,
+        29
+      ],
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "MERC",
+      "TextChatter": "CC_Z52_05_Surveyor",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "AltMaterials": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Traits": [
+        "InfiniteAmmo"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "DefaultWeapon": "R_MERC_H",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_N51BattleDress"
+          ],
+          "TintPrimary": {
+            "r": 0.0627451,
+            "g": 0.0901961,
+            "b": 0.1215686,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_N51Recon"
+          ],
+          "TintPrimary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Goggles_N51Overwatch"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_HoodLong"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_LeatherMarksman"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "Z52_05_Surveyor",
+      "Root": "Merc2_Sniper",
+      "Priority": 1
+    },
+    {
+      "Name": "Z-52 Suppressor",
+      "NameShort": "Suppressor",
+      "Description": "Suppressors erase lanes of movement with sustained machine-gun fire. Their broad white armor and heavy respirator are impossible to mistake for a Receiver. Slow movement and a large silhouette are the price of that pressure.",
+      "Level": 19,
+      "Title": "Channel Denial",
+      "TacBar": 0.0,
+      "Scale": 1.15,
+      "Faction": "Z-52",
+      "Health": 60.0,
+      "Attributes": [
+        31,
+        28,
+        10,
+        22
+      ],
+      "ArmorBody": 8.0,
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "MERCBig",
+      "TextChatter": "CC_Z52_06_Suppressor",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "AltMaterials": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Behaviors": [
+        "ItchyFinger",
+        "Personal",
+        "NoSprint",
+        "FreeAttacker",
+        "NeverStow"
+      ],
+      "Traits": [
+        "InfiniteAmmo",
+        "NoDisarm",
+        "NoPain",
+        "StaggerOnLowHealth",
+        "Sluggish",
+        "StableRanged"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "WeaponPref": "Heavy",
+      "DefaultWeapon": "R_M60",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_Merc"
+          ],
+          "TintPrimary": {
+            "r": 0.0627451,
+            "g": 0.0901961,
+            "b": 0.1215686,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_Merc_4_heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_Merc_2"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Helmet_n51Commando"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_FullGloves"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "Z52_06_Suppressor",
+      "Root": "Merc3_HvyGunner",
+      "Priority": 1
+    },
+    {
+      "Name": "Z-52 Spark",
+      "NameShort": "Spark",
+      "Description": "Orange optics identify the technicians who prepare a room for containment. Sparks combine compact automatic weapons with flashbangs, disrupting targets before the Enforcers advance.",
+      "Level": 15,
+      "Title": "Disruption Technician",
+      "Faction": "Z-52",
+      "Health": 26.0,
+      "Attributes": [
+        18,
+        20,
+        19,
+        23
+      ],
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_B",
+      "TextChatter": "CC_Z52_07_Spark",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Runner",
+        "Tactical",
+        "Indirect",
+        "ThrowsOften",
+        "FreeAttacker",
+        "TargetShy",
+        "HoldCover"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "DefaultWeapon": "R_NM46",
+      "DefaultThrown": "T_FlashBang",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_N51BattleDress"
+          ],
+          "TintPrimary": {
+            "r": 0.0627451,
+            "g": 0.0901961,
+            "b": 0.1215686,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_Nexus_1"
+          ],
+          "TintPrimary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_Engineer"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.9607843,
+            "g": 0.5411765,
+            "b": 0.2862745,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_Headset"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.9607843,
+            "g": 0.5411765,
+            "b": 0.2862745,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_Sappers"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "Z52_07_Spark",
+      "Root": "N51_0_Recon",
+      "Priority": 1
+    },
+    {
+      "Name": "Z-52 Warden",
+      "NameShort": "Warden",
+      "Description": "Wardens stand where the signal ends. Heavy pale riot armor surrounds a towering hammer carrier trained to defend choke points. They cannot chase a scout, but careless melee approaches meet a different kind of shutdown.",
+      "Level": 21,
+      "Title": "Perimeter Custodian",
+      "TacBar": 0.0,
+      "Faction": "Z-52",
+      "Health": 70.0,
+      "Attributes": [
+        34,
+        32,
+        9,
+        20
+      ],
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "Support",
+      "TextChatter": "CC_Z52_08_Warden",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Indirect",
+        "Bubble",
+        "FreeAttacker",
+        "Accurate",
+        "Tactical",
+        "NoSprint",
+        "NeverStow"
+      ],
+      "Traits": [
+        "NoPain",
+        "NoDisarm",
+        "StaggerOnLowHealth",
+        "NoCombo"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "WeaponPref": "Melee",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_Agent"
+          ],
+          "TintPrimary": {
+            "r": 0.0627451,
+            "g": 0.0901961,
+            "b": 0.1215686,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_Nexus_Riot"
+          ],
+          "TintPrimary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_Nexus 5"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_Nexus_Riot"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_BanditBrute"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "Z52_08_Warden",
+      "Root": "Nexus3_Support",
+      "Priority": 1
+    },
+    {
+      "Name": "Z-52 Marshal",
+      "NameShort": "Marshal",
+      "Description": "A long dark coat and orange rank beret separate a Marshal from the containment line. Field supervisors carry heavy rifles and enough experience to punish opponents who ignore them for the nearest target.",
+      "Level": 22,
+      "Title": "Field Supervisor",
+      "TacBar": 1.0,
+      "Scale": 1.08,
+      "Faction": "Z-52",
+      "Health": 48.0,
+      "Attributes": [
+        28,
+        26,
+        24,
+        28
+      ],
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_B",
+      "TextChatter": "CC_Z52_09_Marshal",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "DefaultWeapon": "R_Hrifle_NFAL",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_Deimos_MercCoat"
+          ],
+          "TintPrimary": {
+            "r": 0.0627451,
+            "g": 0.0901961,
+            "b": 0.1215686,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_N51MilitaryVest_slim"
+          ],
+          "TintPrimary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_N51FacePlate_Goggles"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.9607843,
+            "g": 0.5411765,
+            "b": 0.2862745,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_N51Beret"
+          ],
+          "TintPrimary": {
+            "r": 0.9607843,
+            "g": 0.5411765,
+            "b": 0.2862745,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.9607843,
+            "g": 0.5411765,
+            "b": 0.2862745,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_FullGloves"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "Z52_09_Marshal",
+      "Root": "N51_2_Commando",
+      "Priority": 1
+    },
+    {
+      "Name": "Z-52 Director Blackout",
+      "NameShort": "Blackout",
+      "Description": "Director Blackout closes operations personally. A pale armored coat, orange command beret and dark faceplate identify Z-52s final authority. Three mortal corpus blocks make this a sustained encounter, not an invincible one.",
+      "Level": 26,
+      "Title": "Last Transmission",
+      "TacBar": 2.0,
+      "Scale": 1.2,
+      "Faction": "Z-52",
+      "Health": 65.0,
+      "CorpusBlocks": [
+        "Basic",
+        "Basic",
+        "Basic"
+      ],
+      "Attributes": [
+        36,
+        32,
+        18,
+        32
+      ],
+      "Speed": {
+        "x": -1.0,
+        "y": 0.95,
+        "z": 0.9
+      },
+      "ArmorHead": 7.0,
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_A",
+      "TextChatter": "CC_Z52_10_Blackout",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Traits": [
+        "ZedProof",
+        "NoDizzy",
+        "NoPain",
+        "StableRanged",
+        "Unconvertable"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "WeaponPref": "Heavy",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_Deimos_MercCoatArmored"
+          ],
+          "TintPrimary": {
+            "r": 0.0627451,
+            "g": 0.0901961,
+            "b": 0.1215686,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_N51MilitaryVest"
+          ],
+          "TintPrimary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_N51FacePlate"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.9607843,
+            "g": 0.5411765,
+            "b": 0.2862745,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_N51GreyBeret"
+          ],
+          "TintPrimary": {
+            "r": 0.9607843,
+            "g": 0.5411765,
+            "b": 0.2862745,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.9607843,
+            "g": 0.5411765,
+            "b": 0.2862745,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_FullGloves"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.7882353,
+            "g": 0.8352941,
+            "b": 0.8235294,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.0901961,
+            "g": 0.1372549,
+            "b": 0.172549,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2078431,
+            "g": 0.8941176,
+            "b": 0.8078431,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "Z52_10_Blackout",
+      "Root": "N51_5_Officer",
+      "Priority": 1
+    }
+  ]
+}
