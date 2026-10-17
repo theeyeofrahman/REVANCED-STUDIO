@@ -59,5 +59,7 @@ $taskJson=([ordered]@{Chatter=$taskChatters;Character=$taskCharacters}|ConvertTo
 $taskJson=[regex]::Replace($taskJson,'\[\s*\]','["empty"]')
 [IO.Directory]::CreateDirectory([IO.Path]::GetFullPath($Output))|Out-Null
 [IO.File]::WriteAllText((Join-Path $Output 'Z-52.json'),$taskJson,[Text.UTF8Encoding]::new($false))
-[ordered]@{Name='poop scoop box of toys';Description='Z-52: ten original units and their individual combat chatter, in typed MadCard format.';Author='Zayden';Tags=@('Characters','Chatter')}|ConvertTo-Json -Depth 5|Set-Content -LiteralPath (Join-Path $Output 'info.txt') -Encoding utf8NoBOM
+if(!(Test-Path -LiteralPath (Join-Path $Output 'info.txt'))){
+    [ordered]@{Name='poop scoop box of toys';Description='Z-52: ten original units and their individual combat chatter, in typed MadCard format.';Author='Zayden';Tags=@('Characters','Chatter')}|ConvertTo-Json -Depth 5|Set-Content -LiteralPath (Join-Path $Output 'info.txt') -Encoding utf8NoBOM
+}
 Write-Output 'Converted 10 Z-52 characters and 10 distinct chatter cards. Stock roots, voices, uniforms and weapons resolved.'

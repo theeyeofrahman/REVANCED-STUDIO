@@ -1,9 +1,9 @@
 {
   "Name": "poop scoop box of toys",
-  "Description": "Z-52: ten original units and their individual combat chatter, in typed MadCard format.",
-  "Author": "Zayden",
+  "Description": "a mod focused on content\n\n",
+  "Author": "anton, zayden",
   "Tags": [
-    "Characters",
-    "Chatter"
+    "fun,",
+    "content"
   ]
 }
