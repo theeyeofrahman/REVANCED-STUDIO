@@ -1,0 +1,240 @@
+{
+  "Stage_Arena": [
+    {
+      "Filename": "Arena_Battle1",
+      "Root": "Arena_Battle1",
+      "Priority": 1,
+      "Description": "Z-52 has sealed the Foundry and turned its engineering platform into a containment trial. Break through the patrol line, survive the breach teams, and confront Director Blackout. Push beyond the final wave to face escalating Z-52 reinforcements.",
+      "WaveName": "Containment Wave",
+      "WaveSequences": [
+        {
+          "TotalWaves": 3,
+          "Cash": 55,
+          "XP": 55,
+          "WaveMult_Cash": 0.3,
+          "WaveMult_XP": 0.2,
+          "Units": [
+            {
+              "Type": "Z52_01_Receiver",
+              "Total": 10,
+              "GenerationScale": 0.7,
+              "AddUnitsPerWave": 0.0
+            },
+            {
+              "Type": "Z52_02_Enforcer",
+              "Total": 5,
+              "GenerationScale": 0.624,
+              "AddUnitsPerWave": 1.0
+            },
+            {
+              "Type": "Z52_04_Deadwire",
+              "Total": 1,
+              "GenerationScale": 0.459,
+              "AddUnitsPerWave": 1.0
+            },
+            {
+              "Type": "Z52_07_Spark",
+              "Total": 1,
+              "GenerationScale": 0.55,
+              "AddUnitsPerWave": 1.0
+            }
+          ],
+          "Bosses": [
+            "empty"
+          ]
+        },
+        {
+          "TotalWaves": 3,
+          "Cash": 500,
+          "XP": 300,
+          "WaveMult_Cash": 0.3,
+          "WaveMult_XP": 0.2,
+          "Units": [
+            {
+              "Type": "Z52_01_Receiver",
+              "Total": 8,
+              "GenerationScale": 0.7,
+              "AddUnitsPerWave": 1.0
+            },
+            {
+              "Type": "Z52_02_Enforcer",
+              "Total": 9,
+              "GenerationScale": 0.656,
+              "AddUnitsPerWave": 1.0
+            },
+            {
+              "Type": "Z52_03_Breacher",
+              "Total": 5,
+              "GenerationScale": 0.459,
+              "AddUnitsPerWave": 1.0
+            },
+            {
+              "Type": "Z52_07_Spark",
+              "Total": 3,
+              "GenerationScale": 0.55,
+              "AddUnitsPerWave": 0.5
+            }
+          ],
+          "Bosses": [
+            {
+              "Type": "Z52_06_Suppressor",
+              "Weapon": "R_M60",
+              "Sidearm": "None",
+              "Throwable": "None",
+              "Key": "None",
+              "SerialNumber": "",
+              "Gear": [
+                "empty"
+              ]
+            }
+          ]
+        },
+        {
+          "TotalWaves": 4,
+          "Cash": 700,
+          "XP": 400,
+          "WaveMult_Cash": 0.3,
+          "WaveMult_XP": 0.2,
+          "Units": [
+            {
+              "Type": "Z52_02_Enforcer",
+              "Total": 9,
+              "GenerationScale": 0.7,
+              "AddUnitsPerWave": 0.1
+            },
+            {
+              "Type": "Z52_03_Breacher",
+              "Total": 7,
+              "GenerationScale": 0.656,
+              "AddUnitsPerWave": 0.5
+            },
+            {
+              "Type": "Z52_04_Deadwire",
+              "Total": 5,
+              "GenerationScale": 0.459,
+              "AddUnitsPerWave": 0.5
+            },
+            {
+              "Type": "Z52_05_Surveyor",
+              "Total": 5,
+              "GenerationScale": 0.671,
+              "AddUnitsPerWave": 1.0
+            },
+            {
+              "Type": "Z52_07_Spark",
+              "Total": 4,
+              "GenerationScale": 0.55,
+              "AddUnitsPerWave": 0.5
+            },
+            {
+              "Type": "Z52_08_Warden",
+              "Total": 2,
+              "GenerationScale": 0.5,
+              "AddUnitsPerWave": 0.5
+            },
+            {
+              "Type": "Z52_09_Marshal",
+              "Total": 3,
+              "GenerationScale": 0.6,
+              "AddUnitsPerWave": 1.0
+            }
+          ],
+          "Bosses": [
+            {
+              "Type": "Z52_10_Blackout",
+              "Weapon": "R_M249",
+              "Sidearm": "None",
+              "Throwable": "None",
+              "Key": "None",
+              "SerialNumber": "",
+              "Gear": [
+                "empty"
+              ]
+            }
+          ]
+        }
+      ],
+      "InfiniteSequence": {
+        "TotalWaves": 3,
+        "Cash": 350,
+        "XP": 300,
+        "WaveMult_Cash": 0.3,
+        "WaveMult_XP": 0.2,
+        "Units": [
+          {
+            "Type": "Z52_01_Receiver",
+            "Total": 4,
+            "GenerationScale": 0.7,
+            "AddUnitsPerWave": -0.5
+          },
+          {
+            "Type": "Z52_02_Enforcer",
+            "Total": 8,
+            "GenerationScale": 0.572,
+            "AddUnitsPerWave": 1.5
+          },
+          {
+            "Type": "Z52_03_Breacher",
+            "Total": 8,
+            "GenerationScale": 0.525,
+            "AddUnitsPerWave": 1.5
+          },
+          {
+            "Type": "Z52_04_Deadwire",
+            "Total": 4,
+            "GenerationScale": 0.6,
+            "AddUnitsPerWave": 0.5
+          },
+          {
+            "Type": "Z52_05_Surveyor",
+            "Total": 3,
+            "GenerationScale": 0.671,
+            "AddUnitsPerWave": 0.5
+          },
+          {
+            "Type": "Z52_06_Suppressor",
+            "Total": 3,
+            "GenerationScale": 0.562,
+            "AddUnitsPerWave": 0.5
+          },
+          {
+            "Type": "Z52_07_Spark",
+            "Total": 4,
+            "GenerationScale": 0.6,
+            "AddUnitsPerWave": 0.5
+          },
+          {
+            "Type": "Z52_08_Warden",
+            "Total": 2,
+            "GenerationScale": 0.546,
+            "AddUnitsPerWave": 0.5
+          }
+        ],
+        "Bosses": [
+          {
+            "Type": "Z52_09_Marshal",
+            "Weapon": "R_Hrifle_NFAL",
+            "Sidearm": "None",
+            "Throwable": "None",
+            "Key": "None",
+            "SerialNumber": "",
+            "Gear": [
+              "empty"
+            ]
+          },
+          {
+            "Type": "Z52_10_Blackout",
+            "Weapon": "R_M249",
+            "Sidearm": "None",
+            "Throwable": "None",
+            "Key": "None",
+            "SerialNumber": "",
+            "Gear": [
+              "empty"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
