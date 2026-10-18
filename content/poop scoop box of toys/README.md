@@ -10,7 +10,24 @@ This adds a roster for editing and spawning in the selected mod. `Foundry-Z52.js
 
 ## The Foundry
 
-The mission keeps its identity, unlock prerequisites, scene, original music, hireling allowance, enemy caps, ten finite waves and reward values through its stock root. Its description and wave label now describe Z-52 containment trials. Enemy waves use the existing Z-52 roster and its custom chatter:
+The mission keeps its identity, unlock prerequisites, scene, original music, hireling allowance, enemy caps, ten finite waves and reward values through its stock root. Its description and wave label now describe Z-52 containment trials. Enemy waves use ten weaker, Foundry-specific character cards (`Z52_Foundry_*`) included in `Foundry-Z52.json`. They keep the original Z-52 appearances, voices, weapons and custom chatter. The full-strength roster in `Z-52.json` is unchanged.
+
+The Foundry profiles reduce inherited late-game combat skills, attributes, armour, health and TAC bars. All have one Basic corpus block. Explicit skills, traits and special attacks are cleared, then appropriate base/skilled/agent skill groups are assigned. Dual-wield perks are removed. Spark has no flashbangs in this mission. Both finite and endless sequences use these weaker profiles.
+
+| Foundry unit | Level | Health | Head / body armour | TAC |
+| --- | --- | --- | --- | --- |
+| Receiver | 4 | 4 | 0 / 1 | 0 |
+| Enforcer | 5 | 5 | 1 / 2 | 0 |
+| Breacher | 6 | 8 | 2 / 3 | 0 |
+| Deadwire | 6 | 5 | 0 / 1 | 0 |
+| Surveyor | 8 | 5 | 0 / 1 | 0 |
+| Spark | 5 | 4 | 0 / 1 | 0 |
+| Warden | 9 | 12 | 2 / 3 | 0 |
+| Marshal | 9 | 9 | 1 / 2 | 0 |
+| Suppressor | 10 | 24 | 3 / 4 | 0 |
+| Director Blackout | 12 | 30 | 3 / 4 | 0.5 |
+
+Wave composition:
 
 | Sequence | Waves | Enemies | Boss |
 | --- | --- | --- | --- |
@@ -23,6 +40,6 @@ Finite sequences retain their original initial enemy budgets of 17, 25 and 35 un
 
 Enable the mod in the game's mod list and start a fresh Foundry run after reloading mods or restarting the game. An already running arena may retain the data it loaded earlier. Remove only `Foundry-Z52.json` to return this mission to stock behavior while retaining the characters.
 
-The native deck check recognized the combined 21-card roster/arena payload and resolved 131 references, including every wave character and boss weapon. Wave totals, all ten Z-52 roles, initial finite enemy budgets and reward preservation were checked by the generator. The game was not launched.
+The native deck check recognized the combined 31-card payload (20 original roster/chatter cards, ten Foundry variants and the arena override) and resolved 234 references, including every wave character and boss weapon. Every spawn points to a Foundry variant. Wave totals, all ten Z-52 roles, initial finite enemy budgets and reward preservation were checked by the generator. A comparison against the installed data also confirmed lower health for every variant and preserved appearances, voices, chatter, primary weapons, generation weights and rewards. The game was not launched; difficulty still needs a real playthrough.
 
 Validation: the native MadCard loader recognized all 20 cards; 99 explicit references resolved against the supplied database and this deck. IDs, roots and field names passed. The game was not launched.
