@@ -12,34 +12,18 @@ public static class DossierMotion
  public static bool SuppressForTests{get;set;}
  static readonly ConditionalWeakTable<Control,object> Wired=new ConditionalWeakTable<Control,object>();
  static readonly HashSet<ButtonMotion> Buttons=new HashSet<ButtonMotion>();
- static readonly HashSet<FormMotion> Forms=new HashSet<FormMotion>();
  static readonly Timer Clock=new Timer{Interval=16};
  static DossierMotion(){Clock.Tick+=(_,__)=>Tick();}
  public static double Ease(double progress){progress=Math.Max(0,Math.Min(1,progress));return 1-Math.Pow(1-progress,3);}
  public static Color Blend(Color from,Color to,double progress){double p=Ease(progress);return Color.FromArgb((int)Math.Round(from.R+(to.R-from.R)*p),(int)Math.Round(from.G+(to.G-from.G)*p),(int)Math.Round(from.B+(to.B-from.B)*p));}
- public static void Attach(Control root){if(Wired.TryGetValue(root,out _))return;Wired.Add(root,new object());if(root is Button button)new ButtonMotion(button);if(root is Form form)form.Shown+=(_,__)=>Fade(form);foreach(Control child in root.Controls)Attach(child);root.ControlAdded+=(_,e)=>Attach(e.Control);}
+ public static void Attach(Control root){if(Wired.TryGetValue(root,out _))return;Wired.Add(root,new object());if(root is Button button)new ButtonMotion(button);foreach(Control child in root.Controls)Attach(child);root.ControlAdded+=(_,e)=>Attach(e.Control);}
 
- static void Fade(Form form)
- {
-  // Embedded workspace forms should appear immediately; changing their opacity repeatedly
-  // forces expensive repaints and can make the whole editor feel choppy.
-  if(SuppressForTests||!DossierPreferences.Current.Animations||!form.Enabled||!form.TopLevel)return;
-  Forms.Add(new FormMotion(form));StartClock();
- }
- static void StartClock(){if(!Clock.Enabled&& (Buttons.Count>0||Forms.Count>0))Clock.Start();}
- static void StopClockIfIdle(){if(Buttons.Count==0&&Forms.Count==0)Clock.Stop();}
+ static void StartClock(){if(!Clock.Enabled&&Buttons.Count>0)Clock.Start();}
+ static void StopClockIfIdle(){if(Buttons.Count==0)Clock.Stop();}
  static void Tick()
  {
   foreach(var motion in new List<ButtonMotion>(Buttons))if(motion.Step())Buttons.Remove(motion);
-  foreach(var motion in new List<FormMotion>(Forms))if(motion.Step())Forms.Remove(motion);
   StopClockIfIdle();
- }
-
- sealed class FormMotion
- {
-  readonly Form form;readonly Stopwatch elapsed=Stopwatch.StartNew();
-  public FormMotion(Form form){this.form=form;form.Opacity=.72;form.Disposed+=(_,__)=>Forms.Remove(this);}
-  public bool Step(){if(form.IsDisposed)return true;form.Opacity=.72+.28*Ease(elapsed.Elapsed.TotalMilliseconds/140);if(elapsed.ElapsedMilliseconds<140)return false;form.Opacity=1;return true;}
  }
 
  sealed class ButtonMotion
