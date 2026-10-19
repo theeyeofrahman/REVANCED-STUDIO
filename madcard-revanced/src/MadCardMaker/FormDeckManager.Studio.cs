@@ -12,15 +12,17 @@ public partial class FormDeckManager
  {
   MinimumSize=new Size(1100,720);Size=new Size(1320,850);
   var content=Controls.OfType<TableLayoutPanel>().First();Controls.Remove(content);
-  var shell=new TableLayoutPanel{Dock=DockStyle.Fill,ColumnCount=2,RowCount=1,Margin=Padding.Empty,Padding=Padding.Empty};shell.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute,230));shell.ColumnStyles.Add(new ColumnStyle(SizeType.Percent,100));shell.RowStyles.Add(new RowStyle(SizeType.Percent,100));content.Margin=Padding.Empty;shell.Controls.Add(content,1,0);
-  var sidebar=new FlowLayoutPanel{Dock=DockStyle.Fill,Margin=Padding.Empty,Padding=new Padding(18,24,12,16),FlowDirection=FlowDirection.TopDown,WrapContents=false,AutoScroll=true};
-  sidebar.Controls.Add(new Label{Text="MCM\r\nREVANCED",Tag="Heading",Width=195,Height=82,Font=DossierFonts.Create(DossierStyle.Theme.HeadingFont,20,FontStyle.Bold)});
-  sidebar.Controls.Add(new Label{Text="Your workspace",Width=195,Height=24,Font=DossierFonts.Create(DossierStyle.Theme.FontFamily,11,FontStyle.Bold),ForeColor=DossierStyle.Muted,Margin=new Padding(0,0,0,7)});
-  void Extra(string text,Action action){var b=new DossierButton{Text=text,Width=195,Height=44,Margin=new Padding(0,0,0,9),TextAlign=ContentAlignment.MiddleLeft,Padding=new Padding(12,3,8,3)};b.Click+=(_,__)=>RunStudio(action);sidebar.Controls.Add(b);}
-  Extra("New card · choose mode",NewStudioCard);Extra("Browse starter presets",NewStudioPreset);Extra("Duplicate selected card",DuplicateStudioCard);Extra("Check this mod",CheckStudioDecks);Extra("Open Studio Notepad",OpenStudioNotepad);Extra("Open project notebook",OpenStudioNotebook);Extra("More tools…",OpenStudioTools);
-  sidebar.Controls.Add(new Label{Text="Game",Width=195,Height=24,Font=DossierFonts.Create(DossierStyle.Theme.FontFamily,11,FontStyle.Bold),ForeColor=DossierStyle.Muted,Margin=new Padding(0,16,0,7)});
-  Extra("Set game location",()=>{if(MakerGame.Configure(this))workspaceStatus.Text="Game location saved. Choose Launch game when you are ready.";});Extra("Launch game",()=>{MakerGame.LaunchSaved(this);workspaceStatus.Text="Launch game requested. If you just set a location, choose Launch game again.";});
-  sidebar.Controls.Add(new Label{Text="About MADCard decks\r\n\r\nDecks organize typed game cards and can inherit settings from a root. Pick a database that matches your game version.\r\n\r\nCtrl+F  Search\r\nCtrl+D  Duplicate selected card",Width=195,Height=178,Margin=new Padding(0,24,0,0),ForeColor=DossierStyle.Muted});
+  var shell=new TableLayoutPanel{Dock=DockStyle.Fill,ColumnCount=2,RowCount=1,Margin=Padding.Empty,Padding=Padding.Empty};shell.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute,250));shell.ColumnStyles.Add(new ColumnStyle(SizeType.Percent,100));shell.RowStyles.Add(new RowStyle(SizeType.Percent,100));content.Margin=Padding.Empty;shell.Controls.Add(content,1,0);
+  // Keep this compact enough to fit the minimum-height workspace. A native FlowLayoutPanel
+  // scrollbar ignored the dark skin on some Windows builds and appeared as a white stripe.
+  var sidebar=new FlowLayoutPanel{Dock=DockStyle.Fill,Margin=Padding.Empty,Padding=new Padding(18,18,12,10),FlowDirection=FlowDirection.TopDown,WrapContents=false,AutoScroll=false};
+  sidebar.Controls.Add(new Label{Text="MCM\r\nREVANCED",Tag="Heading",Width=205,Height=68,Font=DossierFonts.Create(DossierStyle.Theme.HeadingFont,20,FontStyle.Bold)});
+  sidebar.Controls.Add(new Label{Text="Your workspace",Width=205,Height=24,Font=DossierFonts.Create(DossierStyle.Theme.FontFamily,11,FontStyle.Bold),ForeColor=DossierStyle.Muted,Margin=new Padding(0,0,0,5)});
+  void Extra(string text,Action action){var b=new DossierButton{Text=text,Width=205,Height=40,Margin=new Padding(0,0,0,5),TextAlign=ContentAlignment.MiddleLeft,Padding=new Padding(12,3,8,3)};b.Click+=(_,__)=>RunStudio(action);sidebar.Controls.Add(b);}
+  Extra("New card…",NewStudioCard);Extra("Starter presets",NewStudioPreset);Extra("Duplicate card",DuplicateStudioCard);Extra("Check decks",CheckStudioDecks);Extra("Studio Notepad",OpenStudioNotepad);Extra("Project notebook",OpenStudioNotebook);Extra("More tools…",OpenStudioTools);
+  sidebar.Controls.Add(new Label{Text="Game",Width=205,Height=24,Font=DossierFonts.Create(DossierStyle.Theme.FontFamily,11,FontStyle.Bold),ForeColor=DossierStyle.Muted,Margin=new Padding(0,8,0,4)});
+  Extra("Game folder",()=>{if(MakerGame.Configure(this))workspaceStatus.Text="Game location saved. Choose Launch game when you are ready.";});Extra("Launch game",()=>{MakerGame.LaunchSaved(this);workspaceStatus.Text="Launch game requested. If you just set a location, choose Launch game again.";});
+  sidebar.Controls.Add(new Label{Text="Ctrl+F Search · Ctrl+D Duplicate",Width=205,Height=28,Margin=new Padding(0,8,0,0),ForeColor=DossierStyle.Muted});
   shell.Controls.Add(sidebar,0,0);Controls.Add(shell);shell.SendToBack();
   Shown+=(_,__)=>{
    if(StudioModule.Hosted)return;var prefs=DossierPreferences.Current;

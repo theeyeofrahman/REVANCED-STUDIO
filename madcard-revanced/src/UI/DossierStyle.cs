@@ -69,8 +69,9 @@ internal static class DossierStyle
             tabs.DrawItem += (_, e) =>
             {
                 var selected = e.Index == tabs.SelectedIndex;
+                using(var baseFill=new SolidBrush(Background))e.Graphics.FillRectangle(baseFill,e.Bounds);
                 using(var shape=DossierGeometry.Rounded(Rectangle.Inflate(e.Bounds,-3,-3),DossierDpi.Pixels(tabs,10)))using(var fill=new SolidBrush(selected ? Color.FromArgb(72,36,47) : Surface))e.Graphics.FillPath(fill,shape);
-                TextRenderer.DrawText(e.Graphics, tabs.TabPages[e.Index].Text, tabs.Font, e.Bounds, selected ? Text : Muted, TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter);
+                TextRenderer.DrawText(e.Graphics, tabs.TabPages[e.Index].Text, tabs.Font, Rectangle.Inflate(e.Bounds,-5,0), selected ? Text : Muted, TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter | TextFormatFlags.EndEllipsis | TextFormatFlags.SingleLine | TextFormatFlags.NoPrefix | TextFormatFlags.NoPadding);
                 if (selected&&!(tabs is DossierTabs)) using (var pen = new Pen(Accent, 3)) e.Graphics.DrawLine(pen, e.Bounds.Left + 14, e.Bounds.Bottom - 2, e.Bounds.Right - 14, e.Bounds.Bottom - 2);
             };
         }

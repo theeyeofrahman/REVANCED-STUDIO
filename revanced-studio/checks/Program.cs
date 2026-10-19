@@ -13,6 +13,7 @@ class Integration
  [DllImport("user32.dll")]static extern IntPtr GetThreadDpiAwarenessContext();
  [DllImport("user32.dll")] [return:MarshalAs(UnmanagedType.Bool)] static extern bool AreDpiAwarenessContextsEqual(IntPtr first,IntPtr second);
  static int checks;static readonly BindingFlags Hidden=BindingFlags.NonPublic|BindingFlags.Instance;
+ static System.Collections.Generic.IEnumerable<Control> ControlsOf(Control root){yield return root;foreach(Control child in root.Controls)foreach(var nested in ControlsOf(child))yield return nested;}
  static void Check(bool ok,string why){if(!ok)throw new Exception(why);checks++;}
  [STAThread]static void Main(string[] args){try{if(args.Length>0&&args[0]=="--music-only"){MusicChecks.Run(Path.GetFullPath(args[1]));return;}Run(Path.GetFullPath(args[0]));Console.WriteLine("PASS: "+checks+" standalone MadCard Studio checks. One MCM workspace loads, editor tabs persist, and no Dossier assembly is referenced. No windows were shown.");}catch(Exception ex){Console.Error.WriteLine(ex);Environment.ExitCode=1;}}
  static void Run(string root){Application.EnableVisualStyles();Application.SetCompatibleTextRenderingDefault(false);M.DossierDialog.PreventDialogsForTests=true;M.DossierFeedback.MutedForTests=true;M.DossierMotion.SuppressForTests=true;M.DossierPreferences.SuppressPersistenceForTests=true;
@@ -49,6 +50,8 @@ class Integration
    Check(shell.Text.Contains("MadCard Maker")&&shell.Workspaces.Count==0,"Studio did not open as a standalone MCM application");
    shell.SwitchWorkspace("MadCard");Check(shell.ActiveWorkspace=="MadCard"&&shell.Workspaces.Count==1,"MCM workspace did not open on its own");
    var home=shell.Workspaces["MadCard"].Home;Check(!home.TopLevel&&home.Dock==DockStyle.Fill,"MCM home isn't embedded");
+   var sidebar=ControlsOf(home).OfType<FlowLayoutPanel>().FirstOrDefault(p=>p.Controls.OfType<Label>().Any(l=>l.Text=="MCM\r\nREVANCED"));Check(sidebar!=null&&!sidebar.AutoScroll,"Studio sidebar should fit without a native white scrollbar");
+   var tabs=shell.Workspaces["MadCard"].Tabs;Check(tabs.DrawMode==TabDrawMode.OwnerDrawFixed,"Studio workspace tabs should use custom owner drawing");
    if(!SystemInformation.HighContrast)Check(M.DossierScrollbars.IsAttached(shell)&&M.DossierScrollbars.IsAttached(home),"Studio scrollbar styling missing");
    using(var notepad=new M.MakerNotepad()){
     notepad.Editor.Text="Formatted note";notepad.Editor.SelectAll();using(var chosenFont=new Font("Consolas",14,FontStyle.Bold)){notepad.Editor.SelectionFont=chosenFont;notepad.Editor.SelectionColor=Color.FromArgb(220,50,65);}
