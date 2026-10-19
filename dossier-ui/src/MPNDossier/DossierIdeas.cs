@@ -64,6 +64,12 @@ public sealed class DossierIdeas
   if(!Columns.Contains(idea.Column)||!Priorities.Contains(idea.Priority))throw new ArgumentException("Choose a valid column and priority.");
   var copy=idea.Copy();copy.Title=copy.Title.Trim();copy.UpdatedUtc=DateTime.UtcNow;int index=Cards.FindIndex(c=>c.Id==copy.Id);if(index<0)Cards.Add(copy);else Cards[index]=copy;
  }
+ public static DossierIdea CreateFromTemplate(DossierIdea template)
+ {
+  if(template==null)throw new ArgumentNullException(nameof(template));
+  var draft=template.Copy();draft.Id=Guid.NewGuid().ToString("N");draft.Title="New "+template.Title;draft.Column=Columns[0];draft.Archived=false;draft.DueDate=null;draft.CreatedUtc=draft.UpdatedUtc=DateTime.UtcNow;
+  draft.Tasks=draft.Tasks.Select(t=>new DossierIdeaTask{Text=t.Text,Done=false}).ToList();return draft;
+ }
  public void Move(string id,string column,string beforeId=null)
  {
   if(!Columns.Contains(column))throw new ArgumentException("Unknown board column.");var card=Cards.FirstOrDefault(c=>c.Id==id);if(card==null)throw new ArgumentException("This card no longer exists.");
