@@ -20,6 +20,13 @@ class Integration
   var assisted=M.MakerAssistedCharacter.Create(M.MakerPreset.All.First(p=>p.Name=="Patrol scout"),"AAHW1_Agent","Check_Assisted","Check Assisted","Test draft",12,4,1m,.5m,null,"TestFaction","TestVoice","TestWeapon","TestOffhand","TestAnimation",true,"TestStyle","TestSidearm");
   Check((string)assisted["Faction"]=="TestFaction"&&(string)assisted["VoiceSet"]=="TestVoice","Assisted creator did not write identity options");
   Check((string)assisted["DefaultWeapon"]=="TestWeapon"&&(string)assisted["DefaultOffHand"]=="TestOffhand"&&(string)assisted["DefaultSidearm"]=="TestSidearm"&&(string)assisted["WeaponPref"]=="TestStyle"&&(string)assisted["AnimationSet"]=="TestAnimation","Assisted creator did not write combat and animation options");
+  using(var wizard=new M.MakerAssistedCharacterDialog()){
+   var searchable=(ComboBox)typeof(M.MakerAssistedCharacterDialog).GetField("faction",Hidden).GetValue(wizard);
+   Check(searchable.DropDownStyle==ComboBoxStyle.DropDown&&searchable.AutoCompleteMode==AutoCompleteMode.SuggestAppend,"Assisted character fields are not searchable");
+   typeof(M.MakerAssistedCharacterDialog).GetMethod("ApplySuggestions",Hidden).Invoke(wizard,null);
+   var guidance=(Label)typeof(M.MakerAssistedCharacterDialog).GetField("guidance",Hidden).GetValue(wizard);
+   Check(guidance.Text.Contains("Suggested values were copied"),"Appearance based field suggestions did not load");
+  }
   Check(typeof(StudioWindow).Assembly.GetReferencedAssemblies().All(a=>!a.Name.Equals("MPNDossier",StringComparison.OrdinalIgnoreCase)),"Studio still references the Dossier assembly");
   Console.WriteLine("Creating Studio shell");using(var shell=new StudioWindow(root,true)){
    var hiddenHandle=shell.Handle;

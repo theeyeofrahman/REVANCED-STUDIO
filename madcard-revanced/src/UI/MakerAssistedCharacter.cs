@@ -49,7 +49,7 @@ public sealed class MakerAssistedCharacterDialog : Form
     readonly TextBox preview = new TextBox { Dock = DockStyle.Fill, ReadOnly = true, Multiline = true, ScrollBars = ScrollBars.Vertical };
     readonly Label guidance = new Label { Dock = DockStyle.Fill, Text = "Choose a role, then customize the basics. Appearance inherits the selected character's model, clothes and equipment. You can edit every field in the full editor next." };
     bool loading, customId;
-    static ComboBox Choice() => new ComboBox { Dock = DockStyle.Fill, DropDownStyle = ComboBoxStyle.DropDownList, AutoCompleteSource = AutoCompleteSource.ListItems, AutoCompleteMode = AutoCompleteMode.SuggestAppend };
+    static ComboBox Choice() => new ComboBox { Dock = DockStyle.Fill, DropDownStyle = ComboBoxStyle.DropDown, AutoCompleteSource = AutoCompleteSource.ListItems, AutoCompleteMode = AutoCompleteMode.SuggestAppend };
     static NumericUpDown Number(decimal min, decimal max, int decimals) => new NumericUpDown { Dock = DockStyle.Fill, Minimum = min, Maximum = max, DecimalPlaces = decimals, Increment = decimals == 0 ? 1 : .05m };
 
     public MakerAssistedCharacterDialog(Func<string,bool> idExists = null)
@@ -66,12 +66,12 @@ public sealed class MakerAssistedCharacterDialog : Form
         Control[] controls = { role, name, id, appearance, health, level, scale, tacBar, chatter, description };
         for (int i = 0; i < controls.Length; i++)
         {
-            fields.RowStyles.Add(new RowStyle(i == 9 ? SizeType.Absolute : SizeType.Absolute, i == 9 ? 112 : 44));
+            fields.RowStyles.Add(new RowStyle(SizeType.Absolute, i == 9 ? 112 : 44));
             fields.Controls.Add(new Label { Text = labels[i], Dock = DockStyle.Fill, TextAlign = ContentAlignment.MiddleLeft }, 0, i);
             controls[i].AccessibleName = labels[i]; controls[i].Margin = new Padding(3, 5, 3, 5); fields.Controls.Add(controls[i], 1, i);
         }
         fields.RowStyles.Add(new RowStyle(SizeType.Absolute, 38)); fields.Controls.Add(showMore, 1, 10);
-        var advanced = new TableLayoutPanel { Dock = DockStyle.Top, AutoSize = true, ColumnCount = 2, RowCount = 8, Visible = false, Padding = new Padding(8) };
+        var advanced = new TableLayoutPanel { Dock = DockStyle.Top, AutoSize = true, ColumnCount = 2, RowCount = 9, Visible = false, Padding = new Padding(8) };
         advanced.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 145)); advanced.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100));
         string[] extraLabels = { "Faction", "Voice set", "Weapon style", "Starting weapon", "Off-hand weapon", "Sidearm", "Animation set" };
         ComboBox[] extraChoices = { faction, voiceSet, weaponStyle, weapon, offHand, sidearm, animationSet };
@@ -82,6 +82,9 @@ public sealed class MakerAssistedCharacterDialog : Form
             extraChoices[i].Margin = new Padding(3, 5, 3, 5); advanced.Controls.Add(extraChoices[i], 1, i);
         }
         advanced.RowStyles.Add(new RowStyle(SizeType.Absolute, 38)); advanced.Controls.Add(enabled, 1, 7);
+        var suggestions = new DossierButton { Text = "Use suggestions from appearance", Dock = DockStyle.Fill, Height = 40 };
+        advanced.RowStyles.Add(new RowStyle(SizeType.Absolute, 46)); advanced.Controls.Add(suggestions, 0, 8); advanced.SetColumnSpan(suggestions, 2);
+        suggestions.Click += (_, __) => { ApplySuggestions(); UpdateDraft(); };
         fields.RowStyles.Add(new RowStyle(SizeType.Percent, 100)); fields.Controls.Add(advanced, 0, 11); fields.SetColumnSpan(advanced, 2);
         showMore.CheckedChanged += (_, __) => { advanced.Visible = showMore.Checked; UpdateDraft(); };
         root.Controls.Add(fields, 0, 1);
@@ -120,7 +123,49 @@ public sealed class MakerAssistedCharacterDialog : Form
         else if (ModEnums.ENUMS.TryGetValue(type, out var options)) choice.Items.AddRange(options.Cast<object>().ToArray());
         choice.SelectedIndex = 0;
     }
-    string Selected(ComboBox choice) => choice.SelectedIndex > 0 ? choice.Text : null;
-    JObject Build() => MakerAssistedCharacter.Create((MakerPreset)role.SelectedItem, appearance.Text, id.Text, name.Text, description.Text, health.Value, (int)level.Value, scale.Value, tacBar.Value, chatter.SelectedIndex > 0 ? chatter.Text : null, Selected(faction), Selected(voiceSet), Selected(weapon), Selected(offHand), Selected(animationSet), enabled.Checked, Selected(weaponStyle), Selected(sidearm));
+    string Selected(ComboBox choice, string label, bool inherited = true)
+    {
+        for (int i = 0; i < choice.Items.Count; i++)
+        {
+            string item = choice.GetItemText(choice.Items[i]);
+            if (!string.Equals(item, choice.Text, StringComparison.OrdinalIgnoreCase)) continue;
+            if (inherited && i == 0) return null;
+            choice.SelectedIndex = i;
+            return item;
+        }
+        if (string.IsNullOrWhiteSpace(choice.Text) && inherited) return null;
+        throw new FormatException("Choose a listed " + label + " or use its autocomplete suggestion.");
+    }
+    MakerPreset SelectedRole()
+    {
+        if (role.SelectedItem is MakerPreset selected && string.Equals(role.Text, selected.Name, StringComparison.OrdinalIgnoreCase)) return selected;
+        var exact = MakerPreset.All.FirstOrDefault(p => string.Equals(p.Name, role.Text, StringComparison.OrdinalIgnoreCase) && p.Type == "Character");
+        return exact ?? throw new FormatException("Choose a starting role from the suggestions.");
+    }
+    void ApplySuggestions()
+    {
+        if (string.IsNullOrWhiteSpace(appearance.Text) || !ModEnums.SC_DIR.TryGetValue("Character", out var characters) || !characters.TryGetValue(appearance.Text, out var source))
+        {
+            guidance.Text = "Choose a valid appearance first. Suggestions are read from that character's existing settings.";
+            return;
+        }
+        Suggest(faction, source, "Faction"); Suggest(voiceSet, source, "VoiceSet"); Suggest(weaponStyle, source, "WeaponPref");
+        Suggest(weapon, source, "DefaultWeapon"); Suggest(offHand, source, "DefaultOffHand"); Suggest(sidearm, source, "DefaultSidearm"); Suggest(animationSet, source, "AnimationSet");
+        guidance.Text = "Suggested values were copied from the selected appearance where available. You can change any of them.";
+    }
+    static void Suggest(ComboBox choice, JObject source, string property)
+    {
+        string value = (string)source[property]; if (string.IsNullOrWhiteSpace(value)) return;
+        for (int i = 1; i < choice.Items.Count; i++) if (string.Equals(choice.GetItemText(choice.Items[i]), value, StringComparison.OrdinalIgnoreCase)) { choice.SelectedIndex = i; return; }
+    }
+    JObject Build()
+    {
+        var selectedRole = SelectedRole();
+        string selectedAppearance = Selected(appearance, "appearance", false);
+        string selectedChatter = Selected(chatter, "speech bubble set");
+        return MakerAssistedCharacter.Create(selectedRole, selectedAppearance, id.Text, name.Text, description.Text, health.Value, (int)level.Value, scale.Value, tacBar.Value, selectedChatter,
+            Selected(faction, "faction"), Selected(voiceSet, "voice set"), Selected(weapon, "starting weapon"), Selected(offHand, "off-hand weapon"), Selected(animationSet, "animation set"), enabled.Checked,
+            Selected(weaponStyle, "weapon style"), Selected(sidearm, "sidearm"));
+    }
     void UpdateDraft() { if (loading || role.SelectedItem == null) return; try { preview.Text = Build().ToString(); } catch (Exception e) { preview.Text = e.Message; } }
 }
