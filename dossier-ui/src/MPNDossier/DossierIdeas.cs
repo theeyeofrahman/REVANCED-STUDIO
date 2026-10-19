@@ -20,6 +20,7 @@ public sealed class DossierIdea
  public bool Archived{get;set;}
  public DateTime CreatedUtc{get;set;}=DateTime.UtcNow;
  public DateTime UpdatedUtc{get;set;}=DateTime.UtcNow;
+ public DateTime? DueDate{get;set;}
  public List<DossierIdeaTask> Tasks{get;set;}=new List<DossierIdeaTask>();
  public DossierIdea Copy()=>JsonConvert.DeserializeObject<DossierIdea>(JsonConvert.SerializeObject(this));
 }
