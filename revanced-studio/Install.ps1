@@ -3,7 +3,9 @@ $packagePath = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot 'package'))
 $installPath = [IO.Path]::GetFullPath((Join-Path ([Environment]::GetFolderPath('UserProfile')) 'Downloads\REVANCED Studio'))
 if (!(Test-Path -LiteralPath (Join-Path $packagePath 'REVANCED Studio.exe'))) { throw 'Build the Studio package first.' }
 $files = @(Get-ChildItem -LiteralPath $packagePath -Recurse -File)
-if ($files.Count -lt 6000) { throw 'The packaged reference databases are incomplete.' }
+$databasePath = Join-Path $packagePath 'Data\MadCard\db\base'
+$databaseFiles = @(Get-ChildItem -LiteralPath $databasePath -Filter '*.json' -Recurse -File -ErrorAction SilentlyContinue)
+if ($databaseFiles.Count -lt 1000) { throw 'The packaged MadCard reference database is missing or incomplete.' }
 # This installer only creates a new app folder; it never replaces an existing project or mod.
 if (Test-Path -LiteralPath $installPath) { throw 'The destination already exists. Inspect it before updating to protect local work.' }
 New-Item -ItemType Directory -Path $installPath | Out-Null

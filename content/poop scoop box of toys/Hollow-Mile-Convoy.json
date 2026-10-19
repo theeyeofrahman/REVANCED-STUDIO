@@ -1,0 +1,1378 @@
+{
+  "Character": [
+    {
+      "Name": "Hollow Mile Roadmark",
+      "NameShort": "Roadmark",
+      "Description": "A fast route scout who marks safe turns with strips of orange cloth. Roadmark knows the old freight roads by their broken lights and listens for engines before looking over the ridge.",
+      "Enabled": true,
+      "Level": 9,
+      "Title": "Route Scout",
+      "TacBar": 0.0,
+      "Scale": 1.0,
+      "Faction": "Hollow Mile Convoy",
+      "DefaultControl": "NPC",
+      "Health": 18.0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "Attributes": [
+        18,
+        18,
+        22,
+        20
+      ],
+      "Speed": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "ArmorHead": 2.0,
+      "ArmorBody": 3.0,
+      "CountWornArmor": false,
+      "CountAmmoLikePlayer": false,
+      "AnimationSet": "Default",
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "AAHW",
+      "TextChatter": "CC_HM_Roadmark",
+      "ObjRef": "Character_Default",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "AltMaterials": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "TintEffect": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+      },
+      "Blood": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "Gibs": "None",
+      "BloodSpray": "Blood_Sprays",
+      "HitSFX": [
+        "",
+        ""
+      ],
+      "Behaviors": [
+        "Indirect",
+        "Bubble"
+      ],
+      "Traits": [
+        "NotLeader_UNUSED"
+      ],
+      "Vocations": [
+        "Nimble"
+      ],
+      "Skills": [
+        "XXX_REMOVED5",
+        "StationaryRecovery"
+      ],
+      "SkillGroups": [
+        "AAHW_Agent"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None",
+      "WeaponPref": "SMG",
+      "WeaponGenres": [
+        "Common",
+        "Professional"
+      ],
+      "DefaultLoadout": "None",
+      "DefaultWeapon": "R_MP5",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "DefaultThrown": "None",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Outfit_Pilot"
+          ],
+          "TintSecondary": {
+            "r": 0.66,
+            "g": 0.57,
+            "b": 0.38,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.96,
+            "g": 0.47,
+            "b": 0.12,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.3,
+            "g": 0.34,
+            "b": 0.25,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Armor_workvest"
+          ],
+          "TintSecondary": {
+            "r": 0.66,
+            "g": 0.57,
+            "b": 0.38,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.96,
+            "g": 0.47,
+            "b": 0.12,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.3,
+            "g": 0.34,
+            "b": 0.25,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Goggles_Pilot"
+          ],
+          "TintSecondary": {
+            "r": 0.66,
+            "g": 0.57,
+            "b": 0.38,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.96,
+            "g": 0.47,
+            "b": 0.12,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.3,
+            "g": 0.34,
+            "b": 0.25,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Hat_Sanford_goggleHood"
+          ],
+          "TintSecondary": {
+            "r": 0.66,
+            "g": 0.57,
+            "b": 0.38,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.96,
+            "g": 0.47,
+            "b": 0.12,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.3,
+            "g": 0.34,
+            "b": 0.25,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Gloves_Fingerless"
+          ],
+          "TintSecondary": {
+            "r": 0.66,
+            "g": 0.57,
+            "b": 0.38,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.96,
+            "g": 0.47,
+            "b": 0.12,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.3,
+            "g": 0.34,
+            "b": 0.25,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Boots_Leather"
+          ],
+          "TintSecondary": {
+            "r": 0.66,
+            "g": 0.57,
+            "b": 0.38,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.96,
+            "g": 0.47,
+            "b": 0.12,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.3,
+            "g": 0.34,
+            "b": 0.25,
+            "a": 1.0
+          }
+        }
+      ],
+      "FallPuff": "Effect_LandFall",
+      "LifeEffect": "None",
+      "DeathEffect": "None",
+      "TeleportEffect": [
+        "None",
+        "None"
+      ],
+      "DeactivateTime": 60.0,
+      "FlankMe": false,
+      "Filename": "HM_01_Roadmark",
+      "Root": "AAHW1_Agent",
+      "Priority": 1
+    },
+    {
+      "Name": "Hollow Mile Patch",
+      "NameShort": "Patch",
+      "Description": "Patch keeps the convoy moving by treating whoever makes it to the tailgate. The faded clinic coat and improvised defib gloves are practical, if nobody asks where the batteries came from.",
+      "Enabled": true,
+      "Level": 11,
+      "Title": "Field Medic",
+      "TacBar": 0.5,
+      "Scale": 1.0,
+      "Faction": "Hollow Mile Convoy",
+      "DefaultControl": "NPC",
+      "Health": 22.0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "Attributes": [
+        19,
+        21,
+        18,
+        19
+      ],
+      "Speed": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "ArmorHead": 2.0,
+      "ArmorBody": 3.0,
+      "CountWornArmor": false,
+      "CountAmmoLikePlayer": false,
+      "AnimationSet": "Default",
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "AAHW",
+      "TextChatter": "CC_HM_Patch",
+      "ObjRef": "Character_Default",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "AltMaterials": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "TintEffect": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+      },
+      "Blood": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "Gibs": "None",
+      "BloodSpray": "Blood_Sprays",
+      "HitSFX": [
+        "",
+        ""
+      ],
+      "Behaviors": [
+        "Turtle",
+        "Evasive"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Vocations": [
+        "Nimble",
+        "Mechanic",
+        "Hacker"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "SkillGroups": [
+        "AAHW_Skilled"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None",
+      "WeaponPref": "SMG",
+      "WeaponGenres": [
+        "Common",
+        "Professional",
+        "Tools"
+      ],
+      "DefaultLoadout": "None",
+      "DefaultWeapon": "R_MP5",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "DefaultThrown": "None",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Outfit_DocJacket"
+          ],
+          "TintSecondary": {
+            "r": 0.78,
+            "g": 0.7,
+            "b": 0.51,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2,
+            "g": 0.73,
+            "b": 0.67,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.48,
+            "g": 0.5,
+            "b": 0.42,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Mask_Gas1"
+          ],
+          "TintSecondary": {
+            "r": 0.78,
+            "g": 0.7,
+            "b": 0.51,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2,
+            "g": 0.73,
+            "b": 0.67,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.48,
+            "g": 0.5,
+            "b": 0.42,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Hat_Hardhat"
+          ],
+          "TintSecondary": {
+            "r": 0.78,
+            "g": 0.7,
+            "b": 0.51,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2,
+            "g": 0.73,
+            "b": 0.67,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.48,
+            "g": 0.5,
+            "b": 0.42,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Gloves_DefibPaddles"
+          ],
+          "TintSecondary": {
+            "r": 0.78,
+            "g": 0.7,
+            "b": 0.51,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2,
+            "g": 0.73,
+            "b": 0.67,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.48,
+            "g": 0.5,
+            "b": 0.42,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Boots_Casual"
+          ],
+          "TintSecondary": {
+            "r": 0.78,
+            "g": 0.7,
+            "b": 0.51,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2,
+            "g": 0.73,
+            "b": 0.67,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.48,
+            "g": 0.5,
+            "b": 0.42,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Backpack_Merc_1"
+          ],
+          "TintSecondary": {
+            "r": 0.78,
+            "g": 0.7,
+            "b": 0.51,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.2,
+            "g": 0.73,
+            "b": 0.67,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.48,
+            "g": 0.5,
+            "b": 0.42,
+            "a": 1.0
+          }
+        }
+      ],
+      "FallPuff": "Effect_LandFall",
+      "LifeEffect": "None",
+      "DeathEffect": "None",
+      "TeleportEffect": [
+        "None",
+        "None"
+      ],
+      "DeactivateTime": 60.0,
+      "FlankMe": false,
+      "Filename": "HM_02_Patch",
+      "Root": "AAHW2_Engineer",
+      "Priority": 1
+    },
+    {
+      "Name": "Hollow Mile Dovetail",
+      "NameShort": "Dovetail",
+      "Description": "Dovetail can keep a rattling hauler alive with wire, scrap, and bad language. The mining mask and patched work vest came from the same abandoned depot as the convoys first working engine.",
+      "Enabled": true,
+      "Level": 12,
+      "Title": "Road Mechanic",
+      "TacBar": 0.5,
+      "Scale": 1.0,
+      "Faction": "Hollow Mile Convoy",
+      "DefaultControl": "NPC",
+      "Health": 24.0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "Attributes": [
+        22,
+        20,
+        18,
+        17
+      ],
+      "Speed": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "ArmorHead": 3.0,
+      "ArmorBody": 4.0,
+      "CountWornArmor": false,
+      "CountAmmoLikePlayer": false,
+      "AnimationSet": "Default",
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "AAHW",
+      "TextChatter": "CC_HM_Dovetail",
+      "ObjRef": "Character_Default",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "AltMaterials": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "TintEffect": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+      },
+      "Blood": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "Gibs": "None",
+      "BloodSpray": "Blood_Sprays",
+      "HitSFX": [
+        "",
+        ""
+      ],
+      "Behaviors": [
+        "Turtle",
+        "Evasive"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Vocations": [
+        "Nimble",
+        "Mechanic",
+        "Hacker"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "SkillGroups": [
+        "AAHW_Skilled"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None",
+      "WeaponPref": "Rifle",
+      "WeaponGenres": [
+        "Common",
+        "Professional",
+        "Tools"
+      ],
+      "DefaultLoadout": "None",
+      "DefaultWeapon": "R_FNC",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "DefaultThrown": "None",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Outfit_BanditMining1"
+          ],
+          "TintSecondary": {
+            "r": 0.55,
+            "g": 0.45,
+            "b": 0.3,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.93,
+            "g": 0.49,
+            "b": 0.12,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.27,
+            "g": 0.3,
+            "b": 0.23,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Armor_workvest"
+          ],
+          "TintSecondary": {
+            "r": 0.55,
+            "g": 0.45,
+            "b": 0.3,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.93,
+            "g": 0.49,
+            "b": 0.12,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.27,
+            "g": 0.3,
+            "b": 0.23,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Mouth_BanditMining 1"
+          ],
+          "TintSecondary": {
+            "r": 0.55,
+            "g": 0.45,
+            "b": 0.3,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.93,
+            "g": 0.49,
+            "b": 0.12,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.27,
+            "g": 0.3,
+            "b": 0.23,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Goggles_RetroRadiation"
+          ],
+          "TintSecondary": {
+            "r": 0.55,
+            "g": 0.45,
+            "b": 0.3,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.93,
+            "g": 0.49,
+            "b": 0.12,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.27,
+            "g": 0.3,
+            "b": 0.23,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Hat_Hardhat"
+          ],
+          "TintSecondary": {
+            "r": 0.55,
+            "g": 0.45,
+            "b": 0.3,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.93,
+            "g": 0.49,
+            "b": 0.12,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.27,
+            "g": 0.3,
+            "b": 0.23,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Gloves_Sappers"
+          ],
+          "TintSecondary": {
+            "r": 0.55,
+            "g": 0.45,
+            "b": 0.3,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.93,
+            "g": 0.49,
+            "b": 0.12,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.27,
+            "g": 0.3,
+            "b": 0.23,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintSecondary": {
+            "r": 0.55,
+            "g": 0.45,
+            "b": 0.3,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.93,
+            "g": 0.49,
+            "b": 0.12,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.27,
+            "g": 0.3,
+            "b": 0.23,
+            "a": 1.0
+          }
+        }
+      ],
+      "FallPuff": "Effect_LandFall",
+      "LifeEffect": "None",
+      "DeathEffect": "None",
+      "TeleportEffect": [
+        "None",
+        "None"
+      ],
+      "DeactivateTime": 60.0,
+      "FlankMe": false,
+      "Filename": "HM_03_Dovetail",
+      "Root": "AAHW2_Engineer",
+      "Priority": 1
+    },
+    {
+      "Name": "Hollow Mile Switchback",
+      "NameShort": "Switchback",
+      "Description": "Switchback runs the Hollow Mile convoy with a drivers map and a soldiers sense of spacing. She does not promise a safe trip; she promises nobody gets left at the roadside.",
+      "Enabled": true,
+      "Level": 16,
+      "Title": "Convoy Captain",
+      "TacBar": 1.0,
+      "Scale": 1.0,
+      "Faction": "Hollow Mile Convoy",
+      "DefaultControl": "NPC",
+      "Health": 32.0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "Attributes": [
+        24,
+        22,
+        21,
+        20
+      ],
+      "Speed": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "ArmorHead": 4.0,
+      "ArmorBody": 5.0,
+      "CountWornArmor": false,
+      "CountAmmoLikePlayer": false,
+      "AnimationSet": "Default",
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "AAHW",
+      "TextChatter": "CC_HM_Switchback",
+      "ObjRef": "Character_Default",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "AltMaterials": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "TintEffect": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+      },
+      "Blood": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "Gibs": "None",
+      "BloodSpray": "Blood_Sprays",
+      "HitSFX": [
+        "",
+        ""
+      ],
+      "Behaviors": [
+        "Personal",
+        "Defensive",
+        "FavorDual",
+        "Accurate",
+        "Bubble",
+        "Indirect",
+        "WhiteNinja",
+        "Deadly",
+        "ButtonMasher",
+        "CounterAttacks"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Vocations": [
+        "Nimble"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "SkillGroups": [
+        "AAHW_Greater"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None",
+      "WeaponPref": "Rifle",
+      "WeaponGenres": [
+        "Professional",
+        "CuttingEdge"
+      ],
+      "DefaultLoadout": "None",
+      "DefaultWeapon": "R_FNC",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "DefaultThrown": "None",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Outfit_Sanford_Bandolier"
+          ],
+          "TintSecondary": {
+            "r": 0.62,
+            "g": 0.51,
+            "b": 0.34,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.95,
+            "g": 0.54,
+            "b": 0.17,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.22,
+            "g": 0.27,
+            "b": 0.22,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Armor_workvest"
+          ],
+          "TintSecondary": {
+            "r": 0.62,
+            "g": 0.51,
+            "b": 0.34,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.95,
+            "g": 0.54,
+            "b": 0.17,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.22,
+            "g": 0.27,
+            "b": 0.22,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Mask_SanfordGlasses"
+          ],
+          "TintSecondary": {
+            "r": 0.62,
+            "g": 0.51,
+            "b": 0.34,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.95,
+            "g": 0.54,
+            "b": 0.17,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.22,
+            "g": 0.27,
+            "b": 0.22,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Hat_Sanford_goggleHood"
+          ],
+          "TintSecondary": {
+            "r": 0.62,
+            "g": 0.51,
+            "b": 0.34,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.95,
+            "g": 0.54,
+            "b": 0.17,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.22,
+            "g": 0.27,
+            "b": 0.22,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Gloves_LeatherMarksman"
+          ],
+          "TintSecondary": {
+            "r": 0.62,
+            "g": 0.51,
+            "b": 0.34,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.95,
+            "g": 0.54,
+            "b": 0.17,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.22,
+            "g": 0.27,
+            "b": 0.22,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintSecondary": {
+            "r": 0.62,
+            "g": 0.51,
+            "b": 0.34,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.95,
+            "g": 0.54,
+            "b": 0.17,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.22,
+            "g": 0.27,
+            "b": 0.22,
+            "a": 1.0
+          }
+        }
+      ],
+      "FallPuff": "Effect_LandFall",
+      "LifeEffect": "None",
+      "DeathEffect": "None",
+      "TeleportEffect": [
+        "None",
+        "None"
+      ],
+      "DeactivateTime": 60.0,
+      "FlankMe": false,
+      "Filename": "HM_04_Switchback",
+      "Root": "AAHW3_Soldat",
+      "Priority": 1
+    }
+  ],
+  "Chatter": [
+    {
+      "Name": "Hollow Mile Convoy - Roadmark",
+      "NameShort": "Roadmark",
+      "Description": "Original combat chatter for Hollow Mile Roadmark.",
+      "Font": "hemi head bd it",
+      "Size": 9,
+      "Color": {
+        "r": 0.6,
+        "g": 0.6,
+        "b": 0.4,
+        "a": 1.0
+      },
+      "Style": 0,
+      "Spawned": [
+        "Route is clear for now.",
+        "Marking the west turn."
+      ],
+      "WakeUp": [
+        "Engines ahead!",
+        "Movement by the road sign!"
+      ],
+      "Attacking": [
+        "Keep them off the convoy!",
+        "Push them away from the trucks!"
+      ],
+      "Chasing": [
+        "They are running toward the cut.",
+        "I know a shorter road."
+      ],
+      "Waiting": [
+        "Watching the ridge.",
+        "Call the turn when ready."
+      ],
+      "FriendDied": [
+        "We lost a driver. Cover the road!",
+        "Stay with me; we are getting you home."
+      ],
+      "EnemyDown": [
+        "Road is clear.",
+        "That threat is off the route."
+      ],
+      "Wounded": [
+        "Took a hit. Still know the way.",
+        "My vest caught most of it."
+      ],
+      "Died": [
+        "Tell them... take the south road.",
+        "No more markers for me."
+      ],
+      "Filename": "CC_HM_Roadmark",
+      "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Name": "Hollow Mile Convoy - Patch",
+      "NameShort": "Patch",
+      "Description": "Original combat chatter for Hollow Mile Patch.",
+      "Font": "hemi head bd it",
+      "Size": 9,
+      "Color": {
+        "r": 0.6,
+        "g": 0.6,
+        "b": 0.4,
+        "a": 1.0
+      },
+      "Style": 0,
+      "Spawned": [
+        "Med kit packed. Keep the aisle open.",
+        "If it bleeds, bring it here."
+      ],
+      "WakeUp": [
+        "Patients up. Threats too.",
+        "That better not be another fuel leak."
+      ],
+      "Attacking": [
+        "Get away from the injured!",
+        "I said back off the truck!"
+      ],
+      "Chasing": [
+        "Stop moving; I am not done with you.",
+        "I can run and patch at the same time."
+      ],
+      "Waiting": [
+        "Checking the supplies.",
+        "Hold still, I am counting bandages."
+      ],
+      "FriendDied": [
+        "No, no. I was right here.",
+        "Cover me while I get them out."
+      ],
+      "EnemyDown": [
+        "Threat down. Let me check the crew.",
+        "Clear enough to move the wounded."
+      ],
+      "Wounded": [
+        "Medic down. That is inconvenient.",
+        "It is fine. I have patched worse."
+      ],
+      "Died": [
+        "Save the kit... save the people.",
+        "I should have packed more gauze."
+      ],
+      "Filename": "CC_HM_Patch",
+      "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Name": "Hollow Mile Convoy - Dovetail",
+      "NameShort": "Dovetail",
+      "Description": "Original combat chatter for Hollow Mile Dovetail.",
+      "Font": "hemi head bd it",
+      "Size": 9,
+      "Color": {
+        "r": 0.6,
+        "g": 0.6,
+        "b": 0.4,
+        "a": 1.0
+      },
+      "Style": 0,
+      "Spawned": [
+        "Wrench in one hand, rifle in the other.",
+        "Engine is warm. Let us keep it that way."
+      ],
+      "WakeUp": [
+        "That noise was not the engine.",
+        "Get away from my truck!"
+      ],
+      "Attacking": [
+        "You break it, I break you!",
+        "Cover the engine block!"
+      ],
+      "Chasing": [
+        "You are not outrunning a hauler.",
+        "I can fix the truck after this."
+      ],
+      "Waiting": [
+        "Checking the axle.",
+        "Nobody touch the fuel line."
+      ],
+      "FriendDied": [
+        "They kept this convoy running. We owe them.",
+        "Get them behind the wheel well!"
+      ],
+      "EnemyDown": [
+        "One less problem on the road.",
+        "That should hold."
+      ],
+      "Wounded": [
+        "I have had worse from a fan belt.",
+        "Still got both hands."
+      ],
+      "Died": [
+        "Keep the engine running...",
+        "Well, that is one thing I cannot fix."
+      ],
+      "Filename": "CC_HM_Dovetail",
+      "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Name": "Hollow Mile Convoy - Switchback",
+      "NameShort": "Switchback",
+      "Description": "Original combat chatter for Hollow Mile Switchback.",
+      "Font": "hemi head bd it",
+      "Size": 9,
+      "Color": {
+        "r": 0.6,
+        "g": 0.6,
+        "b": 0.4,
+        "a": 1.0
+      },
+      "Style": 0,
+      "Spawned": [
+        "Convoy order: drivers center, escorts wide.",
+        "Hollow Mile, we move together."
+      ],
+      "WakeUp": [
+        "Hold the line around the vehicles!",
+        "Nobody fires toward the fuel trailer."
+      ],
+      "Attacking": [
+        "Drive them off the route!",
+        "Escort team, advance!"
+      ],
+      "Chasing": [
+        "Cut them off before the bridge.",
+        "Do not leave the convoy exposed."
+      ],
+      "Waiting": [
+        "Count heads, then check the road.",
+        "We do not roll until everyone is ready."
+      ],
+      "FriendDied": [
+        "Bring them back to the convoy.",
+        "No one gets left behind. You hear me?"
+      ],
+      "EnemyDown": [
+        "Threat cleared. Check every vehicle.",
+        "Good. Keep the road open."
+      ],
+      "Wounded": [
+        "Captain is hit. Formation holds.",
+        "I can still get us out."
+      ],
+      "Died": [
+        "Take the convoy... home.",
+        "Keep them moving, Roadmark."
+      ],
+      "Filename": "CC_HM_Switchback",
+      "Root": "N51",
+      "Priority": 1
+    }
+  ]
+}

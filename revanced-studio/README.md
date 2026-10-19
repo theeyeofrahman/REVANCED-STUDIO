@@ -1,6 +1,6 @@
 # REVANCED Studio
 
-One Windows application led by **MadCard Maker REVANCED**, with **Dossier · Legacy** available for older projects. Start `REVANCED Studio.exe`; MCM opens first on every launch. The other components are libraries loaded into the same process.
+REVANCED Studio is the standalone **MadCard Maker REVANCED** application for editing typed MadCard decks. Start `REVANCED Studio.exe`; it opens directly into the MCM workspace. Dossier is no longer embedded or loaded by Studio and remains a separate application.
 
 ## Studio Music and interface update
 
@@ -12,19 +12,13 @@ In MCM, select an editable deck and click **Assisted character**. Choose a role 
 
 ## Workspace navigation
 
-Use the **Dossier** and **MadCard Maker** buttons at the top, or **Ctrl+1** and **Ctrl+2**. Each workspace stays loaded. Switching does not discard editors, reset selections or reload a project. Editors open in document tabs inside Studio. **Close tab** or **Ctrl+W** closes the current editor; its existing save/discard/cancel behavior still applies. Closing Studio closes editor documents before their workspace homes so unsaved work can be handled first.
+Studio opens directly into MadCard Maker. Editors open in document tabs inside Studio. **Close tab** or **Ctrl+W** closes the current editor; its existing save/discard/cancel behavior still applies. Closing Studio closes editor documents before the workspace home so unsaved work can be handled first.
 
 The window starts maximized and remembers its normal size and maximized state. The MCM sidebar has a dedicated layout column, preventing it from covering toolbars, headings and the card tree. Appearance controls provide the bundled Play font, alternative installed fonts, red/graphite/olive palettes, quiet click and typing sounds, volume and animation preferences. Fonts and colors apply after restarting Studio. Sound preferences are synchronized when switching workspaces.
 
 Studio enables Per Monitor V2 high-DPI rendering. Windows renders text and controls at the display's scaling level, and the editor refreshes its control metrics when moving between displays with different DPI settings. Restart Studio after installing this update to enable the new process setting.
 
 Scrollbars use dark tracks and rounded accent-colored thumbs across text editors, lists, trees, dropdown lists and file browsers in both workspaces. The styling retains Windows' scrolling, thumb dragging, arrows, mouse wheel and keyboard behavior. Windows high-contrast mode retains system scrollbar rendering.
-
-## Dossier · Legacy
-
-The Dossier workspace includes its archive, comparisons, character workbench, assisted character creator, decks, room editor, project manager, notes and Idea Gallery. Its reference data is recovered from the existing local reference snapshot. The previously removed Dossier application directory and deleted custom-story mod are not restored.
-
-Dossier is the secondary workspace for legacy loose-card/NEM projects. This update adds new editing tools to MCM and keeps Dossier's existing functionality available. Existing projects are not converted or removed.
 
 ## MadCard Maker
 
@@ -57,24 +51,22 @@ Imported overrides retain their edited values when the inherited-root selector c
 
 ## Formats and game versions
 
-The workspaces share an interface, not a file format. Dossier uses the legacy loose-card/NEM schema; MCM uses typed MadCard decks with `Filename` and `Root` fields. Their databases are kept separately under `Data/Dossier` and `Data/MadCard`. Opening both in Studio does **not** convert data between these schemas or make a file compatible with every MPN version.
-
-Use the workspace/database appropriate for your game and loader. MCM exports a typed deck JSON, which belongs inside a valid MadCard mod folder with its mod metadata. The current game installation, Steam branch and previous mod have not been changed by this integration. MCM starts with a local Studio mod workspace; exporting or selecting a game destination is a separate action.
+MCM uses typed MadCard decks with `Filename` and `Root` fields. Its reference database lives under `Data/MadCard`. Exports belong inside a valid MadCard mod folder with its mod metadata and are not compatible with every MPN version or loader.
 
 Keep the **Data** folder and component DLLs beside Studio. Reference snapshots include the original supplied databases; no external assets or game assemblies are downloaded.
 
 ## Notes and settings
 
-Studio's shared theme and window preferences are stored under `%LOCALAPPDATA%/REVANCEDStudio`. Existing Dossier and MCM note, project and feedback preferences retain their respective editor storage. The MCM notebook stays outside game decks. Dossier entry notes retain their existing JSON behavior. Switching workspaces does not merge projects or automatically deploy their exports.
+Studio's theme and window preferences are stored under `%LOCALAPPDATA%/REVANCEDStudio`. MCM notebook data stays outside game decks. Saving an export does not automatically deploy it to a game folder.
 
 The game path and optional arguments are stored in `%LOCALAPPDATA%/MadCardMakerRevanced/game.json`; reference favorites are stored in `favorites.json` in that same folder.
 
 ## Attribution
 
-Original MadCard Maker and MPN Dossier code, icons, documentation, reference data and embedded attribution remain credited to their original creators. REVANCED Studio is an unofficial integration and interface rewrite; it does not claim original authorship of those tools or of MPN assets.
+Original MadCard Maker code, icons, documentation, reference data and embedded attribution remain credited to their original creators. REVANCED Studio is an unofficial interface rewrite; it does not claim original authorship of MadCard Maker or MPN assets.
 
 Zayden — project direction, feature requests, worldbuilding and hands-on testing. DC and Ghosted — acknowledged collaborators in the wider project; no additional authorship is invented here.
 
 ## Verification
 
-The MCM checks cover preset roots/fields, independent duplication, non-destructive deck encoding, valid IDs, backup writes, imported drafts, undo/redo and review tabs. The integration checks load both real reference databases in one process, verify their schemas remain separate, and exercise workspace/document persistence and tab closing without showing windows. These tests do not establish in-game compatibility or replace testing exports in the selected MPN/NEM/MadCard loader version.
+The MCM checks cover preset roots/fields, independent duplication, non-destructive deck encoding, valid IDs, backup writes, imported drafts, undo/redo and review tabs. Studio checks load the MadCard reference database, exercise workspace/document persistence and tab closing, and verify the Dossier assembly is not referenced or packaged. These tests do not establish in-game compatibility or replace testing exports in the selected MPN/MadCard loader version.

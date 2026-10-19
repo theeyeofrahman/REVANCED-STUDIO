@@ -1,0 +1,2163 @@
+{
+  "Character": [
+    {
+      "Name": "Zayden",
+      "NameShort": "Zay",
+      "Description": "A former A.T.P. engineer who fixes more than machines. Zayden broke into a Z-52 facility to steal equipment, got caught, and escaped with a target on his back. That raid turned a bad decision into a long-running vendetta. He still takes risky jobs, but now he measures every shortcut against the danger it puts Zenith and Zephyr in.",
+      "Enabled": true,
+      "Level": 18,
+      "Title": "Rogue Engineer",
+      "TacBar": 0.5,
+      "Scale": 1.0,
+      "Faction": "Player",
+      "DefaultControl": "NPC",
+      "Health": 26,
+      "CorpusBlocks": [
+        "Hero",
+        "Hero",
+        "Hero"
+      ],
+      "Attributes": [
+        19,
+        20,
+        18,
+        19
+      ],
+      "Speed": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.1,
+      "ArmorHead": 4.0,
+      "ArmorBody": 4.0,
+      "CountWornArmor": false,
+      "CountAmmoLikePlayer": false,
+      "AnimationSet": "Default",
+      "ExecutionsOffensive": [],
+      "ExecutionsDefensive": [],
+      "VoiceSet": "AAHW",
+      "TextChatter": "CC_CREW_Zayden",
+      "ObjRef": "Character_Default",
+      "Reskins": [],
+      "AltParts": [],
+      "AltMaterials": [],
+      "TintsPrimary": [],
+      "TintsSecondary": [],
+      "TintEffect": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+      },
+      "Blood": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "Gibs": "None",
+      "BloodSpray": "Blood_Sprays",
+      "HitSFX": [
+        "",
+        ""
+      ],
+      "Behaviors": [
+        "Turtle",
+        "Evasive"
+      ],
+      "Traits": [],
+      "Vocations": [
+        "Nimble",
+        "Mechanic",
+        "Hacker"
+      ],
+      "Skills": [
+        "Melee1",
+        "Melee2",
+        "StationaryRecovery",
+        "BasicBlock"
+      ],
+      "SkillGroups": [
+        "Protag_Base"
+      ],
+      "RemovedSkills": [],
+      "SpecialSkills": [],
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None",
+      "WeaponPref": "None",
+      "WeaponGenres": [
+        "Common",
+        "Professional",
+        "Tools"
+      ],
+      "DefaultLoadout": "None",
+      "DefaultWeapon": "M_Pipewrench",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "DefaultThrown": "None",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "Outfit_Engineer",
+        "Gloves_Studded"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Mask_Engineer"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.11,
+            "g": 0.29,
+            "r": 0.55
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.16,
+            "g": 0.24,
+            "r": 0.32
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.12,
+            "g": 0.62,
+            "r": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_apron"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.11,
+            "g": 0.29,
+            "r": 0.55
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.16,
+            "g": 0.24,
+            "r": 0.32
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.12,
+            "g": 0.62,
+            "r": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Belt_Merc_1"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.11,
+            "g": 0.29,
+            "r": 0.55
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.16,
+            "g": 0.24,
+            "r": 0.32
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.12,
+            "g": 0.62,
+            "r": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.11,
+            "g": 0.29,
+            "r": 0.55
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.16,
+            "g": 0.24,
+            "r": 0.32
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.12,
+            "g": 0.62,
+            "r": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_Hardhat_Laborer"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.11,
+            "g": 0.29,
+            "r": 0.55
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.16,
+            "g": 0.24,
+            "r": 0.32
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.12,
+            "g": 0.62,
+            "r": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        }
+      ],
+      "FallPuff": "Effect_LandFall",
+      "LifeEffect": "None",
+      "DeathEffect": "None",
+      "TeleportEffect": [
+        "None",
+        "None"
+      ],
+      "DeactivateTime": 60.0,
+      "FlankMe": false,
+      "Filename": "Crew_Zayden",
+      "Root": "AAHW2_Engineer",
+      "Priority": 1
+    },
+    {
+      "Name": "Zenith",
+      "NameShort": "Zenith",
+      "Description": "A former A.A.H.W. Soldat who walked away from the agency and its orders. Zenith brings discipline, a reinforced Soldat kit, and a dry sense of humor to the crew with Zayden. He backs his friend by choice now, not because a command channel told him to.",
+      "Enabled": true,
+      "Level": 18,
+      "Title": "Reformed A.T.P. Soldat",
+      "TacBar": 1.0,
+      "Scale": 1.0,
+      "Faction": "Player",
+      "DefaultControl": "NPC",
+      "Health": 30,
+      "CorpusBlocks": [
+        "Hero",
+        "Hero",
+        "Hero"
+      ],
+      "Attributes": [
+        20,
+        22,
+        20,
+        19
+      ],
+      "Speed": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.12,
+      "ArmorHead": 5.0,
+      "ArmorBody": 6.0,
+      "CountWornArmor": false,
+      "CountAmmoLikePlayer": false,
+      "AnimationSet": "Default",
+      "ExecutionsOffensive": [],
+      "ExecutionsDefensive": [],
+      "VoiceSet": "AAHW",
+      "TextChatter": "CC_CREW_Zenith",
+      "ObjRef": "Character_Default",
+      "Reskins": [],
+      "AltParts": [],
+      "AltMaterials": [],
+      "TintsPrimary": [],
+      "TintsSecondary": [],
+      "TintEffect": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+      },
+      "Blood": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "Gibs": "None",
+      "BloodSpray": "Blood_Sprays",
+      "HitSFX": [
+        "",
+        ""
+      ],
+      "Behaviors": [
+        "Personal",
+        "Defensive",
+        "FavorDual",
+        "Accurate",
+        "Bubble",
+        "Indirect",
+        "WhiteNinja",
+        "Deadly",
+        "ButtonMasher",
+        "CounterAttacks"
+      ],
+      "Traits": [],
+      "Vocations": [
+        "Nimble"
+      ],
+      "Skills": [
+        "Ranged1",
+        "AutoFireComp",
+        "BetterBlock",
+        "Counter"
+      ],
+      "SkillGroups": [
+        "Protag_Base"
+      ],
+      "RemovedSkills": [],
+      "SpecialSkills": [],
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None",
+      "WeaponPref": "None",
+      "WeaponGenres": [
+        "Professional",
+        "CuttingEdge"
+      ],
+      "DefaultLoadout": "None",
+      "DefaultWeapon": "R_FNC",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "DefaultThrown": "None",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_Soldat"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.4,
+            "g": 0.38,
+            "r": 0.34
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.15,
+            "g": 0.1,
+            "r": 0.07
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.18,
+            "g": 0.6,
+            "r": 0.86
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_Soldat"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.4,
+            "g": 0.38,
+            "r": 0.34
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.15,
+            "g": 0.1,
+            "r": 0.07
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.18,
+            "g": 0.6,
+            "r": 0.86
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_N51RiotVest"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.4,
+            "g": 0.38,
+            "r": 0.34
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.15,
+            "g": 0.1,
+            "r": 0.07
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.18,
+            "g": 0.6,
+            "r": 0.86
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Shoulder_Radio_NO BUY SOLDAT ONLY"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.4,
+            "g": 0.38,
+            "r": 0.34
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.15,
+            "g": 0.1,
+            "r": 0.07
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.18,
+            "g": 0.6,
+            "r": 0.86
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Helmet_n51Commando"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.4,
+            "g": 0.38,
+            "r": 0.34
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.15,
+            "g": 0.1,
+            "r": 0.07
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.18,
+            "g": 0.6,
+            "r": 0.86
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_FullGloves"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.4,
+            "g": 0.38,
+            "r": 0.34
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.15,
+            "g": 0.1,
+            "r": 0.07
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.18,
+            "g": 0.6,
+            "r": 0.86
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.4,
+            "g": 0.38,
+            "r": 0.34
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.15,
+            "g": 0.1,
+            "r": 0.07
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.18,
+            "g": 0.6,
+            "r": 0.86
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Backpack_Merc_1"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.4,
+            "g": 0.38,
+            "r": 0.34
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.15,
+            "g": 0.1,
+            "r": 0.07
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.18,
+            "g": 0.6,
+            "r": 0.86
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        }
+      ],
+      "FallPuff": "Effect_LandFall",
+      "LifeEffect": "None",
+      "DeathEffect": "None",
+      "TeleportEffect": [
+        "None",
+        "None"
+      ],
+      "DeactivateTime": 60.0,
+      "FlankMe": false,
+      "Filename": "Crew_Zenith",
+      "Root": "AAHW3_Soldat",
+      "Priority": 1
+    },
+    {
+      "Name": "Zephyr",
+      "NameShort": "Zephyr",
+      "Description": "A former A.A.H.W. agent who chose a life outside the uniform. Zephyr is quick with a warning and quicker with a joke, but never careless about an exit. He and Zayden have history, and he trusts Zenith to watch their backs when the plan goes sideways.",
+      "Enabled": true,
+      "Level": 16,
+      "Title": "Reformed A.A.H.W. Agent",
+      "TacBar": 0.0,
+      "Scale": 1.0,
+      "Faction": "Player",
+      "DefaultControl": "NPC",
+      "Health": 25,
+      "CorpusBlocks": [
+        "Hero",
+        "Hero",
+        "Hero"
+      ],
+      "Attributes": [
+        19,
+        19,
+        20,
+        22
+      ],
+      "Speed": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.08,
+      "ArmorHead": 2.0,
+      "ArmorBody": 3.0,
+      "CountWornArmor": false,
+      "CountAmmoLikePlayer": false,
+      "AnimationSet": "Default",
+      "ExecutionsOffensive": [],
+      "ExecutionsDefensive": [],
+      "VoiceSet": "AAHW",
+      "TextChatter": "CC_CREW_Zephyr",
+      "ObjRef": "Character_Default",
+      "Reskins": [],
+      "AltParts": [],
+      "AltMaterials": [],
+      "TintsPrimary": [],
+      "TintsSecondary": [],
+      "TintEffect": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+      },
+      "Blood": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "Gibs": "None",
+      "BloodSpray": "Blood_Sprays",
+      "HitSFX": [
+        "",
+        ""
+      ],
+      "Behaviors": [
+        "Indirect",
+        "Bubble"
+      ],
+      "Traits": [
+        "NotLeader_UNUSED"
+      ],
+      "Vocations": [
+        "Nimble"
+      ],
+      "Skills": [
+        "Ranged1",
+        "Quickdraw",
+        "MobileAim",
+        "StationaryRecovery"
+      ],
+      "SkillGroups": [
+        "Protag_Base"
+      ],
+      "RemovedSkills": [],
+      "SpecialSkills": [],
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None",
+      "WeaponPref": "None",
+      "WeaponGenres": [
+        "Common",
+        "Professional"
+      ],
+      "DefaultLoadout": "None",
+      "DefaultWeapon": "R_MP5",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "DefaultThrown": "None",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_DarkCoat"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.18,
+            "g": 0.34,
+            "r": 0.47
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.19,
+            "g": 0.27,
+            "r": 0.17
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.42,
+            "g": 0.64,
+            "r": 0.72
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Shades_Agent"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.18,
+            "g": 0.34,
+            "r": 0.47
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.19,
+            "g": 0.27,
+            "r": 0.17
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.42,
+            "g": 0.64,
+            "r": 0.72
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_N51MilitaryVest_slim"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.18,
+            "g": 0.34,
+            "r": 0.47
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.19,
+            "g": 0.27,
+            "r": 0.17
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.42,
+            "g": 0.64,
+            "r": 0.72
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Belt_Merc_2"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.18,
+            "g": 0.34,
+            "r": 0.47
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.19,
+            "g": 0.27,
+            "r": 0.17
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.42,
+            "g": 0.64,
+            "r": 0.72
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Backpack_Merc_1"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.18,
+            "g": 0.34,
+            "r": 0.47
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.19,
+            "g": 0.27,
+            "r": 0.17
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.42,
+            "g": 0.64,
+            "r": 0.72
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Leather"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.18,
+            "g": 0.34,
+            "r": 0.47
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.19,
+            "g": 0.27,
+            "r": 0.17
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.42,
+            "g": 0.64,
+            "r": 0.72
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_Fingerless"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.18,
+            "g": 0.34,
+            "r": 0.47
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.19,
+            "g": 0.27,
+            "r": 0.17
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.42,
+            "g": 0.64,
+            "r": 0.72
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_HoodLong"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.18,
+            "g": 0.34,
+            "r": 0.47
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.19,
+            "g": 0.27,
+            "r": 0.17
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.42,
+            "g": 0.64,
+            "r": 0.72
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        }
+      ],
+      "FallPuff": "Effect_LandFall",
+      "LifeEffect": "None",
+      "DeathEffect": "None",
+      "TeleportEffect": [
+        "None",
+        "None"
+      ],
+      "DeactivateTime": 60.0,
+      "FlankMe": false,
+      "Filename": "Crew_Zephyr",
+      "Root": "AAHW1_Agent",
+      "Priority": 1
+    }
+  ],
+  "Chatter": [
+    {
+      "Name": "Zayden - original crew chatter",
+      "NameShort": "Zay",
+      "Description": "Role-specific combat dialogue for Zayden, written for the crew.",
+      "Font": "hemi head bd it",
+      "Size": 9,
+      "Color": {
+        "r": 1.0,
+        "g": 0.9310345,
+        "b": 0.375,
+        "a": 1.0
+      },
+      "Style": 0,
+      "Spawned": [
+        "Give me a panel and thirty seconds."
+      ],
+      "WakeUp": [
+        "That lock was supposed to stay shut."
+      ],
+      "Attacking": [
+        "Keep them off the equipment!"
+      ],
+      "Chasing": [
+        "Service run, left side! I know this place."
+      ],
+      "Waiting": [
+        "Checking the door. Give me a second."
+      ],
+      "FriendDied": [
+        "Zenith, cover me! I am getting them out."
+      ],
+      "EnemyDown": [
+        "One down. Watch the back."
+      ],
+      "Wounded": [
+        "I am hit. Still have both hands."
+      ],
+      "Died": [
+        "Tell the guys... I owe them one."
+      ],
+      "Filename": "CC_CREW_Zayden",
+      "Root": "AAHW_Engineer",
+      "Priority": 1
+    },
+    {
+      "Name": "Zenith - original crew chatter",
+      "NameShort": "Zenith",
+      "Description": "Role-specific combat dialogue for Zenith, written for the crew.",
+      "Font": "neuropolitical rg",
+      "Size": 8,
+      "Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "Style": 0,
+      "Spawned": [
+        "Zenith on point. Stay behind my plate."
+      ],
+      "WakeUp": [
+        "Contact. Formation tight."
+      ],
+      "Attacking": [
+        "Push them off the lane!"
+      ],
+      "Chasing": [
+        "They are heading for the stairs. I will cut them off."
+      ],
+      "Waiting": [
+        "Holding the line. Move when you are ready."
+      ],
+      "FriendDied": [
+        "Crew down. Zayden, stay focused."
+      ],
+      "EnemyDown": [
+        "Threat handled. Check the next corner."
+      ],
+      "Wounded": [
+        "Armor took most of it. I am still good."
+      ],
+      "Died": [
+        "Keep moving. Do not make this for nothing."
+      ],
+      "Filename": "CC_CREW_Zenith",
+      "Root": "AAHW_Agent",
+      "Priority": 1
+    },
+    {
+      "Name": "Zephyr - original crew chatter",
+      "NameShort": "Zephyr",
+      "Description": "Role-specific combat dialogue for Zephyr, written for the crew.",
+      "Font": "neuropolitical rg",
+      "Size": 8,
+      "Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "Style": 0,
+      "Spawned": [
+        "I see the exits. I always see the exits."
+      ],
+      "WakeUp": [
+        "That was not the wind. Heads up."
+      ],
+      "Attacking": [
+        "Wrong crew, pal!"
+      ],
+      "Chasing": [
+        "I will take the short way around."
+      ],
+      "Waiting": [
+        "Got your back. Try not to make me say it twice."
+      ],
+      "FriendDied": [
+        "No. Stay with us. We are not leaving you."
+      ],
+      "EnemyDown": [
+        "That one is out. Anyone else?"
+      ],
+      "Wounded": [
+        "I have had worse. Keep moving."
+      ],
+      "Died": [
+        "Tell Zayden... no more stupid plans."
+      ],
+      "Filename": "CC_CREW_Zephyr",
+      "Root": "AAHW_Agent",
+      "Priority": 1
+    }
+  ],
+  "Origin": [
+    {
+      "Name": "Workshop Rat",
+      "NameShort": "Workshop Rat",
+      "Description": "You grew up around service corridors, repair benches, and machines that only worked if you knew which panel to kick. Your grease-stained engineer coveralls, amber work goggles, and battered hardhat are as familiar as the tools on your belt. You keep one extra magazine ready, but machinery taught you more than hand-to-hand fighting.",
+      "Imprints": 0,
+      "LinkedCharacter": "Arena",
+      "AttributeBonuses": [
+        -1,
+        0,
+        0,
+        1
+      ],
+      "DefaultArmor": [
+        "Gloves_Sappers",
+        "Belt_Merc_1"
+      ],
+      "DefaultUniforms": [
+        {
+          "ArmorPicks": [
+            "Goggles_W01V"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.18,
+            "g": 0.45,
+            "r": 0.74
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.16,
+            "g": 0.26,
+            "r": 0.34
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.05,
+            "g": 0.61,
+            "r": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_Hardhat_Laborer"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.18,
+            "g": 0.45,
+            "r": 0.74
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.16,
+            "g": 0.26,
+            "r": 0.34
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.05,
+            "g": 0.61,
+            "r": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Outfit_Engineer"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.18,
+            "g": 0.45,
+            "r": 0.74
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.16,
+            "g": 0.26,
+            "r": 0.34
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.05,
+            "g": 0.61,
+            "r": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        }
+      ],
+      "Buffs": [
+        {
+          "Description": "Your work kit has room for one extra magazine.",
+          "Amount": 1.0,
+          "Type": "ExtraMags",
+          "AmPercent": false,
+          "ShowAsGood": true,
+          "Name": "Bonus Magazine"
+        },
+        {
+          "Description": "You never trained much for close-quarters fights.",
+          "Amount": 0.1,
+          "Type": "DamageFromH2H",
+          "AmPercent": true,
+          "ShowAsGood": false,
+          "Name": "Damage from Unarmed/Melee"
+        }
+      ],
+      "SkillFocus": "Ranged",
+      "SkillWeakness": "Unarmed",
+      "SpecialSkills": [
+        "O_Tinkerer"
+      ],
+      "Swatch_Pairs": [
+        {
+          "Color1": {
+            "a": 1.0,
+            "b": 0.16,
+            "g": 0.26,
+            "r": 0.34
+          },
+          "Color2": {
+            "a": 1.0,
+            "b": 0.18,
+            "g": 0.45,
+            "r": 0.74
+          },
+          "Name": "Workshop Rat colors"
+        }
+      ],
+      "Swatch_Solos": [
+        {
+          "Color1": {
+            "a": 1.0,
+            "b": 0.05,
+            "g": 0.61,
+            "r": 1.0
+          },
+          "Name": "Workshop Rat signal"
+        }
+      ],
+      "Swatch": "None",
+      "WarchestWeapons": [],
+      "WarchestGear": [],
+      "ExpandNowhere": false,
+      "Filename": "Origin_WorkshopRat",
+      "Root": "Tinkerer",
+      "Priority": 1
+    },
+    {
+      "Name": "A.A.H.W. Defector",
+      "NameShort": "Defector",
+      "Description": "You once followed A.A.H.W. orders because that was the only life you knew. Then the orders stopped making sense. You left your standard uniform behind for a weathered field coat, a scavenged work vest, and tinted shades. You still know how to operate, but you no longer have the agency backing you up.",
+      "Imprints": 0,
+      "LinkedCharacter": "Arena",
+      "AttributeBonuses": [
+        0,
+        1,
+        0,
+        -1
+      ],
+      "DefaultArmor": [
+        "Belt_Merc_1",
+        "Gloves_LeatherMarksman"
+      ],
+      "DefaultUniforms": [
+        {
+          "ArmorPicks": [
+            "Shades_Agent"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.51,
+            "g": 0.42,
+            "r": 0.36
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.19,
+            "g": 0.13,
+            "r": 0.1
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.42,
+            "g": 0.63,
+            "r": 0.7
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Outfit_Deimos_MercCoat"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.51,
+            "g": 0.42,
+            "r": 0.36
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.19,
+            "g": 0.13,
+            "r": 0.1
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.42,
+            "g": 0.63,
+            "r": 0.7
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_workvest"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.51,
+            "g": 0.42,
+            "r": 0.36
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.19,
+            "g": 0.13,
+            "r": 0.1
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.42,
+            "g": 0.63,
+            "r": 0.7
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        }
+      ],
+      "Buffs": [
+        {
+          "Description": "Field training taught you to keep one extra pistol magazine ready.",
+          "Amount": 1.0,
+          "Type": "ExtraMags_Handgun",
+          "AmPercent": false,
+          "ShowAsGood": true,
+          "Name": "Pistol Magazine"
+        },
+        {
+          "Description": "Without agency support, you keep your kit light.",
+          "Amount": -0.1,
+          "Type": "EncumbranceMax",
+          "AmPercent": true,
+          "ShowAsGood": false,
+          "Name": "Encumbrance"
+        }
+      ],
+      "SkillFocus": "Ranged",
+      "SkillWeakness": "Melee",
+      "SpecialSkills": [
+        "O_Operative"
+      ],
+      "Swatch_Pairs": [
+        {
+          "Color1": {
+            "a": 1.0,
+            "b": 0.19,
+            "g": 0.13,
+            "r": 0.1
+          },
+          "Color2": {
+            "a": 1.0,
+            "b": 0.51,
+            "g": 0.42,
+            "r": 0.36
+          },
+          "Name": "Defector colors"
+        }
+      ],
+      "Swatch_Solos": [
+        {
+          "Color1": {
+            "a": 1.0,
+            "b": 0.42,
+            "g": 0.63,
+            "r": 0.7
+          },
+          "Name": "Defector signal"
+        }
+      ],
+      "Swatch": "None",
+      "WarchestWeapons": [],
+      "WarchestGear": [],
+      "ExpandNowhere": false,
+      "Filename": "Origin_AAHWDefector",
+      "Root": "Agent",
+      "Priority": 1
+    },
+    {
+      "Name": "Z-52 Fugitive",
+      "NameShort": "Z-52 Fugitive",
+      "Description": "You got caught stealing from a Z-52 facility. You ditched the clean tactical kit and disappeared into the back roads in a patched bandit jacket, rough face covering, and an overstuffed escape pack. They remember your face anyway, and staying wanted costs you.",
+      "Imprints": 0,
+      "LinkedCharacter": "Arena",
+      "AttributeBonuses": [
+        0,
+        0,
+        1,
+        -1
+      ],
+      "DefaultArmor": [
+        "Backpack_Merc_1",
+        "Boots_Leather"
+      ],
+      "DefaultUniforms": [
+        {
+          "ArmorPicks": [
+            "Mask_Bandit 1"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.23,
+            "g": 0.37,
+            "r": 0.65
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.17,
+            "g": 0.18,
+            "r": 0.28
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.34,
+            "g": 0.67,
+            "r": 0.9
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_Bandit 2"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.23,
+            "g": 0.37,
+            "r": 0.65
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.17,
+            "g": 0.18,
+            "r": 0.28
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.34,
+            "g": 0.67,
+            "r": 0.9
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Outfit_Bandit1"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.23,
+            "g": 0.37,
+            "r": 0.65
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.17,
+            "g": 0.18,
+            "r": 0.28
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.34,
+            "g": 0.67,
+            "r": 0.9
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        }
+      ],
+      "Buffs": [
+        {
+          "Description": "You learned to take slightly faster follow-up shots.",
+          "Amount": 0.05,
+          "Type": "RateOfFireNon_Automatics",
+          "AmPercent": true,
+          "ShowAsGood": true,
+          "Name": "Careful Shot"
+        },
+        {
+          "Description": "Keeping ahead of Z-52 cuts into your earnings.",
+          "Amount": -0.05,
+          "Type": "CashBonus",
+          "AmPercent": true,
+          "ShowAsGood": false,
+          "Name": "Wanted"
+        }
+      ],
+      "SkillFocus": "Ranged",
+      "SkillWeakness": "Melee",
+      "SpecialSkills": [
+        "O_Infiltrator"
+      ],
+      "Swatch_Pairs": [
+        {
+          "Color1": {
+            "a": 1.0,
+            "b": 0.17,
+            "g": 0.18,
+            "r": 0.28
+          },
+          "Color2": {
+            "a": 1.0,
+            "b": 0.23,
+            "g": 0.37,
+            "r": 0.65
+          },
+          "Name": "Z-52 Fugitive colors"
+        }
+      ],
+      "Swatch_Solos": [
+        {
+          "Color1": {
+            "a": 1.0,
+            "b": 0.34,
+            "g": 0.67,
+            "r": 0.9
+          },
+          "Name": "Z-52 Fugitive signal"
+        }
+      ],
+      "Swatch": "None",
+      "WarchestWeapons": [],
+      "WarchestGear": [],
+      "ExpandNowhere": false,
+      "Filename": "Origin_Z52Fugitive",
+      "Root": "Mercenary",
+      "Priority": 1
+    },
+    {
+      "Name": "Highway Survivor",
+      "NameShort": "Highway Survivor",
+      "Description": "You crossed Nevada one bad road at a time, piecing together a travel-worn jacket, a bandolier, and a battered goggle hood from whatever you found. You can keep your footing after a hard hit, but long-range gunfights still catch you exposed.",
+      "Imprints": 0,
+      "LinkedCharacter": "Arena",
+      "AttributeBonuses": [
+        1,
+        0,
+        -1,
+        0
+      ],
+      "DefaultArmor": [
+        "Gloves_LeatherMarksman",
+        "Boots_Leather"
+      ],
+      "DefaultUniforms": [
+        {
+          "ArmorPicks": [
+            "Hat_Sanford_goggleHood"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.38,
+            "g": 0.56,
+            "r": 0.7
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.13,
+            "g": 0.16,
+            "r": 0.35
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.39,
+            "g": 0.74,
+            "r": 0.87
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Outfit_Sanford_Bandolier"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.38,
+            "g": 0.56,
+            "r": 0.7
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.13,
+            "g": 0.16,
+            "r": 0.35
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.39,
+            "g": 0.74,
+            "r": 0.87
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        }
+      ],
+      "Buffs": [
+        {
+          "Description": "A little road experience helps you shake off dizziness.",
+          "Amount": 0.1,
+          "Type": "ResistDizzy",
+          "AmPercent": true,
+          "ShowAsGood": true,
+          "Name": "Keep Your Feet"
+        },
+        {
+          "Description": "You never had proper training against ranged fire.",
+          "Amount": -0.05,
+          "Type": "RangedDamage",
+          "AmPercent": true,
+          "ShowAsGood": false,
+          "Name": "Exposed"
+        }
+      ],
+      "SkillFocus": "Acrobatic",
+      "SkillWeakness": "Unarmed",
+      "SpecialSkills": [
+        "O_ThrowMaster"
+      ],
+      "Swatch_Pairs": [
+        {
+          "Color1": {
+            "a": 1.0,
+            "b": 0.13,
+            "g": 0.16,
+            "r": 0.35
+          },
+          "Color2": {
+            "a": 1.0,
+            "b": 0.38,
+            "g": 0.56,
+            "r": 0.7
+          },
+          "Name": "Highway Survivor colors"
+        }
+      ],
+      "Swatch_Solos": [
+        {
+          "Color1": {
+            "a": 1.0,
+            "b": 0.39,
+            "g": 0.74,
+            "r": 0.87
+          },
+          "Name": "Highway Survivor signal"
+        }
+      ],
+      "Swatch": "None",
+      "WarchestWeapons": [],
+      "WarchestGear": [],
+      "ExpandNowhere": false,
+      "Filename": "Origin_HighwaySurvivor",
+      "Root": "None",
+      "Priority": 1
+    },
+    {
+      "Name": "Deep Salvager",
+      "NameShort": "Deep Salvager",
+      "Description": "You spent years pulling useful parts from sealed shafts and dead industrial blocks. The patched mining suit, filter mask, and scratched radiation goggles are practical armor for places where a wrong breath can end a shift. You know how to keep a weapon fed, but the heavy salvage pack slows you down.",
+      "Imprints": 0,
+      "LinkedCharacter": "Arena",
+      "AttributeBonuses": [
+        0,
+        0,
+        1,
+        -1
+      ],
+      "DefaultArmor": [
+        "Gloves_Sappers",
+        "Backpack_Merc_1"
+      ],
+      "DefaultUniforms": [
+        {
+          "ArmorPicks": [
+            "Mouth_BanditMining 1"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.31,
+            "g": 0.43,
+            "r": 0.48
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.22,
+            "g": 0.23,
+            "r": 0.19
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.16,
+            "g": 0.53,
+            "r": 0.91
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Outfit_BanditMining1"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.31,
+            "g": 0.43,
+            "r": 0.48
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.22,
+            "g": 0.23,
+            "r": 0.19
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.16,
+            "g": 0.53,
+            "r": 0.91
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Goggles_RetroRadiation"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.31,
+            "g": 0.43,
+            "r": 0.48
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.22,
+            "g": 0.23,
+            "r": 0.19
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.16,
+            "g": 0.53,
+            "r": 0.91
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        }
+      ],
+      "Buffs": [
+        {
+          "Description": "You keep one extra magazine for your main weapon.",
+          "Amount": 1.0,
+          "Type": "ExtraMags",
+          "AmPercent": false,
+          "ShowAsGood": true,
+          "Name": "Scavenged Ammunition"
+        },
+        {
+          "Description": "The salvage pack makes quick movement harder.",
+          "Amount": -0.05,
+          "Type": "EncumbranceMax",
+          "AmPercent": true,
+          "ShowAsGood": false,
+          "Name": "Loaded Down"
+        }
+      ],
+      "SkillFocus": "Ranged",
+      "SkillWeakness": "Acrobatic",
+      "SpecialSkills": [
+        "O_Tinkerer"
+      ],
+      "Swatch_Pairs": [
+        {
+          "Color1": {
+            "a": 1.0,
+            "b": 0.22,
+            "g": 0.23,
+            "r": 0.19
+          },
+          "Color2": {
+            "a": 1.0,
+            "b": 0.31,
+            "g": 0.43,
+            "r": 0.48
+          },
+          "Name": "Deep Salvager colors"
+        }
+      ],
+      "Swatch_Solos": [
+        {
+          "Color1": {
+            "a": 1.0,
+            "b": 0.16,
+            "g": 0.53,
+            "r": 0.91
+          },
+          "Name": "Deep Salvager signal"
+        }
+      ],
+      "Swatch": "None",
+      "WarchestWeapons": [],
+      "WarchestGear": [],
+      "ExpandNowhere": false,
+      "Filename": "Origin_DeepSalvager",
+      "Root": "Tinkerer",
+      "Priority": 1
+    },
+    {
+      "Name": "Rail Runner",
+      "NameShort": "Rail Runner",
+      "Description": "You learned to move between settlements along service rails and freight yards, carrying only what you could sprint with. A scavenged pilot helmet and flight jacket mark the routes you ran. You handle sidearms cleanly, but you never had the patience for long, careful aim.",
+      "Imprints": 0,
+      "LinkedCharacter": "Arena",
+      "AttributeBonuses": [
+        1,
+        0,
+        0,
+        -1
+      ],
+      "DefaultArmor": [
+        "Belt_Merc_2",
+        "Boots_Leather"
+      ],
+      "DefaultUniforms": [
+        {
+          "ArmorPicks": [
+            "Helmet_Pilot"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.31,
+            "g": 0.43,
+            "r": 0.48
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.25,
+            "g": 0.21,
+            "r": 0.17
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.22,
+            "g": 0.67,
+            "r": 0.86
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Outfit_Pilot"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.31,
+            "g": 0.43,
+            "r": 0.48
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.25,
+            "g": 0.21,
+            "r": 0.17
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.22,
+            "g": 0.67,
+            "r": 0.86
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Goggles_Pilot"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.31,
+            "g": 0.43,
+            "r": 0.48
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.25,
+            "g": 0.21,
+            "r": 0.17
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.22,
+            "g": 0.67,
+            "r": 0.86
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        }
+      ],
+      "Buffs": [
+        {
+          "Description": "A little practice helps with follow-up pistol shots.",
+          "Amount": 0.05,
+          "Type": "RateOfFireNon_Automatics",
+          "AmPercent": true,
+          "ShowAsGood": true,
+          "Name": "Quick Draw"
+        },
+        {
+          "Description": "Your fast-moving style makes ranged shots less steady.",
+          "Amount": -0.05,
+          "Type": "RangedAccuracy",
+          "AmPercent": true,
+          "ShowAsGood": false,
+          "Name": "Rushed Aim"
+        }
+      ],
+      "SkillFocus": "Acrobatic",
+      "SkillWeakness": "Ranged",
+      "SpecialSkills": [
+        "O_Operative"
+      ],
+      "Swatch_Pairs": [
+        {
+          "Color1": {
+            "a": 1.0,
+            "b": 0.25,
+            "g": 0.21,
+            "r": 0.17
+          },
+          "Color2": {
+            "a": 1.0,
+            "b": 0.31,
+            "g": 0.43,
+            "r": 0.48
+          },
+          "Name": "Rail Runner colors"
+        }
+      ],
+      "Swatch_Solos": [
+        {
+          "Color1": {
+            "a": 1.0,
+            "b": 0.22,
+            "g": 0.67,
+            "r": 0.86
+          },
+          "Name": "Rail Runner signal"
+        }
+      ],
+      "Swatch": "None",
+      "WarchestWeapons": [],
+      "WarchestGear": [],
+      "ExpandNowhere": false,
+      "Filename": "Origin_RailRunner",
+      "Root": "Agent",
+      "Priority": 1
+    },
+    {
+      "Name": "Pit Veteran",
+      "NameShort": "Pit Veteran",
+      "Description": "You survived backroom fight pits where a clean win mattered less than getting up for the next round. The battered hockey mask and long coat hide old bruises; the boxing gloves are worn smooth at the knuckles. You know how to finish a close fight, but gunfire still forces you to keep your head down.",
+      "Imprints": 0,
+      "LinkedCharacter": "Arena",
+      "AttributeBonuses": [
+        0,
+        1,
+        -1,
+        0
+      ],
+      "DefaultArmor": [
+        "Gloves_BoxingGloves",
+        "Boots_Heavy",
+        "Belt_Merc_1"
+      ],
+      "DefaultUniforms": [
+        {
+          "ArmorPicks": [
+            "Mask_Hockey"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.22,
+            "g": 0.18,
+            "r": 0.42
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.18,
+            "g": 0.15,
+            "r": 0.16
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.14,
+            "g": 0.1,
+            "r": 0.73
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Outfit_MafiaOvercoat"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.22,
+            "g": 0.18,
+            "r": 0.42
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.18,
+            "g": 0.15,
+            "r": 0.16
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.14,
+            "g": 0.1,
+            "r": 0.73
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        }
+      ],
+      "Buffs": [
+        {
+          "Description": "Pit work gives you a small edge in hand-to-hand damage.",
+          "Amount": 0.05,
+          "Type": "UnarmedDamage",
+          "AmPercent": true,
+          "ShowAsGood": true,
+          "Name": "Close-Quarters Habit"
+        },
+        {
+          "Description": "You have less practice avoiding ranged fire.",
+          "Amount": -0.05,
+          "Type": "RangedDamage",
+          "AmPercent": true,
+          "ShowAsGood": false,
+          "Name": "Open-Lane Risk"
+        }
+      ],
+      "SkillFocus": "Melee",
+      "SkillWeakness": "Ranged",
+      "SpecialSkills": [
+        "O_FreeExecute"
+      ],
+      "Swatch_Pairs": [
+        {
+          "Color1": {
+            "a": 1.0,
+            "b": 0.18,
+            "g": 0.15,
+            "r": 0.16
+          },
+          "Color2": {
+            "a": 1.0,
+            "b": 0.22,
+            "g": 0.18,
+            "r": 0.42
+          },
+          "Name": "Pit Veteran colors"
+        }
+      ],
+      "Swatch_Solos": [
+        {
+          "Color1": {
+            "a": 1.0,
+            "b": 0.14,
+            "g": 0.1,
+            "r": 0.73
+          },
+          "Name": "Pit Veteran signal"
+        }
+      ],
+      "Swatch": "None",
+      "WarchestWeapons": [],
+      "WarchestGear": [],
+      "ExpandNowhere": false,
+      "Filename": "Origin_PitVeteran",
+      "Root": "Disquieted",
+      "Priority": 1
+    },
+    {
+      "Name": "Clinic Runner",
+      "NameShort": "Clinic Runner",
+      "Description": "When the district clinics lost power, you became the person who carried supplies through blocked streets. A stained medical jacket, respirator, and improvised defib gloves still travel with you. You keep your footing after a hit, but the medical kit limits how freely you can move.",
+      "Imprints": 0,
+      "LinkedCharacter": "Arena",
+      "AttributeBonuses": [
+        0,
+        1,
+        0,
+        -1
+      ],
+      "DefaultArmor": [
+        "Gloves_DefibPaddles",
+        "Backpack_Merc_1",
+        "Boots_Casual"
+      ],
+      "DefaultUniforms": [
+        {
+          "ArmorPicks": [
+            "Outfit_DocJacket"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.51,
+            "g": 0.64,
+            "r": 0.68
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.26,
+            "g": 0.29,
+            "r": 0.28
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.7,
+            "g": 0.85,
+            "r": 0.76
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_Gas1"
+          ],
+          "TintSecondary": {
+            "a": 1.0,
+            "b": 0.51,
+            "g": 0.64,
+            "r": 0.68
+          },
+          "TintPrimary": {
+            "a": 1.0,
+            "b": 0.26,
+            "g": 0.29,
+            "r": 0.28
+          },
+          "TintGlass": {
+            "a": 1.0,
+            "b": 0.7,
+            "g": 0.85,
+            "r": 0.76
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        }
+      ],
+      "Buffs": [
+        {
+          "Description": "Clinic work taught you to stay alert after a hard hit.",
+          "Amount": 0.05,
+          "Type": "ResistDizzy",
+          "AmPercent": true,
+          "ShowAsGood": true,
+          "Name": "Steady After Impact"
+        },
+        {
+          "Description": "The supply pack makes movement a little harder.",
+          "Amount": -0.05,
+          "Type": "EncumbranceMax",
+          "AmPercent": true,
+          "ShowAsGood": false,
+          "Name": "Medical Load"
+        }
+      ],
+      "SkillFocus": "Unarmed",
+      "SkillWeakness": "Acrobatic",
+      "SpecialSkills": [
+        "O_ThrowMaster"
+      ],
+      "Swatch_Pairs": [
+        {
+          "Color1": {
+            "a": 1.0,
+            "b": 0.26,
+            "g": 0.29,
+            "r": 0.28
+          },
+          "Color2": {
+            "a": 1.0,
+            "b": 0.51,
+            "g": 0.64,
+            "r": 0.68
+          },
+          "Name": "Clinic Runner colors"
+        }
+      ],
+      "Swatch_Solos": [
+        {
+          "Color1": {
+            "a": 1.0,
+            "b": 0.7,
+            "g": 0.85,
+            "r": 0.76
+          },
+          "Name": "Clinic Runner signal"
+        }
+      ],
+      "Swatch": "None",
+      "WarchestWeapons": [],
+      "WarchestGear": [],
+      "ExpandNowhere": false,
+      "Filename": "Origin_ClinicRunner",
+      "Root": "Patient",
+      "Priority": 1
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 # Third-party notices
 
-Original MadCard Maker and MPN Dossier code, artwork, reference data, icons and documentation retain their original attribution and applicable licensing. This repository is a community rewrite and integration. The project LICENSE does not replace third-party licenses.
+Original MadCard Maker code, artwork, reference data, icons and documentation retain their original attribution and applicable licensing. Dossier source in this repository remains separately attributed and is not part of REVANCED Studio. This repository is a community rewrite. The project LICENSE does not replace third-party licenses.
 
 - NAudio 2.3.0: Mark Heath and contributors, MIT. Restored from NuGet when building; see https://github.com/naudio/NAudio.
-- Newtonsoft.Json: James Newton-King and contributors, MIT. The two original applications reference their existing library versions.
+- Newtonsoft.Json: James Newton-King and contributors, MIT. MadCard Maker references its existing library version.
 - Cyotek.Windows.Forms.ColorPicker: Cyotek Ltd. Original dependency retained with MadCard Maker.
 - Play fonts: SIL Open Font License; see `madcard-revanced/src/Fonts/OFL.txt`.
 - Additional Microsoft support libraries are restored through NuGet with their package license metadata.

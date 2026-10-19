@@ -1,0 +1,1297 @@
+{
+  "Character": [
+    {
+      "Name": "Knockdown Club Knuckle",
+      "NameShort": "Knuckle",
+      "Description": "Knuckle is the Clubs door policy: taped fists, a battered face guard, and a habit of standing exactly where the exit should be. The crowd knows his name because he keeps getting back up.",
+      "Enabled": true,
+      "Level": 12,
+      "Title": "House Brawler",
+      "TacBar": 1.0,
+      "Scale": 1.0,
+      "Faction": "Knockdown Club",
+      "DefaultControl": "NPC",
+      "Health": 30.0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "Attributes": [
+        25,
+        22,
+        15,
+        16
+      ],
+      "Speed": {
+        "x": 0.75,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "ArmorHead": 4.0,
+      "ArmorBody": 5.0,
+      "CountWornArmor": false,
+      "CountAmmoLikePlayer": false,
+      "AnimationSet": "Default",
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "0_VoiceSet",
+      "TextChatter": "CC_KC_Knuckle",
+      "ObjRef": "Character_Default",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "AltMaterials": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "TintEffect": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+      },
+      "Blood": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "Gibs": "None",
+      "BloodSpray": "Blood_Sprays",
+      "HitSFX": [
+        "",
+        ""
+      ],
+      "Behaviors": [
+        "ADD"
+      ],
+      "Traits": [
+        "NotLeader_UNUSED"
+      ],
+      "Vocations": [
+        "Nimble"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "SkillGroups": [
+        "AAHW_Base"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None",
+      "WeaponPref": "Melee",
+      "WeaponGenres": [
+        "Improvised",
+        "Common"
+      ],
+      "DefaultLoadout": "None",
+      "DefaultWeapon": "None",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "DefaultThrown": "None",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Outfit_MafiaOvercoat"
+          ],
+          "TintSecondary": {
+            "r": 0.72,
+            "g": 0.69,
+            "b": 0.59,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.1,
+            "g": 0.75,
+            "b": 0.71,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.1,
+            "g": 0.12,
+            "b": 0.15,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Armor_BombVest"
+          ],
+          "TintSecondary": {
+            "r": 0.72,
+            "g": 0.69,
+            "b": 0.59,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.1,
+            "g": 0.75,
+            "b": 0.71,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.1,
+            "g": 0.12,
+            "b": 0.15,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Mask_Hockey"
+          ],
+          "TintSecondary": {
+            "r": 0.72,
+            "g": 0.69,
+            "b": 0.59,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.1,
+            "g": 0.75,
+            "b": 0.71,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.1,
+            "g": 0.12,
+            "b": 0.15,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Gloves_BoxingGloves"
+          ],
+          "TintSecondary": {
+            "r": 0.72,
+            "g": 0.69,
+            "b": 0.59,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.1,
+            "g": 0.75,
+            "b": 0.71,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.1,
+            "g": 0.12,
+            "b": 0.15,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintSecondary": {
+            "r": 0.72,
+            "g": 0.69,
+            "b": 0.59,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.1,
+            "g": 0.75,
+            "b": 0.71,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.1,
+            "g": 0.12,
+            "b": 0.15,
+            "a": 1.0
+          }
+        }
+      ],
+      "FallPuff": "Effect_LandFall",
+      "LifeEffect": "None",
+      "DeathEffect": "None",
+      "TeleportEffect": [
+        "None",
+        "None"
+      ],
+      "DeactivateTime": 60.0,
+      "FlankMe": false,
+      "Filename": "KC_01_Knuckle",
+      "Root": "AAHW0_Grunt",
+      "Priority": 1
+    },
+    {
+      "Name": "Knockdown Club Slip",
+      "NameShort": "Slip",
+      "Description": "Slip fights like a bad angle: a quick feint, a step outside the guard, and then the opening is gone. The long hood and light boots make her silhouette easy to pick out on the Club floor.",
+      "Enabled": true,
+      "Level": 10,
+      "Title": "Corner Runner",
+      "TacBar": 0.0,
+      "Scale": 1.0,
+      "Faction": "Knockdown Club",
+      "DefaultControl": "NPC",
+      "Health": 21.0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "Attributes": [
+        17,
+        18,
+        25,
+        24
+      ],
+      "Speed": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "ArmorHead": 1.0,
+      "ArmorBody": 2.0,
+      "CountWornArmor": false,
+      "CountAmmoLikePlayer": false,
+      "AnimationSet": "Default",
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "AAHW",
+      "TextChatter": "CC_KC_Slip",
+      "ObjRef": "Character_Default",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "AltMaterials": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "TintEffect": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+      },
+      "Blood": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "Gibs": "None",
+      "BloodSpray": "Blood_Sprays",
+      "HitSFX": [
+        "",
+        ""
+      ],
+      "Behaviors": [
+        "Indirect",
+        "Bubble"
+      ],
+      "Traits": [
+        "NotLeader_UNUSED"
+      ],
+      "Vocations": [
+        "Nimble"
+      ],
+      "Skills": [
+        "XXX_REMOVED5",
+        "StationaryRecovery"
+      ],
+      "SkillGroups": [
+        "AAHW_Agent"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None",
+      "WeaponPref": "Melee",
+      "WeaponGenres": [
+        "Common",
+        "Professional"
+      ],
+      "DefaultLoadout": "None",
+      "DefaultWeapon": "M_Katana",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "DefaultThrown": "None",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Outfit_DarkCoat"
+          ],
+          "TintSecondary": {
+            "r": 0.46,
+            "g": 0.48,
+            "b": 0.43,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.14,
+            "g": 0.79,
+            "b": 0.73,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.11,
+            "g": 0.14,
+            "b": 0.17,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Hat_HoodLong"
+          ],
+          "TintSecondary": {
+            "r": 0.46,
+            "g": 0.48,
+            "b": 0.43,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.14,
+            "g": 0.79,
+            "b": 0.73,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.11,
+            "g": 0.14,
+            "b": 0.17,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Gloves_Fingerless"
+          ],
+          "TintSecondary": {
+            "r": 0.46,
+            "g": 0.48,
+            "b": 0.43,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.14,
+            "g": 0.79,
+            "b": 0.73,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.11,
+            "g": 0.14,
+            "b": 0.17,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Boots_Leather"
+          ],
+          "TintSecondary": {
+            "r": 0.46,
+            "g": 0.48,
+            "b": 0.43,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.14,
+            "g": 0.79,
+            "b": 0.73,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.11,
+            "g": 0.14,
+            "b": 0.17,
+            "a": 1.0
+          }
+        }
+      ],
+      "FallPuff": "Effect_LandFall",
+      "LifeEffect": "None",
+      "DeathEffect": "None",
+      "TeleportEffect": [
+        "None",
+        "None"
+      ],
+      "DeactivateTime": 60.0,
+      "FlankMe": false,
+      "Filename": "KC_02_Slip",
+      "Root": "AAHW1_Agent",
+      "Priority": 1
+    },
+    {
+      "Name": "Knockdown Club Buzzer",
+      "NameShort": "Buzzer",
+      "Description": "Buzzer is the Clubs round marshal, responsible for keeping spectators behind the rails and fighters inside them. The ivory vest and bright gloves look like show gear until the flashbang comes out.",
+      "Enabled": true,
+      "Level": 13,
+      "Title": "Round Marshal",
+      "TacBar": 0.0,
+      "Scale": 1.0,
+      "Faction": "Knockdown Club",
+      "DefaultControl": "NPC",
+      "Health": 24.0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "Attributes": [
+        19,
+        22,
+        23,
+        20
+      ],
+      "Speed": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "ArmorHead": 2.0,
+      "ArmorBody": 3.0,
+      "CountWornArmor": false,
+      "CountAmmoLikePlayer": false,
+      "AnimationSet": "N51",
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_B",
+      "TextChatter": "CC_KC_Buzzer",
+      "ObjRef": "Character_Default",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "AltMaterials": [
+        {
+          "AssignedParts": [
+            "Head"
+          ],
+          "Materials": [
+            "Mat_Head_Nexus2"
+          ]
+        }
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "TintEffect": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+      },
+      "Blood": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "Gibs": "None",
+      "BloodSpray": "Blood_Sprays",
+      "HitSFX": [
+        "",
+        ""
+      ],
+      "Behaviors": [
+        "Runner",
+        "Accurate",
+        "Tactical",
+        "Indirect",
+        "Bubble",
+        "HotFoot",
+        "TargetShy",
+        "FreeAttacker",
+        "HoldCover",
+        "TattleTale"
+      ],
+      "Traits": [
+        "InfiniteAmmo"
+      ],
+      "Vocations": [
+        "Nimble",
+        "Marshmallow"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "SkillGroups": [
+        "Nexus_Agent"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None",
+      "WeaponPref": "SMG",
+      "WeaponGenres": [
+        "Professional"
+      ],
+      "DefaultLoadout": "None",
+      "DefaultWeapon": "R_NM46",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "DefaultThrown": "T_FlashBang",
+      "UnarmedReplacement": "R_MP5",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Outfit_VampRegalVest"
+          ],
+          "TintSecondary": {
+            "r": 0.76,
+            "g": 0.72,
+            "b": 0.57,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.13,
+            "g": 0.82,
+            "b": 0.75,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.12,
+            "g": 0.16,
+            "b": 0.17,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Armor_workvest"
+          ],
+          "TintSecondary": {
+            "r": 0.76,
+            "g": 0.72,
+            "b": 0.57,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.13,
+            "g": 0.82,
+            "b": 0.75,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.12,
+            "g": 0.16,
+            "b": 0.17,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Mask_Sheriff"
+          ],
+          "TintSecondary": {
+            "r": 0.76,
+            "g": 0.72,
+            "b": 0.57,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.13,
+            "g": 0.82,
+            "b": 0.75,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.12,
+            "g": 0.16,
+            "b": 0.17,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Hat_Sheriff"
+          ],
+          "TintSecondary": {
+            "r": 0.76,
+            "g": 0.72,
+            "b": 0.57,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.13,
+            "g": 0.82,
+            "b": 0.75,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.12,
+            "g": 0.16,
+            "b": 0.17,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Gloves_Ring_Light"
+          ],
+          "TintSecondary": {
+            "r": 0.76,
+            "g": 0.72,
+            "b": 0.57,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.13,
+            "g": 0.82,
+            "b": 0.75,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.12,
+            "g": 0.16,
+            "b": 0.17,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Boots_Leather"
+          ],
+          "TintSecondary": {
+            "r": 0.76,
+            "g": 0.72,
+            "b": 0.57,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.13,
+            "g": 0.82,
+            "b": 0.75,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.12,
+            "g": 0.16,
+            "b": 0.17,
+            "a": 1.0
+          }
+        }
+      ],
+      "FallPuff": "Effect_LandFall",
+      "LifeEffect": "None",
+      "DeathEffect": "None",
+      "TeleportEffect": [
+        "None",
+        "None"
+      ],
+      "DeactivateTime": 60.0,
+      "FlankMe": false,
+      "Filename": "KC_03_Buzzer",
+      "Root": "N51_0_Recon",
+      "Priority": 1
+    },
+    {
+      "Name": "Knockdown Club Bellmouth",
+      "NameShort": "Bellmouth",
+      "Description": "Mags Calder built the Knockdown Club from a failed boxing hall and a list of unpaid debts. Bellmouth runs the floor, calls the bouts, and steps in when the crowd stops following the rules.",
+      "Enabled": true,
+      "Level": 17,
+      "Title": "Club Promoter",
+      "TacBar": 0.0,
+      "Scale": 1.0,
+      "Faction": "Knockdown Club",
+      "DefaultControl": "NPC",
+      "Health": 34.0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "Attributes": [
+        25,
+        24,
+        22,
+        23
+      ],
+      "Speed": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "ArmorHead": 4.0,
+      "ArmorBody": 5.0,
+      "CountWornArmor": false,
+      "CountAmmoLikePlayer": false,
+      "AnimationSet": "N51",
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_B",
+      "TextChatter": "CC_KC_Bellmouth",
+      "ObjRef": "Character_Default",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "AltMaterials": [
+        {
+          "AssignedParts": [
+            "Head"
+          ],
+          "Materials": [
+            "Mat_Head_Nexus2b"
+          ]
+        }
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "TintEffect": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+      },
+      "Blood": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "Gibs": "None",
+      "BloodSpray": "Blood_Sprays",
+      "HitSFX": [
+        "",
+        ""
+      ],
+      "Behaviors": [
+        "Evasive",
+        "Accurate",
+        "Tactical",
+        "Bubble",
+        "HotFoot",
+        "FreeAttacker",
+        "TargetShy",
+        "HoldCover",
+        "Deadly",
+        "ButtonMasher"
+      ],
+      "Traits": [
+        "InfiniteAmmo",
+        "ZedProof"
+      ],
+      "Vocations": [
+        "Demolition"
+      ],
+      "Skills": [
+        "SpecialStrike",
+        "BetterSpecialStrike",
+        "LightSwing",
+        "MobileAim"
+      ],
+      "SkillGroups": [
+        "Nexus_Agent",
+        "AAHW_Skilled"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None",
+      "WeaponPref": "Rifle",
+      "WeaponGenres": [
+        "Professional"
+      ],
+      "DefaultLoadout": "None",
+      "DefaultWeapon": "R_FNC",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "DefaultThrown": "None",
+      "UnarmedReplacement": "R_FNC",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Outfit_MafiaOvercoat"
+          ],
+          "TintSecondary": {
+            "r": 0.78,
+            "g": 0.73,
+            "b": 0.56,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.12,
+            "g": 0.8,
+            "b": 0.73,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.11,
+            "g": 0.14,
+            "b": 0.16,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Armor_Nexus_Riot"
+          ],
+          "TintSecondary": {
+            "r": 0.78,
+            "g": 0.73,
+            "b": 0.56,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.12,
+            "g": 0.8,
+            "b": 0.73,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.11,
+            "g": 0.14,
+            "b": 0.16,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Mask_MERCboss1_v3"
+          ],
+          "TintSecondary": {
+            "r": 0.78,
+            "g": 0.73,
+            "b": 0.56,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.12,
+            "g": 0.8,
+            "b": 0.73,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.11,
+            "g": 0.14,
+            "b": 0.16,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Hat_N51Beret"
+          ],
+          "TintSecondary": {
+            "r": 0.78,
+            "g": 0.73,
+            "b": 0.56,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.12,
+            "g": 0.8,
+            "b": 0.73,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.11,
+            "g": 0.14,
+            "b": 0.16,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Gloves_FullGloves"
+          ],
+          "TintSecondary": {
+            "r": 0.78,
+            "g": 0.73,
+            "b": 0.56,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.12,
+            "g": 0.8,
+            "b": 0.73,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.11,
+            "g": 0.14,
+            "b": 0.16,
+            "a": 1.0
+          }
+        },
+        {
+          "AltMesh": 0,
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintSecondary": {
+            "r": 0.78,
+            "g": 0.73,
+            "b": 0.56,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.12,
+            "g": 0.8,
+            "b": 0.73,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "TintPrimary": {
+            "r": 0.11,
+            "g": 0.14,
+            "b": 0.16,
+            "a": 1.0
+          }
+        }
+      ],
+      "FallPuff": "Effect_LandFall",
+      "LifeEffect": "None",
+      "DeathEffect": "None",
+      "TeleportEffect": [
+        "None",
+        "None"
+      ],
+      "DeactivateTime": 60.0,
+      "FlankMe": false,
+      "Filename": "KC_04_Bellmouth",
+      "Root": "N51_2_Commando",
+      "Priority": 1
+    }
+  ],
+  "Chatter": [
+    {
+      "Name": "Knockdown Club - Knuckle",
+      "NameShort": "Knuckle",
+      "Description": "Original combat chatter for Knockdown Club Knuckle.",
+      "Font": "hemi head bd it",
+      "Size": 9,
+      "Color": {
+        "r": 0.6,
+        "g": 0.6,
+        "b": 0.4,
+        "a": 1.0
+      },
+      "Style": 0,
+      "Spawned": [
+        "House rules: stay standing.",
+        "You paid to watch. I got paid to work."
+      ],
+      "WakeUp": [
+        "Bell rang? Good.",
+        "Who hit the lights?"
+      ],
+      "Attacking": [
+        "Hands up!",
+        "Back to the ropes!"
+      ],
+      "Chasing": [
+        "Keep running. The crowd loves it.",
+        "You are still in the ring."
+      ],
+      "Waiting": [
+        "I can wait all night.",
+        "Somebody ring the bell."
+      ],
+      "FriendDied": [
+        "Get them out of the ring!",
+        "That was a cheap shot. Now it is personal."
+      ],
+      "EnemyDown": [
+        "Count that one out.",
+        "Stay down; save us both the trouble."
+      ],
+      "Wounded": [
+        "There goes my clean shirt.",
+        "Still got another round."
+      ],
+      "Died": [
+        "Count me out...",
+        "Tell the crowd I want a rematch."
+      ],
+      "Filename": "CC_KC_Knuckle",
+      "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Name": "Knockdown Club - Slip",
+      "NameShort": "Slip",
+      "Description": "Original combat chatter for Knockdown Club Slip.",
+      "Font": "hemi head bd it",
+      "Size": 9,
+      "Color": {
+        "r": 0.6,
+        "g": 0.6,
+        "b": 0.4,
+        "a": 1.0
+      },
+      "Style": 0,
+      "Spawned": [
+        "You watch the hands. I use the feet.",
+        "Find a corner. I will find the gap."
+      ],
+      "WakeUp": [
+        "Thought I was done?",
+        "You blinked first."
+      ],
+      "Attacking": [
+        "Wrong side!",
+        "Too slow!"
+      ],
+      "Chasing": [
+        "Keep moving. I am right there.",
+        "You cannot dodge every turn."
+      ],
+      "Waiting": [
+        "I am not tired. Just bored.",
+        "Call the next round."
+      ],
+      "FriendDied": [
+        "That was our best fighter.",
+        "I will finish the match for them."
+      ],
+      "EnemyDown": [
+        "Clean point.",
+        "You left the opening wide."
+      ],
+      "Wounded": [
+        "Nice hit. My turn.",
+        "That coat is harder to replace than me."
+      ],
+      "Died": [
+        "Guess I missed one.",
+        "Tell them I almost had it."
+      ],
+      "Filename": "CC_KC_Slip",
+      "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Name": "Knockdown Club - Buzzer",
+      "NameShort": "Buzzer",
+      "Description": "Original combat chatter for Knockdown Club Buzzer.",
+      "Font": "hemi head bd it",
+      "Size": 9,
+      "Color": {
+        "r": 0.6,
+        "g": 0.6,
+        "b": 0.4,
+        "a": 1.0
+      },
+      "Style": 0,
+      "Spawned": [
+        "Next round starts now.",
+        "Keep the rails clear, folks."
+      ],
+      "WakeUp": [
+        "Everybody back from the ropes!",
+        "That was not part of the show."
+      ],
+      "Attacking": [
+        "Round is live!",
+        "Eyes down!"
+      ],
+      "Chasing": [
+        "No leaving before the count.",
+        "Back to the floor!"
+      ],
+      "Waiting": [
+        "I am waiting on the bell.",
+        "Crowd stays behind the line."
+      ],
+      "FriendDied": [
+        "Show is over. Get them out.",
+        "Nobody cheers for that."
+      ],
+      "EnemyDown": [
+        "That is the count.",
+        "Winner stays on their feet."
+      ],
+      "Wounded": [
+        "I have called worse rounds.",
+        "That vest is for decoration anyway."
+      ],
+      "Died": [
+        "Somebody ring it...",
+        "Cut the lights, then."
+      ],
+      "Filename": "CC_KC_Buzzer",
+      "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Name": "Knockdown Club - Bellmouth",
+      "NameShort": "Bellmouth",
+      "Description": "Original combat chatter for Knockdown Club Bellmouth.",
+      "Font": "hemi head bd it",
+      "Size": 9,
+      "Color": {
+        "r": 0.6,
+        "g": 0.6,
+        "b": 0.4,
+        "a": 1.0
+      },
+      "Style": 0,
+      "Spawned": [
+        "Welcome to the Club. Leave your excuses at the door.",
+        "Bell is mine. Floor is yours."
+      ],
+      "WakeUp": [
+        "House lights up! Lock the exits!",
+        "I did not book this fight."
+      ],
+      "Attacking": [
+        "Bring the whole house down on them!",
+        "Nobody leaves before the final count!"
+      ],
+      "Chasing": [
+        "Close the doors. The show is not over.",
+        "Get them back under the lights!"
+      ],
+      "Waiting": [
+        "Crowd wants a finish. Give them one.",
+        "I own the bell. I set the pace."
+      ],
+      "FriendDied": [
+        "No more show. This is business now.",
+        "Clear the floor!"
+      ],
+      "EnemyDown": [
+        "And that is the final count.",
+        "Next bout!"
+      ],
+      "Wounded": [
+        "You just damaged the promoter. Bad investment.",
+        "I have bled for this place before."
+      ],
+      "Died": [
+        "Take the Club... from my cold hands.",
+        "No encore for me."
+      ],
+      "Filename": "CC_KC_Bellmouth",
+      "Root": "N51",
+      "Priority": 1
+    }
+  ]
+}
