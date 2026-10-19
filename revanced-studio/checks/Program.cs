@@ -40,6 +40,8 @@ class Integration
    var bonuses=(JArray)draft["AttributeBonuses"];Check(bonuses.Count==4&&Enumerable.Range(0,4).All(i=>(int)bonuses[i]==i+1),"Origin attribute bonuses are not written in Strength/Dexterity/Endurance/Tactics order");
   }
   using(var choice=new M.MakerCreationModeDialog("Ranged"))Check(choice.Mode==M.MakerCreationMode.Cancel,"Creation mode dialog did not start without a selection");
+  var styleType=typeof(M.StudioModule).Assembly.GetType("MadCardMaker.DossierStyle");var theme=styleType.GetField("Theme",BindingFlags.Static|BindingFlags.NonPublic).GetValue(null);float interfaceScale=(float)theme.GetType().GetProperty("InterfaceScale").GetValue(theme,null);
+  using(var scaling=new Form{Size=new Size(500,360)}){var button=new Button{Size=new Size(100,30)};scaling.Controls.Add(button);styleType.GetMethod("Apply",BindingFlags.Static|BindingFlags.NonPublic).Invoke(null,new object[]{scaling});Check(Math.Abs(button.Font.Size-10f*interfaceScale)<.2f,"Interface size scaling still enlarges fonts twice");Check(Math.Abs(button.Width-100*interfaceScale)<=1,"Interface size scaling did not resize control bounds once");}
   Check(typeof(StudioWindow).Assembly.GetReferencedAssemblies().All(a=>!a.Name.Equals("MPNDossier",StringComparison.OrdinalIgnoreCase)),"Studio still references the Dossier assembly");
   Console.WriteLine("Creating Studio shell");using(var shell=new StudioWindow(root,true)){
    var hiddenHandle=shell.Handle;
@@ -48,6 +50,12 @@ class Integration
    shell.SwitchWorkspace("MadCard");Check(shell.ActiveWorkspace=="MadCard"&&shell.Workspaces.Count==1,"MCM workspace did not open on its own");
    var home=shell.Workspaces["MadCard"].Home;Check(!home.TopLevel&&home.Dock==DockStyle.Fill,"MCM home isn't embedded");
    if(!SystemInformation.HighContrast)Check(M.DossierScrollbars.IsAttached(shell)&&M.DossierScrollbars.IsAttached(home),"Studio scrollbar styling missing");
+   using(var notepad=new M.MakerNotepad()){
+    notepad.Editor.Text="Formatted note";notepad.Editor.SelectAll();using(var chosenFont=new Font("Consolas",14,FontStyle.Bold)){notepad.Editor.SelectionFont=chosenFont;notepad.Editor.SelectionColor=Color.FromArgb(220,50,65);}
+    string notePath=Path.Combine(Path.GetDirectoryName(root),"checks","StudioNotepadSmoke.rtf");typeof(M.MakerNotepad).GetMethod("SaveTo",Hidden).Invoke(notepad,new object[]{notePath});
+    using(var restored=new RichTextBox()){restored.LoadFile(notePath,RichTextBoxStreamType.RichText);restored.SelectAll();Check(restored.Text=="Formatted note"&&restored.SelectionFont.Bold&&restored.SelectionFont.FontFamily.Name=="Consolas"&&restored.SelectionColor.R==220,"Notepad did not preserve text formatting and chosen fonts in RTF");}
+    File.Delete(notePath);shell.OpenDocument("MadCard",notepad);Check(shell.Workspaces["MadCard"].Documents.Count==2,"Studio Notepad did not open as a workspace document tab");shell.CloseActiveDocument();Check(notepad.IsDisposed&&shell.Workspaces["MadCard"].Documents.Count==1,"Studio Notepad tab did not close cleanly");
+   }
    var note=new Form{Text="Unsaved MCM draft",Tag="keep-this"};shell.OpenDocument("MadCard",note);Check(shell.Workspaces["MadCard"].Documents.Count==2,"MCM editor tab missing");
    shell.SwitchWorkspace("MadCard");Check(ReferenceEquals(home,shell.Workspaces["MadCard"].Home),"MCM workspace reloaded while opening a document");Check(!note.IsDisposed&&(string)note.Tag=="keep-this","MCM draft was lost");
    shell.OpenDocument("MadCard",note);Check(shell.Workspaces["MadCard"].Documents.Count==2,"Existing MCM document duplicated");shell.CloseActiveDocument();Check(shell.Workspaces["MadCard"].Documents.Count==1&&note.IsDisposed,"Close tab didn't remove the editor");shell.CloseActiveDocument();Check(!home.IsDisposed,"Workspace home was closed");

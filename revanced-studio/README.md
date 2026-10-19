@@ -6,7 +6,7 @@ REVANCED Studio is the standalone **MadCard Maker REVANCED** application for edi
 
 Click **Music** in the Studio header for a persistent local playlist and live 48-band audio spectrum. Add files through the built-in explorer or drag audio files onto the player. Double-click a track or press Play. Previous, Next, Pause/Resume, Stop, seeking, independent volume, shuffle and repeat (Off / Playlist / Track) are included. Closing the player hides it and keeps playback running; closing Studio releases the audio device. The playlist and preferences are stored in `%LOCALAPPDATA%/REVANCEDStudio/music.json`. Nothing plays automatically on startup. Missing or unsupported files report an error. WAV, MP3 and AIFF are supported; M4A, AAC and WMA depend on available Windows decoders. The visualizer reads the playing samples and suspends drawing/analysis while hidden.
 
-**Appearance → Text and control size** offers Compact (100%), Comfortable (115%, default) and Large (130%). Reopen Studio to apply the setting. Shared buttons, tabs, lists, input surfaces, dropdown chrome and window corners use squircle styling. Native keyboard navigation, focus and scrolling remain available.
+**Appearance → Text and control size** offers Compact (100%), Comfortable (115%, default) and Large (130%). Reopen Studio to apply the setting. Scaling enlarges controls and text once, so labels and buttons continue to fit. Shared buttons, tabs, lists, input surfaces, dropdown chrome and window corners use squircle styling. Native keyboard navigation, focus and scrolling remain available.
 
 When creating any card, choose **Assisted** or **Advanced**. Assisted character creation keeps its role, appearance and combat setup. Other card types get a schema-aware guide with matching templates, autocomplete for database references, type-checked settings and a live JSON preview; nested structures remain available in Advanced mode. Assisted Origins have a dedicated creator for identity, unlock cost, linked character, icon, swatch, skill focus/weakness, the four ordered attribute bonuses, special skills, custom bonuses, and starting armor, weapons and gear. Optional groups inherit from the chosen Origin until you opt into overriding them. **Open in full editor** opens the guided draft for final review and saving.
 
@@ -27,6 +27,7 @@ The MCM workspace includes:
 - Mod/deck organization, inherited roots and reference suggestions.
 - Assisted or Advanced creation for every card type, plus twelve editable starter presets for characters, firearms, melee weapons and chatter.
 - Dedicated Origin creator with inheritance-aware progression, bonuses and loadout setup.
+- **Open Studio Notepad**: a red-and-black rich text editor in its own Studio tab. It supports font family and size, bold/italic/underline/strike-through, text and highlight colors, bullets, alignment, undo/redo, date insertion, RTF formatting and plain-text files. Notes can be saved as `.rtf` or `.txt`; replacing a note keeps a `.bak` backup.
 - Independent card duplication with **Ctrl+D**.
 - Card/deck checks, including IDs, roots, common health-track problems and loaded references.
 - Read-only **Overrides**, **Resolved**, **Deck JSON** and **Changes** views.
@@ -70,4 +71,4 @@ Zayden — project direction, feature requests, worldbuilding and hands-on testi
 
 ## Verification
 
-The MCM checks cover preset roots/fields, assisted/advanced creation coverage across card types, Origin drafts and attribute ordering, independent duplication, non-destructive deck encoding, valid IDs, backup writes, imported drafts, undo/redo and review tabs. Studio checks load the MadCard reference database, exercise workspace/document persistence and tab closing, and verify the Dossier assembly is not referenced or packaged. These tests do not establish in-game compatibility or replace testing exports in the selected MPN/MadCard loader version.
+The MCM checks cover preset roots/fields, assisted/advanced creation coverage across card types, Origin drafts and attribute ordering, independent duplication, non-destructive deck encoding, valid IDs, backup writes, imported drafts, undo/redo and review tabs. Studio checks also verify one-pass interface scaling, formatted RTF and font round-tripping in the integrated Notepad, workspace/document persistence and tab closing, and that the Dossier assembly is not referenced or packaged. These tests do not establish in-game compatibility or replace testing exports in the selected MPN/MadCard loader version.

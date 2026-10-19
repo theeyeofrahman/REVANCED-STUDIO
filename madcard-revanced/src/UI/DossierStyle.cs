@@ -21,6 +21,7 @@ internal static class DossierStyle
     internal static void Apply(Control root)
     {
         if(Styled.TryGetValue(root,out _))return;Styled.Add(root,new object());
+        if(root is Form scaledForm&&Theme.InterfaceScale!=1f){scaledForm.SuspendLayout();scaledForm.Scale(new SizeF(Theme.InterfaceScale,Theme.InterfaceScale));scaledForm.ResumeLayout(true);}
         root.Font = DossierFonts.Create(Equals(root.Tag,"Heading")?Theme.HeadingFont:Theme.FontFamily, (Equals(root.Tag,"Heading")?18f:10f)*Theme.InterfaceScale,Equals(root.Tag,"Heading")?FontStyle.Bold:FontStyle.Regular);
         root.ForeColor = Text;
         root.BackColor = root is Form ? Background : Surface;
@@ -81,7 +82,7 @@ internal static class DossierStyle
         if(root is TextBoxBase||root is TreeView||root is ListBox||root is ListView||root is PictureBox){root.SizeChanged+=(_,__)=>Round(root,DossierDpi.Pixels(root,root is TextBoxBase?5:10));Round(root,DossierDpi.Pixels(root,root is TextBoxBase?5:10));}
         DossierScrollbars.Attach(root);
         foreach (Control child in root.Controls) Apply(child);
-        if(root is Form form){if(Theme.InterfaceScale!=1f){form.SuspendLayout();form.Scale(new SizeF(Theme.InterfaceScale,Theme.InterfaceScale));form.ResumeLayout(true);}form.Icon=DossierBrand.Icon;form.ShowIcon=true;DossierDpi.Watch(form);DossierFeedback.Attach(root);form.KeyPreview=true;form.KeyDown+=(_,e)=>{if(e.KeyCode==Keys.F1){MakerHelp.Open(form);e.SuppressKeyPress=true;}};}
+        if(root is Form form){form.Icon=DossierBrand.Icon;form.ShowIcon=true;DossierDpi.Watch(form);DossierFeedback.Attach(root);form.KeyPreview=true;form.KeyDown+=(_,e)=>{if(e.KeyCode==Keys.F1){MakerHelp.Open(form);e.SuppressKeyPress=true;}};}
     }
 
     private static void StyleItem(ToolStripItem item)
