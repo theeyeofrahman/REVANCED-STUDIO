@@ -1481,10 +1481,11 @@ public sealed class ModCards
 	public static string[] Options(string types)
 	{
 		List<string> list = new List<string>();
-		list.AddRange(ModEnums.SC_DIR[types].Keys);
-		foreach (string key in ModEnums.MC_DIR[types].Keys)
+		if (ModEnums.SC_DIR.TryGetValue(types, out var singleCards)) list.AddRange(singleCards.Keys);
+		if (!ModEnums.MC_DIR.TryGetValue(types, out var multiCards)) return list.ToArray();
+		foreach (string key in multiCards.Keys)
 		{
-			if (!ModEnums.SC_DIR[types].ContainsKey(key))
+			if (singleCards == null || !singleCards.ContainsKey(key))
 			{
 				list.Add(key);
 			}

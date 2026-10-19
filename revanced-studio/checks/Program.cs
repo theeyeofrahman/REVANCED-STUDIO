@@ -5,6 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
+using Newtonsoft.Json.Linq;
 using RevancedStudio;
 using M=MadCardMaker;
 class Integration
@@ -27,6 +28,18 @@ class Integration
    var guidance=(Label)typeof(M.MakerAssistedCharacterDialog).GetField("guidance",Hidden).GetValue(wizard);
    Check(guidance.Text.Contains("Suggested values were copied"),"Appearance based field suggestions did not load");
   }
+  int assistedTypes=0;foreach(var type in M.ModEnums.CARDTYPES.Where(t=>t!="Character")){using(var wizard=new M.MakerAssistedCardDialog(type)){Check(wizard.Text.Contains("Assisted"),"Missing assisted creator for "+type);assistedTypes++;}}
+  Check(assistedTypes==M.ModEnums.CARDTYPES.Length-1,"Not every non-character card type has an assisted creator");
+  using(var origin=new M.MakerAssistedOriginDialog()){
+   var build=typeof(M.MakerAssistedOriginDialog).GetMethod("Build",Hidden);
+   var draft=(JObject)build.Invoke(origin,null);
+   Check(M.MakerStudio.ValidId((string)draft["Filename"])&&!string.IsNullOrWhiteSpace((string)draft["Root"]),"Origin assistant did not initialize a valid draft");
+   var setAttributes=(CheckBox)typeof(M.MakerAssistedOriginDialog).GetField("setAttributes",Hidden).GetValue(origin);setAttributes.Checked=true;
+   var values=(NumericUpDown[])typeof(M.MakerAssistedOriginDialog).GetField("attributes",Hidden).GetValue(origin);for(int i=0;i<values.Length;i++)values[i].Value=i+1;
+   draft=(JObject)build.Invoke(origin,null);
+   var bonuses=(JArray)draft["AttributeBonuses"];Check(bonuses.Count==4&&Enumerable.Range(0,4).All(i=>(int)bonuses[i]==i+1),"Origin attribute bonuses are not written in Strength/Dexterity/Endurance/Tactics order");
+  }
+  using(var choice=new M.MakerCreationModeDialog("Ranged"))Check(choice.Mode==M.MakerCreationMode.Cancel,"Creation mode dialog did not start without a selection");
   Check(typeof(StudioWindow).Assembly.GetReferencedAssemblies().All(a=>!a.Name.Equals("MPNDossier",StringComparison.OrdinalIgnoreCase)),"Studio still references the Dossier assembly");
   Console.WriteLine("Creating Studio shell");using(var shell=new StudioWindow(root,true)){
    var hiddenHandle=shell.Handle;

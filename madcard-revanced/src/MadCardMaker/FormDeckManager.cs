@@ -1603,6 +1603,10 @@ public partial class FormDeckManager : Form
 
 	private void CP_Add_Click(object sender, EventArgs e)
 	{
+		if (StudioModule.Hosted && CardManager.Visible && TryStartStudioCardCreation())
+		{
+			return;
+		}
 		if (CardManager.Visible)
 		{
 			FormEditor formEditor = new FormEditor

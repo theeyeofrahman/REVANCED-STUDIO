@@ -48,12 +48,15 @@ public sealed class MakerAssistedCharacterDialog : Form
     readonly NumericUpDown health = Number(1, 10000, 1), level = Number(0, 1000, 0), scale = Number(.25m, 3, 2), tacBar = Number(0, 10, 2);
     readonly TextBox preview = new TextBox { Dock = DockStyle.Fill, ReadOnly = true, Multiline = true, ScrollBars = ScrollBars.Vertical };
     readonly Label guidance = new Label { Dock = DockStyle.Fill, Text = "Choose a role, then customize the basics. Appearance inherits the selected character's model, clothes and equipment. You can edit every field in the full editor next." };
+    readonly string initialRoot;
+    readonly string initialRoleName;
     bool loading, customId;
     static ComboBox Choice() => new ComboBox { Dock = DockStyle.Fill, DropDownStyle = ComboBoxStyle.DropDown, AutoCompleteSource = AutoCompleteSource.ListItems, AutoCompleteMode = AutoCompleteMode.SuggestAppend };
     static NumericUpDown Number(decimal min, decimal max, int decimals) => new NumericUpDown { Dock = DockStyle.Fill, Minimum = min, Maximum = max, DecimalPlaces = decimals, Increment = decimals == 0 ? 1 : .05m };
 
-    public MakerAssistedCharacterDialog(Func<string,bool> idExists = null)
+    public MakerAssistedCharacterDialog(Func<string,bool> idExists = null, string initialRoot = null, string initialRoleName = null)
     {
+        this.initialRoot = initialRoot; this.initialRoleName = initialRoleName;
         Text = "Assisted character creation"; Size = new Size(1120, 860); MinimumSize = new Size(900, 720); StartPosition = FormStartPosition.CenterParent;
         AutoScaleMode = AutoScaleMode.Dpi; AutoScaleDimensions = new SizeF(96, 96);
         var root = new TableLayoutPanel { Dock = DockStyle.Fill, ColumnCount = 2, RowCount = 3, Padding = new Padding(24) };
@@ -101,7 +104,7 @@ public sealed class MakerAssistedCharacterDialog : Form
         chatter.Items.Add("Inherit from appearance"); if (ModEnums.SC_DIR.TryGetValue("Chatter", out var lines)) chatter.Items.AddRange(lines.Keys.Cast<object>().ToArray()); chatter.SelectedIndex = 0;
         role.SelectedIndexChanged += (_, __) =>
         {
-            var preset = (MakerPreset)role.SelectedItem; loading = true; appearance.SelectedItem = preset.Root;
+            var preset = (MakerPreset)role.SelectedItem; loading = true; appearance.SelectedItem = !string.IsNullOrWhiteSpace(initialRoot) && appearance.Items.Contains(initialRoot) ? initialRoot : preset.Root;
             health.Value = (decimal?)preset.Values["Health"] ?? 10; level.Value = (int?)preset.Values["Level"] ?? 1;
             scale.Value = (decimal?)preset.Values["Scale"] ?? 1; tacBar.Value = (decimal?)preset.Values["TacBar"] ?? .5m;
             faction.SelectedIndex = voiceSet.SelectedIndex = weaponStyle.SelectedIndex = weapon.SelectedIndex = offHand.SelectedIndex = sidearm.SelectedIndex = animationSet.SelectedIndex = 0; enabled.Checked = true;
@@ -114,7 +117,9 @@ public sealed class MakerAssistedCharacterDialog : Form
         foreach (var choice in new[] { faction, voiceSet, weaponStyle, weapon, offHand, sidearm, animationSet }) choice.SelectedIndexChanged += (_, __) => UpdateDraft(); enabled.CheckedChanged += (_, __) => UpdateDraft();
         create.Click += (_, __) => { try { Card = Build(); if(idExists!=null&&idExists((string)Card["Filename"]))throw new FormatException("That ID is already used in this deck. Choose another ID."); DialogResult = DialogResult.OK; Close(); } catch (Exception e) { guidance.Text = e.Message; } };
         loading = true; id.Text = MakerAssistedCharacter.SuggestId(name.Text); loading = false;
-        DossierStyle.Apply(this); role.SelectedIndex = 0;
+        DossierStyle.Apply(this);
+        role.SelectedItem = MakerPreset.All.FirstOrDefault(p => p.Type == "Character" && string.Equals(p.Name, initialRoleName, StringComparison.OrdinalIgnoreCase));
+        if (role.SelectedIndex < 0) role.SelectedIndex = 0;
     }
     void Populate(ComboBox choice, string type)
     {
