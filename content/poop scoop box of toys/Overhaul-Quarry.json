@@ -1683,6 +1683,244 @@
       "Kick": "None",
       "Headbutt": "None",
       "SlamExplode": "None"
+    },
+    {
+      "Name": "Seam",
+      "NameShort": "Seam",
+      "Description": "Seam is the Marksman of the Red Quarry Combine, working the cut stone pits and freight lifts. spots threats early and shares a clean shot with the rest of the team. Their field kit shows the crew's colors: oxide-red plates over quarry gray with amber safety glass.",
+      "Level": 6,
+      "Title": "Marksman",
+      "TacBar": 0,
+      "Faction": "Red Quarry Combine",
+      "Health": 7,
+      "Attributes": [
+        9,
+        12,
+        9,
+        11
+      ],
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "Support",
+      "TextChatter": "CC_OVR_Quarry_Seam",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Personal",
+        "NoSprint",
+        "FreeAttacker"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "WeaponPref": "Melee",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_Agent"
+          ],
+          "TintPrimary": {
+            "r": 0.317647,
+            "g": 0.25098,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.647059,
+            "g": 0.329412,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.901961,
+            "g": 0.690196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_Nexus_Riot"
+          ],
+          "TintPrimary": {
+            "r": 0.317647,
+            "g": 0.25098,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.647059,
+            "g": 0.329412,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.901961,
+            "g": 0.690196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_Nexus 5"
+          ],
+          "TintPrimary": {
+            "r": 0.317647,
+            "g": 0.25098,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.647059,
+            "g": 0.329412,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.901961,
+            "g": 0.690196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_Nexus_Riot"
+          ],
+          "TintPrimary": {
+            "r": 0.317647,
+            "g": 0.25098,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.647059,
+            "g": 0.329412,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.901961,
+            "g": 0.690196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_BanditBrute"
+          ],
+          "TintPrimary": {
+            "r": 0.317647,
+            "g": 0.25098,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.647059,
+            "g": 0.329412,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.901961,
+            "g": 0.690196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.317647,
+            "g": 0.25098,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.647059,
+            "g": 0.329412,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.901961,
+            "g": 0.690196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Quarry_Seam",
+      "Root": "Nexus3_Support",
+      "Priority": 2,
+      "ArmorHead": 2.0,
+      "ArmorBody": 3.0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "SkillGroups": [
+        "AAHW_Skilled"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "Speed": {
+        "x": 0.55,
+        "y": 0.6,
+        "z": 0.8
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultThrown": "None",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
     }
   ],
   "Chatter": [
@@ -1983,6 +2221,48 @@
       "NameShort": "Cobalt",
       "Filename": "CC_OVR_Quarry_Cobalt",
       "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Description": "Custom event chatter for Seam. crew-first callouts, measured blast warnings, and hard-earned mine humor.",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Seam, Marksman, reporting from the cut stone pits and freight lifts."
+      ],
+      "WakeUp": [
+        "Eyes up. Red Quarry Combine still has work to finish."
+      ],
+      "Attacking": [
+        "Seam taking the marksman lane. no one works a blast alone."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the the cut stone pits and freight lifts."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Seam confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Seam is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Seam - Red Quarry Combine combat chatter",
+      "NameShort": "Seam",
+      "Filename": "CC_OVR_Quarry_Seam",
+      "Root": "NEXUS",
       "Priority": 1
     }
   ]
