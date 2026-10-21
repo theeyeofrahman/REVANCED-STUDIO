@@ -1683,6 +1683,244 @@
       "Kick": "None",
       "Headbutt": "None",
       "SlamExplode": "None"
+    },
+    {
+      "Name": "Blank",
+      "NameShort": "Blank",
+      "Description": "Blank is the Marksman of the Latchkey Syndicate, working sealed apartments and corporate vaults. spots threats early and shares a clean shot with the rest of the team. Their field kit shows the crew's colors: matte charcoal kits with brass hardware and gold lenses.",
+      "Level": 6,
+      "Title": "Marksman",
+      "TacBar": 0,
+      "Faction": "Latchkey Syndicate",
+      "Health": 7,
+      "Attributes": [
+        9,
+        12,
+        9,
+        11
+      ],
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "Support",
+      "TextChatter": "CC_OVR_Latchkey_Blank",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Personal",
+        "NoSprint",
+        "FreeAttacker"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "WeaponPref": "Melee",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_Agent"
+          ],
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_Nexus_Riot"
+          ],
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_Nexus 5"
+          ],
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_Nexus_Riot"
+          ],
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_BanditBrute"
+          ],
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Latchkey_Blank",
+      "Root": "Nexus3_Support",
+      "Priority": 2,
+      "ArmorHead": 2.0,
+      "ArmorBody": 3.0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "SkillGroups": [
+        "AAHW_Skilled"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "Speed": {
+        "x": 0.55,
+        "y": 0.6,
+        "z": 0.8
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultThrown": "None",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
     }
   ],
   "Chatter": [
@@ -1983,6 +2221,48 @@
       "NameShort": "Tumbler",
       "Filename": "CC_OVR_Latchkey_Tumbler",
       "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Description": "Custom event chatter for Blank. dry heist banter and clear entry instructions; they are thieves, not mystics.",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Blank, Marksman, reporting from sealed apartments and corporate vaults."
+      ],
+      "WakeUp": [
+        "Eyes up. Latchkey Syndicate still has work to finish."
+      ],
+      "Attacking": [
+        "Blank taking the marksman lane. leave the lock better than you found it."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the sealed apartments and corporate vaults."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Blank confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Blank is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Blank - Latchkey Syndicate combat chatter",
+      "NameShort": "Blank",
+      "Filename": "CC_OVR_Latchkey_Blank",
+      "Root": "NEXUS",
       "Priority": 1
     }
   ]
