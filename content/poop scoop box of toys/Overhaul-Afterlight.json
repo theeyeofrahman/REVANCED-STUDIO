@@ -2417,19 +2417,19 @@
         "Lumen, Field lead, reporting from the mobile wards and ruined triage stations."
       ],
       "WakeUp": [
-        "Eyes up. Afterlight Clinic still has work to finish."
+        "Lumen, eyes up. Afterlight Clinic still has work to finish."
       ],
       "Attacking": [
         "Lumen taking the field lead lane. treat first, argue later."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the mobile wards and ruined triage stations."
+        "Lumen on the pursuit. Keep my signal as I push them toward the the mobile wards and ruined triage stations."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Lumen holding at the Afterlight staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Lumen here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Lumen confirms one hostile down. Watch the next angle."
@@ -2438,7 +2438,7 @@
         "Lumen is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Lumen signing off. Tell the Afterlight Clinic crew I kept my word."
       ],
       "Name": "Lumen - Afterlight Clinic combat chatter",
       "NameShort": "Lumen",
@@ -2460,19 +2460,19 @@
         "Hemlock, Quartermaster, reporting from the mobile wards and ruined triage stations."
       ],
       "WakeUp": [
-        "Eyes up. Afterlight Clinic still has work to finish."
+        "Hemlock, eyes up. Afterlight Clinic still has work to finish."
       ],
       "Attacking": [
         "Hemlock taking the quartermaster lane. treat first, argue later."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the mobile wards and ruined triage stations."
+        "Hemlock on the pursuit. Keep my signal as I push them toward the the mobile wards and ruined triage stations."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Hemlock holding at the Afterlight staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Hemlock here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Hemlock confirms one hostile down. Watch the next angle."
@@ -2481,7 +2481,7 @@
         "Hemlock is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Hemlock signing off. Tell the Afterlight Clinic crew I kept my word."
       ],
       "Name": "Hemlock - Afterlight Clinic combat chatter",
       "NameShort": "Hemlock",
@@ -2503,19 +2503,19 @@
         "Gauze, Pathfinder, reporting from the mobile wards and ruined triage stations."
       ],
       "WakeUp": [
-        "Eyes up. Afterlight Clinic still has work to finish."
+        "Gauze, eyes up. Afterlight Clinic still has work to finish."
       ],
       "Attacking": [
         "Gauze taking the pathfinder lane. treat first, argue later."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the mobile wards and ruined triage stations."
+        "Gauze on the pursuit. Keep my signal as I push them toward the the mobile wards and ruined triage stations."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Gauze holding at the Afterlight staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Gauze here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Gauze confirms one hostile down. Watch the next angle."
@@ -2524,7 +2524,7 @@
         "Gauze is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Gauze signing off. Tell the Afterlight Clinic crew I kept my word."
       ],
       "Name": "Gauze - Afterlight Clinic combat chatter",
       "NameShort": "Gauze",
@@ -2546,19 +2546,19 @@
         "Sterile, Riflehand, reporting from the mobile wards and ruined triage stations."
       ],
       "WakeUp": [
-        "Eyes up. Afterlight Clinic still has work to finish."
+        "Sterile, eyes up. Afterlight Clinic still has work to finish."
       ],
       "Attacking": [
         "Sterile taking the riflehand lane. treat first, argue later."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the mobile wards and ruined triage stations."
+        "Sterile on the pursuit. Keep my signal as I push them toward the the mobile wards and ruined triage stations."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Sterile holding at the Afterlight staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Sterile here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Sterile confirms one hostile down. Watch the next angle."
@@ -2567,7 +2567,7 @@
         "Sterile is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Sterile signing off. Tell the Afterlight Clinic crew I kept my word."
       ],
       "Name": "Sterile - Afterlight Clinic combat chatter",
       "NameShort": "Sterile",
@@ -2588,19 +2588,19 @@
         "Stitch, Bulwark, reporting from the mobile wards and ruined triage stations."
       ],
       "WakeUp": [
-        "Eyes up. Afterlight Clinic still has work to finish."
+        "Stitch, eyes up. Afterlight Clinic still has work to finish."
       ],
       "Attacking": [
         "Stitch taking the bulwark lane. treat first, argue later."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the mobile wards and ruined triage stations."
+        "Stitch on the pursuit. Keep my signal as I push them toward the the mobile wards and ruined triage stations."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Stitch holding at the Afterlight staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Stitch here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Stitch confirms one hostile down. Watch the next angle."
@@ -2609,7 +2609,7 @@
         "Stitch is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Stitch signing off. Tell the Afterlight Clinic crew I kept my word."
       ],
       "Name": "Stitch - Afterlight Clinic combat chatter",
       "NameShort": "Stitch",
@@ -2630,19 +2630,19 @@
         "Anodyne, Mechanic, reporting from the mobile wards and ruined triage stations."
       ],
       "WakeUp": [
-        "Eyes up. Afterlight Clinic still has work to finish."
+        "Anodyne, eyes up. Afterlight Clinic still has work to finish."
       ],
       "Attacking": [
         "Anodyne taking the mechanic lane. treat first, argue later."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the mobile wards and ruined triage stations."
+        "Anodyne on the pursuit. Keep my signal as I push them toward the the mobile wards and ruined triage stations."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Anodyne holding at the Afterlight staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Anodyne here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Anodyne confirms one hostile down. Watch the next angle."
@@ -2651,7 +2651,7 @@
         "Anodyne is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Anodyne signing off. Tell the Afterlight Clinic crew I kept my word."
       ],
       "Name": "Anodyne - Afterlight Clinic combat chatter",
       "NameShort": "Anodyne",
@@ -2673,19 +2673,19 @@
         "Belladonna, Medic, reporting from the mobile wards and ruined triage stations."
       ],
       "WakeUp": [
-        "Eyes up. Afterlight Clinic still has work to finish."
+        "Belladonna, eyes up. Afterlight Clinic still has work to finish."
       ],
       "Attacking": [
         "Belladonna taking the medic lane. treat first, argue later."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the mobile wards and ruined triage stations."
+        "Belladonna on the pursuit. Keep my signal as I push them toward the the mobile wards and ruined triage stations."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Belladonna holding at the Afterlight staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Belladonna here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Belladonna confirms one hostile down. Watch the next angle."
@@ -2694,7 +2694,7 @@
         "Belladonna is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Belladonna signing off. Tell the Afterlight Clinic crew I kept my word."
       ],
       "Name": "Belladonna - Afterlight Clinic combat chatter",
       "NameShort": "Belladonna",
@@ -2715,19 +2715,19 @@
         "Suture, Marksman, reporting from the mobile wards and ruined triage stations."
       ],
       "WakeUp": [
-        "Eyes up. Afterlight Clinic still has work to finish."
+        "Suture, eyes up. Afterlight Clinic still has work to finish."
       ],
       "Attacking": [
         "Suture taking the marksman lane. treat first, argue later."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the mobile wards and ruined triage stations."
+        "Suture on the pursuit. Keep my signal as I push them toward the the mobile wards and ruined triage stations."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Suture holding at the Afterlight staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Suture here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Suture confirms one hostile down. Watch the next angle."
@@ -2736,7 +2736,7 @@
         "Suture is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Suture signing off. Tell the Afterlight Clinic crew I kept my word."
       ],
       "Name": "Suture - Afterlight Clinic combat chatter",
       "NameShort": "Suture",
@@ -2758,19 +2758,19 @@
         "Vial, Runner, reporting from the mobile wards and ruined triage stations."
       ],
       "WakeUp": [
-        "Eyes up. Afterlight Clinic still has work to finish."
+        "Vial, eyes up. Afterlight Clinic still has work to finish."
       ],
       "Attacking": [
         "Vial taking the runner lane. treat first, argue later."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the mobile wards and ruined triage stations."
+        "Vial on the pursuit. Keep my signal as I push them toward the the mobile wards and ruined triage stations."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Vial holding at the Afterlight staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Vial here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Vial confirms one hostile down. Watch the next angle."
@@ -2779,7 +2779,7 @@
         "Vial is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Vial signing off. Tell the Afterlight Clinic crew I kept my word."
       ],
       "Name": "Vial - Afterlight Clinic combat chatter",
       "NameShort": "Vial",
@@ -2800,19 +2800,19 @@
         "Bandage, Trainee, reporting from the mobile wards and ruined triage stations."
       ],
       "WakeUp": [
-        "Eyes up. Afterlight Clinic still has work to finish."
+        "Bandage, eyes up. Afterlight Clinic still has work to finish."
       ],
       "Attacking": [
         "Bandage taking the trainee lane. treat first, argue later."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the mobile wards and ruined triage stations."
+        "Bandage on the pursuit. Keep my signal as I push them toward the the mobile wards and ruined triage stations."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Bandage holding at the Afterlight staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Bandage here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Bandage confirms one hostile down. Watch the next angle."
@@ -2821,7 +2821,7 @@
         "Bandage is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Bandage signing off. Tell the Afterlight Clinic crew I kept my word."
       ],
       "Name": "Bandage - Afterlight Clinic combat chatter",
       "NameShort": "Bandage",

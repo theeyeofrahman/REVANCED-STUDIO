@@ -2417,19 +2417,19 @@
         "Vesper, Field lead, reporting from the rooftops and old signal exchanges."
       ],
       "WakeUp": [
-        "Eyes up. Violet Relay still has work to finish."
+        "Vesper, eyes up. Violet Relay still has work to finish."
       ],
       "Attacking": [
         "Vesper taking the field lead lane. information is a way out."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the rooftops and old signal exchanges."
+        "Vesper on the pursuit. Keep my signal as I push them toward the the rooftops and old signal exchanges."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Vesper holding at the Violet staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Vesper here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Vesper confirms one hostile down. Watch the next angle."
@@ -2438,7 +2438,7 @@
         "Vesper is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Vesper signing off. Tell the Violet Relay crew I kept my word."
       ],
       "Name": "Vesper - Violet Relay combat chatter",
       "NameShort": "Vesper",
@@ -2460,19 +2460,19 @@
         "Lilt, Quartermaster, reporting from the rooftops and old signal exchanges."
       ],
       "WakeUp": [
-        "Eyes up. Violet Relay still has work to finish."
+        "Lilt, eyes up. Violet Relay still has work to finish."
       ],
       "Attacking": [
         "Lilt taking the quartermaster lane. information is a way out."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the rooftops and old signal exchanges."
+        "Lilt on the pursuit. Keep my signal as I push them toward the the rooftops and old signal exchanges."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Lilt holding at the Violet staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Lilt here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Lilt confirms one hostile down. Watch the next angle."
@@ -2481,7 +2481,7 @@
         "Lilt is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Lilt signing off. Tell the Violet Relay crew I kept my word."
       ],
       "Name": "Lilt - Violet Relay combat chatter",
       "NameShort": "Lilt",
@@ -2503,19 +2503,19 @@
         "Halide, Pathfinder, reporting from the rooftops and old signal exchanges."
       ],
       "WakeUp": [
-        "Eyes up. Violet Relay still has work to finish."
+        "Halide, eyes up. Violet Relay still has work to finish."
       ],
       "Attacking": [
         "Halide taking the pathfinder lane. information is a way out."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the rooftops and old signal exchanges."
+        "Halide on the pursuit. Keep my signal as I push them toward the the rooftops and old signal exchanges."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Halide holding at the Violet staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Halide here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Halide confirms one hostile down. Watch the next angle."
@@ -2524,7 +2524,7 @@
         "Halide is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Halide signing off. Tell the Violet Relay crew I kept my word."
       ],
       "Name": "Halide - Violet Relay combat chatter",
       "NameShort": "Halide",
@@ -2546,19 +2546,19 @@
         "Morrow, Riflehand, reporting from the rooftops and old signal exchanges."
       ],
       "WakeUp": [
-        "Eyes up. Violet Relay still has work to finish."
+        "Morrow, eyes up. Violet Relay still has work to finish."
       ],
       "Attacking": [
         "Morrow taking the riflehand lane. information is a way out."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the rooftops and old signal exchanges."
+        "Morrow on the pursuit. Keep my signal as I push them toward the the rooftops and old signal exchanges."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Morrow holding at the Violet staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Morrow here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Morrow confirms one hostile down. Watch the next angle."
@@ -2567,7 +2567,7 @@
         "Morrow is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Morrow signing off. Tell the Violet Relay crew I kept my word."
       ],
       "Name": "Morrow - Violet Relay combat chatter",
       "NameShort": "Morrow",
@@ -2588,19 +2588,19 @@
         "Quill, Bulwark, reporting from the rooftops and old signal exchanges."
       ],
       "WakeUp": [
-        "Eyes up. Violet Relay still has work to finish."
+        "Quill, eyes up. Violet Relay still has work to finish."
       ],
       "Attacking": [
         "Quill taking the bulwark lane. information is a way out."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the rooftops and old signal exchanges."
+        "Quill on the pursuit. Keep my signal as I push them toward the the rooftops and old signal exchanges."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Quill holding at the Violet staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Quill here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Quill confirms one hostile down. Watch the next angle."
@@ -2609,7 +2609,7 @@
         "Quill is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Quill signing off. Tell the Violet Relay crew I kept my word."
       ],
       "Name": "Quill - Violet Relay combat chatter",
       "NameShort": "Quill",
@@ -2630,19 +2630,19 @@
         "Sable, Mechanic, reporting from the rooftops and old signal exchanges."
       ],
       "WakeUp": [
-        "Eyes up. Violet Relay still has work to finish."
+        "Sable, eyes up. Violet Relay still has work to finish."
       ],
       "Attacking": [
         "Sable taking the mechanic lane. information is a way out."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the rooftops and old signal exchanges."
+        "Sable on the pursuit. Keep my signal as I push them toward the the rooftops and old signal exchanges."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Sable holding at the Violet staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Sable here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Sable confirms one hostile down. Watch the next angle."
@@ -2651,7 +2651,7 @@
         "Sable is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Sable signing off. Tell the Violet Relay crew I kept my word."
       ],
       "Name": "Sable - Violet Relay combat chatter",
       "NameShort": "Sable",
@@ -2673,19 +2673,19 @@
         "Wink, Medic, reporting from the rooftops and old signal exchanges."
       ],
       "WakeUp": [
-        "Eyes up. Violet Relay still has work to finish."
+        "Wink, eyes up. Violet Relay still has work to finish."
       ],
       "Attacking": [
         "Wink taking the medic lane. information is a way out."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the rooftops and old signal exchanges."
+        "Wink on the pursuit. Keep my signal as I push them toward the the rooftops and old signal exchanges."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Wink holding at the Violet staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Wink here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Wink confirms one hostile down. Watch the next angle."
@@ -2694,7 +2694,7 @@
         "Wink is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Wink signing off. Tell the Violet Relay crew I kept my word."
       ],
       "Name": "Wink - Violet Relay combat chatter",
       "NameShort": "Wink",
@@ -2715,19 +2715,19 @@
         "Aperture, Marksman, reporting from the rooftops and old signal exchanges."
       ],
       "WakeUp": [
-        "Eyes up. Violet Relay still has work to finish."
+        "Aperture, eyes up. Violet Relay still has work to finish."
       ],
       "Attacking": [
         "Aperture taking the marksman lane. information is a way out."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the rooftops and old signal exchanges."
+        "Aperture on the pursuit. Keep my signal as I push them toward the the rooftops and old signal exchanges."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Aperture holding at the Violet staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Aperture here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Aperture confirms one hostile down. Watch the next angle."
@@ -2736,7 +2736,7 @@
         "Aperture is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Aperture signing off. Tell the Violet Relay crew I kept my word."
       ],
       "Name": "Aperture - Violet Relay combat chatter",
       "NameShort": "Aperture",
@@ -2758,19 +2758,19 @@
         "Dialtone, Runner, reporting from the rooftops and old signal exchanges."
       ],
       "WakeUp": [
-        "Eyes up. Violet Relay still has work to finish."
+        "Dialtone, eyes up. Violet Relay still has work to finish."
       ],
       "Attacking": [
         "Dialtone taking the runner lane. information is a way out."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the rooftops and old signal exchanges."
+        "Dialtone on the pursuit. Keep my signal as I push them toward the the rooftops and old signal exchanges."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Dialtone holding at the Violet staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Dialtone here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Dialtone confirms one hostile down. Watch the next angle."
@@ -2779,7 +2779,7 @@
         "Dialtone is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Dialtone signing off. Tell the Violet Relay crew I kept my word."
       ],
       "Name": "Dialtone - Violet Relay combat chatter",
       "NameShort": "Dialtone",
@@ -2800,19 +2800,19 @@
         "Serein, Trainee, reporting from the rooftops and old signal exchanges."
       ],
       "WakeUp": [
-        "Eyes up. Violet Relay still has work to finish."
+        "Serein, eyes up. Violet Relay still has work to finish."
       ],
       "Attacking": [
         "Serein taking the trainee lane. information is a way out."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the rooftops and old signal exchanges."
+        "Serein on the pursuit. Keep my signal as I push them toward the the rooftops and old signal exchanges."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Serein holding at the Violet staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Serein here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Serein confirms one hostile down. Watch the next angle."
@@ -2821,7 +2821,7 @@
         "Serein is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Serein signing off. Tell the Violet Relay crew I kept my word."
       ],
       "Name": "Serein - Violet Relay combat chatter",
       "NameShort": "Serein",

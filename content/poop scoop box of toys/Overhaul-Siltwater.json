@@ -2417,19 +2417,19 @@
         "Mire, Field lead, reporting from the reservoir pumps and drainage tunnels."
       ],
       "WakeUp": [
-        "Eyes up. Siltwater Wardens still has work to finish."
+        "Mire, eyes up. Siltwater Wardens still has work to finish."
       ],
       "Attacking": [
         "Mire taking the field lead lane. keep the pumps clean and the people breathing."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the reservoir pumps and drainage tunnels."
+        "Mire on the pursuit. Keep my signal as I push them toward the the reservoir pumps and drainage tunnels."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Mire holding at the Siltwater staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Mire here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Mire confirms one hostile down. Watch the next angle."
@@ -2438,7 +2438,7 @@
         "Mire is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Mire signing off. Tell the Siltwater Wardens crew I kept my word."
       ],
       "Name": "Mire - Siltwater Wardens combat chatter",
       "NameShort": "Mire",
@@ -2460,19 +2460,19 @@
         "Floodgate, Quartermaster, reporting from the reservoir pumps and drainage tunnels."
       ],
       "WakeUp": [
-        "Eyes up. Siltwater Wardens still has work to finish."
+        "Floodgate, eyes up. Siltwater Wardens still has work to finish."
       ],
       "Attacking": [
         "Floodgate taking the quartermaster lane. keep the pumps clean and the people breathing."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the reservoir pumps and drainage tunnels."
+        "Floodgate on the pursuit. Keep my signal as I push them toward the the reservoir pumps and drainage tunnels."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Floodgate holding at the Siltwater staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Floodgate here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Floodgate confirms one hostile down. Watch the next angle."
@@ -2481,7 +2481,7 @@
         "Floodgate is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Floodgate signing off. Tell the Siltwater Wardens crew I kept my word."
       ],
       "Name": "Floodgate - Siltwater Wardens combat chatter",
       "NameShort": "Floodgate",
@@ -2503,19 +2503,19 @@
         "Clarity, Pathfinder, reporting from the reservoir pumps and drainage tunnels."
       ],
       "WakeUp": [
-        "Eyes up. Siltwater Wardens still has work to finish."
+        "Clarity, eyes up. Siltwater Wardens still has work to finish."
       ],
       "Attacking": [
         "Clarity taking the pathfinder lane. keep the pumps clean and the people breathing."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the reservoir pumps and drainage tunnels."
+        "Clarity on the pursuit. Keep my signal as I push them toward the the reservoir pumps and drainage tunnels."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Clarity holding at the Siltwater staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Clarity here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Clarity confirms one hostile down. Watch the next angle."
@@ -2524,7 +2524,7 @@
         "Clarity is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Clarity signing off. Tell the Siltwater Wardens crew I kept my word."
       ],
       "Name": "Clarity - Siltwater Wardens combat chatter",
       "NameShort": "Clarity",
@@ -2546,19 +2546,19 @@
         "Cistern, Riflehand, reporting from the reservoir pumps and drainage tunnels."
       ],
       "WakeUp": [
-        "Eyes up. Siltwater Wardens still has work to finish."
+        "Cistern, eyes up. Siltwater Wardens still has work to finish."
       ],
       "Attacking": [
         "Cistern taking the riflehand lane. keep the pumps clean and the people breathing."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the reservoir pumps and drainage tunnels."
+        "Cistern on the pursuit. Keep my signal as I push them toward the the reservoir pumps and drainage tunnels."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Cistern holding at the Siltwater staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Cistern here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Cistern confirms one hostile down. Watch the next angle."
@@ -2567,7 +2567,7 @@
         "Cistern is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Cistern signing off. Tell the Siltwater Wardens crew I kept my word."
       ],
       "Name": "Cistern - Siltwater Wardens combat chatter",
       "NameShort": "Cistern",
@@ -2588,19 +2588,19 @@
         "Sump, Bulwark, reporting from the reservoir pumps and drainage tunnels."
       ],
       "WakeUp": [
-        "Eyes up. Siltwater Wardens still has work to finish."
+        "Sump, eyes up. Siltwater Wardens still has work to finish."
       ],
       "Attacking": [
         "Sump taking the bulwark lane. keep the pumps clean and the people breathing."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the reservoir pumps and drainage tunnels."
+        "Sump on the pursuit. Keep my signal as I push them toward the the reservoir pumps and drainage tunnels."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Sump holding at the Siltwater staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Sump here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Sump confirms one hostile down. Watch the next angle."
@@ -2609,7 +2609,7 @@
         "Sump is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Sump signing off. Tell the Siltwater Wardens crew I kept my word."
       ],
       "Name": "Sump - Siltwater Wardens combat chatter",
       "NameShort": "Sump",
@@ -2630,19 +2630,19 @@
         "Oxbow, Mechanic, reporting from the reservoir pumps and drainage tunnels."
       ],
       "WakeUp": [
-        "Eyes up. Siltwater Wardens still has work to finish."
+        "Oxbow, eyes up. Siltwater Wardens still has work to finish."
       ],
       "Attacking": [
         "Oxbow taking the mechanic lane. keep the pumps clean and the people breathing."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the reservoir pumps and drainage tunnels."
+        "Oxbow on the pursuit. Keep my signal as I push them toward the the reservoir pumps and drainage tunnels."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Oxbow holding at the Siltwater staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Oxbow here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Oxbow confirms one hostile down. Watch the next angle."
@@ -2651,7 +2651,7 @@
         "Oxbow is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Oxbow signing off. Tell the Siltwater Wardens crew I kept my word."
       ],
       "Name": "Oxbow - Siltwater Wardens combat chatter",
       "NameShort": "Oxbow",
@@ -2673,19 +2673,19 @@
         "Rill, Medic, reporting from the reservoir pumps and drainage tunnels."
       ],
       "WakeUp": [
-        "Eyes up. Siltwater Wardens still has work to finish."
+        "Rill, eyes up. Siltwater Wardens still has work to finish."
       ],
       "Attacking": [
         "Rill taking the medic lane. keep the pumps clean and the people breathing."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the reservoir pumps and drainage tunnels."
+        "Rill on the pursuit. Keep my signal as I push them toward the the reservoir pumps and drainage tunnels."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Rill holding at the Siltwater staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Rill here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Rill confirms one hostile down. Watch the next angle."
@@ -2694,7 +2694,7 @@
         "Rill is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Rill signing off. Tell the Siltwater Wardens crew I kept my word."
       ],
       "Name": "Rill - Siltwater Wardens combat chatter",
       "NameShort": "Rill",
@@ -2715,19 +2715,19 @@
         "Spillway, Marksman, reporting from the reservoir pumps and drainage tunnels."
       ],
       "WakeUp": [
-        "Eyes up. Siltwater Wardens still has work to finish."
+        "Spillway, eyes up. Siltwater Wardens still has work to finish."
       ],
       "Attacking": [
         "Spillway taking the marksman lane. keep the pumps clean and the people breathing."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the reservoir pumps and drainage tunnels."
+        "Spillway on the pursuit. Keep my signal as I push them toward the the reservoir pumps and drainage tunnels."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Spillway holding at the Siltwater staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Spillway here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Spillway confirms one hostile down. Watch the next angle."
@@ -2736,7 +2736,7 @@
         "Spillway is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Spillway signing off. Tell the Siltwater Wardens crew I kept my word."
       ],
       "Name": "Spillway - Siltwater Wardens combat chatter",
       "NameShort": "Spillway",
@@ -2758,19 +2758,19 @@
         "Current, Runner, reporting from the reservoir pumps and drainage tunnels."
       ],
       "WakeUp": [
-        "Eyes up. Siltwater Wardens still has work to finish."
+        "Current, eyes up. Siltwater Wardens still has work to finish."
       ],
       "Attacking": [
         "Current taking the runner lane. keep the pumps clean and the people breathing."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the reservoir pumps and drainage tunnels."
+        "Current on the pursuit. Keep my signal as I push them toward the the reservoir pumps and drainage tunnels."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Current holding at the Siltwater staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Current here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Current confirms one hostile down. Watch the next angle."
@@ -2779,7 +2779,7 @@
         "Current is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Current signing off. Tell the Siltwater Wardens crew I kept my word."
       ],
       "Name": "Current - Siltwater Wardens combat chatter",
       "NameShort": "Current",
@@ -2800,19 +2800,19 @@
         "Wader, Trainee, reporting from the reservoir pumps and drainage tunnels."
       ],
       "WakeUp": [
-        "Eyes up. Siltwater Wardens still has work to finish."
+        "Wader, eyes up. Siltwater Wardens still has work to finish."
       ],
       "Attacking": [
         "Wader taking the trainee lane. keep the pumps clean and the people breathing."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the reservoir pumps and drainage tunnels."
+        "Wader on the pursuit. Keep my signal as I push them toward the the reservoir pumps and drainage tunnels."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Wader holding at the Siltwater staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Wader here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Wader confirms one hostile down. Watch the next angle."
@@ -2821,7 +2821,7 @@
         "Wader is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Wader signing off. Tell the Siltwater Wardens crew I kept my word."
       ],
       "Name": "Wader - Siltwater Wardens combat chatter",
       "NameShort": "Wader",

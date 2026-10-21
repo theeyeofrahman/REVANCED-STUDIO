@@ -2417,19 +2417,19 @@
         "Bricker, Field lead, reporting from the abandoned foundry belt."
       ],
       "WakeUp": [
-        "Eyes up. Kiln Union still has work to finish."
+        "Bricker, eyes up. Kiln Union still has work to finish."
       ],
       "Attacking": [
         "Bricker taking the field lead lane. finish the shift, bring everyone home."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the abandoned foundry belt."
+        "Bricker on the pursuit. Keep my signal as I push them toward the the abandoned foundry belt."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Bricker holding at the Kiln staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Bricker here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Bricker confirms one hostile down. Watch the next angle."
@@ -2438,7 +2438,7 @@
         "Bricker is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Bricker signing off. Tell the Kiln Union crew I kept my word."
       ],
       "Name": "Bricker - Kiln Union combat chatter",
       "NameShort": "Bricker",
@@ -2460,19 +2460,19 @@
         "Spall, Quartermaster, reporting from the abandoned foundry belt."
       ],
       "WakeUp": [
-        "Eyes up. Kiln Union still has work to finish."
+        "Spall, eyes up. Kiln Union still has work to finish."
       ],
       "Attacking": [
         "Spall taking the quartermaster lane. finish the shift, bring everyone home."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the abandoned foundry belt."
+        "Spall on the pursuit. Keep my signal as I push them toward the the abandoned foundry belt."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Spall holding at the Kiln staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Spall here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Spall confirms one hostile down. Watch the next angle."
@@ -2481,7 +2481,7 @@
         "Spall is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Spall signing off. Tell the Kiln Union crew I kept my word."
       ],
       "Name": "Spall - Kiln Union combat chatter",
       "NameShort": "Spall",
@@ -2503,19 +2503,19 @@
         "Rivet, Pathfinder, reporting from the abandoned foundry belt."
       ],
       "WakeUp": [
-        "Eyes up. Kiln Union still has work to finish."
+        "Rivet, eyes up. Kiln Union still has work to finish."
       ],
       "Attacking": [
         "Rivet taking the pathfinder lane. finish the shift, bring everyone home."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the abandoned foundry belt."
+        "Rivet on the pursuit. Keep my signal as I push them toward the the abandoned foundry belt."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Rivet holding at the Kiln staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Rivet here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Rivet confirms one hostile down. Watch the next angle."
@@ -2524,7 +2524,7 @@
         "Rivet is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Rivet signing off. Tell the Kiln Union crew I kept my word."
       ],
       "Name": "Rivet - Kiln Union combat chatter",
       "NameShort": "Rivet",
@@ -2546,19 +2546,19 @@
         "Gauge, Riflehand, reporting from the abandoned foundry belt."
       ],
       "WakeUp": [
-        "Eyes up. Kiln Union still has work to finish."
+        "Gauge, eyes up. Kiln Union still has work to finish."
       ],
       "Attacking": [
         "Gauge taking the riflehand lane. finish the shift, bring everyone home."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the abandoned foundry belt."
+        "Gauge on the pursuit. Keep my signal as I push them toward the the abandoned foundry belt."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Gauge holding at the Kiln staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Gauge here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Gauge confirms one hostile down. Watch the next angle."
@@ -2567,7 +2567,7 @@
         "Gauge is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Gauge signing off. Tell the Kiln Union crew I kept my word."
       ],
       "Name": "Gauge - Kiln Union combat chatter",
       "NameShort": "Gauge",
@@ -2588,19 +2588,19 @@
         "Cinderjack, Bulwark, reporting from the abandoned foundry belt."
       ],
       "WakeUp": [
-        "Eyes up. Kiln Union still has work to finish."
+        "Cinderjack, eyes up. Kiln Union still has work to finish."
       ],
       "Attacking": [
         "Cinderjack taking the bulwark lane. finish the shift, bring everyone home."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the abandoned foundry belt."
+        "Cinderjack on the pursuit. Keep my signal as I push them toward the the abandoned foundry belt."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Cinderjack holding at the Kiln staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Cinderjack here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Cinderjack confirms one hostile down. Watch the next angle."
@@ -2609,7 +2609,7 @@
         "Cinderjack is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Cinderjack signing off. Tell the Kiln Union crew I kept my word."
       ],
       "Name": "Cinderjack - Kiln Union combat chatter",
       "NameShort": "Cinderjack",
@@ -2630,19 +2630,19 @@
         "Fuse, Mechanic, reporting from the abandoned foundry belt."
       ],
       "WakeUp": [
-        "Eyes up. Kiln Union still has work to finish."
+        "Fuse, eyes up. Kiln Union still has work to finish."
       ],
       "Attacking": [
         "Fuse taking the mechanic lane. finish the shift, bring everyone home."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the abandoned foundry belt."
+        "Fuse on the pursuit. Keep my signal as I push them toward the the abandoned foundry belt."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Fuse holding at the Kiln staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Fuse here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Fuse confirms one hostile down. Watch the next angle."
@@ -2651,7 +2651,7 @@
         "Fuse is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Fuse signing off. Tell the Kiln Union crew I kept my word."
       ],
       "Name": "Fuse - Kiln Union combat chatter",
       "NameShort": "Fuse",
@@ -2673,19 +2673,19 @@
         "Trowel, Medic, reporting from the abandoned foundry belt."
       ],
       "WakeUp": [
-        "Eyes up. Kiln Union still has work to finish."
+        "Trowel, eyes up. Kiln Union still has work to finish."
       ],
       "Attacking": [
         "Trowel taking the medic lane. finish the shift, bring everyone home."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the abandoned foundry belt."
+        "Trowel on the pursuit. Keep my signal as I push them toward the the abandoned foundry belt."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Trowel holding at the Kiln staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Trowel here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Trowel confirms one hostile down. Watch the next angle."
@@ -2694,7 +2694,7 @@
         "Trowel is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Trowel signing off. Tell the Kiln Union crew I kept my word."
       ],
       "Name": "Trowel - Kiln Union combat chatter",
       "NameShort": "Trowel",
@@ -2715,19 +2715,19 @@
         "Slag, Marksman, reporting from the abandoned foundry belt."
       ],
       "WakeUp": [
-        "Eyes up. Kiln Union still has work to finish."
+        "Slag, eyes up. Kiln Union still has work to finish."
       ],
       "Attacking": [
         "Slag taking the marksman lane. finish the shift, bring everyone home."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the abandoned foundry belt."
+        "Slag on the pursuit. Keep my signal as I push them toward the the abandoned foundry belt."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Slag holding at the Kiln staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Slag here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Slag confirms one hostile down. Watch the next angle."
@@ -2736,7 +2736,7 @@
         "Slag is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Slag signing off. Tell the Kiln Union crew I kept my word."
       ],
       "Name": "Slag - Kiln Union combat chatter",
       "NameShort": "Slag",
@@ -2758,19 +2758,19 @@
         "Vent, Runner, reporting from the abandoned foundry belt."
       ],
       "WakeUp": [
-        "Eyes up. Kiln Union still has work to finish."
+        "Vent, eyes up. Kiln Union still has work to finish."
       ],
       "Attacking": [
         "Vent taking the runner lane. finish the shift, bring everyone home."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the abandoned foundry belt."
+        "Vent on the pursuit. Keep my signal as I push them toward the the abandoned foundry belt."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Vent holding at the Kiln staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Vent here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Vent confirms one hostile down. Watch the next angle."
@@ -2779,7 +2779,7 @@
         "Vent is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Vent signing off. Tell the Kiln Union crew I kept my word."
       ],
       "Name": "Vent - Kiln Union combat chatter",
       "NameShort": "Vent",
@@ -2800,19 +2800,19 @@
         "Anvil, Trainee, reporting from the abandoned foundry belt."
       ],
       "WakeUp": [
-        "Eyes up. Kiln Union still has work to finish."
+        "Anvil, eyes up. Kiln Union still has work to finish."
       ],
       "Attacking": [
         "Anvil taking the trainee lane. finish the shift, bring everyone home."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the abandoned foundry belt."
+        "Anvil on the pursuit. Keep my signal as I push them toward the the abandoned foundry belt."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Anvil holding at the Kiln staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Anvil here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Anvil confirms one hostile down. Watch the next angle."
@@ -2821,7 +2821,7 @@
         "Anvil is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Anvil signing off. Tell the Kiln Union crew I kept my word."
       ],
       "Name": "Anvil - Kiln Union combat chatter",
       "NameShort": "Anvil",

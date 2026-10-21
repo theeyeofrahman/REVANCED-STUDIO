@@ -2417,19 +2417,19 @@
         "Crosswind, Field lead, reporting from the convoy roads beyond the city."
       ],
       "WakeUp": [
-        "Eyes up. Ashline Mutual still has work to finish."
+        "Crosswind, eyes up. Ashline Mutual still has work to finish."
       ],
       "Attacking": [
         "Crosswind taking the field lead lane. a spare seat is a promise."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the convoy roads beyond the city."
+        "Crosswind on the pursuit. Keep my signal as I push them toward the the convoy roads beyond the city."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Crosswind holding at the Ashline staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Crosswind here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Crosswind confirms one hostile down. Watch the next angle."
@@ -2438,7 +2438,7 @@
         "Crosswind is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Crosswind signing off. Tell the Ashline Mutual crew I kept my word."
       ],
       "Name": "Crosswind - Ashline Mutual combat chatter",
       "NameShort": "Crosswind",
@@ -2460,19 +2460,19 @@
         "Wayfarer, Quartermaster, reporting from the convoy roads beyond the city."
       ],
       "WakeUp": [
-        "Eyes up. Ashline Mutual still has work to finish."
+        "Wayfarer, eyes up. Ashline Mutual still has work to finish."
       ],
       "Attacking": [
         "Wayfarer taking the quartermaster lane. a spare seat is a promise."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the convoy roads beyond the city."
+        "Wayfarer on the pursuit. Keep my signal as I push them toward the the convoy roads beyond the city."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Wayfarer holding at the Ashline staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Wayfarer here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Wayfarer confirms one hostile down. Watch the next angle."
@@ -2481,7 +2481,7 @@
         "Wayfarer is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Wayfarer signing off. Tell the Ashline Mutual crew I kept my word."
       ],
       "Name": "Wayfarer - Ashline Mutual combat chatter",
       "NameShort": "Wayfarer",
@@ -2503,19 +2503,19 @@
         "Rations, Pathfinder, reporting from the convoy roads beyond the city."
       ],
       "WakeUp": [
-        "Eyes up. Ashline Mutual still has work to finish."
+        "Rations, eyes up. Ashline Mutual still has work to finish."
       ],
       "Attacking": [
         "Rations taking the pathfinder lane. a spare seat is a promise."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the convoy roads beyond the city."
+        "Rations on the pursuit. Keep my signal as I push them toward the the convoy roads beyond the city."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Rations holding at the Ashline staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Rations here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Rations confirms one hostile down. Watch the next angle."
@@ -2524,7 +2524,7 @@
         "Rations is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Rations signing off. Tell the Ashline Mutual crew I kept my word."
       ],
       "Name": "Rations - Ashline Mutual combat chatter",
       "NameShort": "Rations",
@@ -2546,19 +2546,19 @@
         "Beacon, Riflehand, reporting from the convoy roads beyond the city."
       ],
       "WakeUp": [
-        "Eyes up. Ashline Mutual still has work to finish."
+        "Beacon, eyes up. Ashline Mutual still has work to finish."
       ],
       "Attacking": [
         "Beacon taking the riflehand lane. a spare seat is a promise."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the convoy roads beyond the city."
+        "Beacon on the pursuit. Keep my signal as I push them toward the the convoy roads beyond the city."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Beacon holding at the Ashline staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Beacon here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Beacon confirms one hostile down. Watch the next angle."
@@ -2567,7 +2567,7 @@
         "Beacon is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Beacon signing off. Tell the Ashline Mutual crew I kept my word."
       ],
       "Name": "Beacon - Ashline Mutual combat chatter",
       "NameShort": "Beacon",
@@ -2588,19 +2588,19 @@
         "Lowbeam, Bulwark, reporting from the convoy roads beyond the city."
       ],
       "WakeUp": [
-        "Eyes up. Ashline Mutual still has work to finish."
+        "Lowbeam, eyes up. Ashline Mutual still has work to finish."
       ],
       "Attacking": [
         "Lowbeam taking the bulwark lane. a spare seat is a promise."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the convoy roads beyond the city."
+        "Lowbeam on the pursuit. Keep my signal as I push them toward the the convoy roads beyond the city."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Lowbeam holding at the Ashline staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Lowbeam here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Lowbeam confirms one hostile down. Watch the next angle."
@@ -2609,7 +2609,7 @@
         "Lowbeam is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Lowbeam signing off. Tell the Ashline Mutual crew I kept my word."
       ],
       "Name": "Lowbeam - Ashline Mutual combat chatter",
       "NameShort": "Lowbeam",
@@ -2630,19 +2630,19 @@
         "Stow, Mechanic, reporting from the convoy roads beyond the city."
       ],
       "WakeUp": [
-        "Eyes up. Ashline Mutual still has work to finish."
+        "Stow, eyes up. Ashline Mutual still has work to finish."
       ],
       "Attacking": [
         "Stow taking the mechanic lane. a spare seat is a promise."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the convoy roads beyond the city."
+        "Stow on the pursuit. Keep my signal as I push them toward the the convoy roads beyond the city."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Stow holding at the Ashline staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Stow here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Stow confirms one hostile down. Watch the next angle."
@@ -2651,7 +2651,7 @@
         "Stow is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Stow signing off. Tell the Ashline Mutual crew I kept my word."
       ],
       "Name": "Stow - Ashline Mutual combat chatter",
       "NameShort": "Stow",
@@ -2673,19 +2673,19 @@
         "Gull, Medic, reporting from the convoy roads beyond the city."
       ],
       "WakeUp": [
-        "Eyes up. Ashline Mutual still has work to finish."
+        "Gull, eyes up. Ashline Mutual still has work to finish."
       ],
       "Attacking": [
         "Gull taking the medic lane. a spare seat is a promise."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the convoy roads beyond the city."
+        "Gull on the pursuit. Keep my signal as I push them toward the the convoy roads beyond the city."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Gull holding at the Ashline staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Gull here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Gull confirms one hostile down. Watch the next angle."
@@ -2694,7 +2694,7 @@
         "Gull is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Gull signing off. Tell the Ashline Mutual crew I kept my word."
       ],
       "Name": "Gull - Ashline Mutual combat chatter",
       "NameShort": "Gull",
@@ -2715,19 +2715,19 @@
         "Thread, Marksman, reporting from the convoy roads beyond the city."
       ],
       "WakeUp": [
-        "Eyes up. Ashline Mutual still has work to finish."
+        "Thread, eyes up. Ashline Mutual still has work to finish."
       ],
       "Attacking": [
         "Thread taking the marksman lane. a spare seat is a promise."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the convoy roads beyond the city."
+        "Thread on the pursuit. Keep my signal as I push them toward the the convoy roads beyond the city."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Thread holding at the Ashline staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Thread here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Thread confirms one hostile down. Watch the next angle."
@@ -2736,7 +2736,7 @@
         "Thread is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Thread signing off. Tell the Ashline Mutual crew I kept my word."
       ],
       "Name": "Thread - Ashline Mutual combat chatter",
       "NameShort": "Thread",
@@ -2758,19 +2758,19 @@
         "Mica, Runner, reporting from the convoy roads beyond the city."
       ],
       "WakeUp": [
-        "Eyes up. Ashline Mutual still has work to finish."
+        "Mica, eyes up. Ashline Mutual still has work to finish."
       ],
       "Attacking": [
         "Mica taking the runner lane. a spare seat is a promise."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the convoy roads beyond the city."
+        "Mica on the pursuit. Keep my signal as I push them toward the the convoy roads beyond the city."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Mica holding at the Ashline staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Mica here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Mica confirms one hostile down. Watch the next angle."
@@ -2779,7 +2779,7 @@
         "Mica is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Mica signing off. Tell the Ashline Mutual crew I kept my word."
       ],
       "Name": "Mica - Ashline Mutual combat chatter",
       "NameShort": "Mica",
@@ -2800,19 +2800,19 @@
         "Lantern, Trainee, reporting from the convoy roads beyond the city."
       ],
       "WakeUp": [
-        "Eyes up. Ashline Mutual still has work to finish."
+        "Lantern, eyes up. Ashline Mutual still has work to finish."
       ],
       "Attacking": [
         "Lantern taking the trainee lane. a spare seat is a promise."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the convoy roads beyond the city."
+        "Lantern on the pursuit. Keep my signal as I push them toward the the convoy roads beyond the city."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Lantern holding at the Ashline staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Lantern here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Lantern confirms one hostile down. Watch the next angle."
@@ -2821,7 +2821,7 @@
         "Lantern is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Lantern signing off. Tell the Ashline Mutual crew I kept my word."
       ],
       "Name": "Lantern - Ashline Mutual combat chatter",
       "NameShort": "Lantern",

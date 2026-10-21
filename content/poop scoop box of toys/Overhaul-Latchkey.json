@@ -2417,19 +2417,19 @@
         "Keyhole, Field lead, reporting from sealed apartments and corporate vaults."
       ],
       "WakeUp": [
-        "Eyes up. Latchkey Syndicate still has work to finish."
+        "Keyhole, eyes up. Latchkey Syndicate still has work to finish."
       ],
       "Attacking": [
         "Keyhole taking the field lead lane. leave the lock better than you found it."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the sealed apartments and corporate vaults."
+        "Keyhole on the pursuit. Keep my signal as I push them toward the sealed apartments and corporate vaults."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Keyhole holding at the Latchkey staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Keyhole here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Keyhole confirms one hostile down. Watch the next angle."
@@ -2438,7 +2438,7 @@
         "Keyhole is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Keyhole signing off. Tell the Latchkey Syndicate crew I kept my word."
       ],
       "Name": "Keyhole - Latchkey Syndicate combat chatter",
       "NameShort": "Keyhole",
@@ -2460,19 +2460,19 @@
         "Wedge, Quartermaster, reporting from sealed apartments and corporate vaults."
       ],
       "WakeUp": [
-        "Eyes up. Latchkey Syndicate still has work to finish."
+        "Wedge, eyes up. Latchkey Syndicate still has work to finish."
       ],
       "Attacking": [
         "Wedge taking the quartermaster lane. leave the lock better than you found it."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the sealed apartments and corporate vaults."
+        "Wedge on the pursuit. Keep my signal as I push them toward the sealed apartments and corporate vaults."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Wedge holding at the Latchkey staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Wedge here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Wedge confirms one hostile down. Watch the next angle."
@@ -2481,7 +2481,7 @@
         "Wedge is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Wedge signing off. Tell the Latchkey Syndicate crew I kept my word."
       ],
       "Name": "Wedge - Latchkey Syndicate combat chatter",
       "NameShort": "Wedge",
@@ -2503,19 +2503,19 @@
         "Deadbolt, Pathfinder, reporting from sealed apartments and corporate vaults."
       ],
       "WakeUp": [
-        "Eyes up. Latchkey Syndicate still has work to finish."
+        "Deadbolt, eyes up. Latchkey Syndicate still has work to finish."
       ],
       "Attacking": [
         "Deadbolt taking the pathfinder lane. leave the lock better than you found it."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the sealed apartments and corporate vaults."
+        "Deadbolt on the pursuit. Keep my signal as I push them toward the sealed apartments and corporate vaults."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Deadbolt holding at the Latchkey staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Deadbolt here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Deadbolt confirms one hostile down. Watch the next angle."
@@ -2524,7 +2524,7 @@
         "Deadbolt is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Deadbolt signing off. Tell the Latchkey Syndicate crew I kept my word."
       ],
       "Name": "Deadbolt - Latchkey Syndicate combat chatter",
       "NameShort": "Deadbolt",
@@ -2546,19 +2546,19 @@
         "Chime, Riflehand, reporting from sealed apartments and corporate vaults."
       ],
       "WakeUp": [
-        "Eyes up. Latchkey Syndicate still has work to finish."
+        "Chime, eyes up. Latchkey Syndicate still has work to finish."
       ],
       "Attacking": [
         "Chime taking the riflehand lane. leave the lock better than you found it."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the sealed apartments and corporate vaults."
+        "Chime on the pursuit. Keep my signal as I push them toward the sealed apartments and corporate vaults."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Chime holding at the Latchkey staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Chime here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Chime confirms one hostile down. Watch the next angle."
@@ -2567,7 +2567,7 @@
         "Chime is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Chime signing off. Tell the Latchkey Syndicate crew I kept my word."
       ],
       "Name": "Chime - Latchkey Syndicate combat chatter",
       "NameShort": "Chime",
@@ -2588,19 +2588,19 @@
         "Shim, Bulwark, reporting from sealed apartments and corporate vaults."
       ],
       "WakeUp": [
-        "Eyes up. Latchkey Syndicate still has work to finish."
+        "Shim, eyes up. Latchkey Syndicate still has work to finish."
       ],
       "Attacking": [
         "Shim taking the bulwark lane. leave the lock better than you found it."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the sealed apartments and corporate vaults."
+        "Shim on the pursuit. Keep my signal as I push them toward the sealed apartments and corporate vaults."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Shim holding at the Latchkey staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Shim here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Shim confirms one hostile down. Watch the next angle."
@@ -2609,7 +2609,7 @@
         "Shim is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Shim signing off. Tell the Latchkey Syndicate crew I kept my word."
       ],
       "Name": "Shim - Latchkey Syndicate combat chatter",
       "NameShort": "Shim",
@@ -2630,19 +2630,19 @@
         "Pinfall, Mechanic, reporting from sealed apartments and corporate vaults."
       ],
       "WakeUp": [
-        "Eyes up. Latchkey Syndicate still has work to finish."
+        "Pinfall, eyes up. Latchkey Syndicate still has work to finish."
       ],
       "Attacking": [
         "Pinfall taking the mechanic lane. leave the lock better than you found it."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the sealed apartments and corporate vaults."
+        "Pinfall on the pursuit. Keep my signal as I push them toward the sealed apartments and corporate vaults."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Pinfall holding at the Latchkey staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Pinfall here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Pinfall confirms one hostile down. Watch the next angle."
@@ -2651,7 +2651,7 @@
         "Pinfall is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Pinfall signing off. Tell the Latchkey Syndicate crew I kept my word."
       ],
       "Name": "Pinfall - Latchkey Syndicate combat chatter",
       "NameShort": "Pinfall",
@@ -2673,19 +2673,19 @@
         "Tumbler, Medic, reporting from sealed apartments and corporate vaults."
       ],
       "WakeUp": [
-        "Eyes up. Latchkey Syndicate still has work to finish."
+        "Tumbler, eyes up. Latchkey Syndicate still has work to finish."
       ],
       "Attacking": [
         "Tumbler taking the medic lane. leave the lock better than you found it."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the sealed apartments and corporate vaults."
+        "Tumbler on the pursuit. Keep my signal as I push them toward the sealed apartments and corporate vaults."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Tumbler holding at the Latchkey staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Tumbler here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Tumbler confirms one hostile down. Watch the next angle."
@@ -2694,7 +2694,7 @@
         "Tumbler is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Tumbler signing off. Tell the Latchkey Syndicate crew I kept my word."
       ],
       "Name": "Tumbler - Latchkey Syndicate combat chatter",
       "NameShort": "Tumbler",
@@ -2715,19 +2715,19 @@
         "Blank, Marksman, reporting from sealed apartments and corporate vaults."
       ],
       "WakeUp": [
-        "Eyes up. Latchkey Syndicate still has work to finish."
+        "Blank, eyes up. Latchkey Syndicate still has work to finish."
       ],
       "Attacking": [
         "Blank taking the marksman lane. leave the lock better than you found it."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the sealed apartments and corporate vaults."
+        "Blank on the pursuit. Keep my signal as I push them toward the sealed apartments and corporate vaults."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Blank holding at the Latchkey staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Blank here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Blank confirms one hostile down. Watch the next angle."
@@ -2736,7 +2736,7 @@
         "Blank is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Blank signing off. Tell the Latchkey Syndicate crew I kept my word."
       ],
       "Name": "Blank - Latchkey Syndicate combat chatter",
       "NameShort": "Blank",
@@ -2758,19 +2758,19 @@
         "Click, Runner, reporting from sealed apartments and corporate vaults."
       ],
       "WakeUp": [
-        "Eyes up. Latchkey Syndicate still has work to finish."
+        "Click, eyes up. Latchkey Syndicate still has work to finish."
       ],
       "Attacking": [
         "Click taking the runner lane. leave the lock better than you found it."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the sealed apartments and corporate vaults."
+        "Click on the pursuit. Keep my signal as I push them toward the sealed apartments and corporate vaults."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Click holding at the Latchkey staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Click here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Click confirms one hostile down. Watch the next angle."
@@ -2779,7 +2779,7 @@
         "Click is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Click signing off. Tell the Latchkey Syndicate crew I kept my word."
       ],
       "Name": "Click - Latchkey Syndicate combat chatter",
       "NameShort": "Click",
@@ -2800,19 +2800,19 @@
         "Hinge, Trainee, reporting from sealed apartments and corporate vaults."
       ],
       "WakeUp": [
-        "Eyes up. Latchkey Syndicate still has work to finish."
+        "Hinge, eyes up. Latchkey Syndicate still has work to finish."
       ],
       "Attacking": [
         "Hinge taking the trainee lane. leave the lock better than you found it."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the sealed apartments and corporate vaults."
+        "Hinge on the pursuit. Keep my signal as I push them toward the sealed apartments and corporate vaults."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Hinge holding at the Latchkey staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Hinge here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Hinge confirms one hostile down. Watch the next angle."
@@ -2821,7 +2821,7 @@
         "Hinge is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Hinge signing off. Tell the Latchkey Syndicate crew I kept my word."
       ],
       "Name": "Hinge - Latchkey Syndicate combat chatter",
       "NameShort": "Hinge",

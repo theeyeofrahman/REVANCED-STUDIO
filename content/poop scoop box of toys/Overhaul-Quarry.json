@@ -2417,19 +2417,19 @@
         "Powderline, Field lead, reporting from the cut stone pits and freight lifts."
       ],
       "WakeUp": [
-        "Eyes up. Red Quarry Combine still has work to finish."
+        "Powderline, eyes up. Red Quarry Combine still has work to finish."
       ],
       "Attacking": [
         "Powderline taking the field lead lane. no one works a blast alone."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the cut stone pits and freight lifts."
+        "Powderline on the pursuit. Keep my signal as I push them toward the the cut stone pits and freight lifts."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Powderline holding at the Quarry staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Powderline here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Powderline confirms one hostile down. Watch the next angle."
@@ -2438,7 +2438,7 @@
         "Powderline is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Powderline signing off. Tell the Red Quarry Combine crew I kept my word."
       ],
       "Name": "Powderline - Red Quarry Combine combat chatter",
       "NameShort": "Powderline",
@@ -2460,19 +2460,19 @@
         "Core, Quartermaster, reporting from the cut stone pits and freight lifts."
       ],
       "WakeUp": [
-        "Eyes up. Red Quarry Combine still has work to finish."
+        "Core, eyes up. Red Quarry Combine still has work to finish."
       ],
       "Attacking": [
         "Core taking the quartermaster lane. no one works a blast alone."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the cut stone pits and freight lifts."
+        "Core on the pursuit. Keep my signal as I push them toward the the cut stone pits and freight lifts."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Core holding at the Quarry staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Core here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Core confirms one hostile down. Watch the next angle."
@@ -2481,7 +2481,7 @@
         "Core is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Core signing off. Tell the Red Quarry Combine crew I kept my word."
       ],
       "Name": "Core - Red Quarry Combine combat chatter",
       "NameShort": "Core",
@@ -2503,19 +2503,19 @@
         "Drillbit, Pathfinder, reporting from the cut stone pits and freight lifts."
       ],
       "WakeUp": [
-        "Eyes up. Red Quarry Combine still has work to finish."
+        "Drillbit, eyes up. Red Quarry Combine still has work to finish."
       ],
       "Attacking": [
         "Drillbit taking the pathfinder lane. no one works a blast alone."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the cut stone pits and freight lifts."
+        "Drillbit on the pursuit. Keep my signal as I push them toward the the cut stone pits and freight lifts."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Drillbit holding at the Quarry staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Drillbit here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Drillbit confirms one hostile down. Watch the next angle."
@@ -2524,7 +2524,7 @@
         "Drillbit is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Drillbit signing off. Tell the Red Quarry Combine crew I kept my word."
       ],
       "Name": "Drillbit - Red Quarry Combine combat chatter",
       "NameShort": "Drillbit",
@@ -2546,19 +2546,19 @@
         "Shale, Riflehand, reporting from the cut stone pits and freight lifts."
       ],
       "WakeUp": [
-        "Eyes up. Red Quarry Combine still has work to finish."
+        "Shale, eyes up. Red Quarry Combine still has work to finish."
       ],
       "Attacking": [
         "Shale taking the riflehand lane. no one works a blast alone."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the cut stone pits and freight lifts."
+        "Shale on the pursuit. Keep my signal as I push them toward the the cut stone pits and freight lifts."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Shale holding at the Quarry staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Shale here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Shale confirms one hostile down. Watch the next angle."
@@ -2567,7 +2567,7 @@
         "Shale is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Shale signing off. Tell the Red Quarry Combine crew I kept my word."
       ],
       "Name": "Shale - Red Quarry Combine combat chatter",
       "NameShort": "Shale",
@@ -2588,19 +2588,19 @@
         "Scrip, Bulwark, reporting from the cut stone pits and freight lifts."
       ],
       "WakeUp": [
-        "Eyes up. Red Quarry Combine still has work to finish."
+        "Scrip, eyes up. Red Quarry Combine still has work to finish."
       ],
       "Attacking": [
         "Scrip taking the bulwark lane. no one works a blast alone."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the cut stone pits and freight lifts."
+        "Scrip on the pursuit. Keep my signal as I push them toward the the cut stone pits and freight lifts."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Scrip holding at the Quarry staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Scrip here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Scrip confirms one hostile down. Watch the next angle."
@@ -2609,7 +2609,7 @@
         "Scrip is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Scrip signing off. Tell the Red Quarry Combine crew I kept my word."
       ],
       "Name": "Scrip - Red Quarry Combine combat chatter",
       "NameShort": "Scrip",
@@ -2630,19 +2630,19 @@
         "Pick, Mechanic, reporting from the cut stone pits and freight lifts."
       ],
       "WakeUp": [
-        "Eyes up. Red Quarry Combine still has work to finish."
+        "Pick, eyes up. Red Quarry Combine still has work to finish."
       ],
       "Attacking": [
         "Pick taking the mechanic lane. no one works a blast alone."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the cut stone pits and freight lifts."
+        "Pick on the pursuit. Keep my signal as I push them toward the the cut stone pits and freight lifts."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Pick holding at the Quarry staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Pick here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Pick confirms one hostile down. Watch the next angle."
@@ -2651,7 +2651,7 @@
         "Pick is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Pick signing off. Tell the Red Quarry Combine crew I kept my word."
       ],
       "Name": "Pick - Red Quarry Combine combat chatter",
       "NameShort": "Pick",
@@ -2673,19 +2673,19 @@
         "Cobalt, Medic, reporting from the cut stone pits and freight lifts."
       ],
       "WakeUp": [
-        "Eyes up. Red Quarry Combine still has work to finish."
+        "Cobalt, eyes up. Red Quarry Combine still has work to finish."
       ],
       "Attacking": [
         "Cobalt taking the medic lane. no one works a blast alone."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the cut stone pits and freight lifts."
+        "Cobalt on the pursuit. Keep my signal as I push them toward the the cut stone pits and freight lifts."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Cobalt holding at the Quarry staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Cobalt here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Cobalt confirms one hostile down. Watch the next angle."
@@ -2694,7 +2694,7 @@
         "Cobalt is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Cobalt signing off. Tell the Red Quarry Combine crew I kept my word."
       ],
       "Name": "Cobalt - Red Quarry Combine combat chatter",
       "NameShort": "Cobalt",
@@ -2715,19 +2715,19 @@
         "Seam, Marksman, reporting from the cut stone pits and freight lifts."
       ],
       "WakeUp": [
-        "Eyes up. Red Quarry Combine still has work to finish."
+        "Seam, eyes up. Red Quarry Combine still has work to finish."
       ],
       "Attacking": [
         "Seam taking the marksman lane. no one works a blast alone."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the cut stone pits and freight lifts."
+        "Seam on the pursuit. Keep my signal as I push them toward the the cut stone pits and freight lifts."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Seam holding at the Quarry staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Seam here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Seam confirms one hostile down. Watch the next angle."
@@ -2736,7 +2736,7 @@
         "Seam is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Seam signing off. Tell the Red Quarry Combine crew I kept my word."
       ],
       "Name": "Seam - Red Quarry Combine combat chatter",
       "NameShort": "Seam",
@@ -2758,19 +2758,19 @@
         "Blastcap, Runner, reporting from the cut stone pits and freight lifts."
       ],
       "WakeUp": [
-        "Eyes up. Red Quarry Combine still has work to finish."
+        "Blastcap, eyes up. Red Quarry Combine still has work to finish."
       ],
       "Attacking": [
         "Blastcap taking the runner lane. no one works a blast alone."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the cut stone pits and freight lifts."
+        "Blastcap on the pursuit. Keep my signal as I push them toward the the cut stone pits and freight lifts."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Blastcap holding at the Quarry staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Blastcap here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Blastcap confirms one hostile down. Watch the next angle."
@@ -2779,7 +2779,7 @@
         "Blastcap is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Blastcap signing off. Tell the Red Quarry Combine crew I kept my word."
       ],
       "Name": "Blastcap - Red Quarry Combine combat chatter",
       "NameShort": "Blastcap",
@@ -2800,19 +2800,19 @@
         "Dredge, Trainee, reporting from the cut stone pits and freight lifts."
       ],
       "WakeUp": [
-        "Eyes up. Red Quarry Combine still has work to finish."
+        "Dredge, eyes up. Red Quarry Combine still has work to finish."
       ],
       "Attacking": [
         "Dredge taking the trainee lane. no one works a blast alone."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the cut stone pits and freight lifts."
+        "Dredge on the pursuit. Keep my signal as I push them toward the the cut stone pits and freight lifts."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Dredge holding at the Quarry staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Dredge here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Dredge confirms one hostile down. Watch the next angle."
@@ -2821,7 +2821,7 @@
         "Dredge is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Dredge signing off. Tell the Red Quarry Combine crew I kept my word."
       ],
       "Name": "Dredge - Red Quarry Combine combat chatter",
       "NameShort": "Dredge",

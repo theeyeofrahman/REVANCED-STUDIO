@@ -2417,19 +2417,19 @@
         "Cinder, Field lead, reporting from the switching rooms and scavenged relay towers."
       ],
       "WakeUp": [
-        "Eyes up. Cinder Circuit still has work to finish."
+        "Cinder, eyes up. Cinder Circuit still has work to finish."
       ],
       "Attacking": [
         "Cinder taking the field lead lane. nothing is dead until the wire is cut."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the switching rooms and scavenged relay towers."
+        "Cinder on the pursuit. Keep my signal as I push them toward the the switching rooms and scavenged relay towers."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Cinder holding at the Cinder staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Cinder here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Cinder confirms one hostile down. Watch the next angle."
@@ -2438,7 +2438,7 @@
         "Cinder is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Cinder signing off. Tell the Cinder Circuit crew I kept my word."
       ],
       "Name": "Cinder - Cinder Circuit combat chatter",
       "NameShort": "Cinder",
@@ -2460,19 +2460,19 @@
         "Arc, Quartermaster, reporting from the switching rooms and scavenged relay towers."
       ],
       "WakeUp": [
-        "Eyes up. Cinder Circuit still has work to finish."
+        "Arc, eyes up. Cinder Circuit still has work to finish."
       ],
       "Attacking": [
         "Arc taking the quartermaster lane. nothing is dead until the wire is cut."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the switching rooms and scavenged relay towers."
+        "Arc on the pursuit. Keep my signal as I push them toward the the switching rooms and scavenged relay towers."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Arc holding at the Cinder staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Arc here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Arc confirms one hostile down. Watch the next angle."
@@ -2481,7 +2481,7 @@
         "Arc is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Arc signing off. Tell the Cinder Circuit crew I kept my word."
       ],
       "Name": "Arc - Cinder Circuit combat chatter",
       "NameShort": "Arc",
@@ -2503,19 +2503,19 @@
         "Splice, Pathfinder, reporting from the switching rooms and scavenged relay towers."
       ],
       "WakeUp": [
-        "Eyes up. Cinder Circuit still has work to finish."
+        "Splice, eyes up. Cinder Circuit still has work to finish."
       ],
       "Attacking": [
         "Splice taking the pathfinder lane. nothing is dead until the wire is cut."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the switching rooms and scavenged relay towers."
+        "Splice on the pursuit. Keep my signal as I push them toward the the switching rooms and scavenged relay towers."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Splice holding at the Cinder staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Splice here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Splice confirms one hostile down. Watch the next angle."
@@ -2524,7 +2524,7 @@
         "Splice is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Splice signing off. Tell the Cinder Circuit crew I kept my word."
       ],
       "Name": "Splice - Cinder Circuit combat chatter",
       "NameShort": "Splice",
@@ -2546,19 +2546,19 @@
         "Fanout, Riflehand, reporting from the switching rooms and scavenged relay towers."
       ],
       "WakeUp": [
-        "Eyes up. Cinder Circuit still has work to finish."
+        "Fanout, eyes up. Cinder Circuit still has work to finish."
       ],
       "Attacking": [
         "Fanout taking the riflehand lane. nothing is dead until the wire is cut."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the switching rooms and scavenged relay towers."
+        "Fanout on the pursuit. Keep my signal as I push them toward the the switching rooms and scavenged relay towers."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Fanout holding at the Cinder staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Fanout here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Fanout confirms one hostile down. Watch the next angle."
@@ -2567,7 +2567,7 @@
         "Fanout is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Fanout signing off. Tell the Cinder Circuit crew I kept my word."
       ],
       "Name": "Fanout - Cinder Circuit combat chatter",
       "NameShort": "Fanout",
@@ -2588,19 +2588,19 @@
         "Patchbay, Bulwark, reporting from the switching rooms and scavenged relay towers."
       ],
       "WakeUp": [
-        "Eyes up. Cinder Circuit still has work to finish."
+        "Patchbay, eyes up. Cinder Circuit still has work to finish."
       ],
       "Attacking": [
         "Patchbay taking the bulwark lane. nothing is dead until the wire is cut."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the switching rooms and scavenged relay towers."
+        "Patchbay on the pursuit. Keep my signal as I push them toward the the switching rooms and scavenged relay towers."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Patchbay holding at the Cinder staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Patchbay here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Patchbay confirms one hostile down. Watch the next angle."
@@ -2609,7 +2609,7 @@
         "Patchbay is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Patchbay signing off. Tell the Cinder Circuit crew I kept my word."
       ],
       "Name": "Patchbay - Cinder Circuit combat chatter",
       "NameShort": "Patchbay",
@@ -2630,19 +2630,19 @@
         "Relay, Mechanic, reporting from the switching rooms and scavenged relay towers."
       ],
       "WakeUp": [
-        "Eyes up. Cinder Circuit still has work to finish."
+        "Relay, eyes up. Cinder Circuit still has work to finish."
       ],
       "Attacking": [
         "Relay taking the mechanic lane. nothing is dead until the wire is cut."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the switching rooms and scavenged relay towers."
+        "Relay on the pursuit. Keep my signal as I push them toward the the switching rooms and scavenged relay towers."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Relay holding at the Cinder staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Relay here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Relay confirms one hostile down. Watch the next angle."
@@ -2651,7 +2651,7 @@
         "Relay is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Relay signing off. Tell the Cinder Circuit crew I kept my word."
       ],
       "Name": "Relay - Cinder Circuit combat chatter",
       "NameShort": "Relay",
@@ -2673,19 +2673,19 @@
         "Capacitor, Medic, reporting from the switching rooms and scavenged relay towers."
       ],
       "WakeUp": [
-        "Eyes up. Cinder Circuit still has work to finish."
+        "Capacitor, eyes up. Cinder Circuit still has work to finish."
       ],
       "Attacking": [
         "Capacitor taking the medic lane. nothing is dead until the wire is cut."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the switching rooms and scavenged relay towers."
+        "Capacitor on the pursuit. Keep my signal as I push them toward the the switching rooms and scavenged relay towers."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Capacitor holding at the Cinder staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Capacitor here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Capacitor confirms one hostile down. Watch the next angle."
@@ -2694,7 +2694,7 @@
         "Capacitor is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Capacitor signing off. Tell the Cinder Circuit crew I kept my word."
       ],
       "Name": "Capacitor - Cinder Circuit combat chatter",
       "NameShort": "Capacitor",
@@ -2715,19 +2715,19 @@
         "Loopback, Marksman, reporting from the switching rooms and scavenged relay towers."
       ],
       "WakeUp": [
-        "Eyes up. Cinder Circuit still has work to finish."
+        "Loopback, eyes up. Cinder Circuit still has work to finish."
       ],
       "Attacking": [
         "Loopback taking the marksman lane. nothing is dead until the wire is cut."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the switching rooms and scavenged relay towers."
+        "Loopback on the pursuit. Keep my signal as I push them toward the the switching rooms and scavenged relay towers."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Loopback holding at the Cinder staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Loopback here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Loopback confirms one hostile down. Watch the next angle."
@@ -2736,7 +2736,7 @@
         "Loopback is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Loopback signing off. Tell the Cinder Circuit crew I kept my word."
       ],
       "Name": "Loopback - Cinder Circuit combat chatter",
       "NameShort": "Loopback",
@@ -2758,19 +2758,19 @@
         "Jumper, Runner, reporting from the switching rooms and scavenged relay towers."
       ],
       "WakeUp": [
-        "Eyes up. Cinder Circuit still has work to finish."
+        "Jumper, eyes up. Cinder Circuit still has work to finish."
       ],
       "Attacking": [
         "Jumper taking the runner lane. nothing is dead until the wire is cut."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the switching rooms and scavenged relay towers."
+        "Jumper on the pursuit. Keep my signal as I push them toward the the switching rooms and scavenged relay towers."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Jumper holding at the Cinder staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Jumper here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Jumper confirms one hostile down. Watch the next angle."
@@ -2779,7 +2779,7 @@
         "Jumper is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Jumper signing off. Tell the Cinder Circuit crew I kept my word."
       ],
       "Name": "Jumper - Cinder Circuit combat chatter",
       "NameShort": "Jumper",
@@ -2800,19 +2800,19 @@
         "Ground, Trainee, reporting from the switching rooms and scavenged relay towers."
       ],
       "WakeUp": [
-        "Eyes up. Cinder Circuit still has work to finish."
+        "Ground, eyes up. Cinder Circuit still has work to finish."
       ],
       "Attacking": [
         "Ground taking the trainee lane. nothing is dead until the wire is cut."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the switching rooms and scavenged relay towers."
+        "Ground on the pursuit. Keep my signal as I push them toward the the switching rooms and scavenged relay towers."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Ground holding at the Cinder staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Ground here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Ground confirms one hostile down. Watch the next angle."
@@ -2821,7 +2821,7 @@
         "Ground is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Ground signing off. Tell the Cinder Circuit crew I kept my word."
       ],
       "Name": "Ground - Cinder Circuit combat chatter",
       "NameShort": "Ground",

@@ -2417,19 +2417,19 @@
         "Brine, Field lead, reporting from the flooded docks and container yards."
       ],
       "WakeUp": [
-        "Eyes up. Glass Harbor still has work to finish."
+        "Brine, eyes up. Glass Harbor still has work to finish."
       ],
       "Attacking": [
         "Brine taking the field lead lane. the tide leaves something for us."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the flooded docks and container yards."
+        "Brine on the pursuit. Keep my signal as I push them toward the the flooded docks and container yards."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Brine holding at the Harbor staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Brine here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Brine confirms one hostile down. Watch the next angle."
@@ -2438,7 +2438,7 @@
         "Brine is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Brine signing off. Tell the Glass Harbor crew I kept my word."
       ],
       "Name": "Brine - Glass Harbor combat chatter",
       "NameShort": "Brine",
@@ -2460,19 +2460,19 @@
         "Wake, Quartermaster, reporting from the flooded docks and container yards."
       ],
       "WakeUp": [
-        "Eyes up. Glass Harbor still has work to finish."
+        "Wake, eyes up. Glass Harbor still has work to finish."
       ],
       "Attacking": [
         "Wake taking the quartermaster lane. the tide leaves something for us."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the flooded docks and container yards."
+        "Wake on the pursuit. Keep my signal as I push them toward the the flooded docks and container yards."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Wake holding at the Harbor staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Wake here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Wake confirms one hostile down. Watch the next angle."
@@ -2481,7 +2481,7 @@
         "Wake is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Wake signing off. Tell the Glass Harbor crew I kept my word."
       ],
       "Name": "Wake - Glass Harbor combat chatter",
       "NameShort": "Wake",
@@ -2503,19 +2503,19 @@
         "Buoy, Pathfinder, reporting from the flooded docks and container yards."
       ],
       "WakeUp": [
-        "Eyes up. Glass Harbor still has work to finish."
+        "Buoy, eyes up. Glass Harbor still has work to finish."
       ],
       "Attacking": [
         "Buoy taking the pathfinder lane. the tide leaves something for us."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the flooded docks and container yards."
+        "Buoy on the pursuit. Keep my signal as I push them toward the the flooded docks and container yards."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Buoy holding at the Harbor staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Buoy here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Buoy confirms one hostile down. Watch the next angle."
@@ -2524,7 +2524,7 @@
         "Buoy is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Buoy signing off. Tell the Glass Harbor crew I kept my word."
       ],
       "Name": "Buoy - Glass Harbor combat chatter",
       "NameShort": "Buoy",
@@ -2546,19 +2546,19 @@
         "Sounder, Riflehand, reporting from the flooded docks and container yards."
       ],
       "WakeUp": [
-        "Eyes up. Glass Harbor still has work to finish."
+        "Sounder, eyes up. Glass Harbor still has work to finish."
       ],
       "Attacking": [
         "Sounder taking the riflehand lane. the tide leaves something for us."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the flooded docks and container yards."
+        "Sounder on the pursuit. Keep my signal as I push them toward the the flooded docks and container yards."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Sounder holding at the Harbor staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Sounder here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Sounder confirms one hostile down. Watch the next angle."
@@ -2567,7 +2567,7 @@
         "Sounder is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Sounder signing off. Tell the Glass Harbor crew I kept my word."
       ],
       "Name": "Sounder - Glass Harbor combat chatter",
       "NameShort": "Sounder",
@@ -2588,19 +2588,19 @@
         "Kelp, Bulwark, reporting from the flooded docks and container yards."
       ],
       "WakeUp": [
-        "Eyes up. Glass Harbor still has work to finish."
+        "Kelp, eyes up. Glass Harbor still has work to finish."
       ],
       "Attacking": [
         "Kelp taking the bulwark lane. the tide leaves something for us."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the flooded docks and container yards."
+        "Kelp on the pursuit. Keep my signal as I push them toward the the flooded docks and container yards."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Kelp holding at the Harbor staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Kelp here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Kelp confirms one hostile down. Watch the next angle."
@@ -2609,7 +2609,7 @@
         "Kelp is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Kelp signing off. Tell the Glass Harbor crew I kept my word."
       ],
       "Name": "Kelp - Glass Harbor combat chatter",
       "NameShort": "Kelp",
@@ -2630,19 +2630,19 @@
         "Breaker, Mechanic, reporting from the flooded docks and container yards."
       ],
       "WakeUp": [
-        "Eyes up. Glass Harbor still has work to finish."
+        "Breaker, eyes up. Glass Harbor still has work to finish."
       ],
       "Attacking": [
         "Breaker taking the mechanic lane. the tide leaves something for us."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the flooded docks and container yards."
+        "Breaker on the pursuit. Keep my signal as I push them toward the the flooded docks and container yards."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Breaker holding at the Harbor staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Breaker here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Breaker confirms one hostile down. Watch the next angle."
@@ -2651,7 +2651,7 @@
         "Breaker is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Breaker signing off. Tell the Glass Harbor crew I kept my word."
       ],
       "Name": "Breaker - Glass Harbor combat chatter",
       "NameShort": "Breaker",
@@ -2673,19 +2673,19 @@
         "Netter, Medic, reporting from the flooded docks and container yards."
       ],
       "WakeUp": [
-        "Eyes up. Glass Harbor still has work to finish."
+        "Netter, eyes up. Glass Harbor still has work to finish."
       ],
       "Attacking": [
         "Netter taking the medic lane. the tide leaves something for us."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the flooded docks and container yards."
+        "Netter on the pursuit. Keep my signal as I push them toward the the flooded docks and container yards."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Netter holding at the Harbor staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Netter here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Netter confirms one hostile down. Watch the next angle."
@@ -2694,7 +2694,7 @@
         "Netter is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Netter signing off. Tell the Glass Harbor crew I kept my word."
       ],
       "Name": "Netter - Glass Harbor combat chatter",
       "NameShort": "Netter",
@@ -2715,19 +2715,19 @@
         "Tide, Marksman, reporting from the flooded docks and container yards."
       ],
       "WakeUp": [
-        "Eyes up. Glass Harbor still has work to finish."
+        "Tide, eyes up. Glass Harbor still has work to finish."
       ],
       "Attacking": [
         "Tide taking the marksman lane. the tide leaves something for us."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the flooded docks and container yards."
+        "Tide on the pursuit. Keep my signal as I push them toward the the flooded docks and container yards."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Tide holding at the Harbor staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Tide here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Tide confirms one hostile down. Watch the next angle."
@@ -2736,7 +2736,7 @@
         "Tide is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Tide signing off. Tell the Glass Harbor crew I kept my word."
       ],
       "Name": "Tide - Glass Harbor combat chatter",
       "NameShort": "Tide",
@@ -2758,19 +2758,19 @@
         "Docklight, Runner, reporting from the flooded docks and container yards."
       ],
       "WakeUp": [
-        "Eyes up. Glass Harbor still has work to finish."
+        "Docklight, eyes up. Glass Harbor still has work to finish."
       ],
       "Attacking": [
         "Docklight taking the runner lane. the tide leaves something for us."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the flooded docks and container yards."
+        "Docklight on the pursuit. Keep my signal as I push them toward the the flooded docks and container yards."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Docklight holding at the Harbor staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Docklight here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Docklight confirms one hostile down. Watch the next angle."
@@ -2779,7 +2779,7 @@
         "Docklight is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Docklight signing off. Tell the Glass Harbor crew I kept my word."
       ],
       "Name": "Docklight - Glass Harbor combat chatter",
       "NameShort": "Docklight",
@@ -2800,19 +2800,19 @@
         "Sluice, Trainee, reporting from the flooded docks and container yards."
       ],
       "WakeUp": [
-        "Eyes up. Glass Harbor still has work to finish."
+        "Sluice, eyes up. Glass Harbor still has work to finish."
       ],
       "Attacking": [
         "Sluice taking the trainee lane. the tide leaves something for us."
       ],
       "Chasing": [
-        "Keep my signal. I'm pushing them toward the the flooded docks and container yards."
+        "Sluice on the pursuit. Keep my signal as I push them toward the the flooded docks and container yards."
       ],
       "Waiting": [
-        "Holding position. Check your route before you move."
+        "Sluice holding at the Harbor staging point. Check your route before you move."
       ],
       "FriendDied": [
-        "We lost one of ours. Mark the spot; the rest of us keep moving."
+        "Sluice here. We lost one of ours; I'll cover the crew while you mark the spot."
       ],
       "EnemyDown": [
         "Sluice confirms one hostile down. Watch the next angle."
@@ -2821,7 +2821,7 @@
         "Sluice is hit! Still moving; get me behind cover!"
       ],
       "Died": [
-        "Tell the crew I made it this far with them."
+        "Sluice signing off. Tell the Glass Harbor crew I kept my word."
       ],
       "Name": "Sluice - Glass Harbor combat chatter",
       "NameShort": "Sluice",
