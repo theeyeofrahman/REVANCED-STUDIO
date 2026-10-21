@@ -1142,6 +1142,158 @@
       "Filename": "Origin_Overhaul_Rail",
       "Root": "Patient",
       "Priority": 1
+    },
+    {
+      "Name": "Ward Volunteer",
+      "NameShort": "Ward Volunteer",
+      "Description": "You helped the Afterlight Clinic turn abandoned rooms into safe wards. Weathered light panels and clinic-green trim mark a calm volunteer who makes time for one more patient.",
+      "Imprints": 0,
+      "LinkedCharacter": "Arena",
+      "AttributeBonuses": [
+        -1,
+        0,
+        0,
+        1
+      ],
+      "DefaultArmor": [
+        "Gloves_Sappers",
+        "Belt_Merc_1"
+      ],
+      "DefaultUniforms": [
+        {
+          "ArmorPicks": [
+            "Goggles_W01V"
+          ],
+          "TintSecondary": {
+            "r": 0.364706,
+            "g": 0.501961,
+            "b": 0.427451,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.839216,
+            "g": 0.815686,
+            "b": 0.729412,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.709804,
+            "g": 0.882353,
+            "b": 0.741176,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_Hardhat_Laborer"
+          ],
+          "TintSecondary": {
+            "r": 0.364706,
+            "g": 0.501961,
+            "b": 0.427451,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.839216,
+            "g": 0.815686,
+            "b": 0.729412,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.709804,
+            "g": 0.882353,
+            "b": 0.741176,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Outfit_Engineer"
+          ],
+          "TintSecondary": {
+            "r": 0.364706,
+            "g": 0.501961,
+            "b": 0.427451,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.839216,
+            "g": 0.815686,
+            "b": 0.729412,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.709804,
+            "g": 0.882353,
+            "b": 0.741176,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        }
+      ],
+      "Buffs": [
+        {
+          "Description": "Your work kit has room for one extra magazine.",
+          "Amount": 1.0,
+          "Type": "ExtraMags",
+          "AmPercent": false,
+          "ShowAsGood": true,
+          "Name": "Bonus Magazine"
+        },
+        {
+          "Description": "You never trained much for close-quarters fights.",
+          "Amount": 0.1,
+          "Type": "DamageFromH2H",
+          "AmPercent": true,
+          "ShowAsGood": false,
+          "Name": "Damage from Unarmed/Melee"
+        }
+      ],
+      "SkillFocus": "Ranged",
+      "SkillWeakness": "Unarmed",
+      "SpecialSkills": [
+        "O_Tinkerer"
+      ],
+      "Swatch_Pairs": [
+        {
+          "Color1": {
+            "r": 0.839216,
+            "g": 0.815686,
+            "b": 0.729412,
+            "a": 1.0
+          },
+          "Color2": {
+            "r": 0.364706,
+            "g": 0.501961,
+            "b": 0.427451,
+            "a": 1.0
+          },
+          "Name": "Afterlight Clinic colors"
+        }
+      ],
+      "Swatch_Solos": [
+        {
+          "Color1": {
+            "r": 0.709804,
+            "g": 0.882353,
+            "b": 0.741176,
+            "a": 1.0
+          },
+          "Name": "Afterlight Clinic signal"
+        }
+      ],
+      "Swatch": "None",
+      "WarchestWeapons": [],
+      "WarchestGear": [],
+      "ExpandNowhere": false,
+      "Filename": "Origin_Overhaul_Afterlight",
+      "Root": "Tinkerer",
+      "Priority": 1
     }
   ]
 }
