@@ -1444,6 +1444,245 @@
       "Kick": "None",
       "Headbutt": "None",
       "SlamExplode": "None"
+    },
+    {
+      "Name": "Capacitor",
+      "NameShort": "Capacitor",
+      "Description": "Capacitor is the Medic of the Cinder Circuit, working the switching rooms and scavenged relay towers. stabilizes injured crew and refuses to leave anyone behind. Their field kit shows the crew's colors: graphite mechanic suits with copper panels and live-cyan glass.",
+      "Level": 5,
+      "Title": "Medic",
+      "Faction": "Cinder Circuit",
+      "Health": 6,
+      "Attributes": [
+        8,
+        10,
+        11,
+        10
+      ],
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_B",
+      "TextChatter": "CC_OVR_Cinder_Capacitor",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Personal",
+        "HoldCover",
+        "FreeAttacker"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "DefaultWeapon": "R_NM46",
+      "DefaultThrown": "None",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_N51BattleDress"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_Nexus_1"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_Engineer"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_Headset"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_Sappers"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Cinder_Capacitor",
+      "Root": "N51_0_Recon",
+      "Priority": 2,
+      "ArmorHead": 0.0,
+      "ArmorBody": 1.0,
+      "TacBar": 0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "SkillGroups": [
+        "AAHW_Base"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "Speed": {
+        "x": 0.9,
+        "y": 0.75,
+        "z": 1.0
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
     }
   ],
   "Chatter": [
@@ -1701,6 +1940,49 @@
       "NameShort": "Relay",
       "Filename": "CC_OVR_Cinder_Relay",
       "Root": "MERC",
+      "Priority": 1
+    },
+    {
+      "Description": "Custom event chatter for Capacitor. technician banter, quick diagnostics, and clear electrical hazards; Cinder keeps a line open to Zayden.",
+      "Font": "BlackOpsOne-Regular",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Capacitor, Medic, reporting from the switching rooms and scavenged relay towers."
+      ],
+      "WakeUp": [
+        "Eyes up. Cinder Circuit still has work to finish."
+      ],
+      "Attacking": [
+        "Capacitor taking the medic lane. nothing is dead until the wire is cut."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the the switching rooms and scavenged relay towers."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Capacitor confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Capacitor is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Capacitor - Cinder Circuit combat chatter",
+      "NameShort": "Capacitor",
+      "Filename": "CC_OVR_Cinder_Capacitor",
+      "Root": "N51",
       "Priority": 1
     }
   ]
