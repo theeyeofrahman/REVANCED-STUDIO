@@ -1683,6 +1683,244 @@
       "Kick": "None",
       "Headbutt": "None",
       "SlamExplode": "None"
+    },
+    {
+      "Name": "Tide",
+      "NameShort": "Tide",
+      "Description": "Tide is the Marksman of the Glass Harbor, working the flooded docks and container yards. spots threats early and shares a clean shot with the rest of the team. Their field kit shows the crew's colors: slate-blue salvage armor with sea-glass lenses.",
+      "Level": 6,
+      "Title": "Marksman",
+      "TacBar": 0,
+      "Faction": "Glass Harbor",
+      "Health": 7,
+      "Attributes": [
+        9,
+        12,
+        9,
+        11
+      ],
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "Support",
+      "TextChatter": "CC_OVR_Harbor_Tide",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Personal",
+        "NoSprint",
+        "FreeAttacker"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "WeaponPref": "Melee",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_Agent"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_Nexus_Riot"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_Nexus 5"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_Nexus_Riot"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_BanditBrute"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Harbor_Tide",
+      "Root": "Nexus3_Support",
+      "Priority": 2,
+      "ArmorHead": 2.0,
+      "ArmorBody": 3.0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "SkillGroups": [
+        "AAHW_Skilled"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "Speed": {
+        "x": 0.55,
+        "y": 0.6,
+        "z": 0.8
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultThrown": "None",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
     }
   ],
   "Chatter": [
@@ -1983,6 +2221,48 @@
       "NameShort": "Netter",
       "Filename": "CC_OVR_Harbor_Netter",
       "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Description": "Custom event chatter for Tide. dockside shorthand, tide calls, and blunt warnings about bad water.",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Tide, Marksman, reporting from the flooded docks and container yards."
+      ],
+      "WakeUp": [
+        "Eyes up. Glass Harbor still has work to finish."
+      ],
+      "Attacking": [
+        "Tide taking the marksman lane. the tide leaves something for us."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the the flooded docks and container yards."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Tide confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Tide is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Tide - Glass Harbor combat chatter",
+      "NameShort": "Tide",
+      "Filename": "CC_OVR_Harbor_Tide",
+      "Root": "NEXUS",
       "Priority": 1
     }
   ]
