@@ -47,10 +47,11 @@ class Integration
   Console.WriteLine("Creating Studio shell");using(var shell=new StudioWindow(root,true)){
    var hiddenHandle=shell.Handle;
    Check(AreDpiAwarenessContextsEqual(GetThreadDpiAwarenessContext(),new IntPtr(-4)),"Studio did not enable Per Monitor V2 high-DPI rendering");
-   Check(shell.Text.Contains("MadCard Maker")&&shell.Workspaces.Count==0,"Studio did not open as a standalone MCM application");
+   Check(shell.Text.Contains("REVANCED Studio")&&shell.Workspaces.Count==0,"Studio did not open with REVANCED branding as a standalone application");
    shell.SwitchWorkspace("MadCard");Check(shell.ActiveWorkspace=="MadCard"&&shell.Workspaces.Count==1,"MCM workspace did not open on its own");
    var home=shell.Workspaces["MadCard"].Home;Check(!home.TopLevel&&home.Dock==DockStyle.Fill,"MCM home isn't embedded");
-   var sidebar=ControlsOf(home).OfType<FlowLayoutPanel>().FirstOrDefault(p=>p.Controls.OfType<Label>().Any(l=>l.Text=="MCM\r\nREVANCED"));Check(sidebar!=null&&!sidebar.AutoScroll,"Studio sidebar should fit without a native white scrollbar");
+   var sidebar=ControlsOf(home).OfType<FlowLayoutPanel>().FirstOrDefault(p=>p.Controls.OfType<Label>().Any(l=>l.Text=="REVANCED\r\nSTUDIO"));Check(sidebar!=null&&!sidebar.AutoScroll,"REVANCED Studio navigation should fit without a native white scrollbar");
+   Check(ControlsOf(home).OfType<Label>().Any(l=>l.Text=="MADCard WORKSPACE"),"Studio navigation is missing the active workspace label");
    var tabs=shell.Workspaces["MadCard"].Tabs;Check(tabs.DrawMode==TabDrawMode.OwnerDrawFixed,"Studio workspace tabs should use custom owner drawing");
    if(!SystemInformation.HighContrast)Check(M.DossierScrollbars.IsAttached(shell)&&M.DossierScrollbars.IsAttached(home),"Studio scrollbar styling missing");
    using(var notepad=new M.MakerNotepad()){

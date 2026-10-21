@@ -38,15 +38,17 @@ public sealed class StudioWindow:Form
   root=Path.GetFullPath(directory);testing=testMode;state=testing?new StudioState():StudioState.Load();
   string theme=Path.Combine(StudioState.DirectoryPath,"theme.json");
   M.StudioModule.Configure(Path.Combine(root,"Data","MadCard"),theme,OpenMadCardDocument);
-  Text="MadCard Maker REVANCED";MinimumSize=new Size(1120,740);Size=new Size(1400,900);StartPosition=FormStartPosition.CenterScreen;AutoScaleMode=AutoScaleMode.Dpi;AutoScaleDimensions=new SizeF(96,96);
-  var layout=new TableLayoutPanel{Dock=DockStyle.Fill,ColumnCount=1,RowCount=3,Padding=new Padding(16,10,16,12)};layout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent,100));layout.RowStyles.Add(new RowStyle(SizeType.Absolute,64));layout.RowStyles.Add(new RowStyle(SizeType.Percent,100));layout.RowStyles.Add(new RowStyle(SizeType.Absolute,28));
-  var header=new TableLayoutPanel{Dock=DockStyle.Fill,ColumnCount=3,RowCount=1};header.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute,250));header.ColumnStyles.Add(new ColumnStyle(SizeType.Percent,100));header.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute,360));
-  var title=new Label{Text="MadCard Maker REVANCED",Dock=DockStyle.Fill,TextAlign=ContentAlignment.MiddleLeft};header.Controls.Add(title,0,0);
-  var tools=new FlowLayoutPanel{Dock=DockStyle.Fill,FlowDirection=FlowDirection.RightToLeft,WrapContents=false,Padding=new Padding(0,8,0,0)};
-  var appearance=new M.DossierButton{Text="Appearance",Width=120,Height=40};appearance.Click+=(_,__)=>{try{M.MakerHelp.Interface(this);}catch(Exception e){M.DossierDialog.Show(this,e.Message);}};
-  var close=new M.DossierButton{Text="Close tab",Width=110,Height=40};close.Click+=(_,__)=>CloseActiveDocument();var musicButton=new M.DossierButton{Text="Music",Width=100,Height=40};musicButton.Click+=(_,__)=>{if(music==null||music.IsDisposed)music=new MusicPlayer();if(!music.Visible)music.Show(this);music.BringToFront();};tools.Controls.Add(appearance);tools.Controls.Add(musicButton);tools.Controls.Add(close);header.Controls.Add(tools,2,0);layout.Controls.Add(header,0,0);layout.Controls.Add(canvas,0,1);layout.Controls.Add(status,0,2);Controls.Add(layout);
-  M.StudioModule.Style(this);title.Font=M.DossierFonts.Create(M.DossierTheme.Load().HeadingFont,18,FontStyle.Bold);title.ForeColor=Color.FromArgb(217,84,96);status.ForeColor=Color.FromArgb(183,171,173);
-  Shown+=(_,__)=>{if(testing)return;if(state.Maximized)WindowState=FormWindowState.Maximized;else{var area=Screen.FromControl(this).WorkingArea;Size=new Size(Math.Min(area.Width,Math.Max(1120,state.Width)),Math.Min(area.Height,Math.Max(740,state.Height)));}SwitchWorkspace("MadCard");};
+  Text="REVANCED Studio";MinimumSize=new Size(1000,700);Size=new Size(1400,900);StartPosition=FormStartPosition.CenterScreen;AutoScaleMode=AutoScaleMode.Dpi;AutoScaleDimensions=new SizeF(96,96);AccessibleDescription="REVANCED Studio for MadCard decks and custom Madness Project Nexus content.";
+  var layout=new TableLayoutPanel{Dock=DockStyle.Fill,ColumnCount=1,RowCount=3,Padding=new Padding(22,14,22,14)};layout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent,100));layout.RowStyles.Add(new RowStyle(SizeType.Absolute,72));layout.RowStyles.Add(new RowStyle(SizeType.Percent,100));layout.RowStyles.Add(new RowStyle(SizeType.Absolute,32));
+  var header=new TableLayoutPanel{Dock=DockStyle.Fill,ColumnCount=2,RowCount=1};header.ColumnStyles.Add(new ColumnStyle(SizeType.Percent,100));header.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute,350));
+  var brand=new TableLayoutPanel{Dock=DockStyle.Fill,ColumnCount=1,RowCount=2,Margin=Padding.Empty};brand.RowStyles.Add(new RowStyle(SizeType.Percent,62));brand.RowStyles.Add(new RowStyle(SizeType.Percent,38));
+  var title=new Label{Text="REVANCED Studio",Dock=DockStyle.Fill,TextAlign=ContentAlignment.BottomLeft,AccessibleName="REVANCED Studio"};brand.Controls.Add(title,0,0);
+  var subtitle=new Label{Text="MADNESS PROJECT NEXUS  /  CREATOR WORKSPACE",Dock=DockStyle.Fill,TextAlign=ContentAlignment.TopLeft,ForeColor=M.DossierTheme.Load().ColorFor("Muted"),AccessibleName="Creator workspace"};brand.Controls.Add(subtitle,0,1);header.Controls.Add(brand,0,0);
+  var tools=new FlowLayoutPanel{Dock=DockStyle.Fill,FlowDirection=FlowDirection.RightToLeft,WrapContents=false,Padding=new Padding(0,16,0,0)};
+  var appearance=new M.DossierButton{Text="Appearance",Width=126,Height=40,AccessibleName="Appearance and accessibility settings"};appearance.Click+=(_,__)=>{try{M.MakerHelp.Interface(this);}catch(Exception e){M.DossierDialog.Show(this,e.Message);}};
+  var close=new M.DossierButton{Text="Close tab",Width=110,Height=40};close.Click+=(_,__)=>CloseActiveDocument();var musicButton=new M.DossierButton{Text="Music",Width=92,Height=40};musicButton.Click+=(_,__)=>{if(music==null||music.IsDisposed)music=new MusicPlayer();if(!music.Visible)music.Show(this);music.BringToFront();};tools.Controls.Add(appearance);tools.Controls.Add(musicButton);tools.Controls.Add(close);header.Controls.Add(tools,1,0);layout.Controls.Add(header,0,0);layout.Controls.Add(canvas,0,1);layout.Controls.Add(status,0,2);Controls.Add(layout);
+  M.StudioModule.Style(this);title.Font=M.DossierFonts.Create(M.DossierTheme.Load().HeadingFont,21,FontStyle.Bold);title.ForeColor=M.DossierTheme.Load().ColorFor("Text");status.ForeColor=M.DossierTheme.Load().ColorFor("Muted");
+  Shown+=(_,__)=>{if(testing)return;if(state.Maximized)WindowState=FormWindowState.Maximized;else{var area=Screen.FromControl(this).WorkingArea;Size=new Size(Math.Min(area.Width,Math.Max(1000,state.Width)),Math.Min(area.Height,Math.Max(700,state.Height)));}SwitchWorkspace("MadCard");};
   FormClosing+=CloseStudio;
  }
  protected override bool ProcessCmdKey(ref Message msg,Keys keyData){if(keyData==(Keys.Control|Keys.W)){CloseActiveDocument();return true;}return base.ProcessCmdKey(ref msg,keyData);}
@@ -61,7 +63,7 @@ public sealed class StudioWindow:Form
     space.Home=M.StudioModule.CreateWorkspace();AddForm(space,space.Home,"Mods & decks");M.StudioModule.Style(space.Tabs);
    }
    space.Tabs.Visible=true;space.Tabs.BringToFront();
-   status.Text="MADCard / typed decks, inherited roots and load order   ·   Ctrl+W Close tab";
+   status.Text="MADCard workspace     •     Typed decks, inherited roots and load order     •     Ctrl+W closes the selected editor tab";
   }catch(Exception ex){status.Text="Could not open MadCard Maker: "+ex.Message;if(!testing)M.DossierDialog.Show(this,ex.Message,"Workspace unavailable");}
   finally{switching=false;}
  }
