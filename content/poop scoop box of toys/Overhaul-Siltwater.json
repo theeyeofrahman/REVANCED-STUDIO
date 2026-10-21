@@ -1444,6 +1444,245 @@
       "Kick": "None",
       "Headbutt": "None",
       "SlamExplode": "None"
+    },
+    {
+      "Name": "Rill",
+      "NameShort": "Rill",
+      "Description": "Rill is the Medic of the Siltwater Wardens, working the reservoir pumps and drainage tunnels. stabilizes injured crew and refuses to leave anyone behind. Their field kit shows the crew's colors: river-green rain gear with deep-blue seals.",
+      "Level": 5,
+      "Title": "Medic",
+      "Faction": "Siltwater Wardens",
+      "Health": 6,
+      "Attributes": [
+        8,
+        10,
+        11,
+        10
+      ],
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_B",
+      "TextChatter": "CC_OVR_Siltwater_Rill",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Personal",
+        "HoldCover",
+        "FreeAttacker"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "DefaultWeapon": "R_NM46",
+      "DefaultThrown": "None",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_N51BattleDress"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.278431,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.439216,
+            "g": 0.52549,
+            "b": 0.415686,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.721569,
+            "g": 0.843137,
+            "b": 0.611765,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_Nexus_1"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.278431,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.439216,
+            "g": 0.52549,
+            "b": 0.415686,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.721569,
+            "g": 0.843137,
+            "b": 0.611765,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_Engineer"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.278431,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.439216,
+            "g": 0.52549,
+            "b": 0.415686,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.721569,
+            "g": 0.843137,
+            "b": 0.611765,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_Headset"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.278431,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.439216,
+            "g": 0.52549,
+            "b": 0.415686,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.721569,
+            "g": 0.843137,
+            "b": 0.611765,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_Sappers"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.278431,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.439216,
+            "g": 0.52549,
+            "b": 0.415686,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.721569,
+            "g": 0.843137,
+            "b": 0.611765,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.278431,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.439216,
+            "g": 0.52549,
+            "b": 0.415686,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.721569,
+            "g": 0.843137,
+            "b": 0.611765,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Siltwater_Rill",
+      "Root": "N51_0_Recon",
+      "Priority": 2,
+      "ArmorHead": 0.0,
+      "ArmorBody": 1.0,
+      "TacBar": 0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "SkillGroups": [
+        "AAHW_Base"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "Speed": {
+        "x": 0.9,
+        "y": 0.75,
+        "z": 1.0
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
     }
   ],
   "Chatter": [
@@ -1701,6 +1940,49 @@
       "NameShort": "Oxbow",
       "Filename": "CC_OVR_Siltwater_Oxbow",
       "Root": "MERC",
+      "Priority": 1
+    },
+    {
+      "Description": "Custom event chatter for Rill. calm water-system reports, contamination checks, and clear evacuation directions.",
+      "Font": "BlackOpsOne-Regular",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Rill, Medic, reporting from the reservoir pumps and drainage tunnels."
+      ],
+      "WakeUp": [
+        "Eyes up. Siltwater Wardens still has work to finish."
+      ],
+      "Attacking": [
+        "Rill taking the medic lane. keep the pumps clean and the people breathing."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the the reservoir pumps and drainage tunnels."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Rill confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Rill is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Rill - Siltwater Wardens combat chatter",
+      "NameShort": "Rill",
+      "Filename": "CC_OVR_Siltwater_Rill",
+      "Root": "N51",
       "Priority": 1
     }
   ]
