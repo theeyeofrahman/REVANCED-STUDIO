@@ -734,6 +734,158 @@
       "Filename": "Origin_Overhaul_Harbor",
       "Root": "Tinkerer",
       "Priority": 1
+    },
+    {
+      "Name": "Quarry Spotter",
+      "NameShort": "Quarry Spotter",
+      "Description": "You called safe routes through the Red Quarry pits. Oxide panels and amber safety glass are the colors of a crew that never starts a blast without checking every person.",
+      "Imprints": 0,
+      "LinkedCharacter": "Arena",
+      "AttributeBonuses": [
+        0,
+        1,
+        0,
+        -1
+      ],
+      "DefaultArmor": [
+        "Belt_Merc_2",
+        "Boots_Leather"
+      ],
+      "DefaultUniforms": [
+        {
+          "ArmorPicks": [
+            "Helmet_Pilot"
+          ],
+          "TintSecondary": {
+            "r": 0.647059,
+            "g": 0.329412,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.317647,
+            "g": 0.25098,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.901961,
+            "g": 0.690196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Outfit_Pilot"
+          ],
+          "TintSecondary": {
+            "r": 0.647059,
+            "g": 0.329412,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.317647,
+            "g": 0.25098,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.901961,
+            "g": 0.690196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Goggles_Pilot"
+          ],
+          "TintSecondary": {
+            "r": 0.647059,
+            "g": 0.329412,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.317647,
+            "g": 0.25098,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.901961,
+            "g": 0.690196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        }
+      ],
+      "Buffs": [
+        {
+          "Description": "A little practice helps with follow-up pistol shots.",
+          "Amount": 0.05,
+          "Type": "RateOfFireNon_Automatics",
+          "AmPercent": true,
+          "ShowAsGood": true,
+          "Name": "Quick Draw"
+        },
+        {
+          "Description": "Your fast-moving style makes ranged shots less steady.",
+          "Amount": -0.05,
+          "Type": "RangedAccuracy",
+          "AmPercent": true,
+          "ShowAsGood": false,
+          "Name": "Rushed Aim"
+        }
+      ],
+      "SkillFocus": "Acrobatic",
+      "SkillWeakness": "Ranged",
+      "SpecialSkills": [
+        "O_Operative"
+      ],
+      "Swatch_Pairs": [
+        {
+          "Color1": {
+            "r": 0.317647,
+            "g": 0.25098,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "Color2": {
+            "r": 0.647059,
+            "g": 0.329412,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "Name": "Red Quarry Combine colors"
+        }
+      ],
+      "Swatch_Solos": [
+        {
+          "Color1": {
+            "r": 0.901961,
+            "g": 0.690196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "Name": "Red Quarry Combine signal"
+        }
+      ],
+      "Swatch": "None",
+      "WarchestWeapons": [],
+      "WarchestGear": [],
+      "ExpandNowhere": false,
+      "Filename": "Origin_Overhaul_Quarry",
+      "Root": "Agent",
+      "Priority": 1
     }
   ]
 }
