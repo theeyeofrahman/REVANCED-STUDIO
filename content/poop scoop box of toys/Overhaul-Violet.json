@@ -1199,6 +1199,251 @@
       "Kick": "None",
       "Headbutt": "None",
       "SlamExplode": "None"
+    },
+    {
+      "Name": "Sable",
+      "NameShort": "Sable",
+      "Description": "Sable is the Mechanic of the Violet Relay, working the rooftops and old signal exchanges. keeps radios, doors, lifts, and improvised tools working under pressure. Their field kit shows the crew's colors: deep plum coats over pale plates with violet glass.",
+      "Level": 5,
+      "Title": "Mechanic",
+      "TacBar": 0,
+      "Scale": 1.15,
+      "Faction": "Violet Relay",
+      "Health": 7,
+      "Attributes": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "ArmorBody": 4.0,
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "MERCBig",
+      "TextChatter": "CC_OVR_Violet_Sable",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "AltMaterials": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Behaviors": [
+        "ItchyFinger",
+        "Personal",
+        "NoSprint",
+        "FreeAttacker"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "WeaponPref": "Heavy",
+      "DefaultWeapon": "R_M60",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_Merc"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.156863,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.478431,
+            "g": 0.356863,
+            "b": 0.568627,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.780392,
+            "g": 0.627451,
+            "b": 0.917647,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_Merc_4_heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.156863,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.478431,
+            "g": 0.356863,
+            "b": 0.568627,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.780392,
+            "g": 0.627451,
+            "b": 0.917647,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_Merc_2"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.156863,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.478431,
+            "g": 0.356863,
+            "b": 0.568627,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.780392,
+            "g": 0.627451,
+            "b": 0.917647,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Helmet_n51Commando"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.156863,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.478431,
+            "g": 0.356863,
+            "b": 0.568627,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.780392,
+            "g": 0.627451,
+            "b": 0.917647,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_FullGloves"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.156863,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.478431,
+            "g": 0.356863,
+            "b": 0.568627,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.780392,
+            "g": 0.627451,
+            "b": 0.917647,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.156863,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.478431,
+            "g": 0.356863,
+            "b": 0.568627,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.780392,
+            "g": 0.627451,
+            "b": 0.917647,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Violet_Sable",
+      "Root": "Merc3_HvyGunner",
+      "Priority": 2,
+      "ArmorHead": 3.0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "SkillGroups": [
+        "AAHW_Base"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "Speed": {
+        "x": 0.3,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultThrown": "None",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
     }
   ],
   "Chatter": [
@@ -1413,6 +1658,48 @@
       "Name": "Quill - Violet Relay combat chatter",
       "NameShort": "Quill",
       "Filename": "CC_OVR_Violet_Quill",
+      "Root": "MERC",
+      "Priority": 1
+    },
+    {
+      "Description": "Custom event chatter for Sable. cool, precise intelligence trades; every call includes a useful detail.",
+      "Font": "BlackOpsOne-Regular",
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Sable, Mechanic, reporting from the rooftops and old signal exchanges."
+      ],
+      "WakeUp": [
+        "Eyes up. Violet Relay still has work to finish."
+      ],
+      "Attacking": [
+        "Sable taking the mechanic lane. information is a way out."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the the rooftops and old signal exchanges."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Sable confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Sable is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Sable - Violet Relay combat chatter",
+      "NameShort": "Sable",
+      "Filename": "CC_OVR_Violet_Sable",
       "Root": "MERC",
       "Priority": 1
     }
