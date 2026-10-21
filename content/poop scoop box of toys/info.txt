@@ -1,6 +1,6 @@
 {
   "Name": "poop scoop box of toys",
-  "Description": "a mod focused on content\n\n",
+  "Description": "An additive MPN content overhaul: the Z-52, 100 original faction characters with individual chatter, ten Arena Origins, convoy and fight-night crews, and the optional Foundry trial. Built from stock game assets.",
   "Author": "anton, zayden",
   "Tags": [
     "fun,",
