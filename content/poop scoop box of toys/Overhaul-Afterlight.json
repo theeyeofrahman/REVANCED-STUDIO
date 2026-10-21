@@ -1683,6 +1683,244 @@
       "Kick": "None",
       "Headbutt": "None",
       "SlamExplode": "None"
+    },
+    {
+      "Name": "Suture",
+      "NameShort": "Suture",
+      "Description": "Suture is the Marksman of the Afterlight Clinic, working the mobile wards and ruined triage stations. spots threats early and shares a clean shot with the rest of the team. Their field kit shows the crew's colors: weathered bone-white panels with clinic-green markings.",
+      "Level": 6,
+      "Title": "Marksman",
+      "TacBar": 0,
+      "Faction": "Afterlight Clinic",
+      "Health": 7,
+      "Attributes": [
+        9,
+        12,
+        9,
+        11
+      ],
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "Support",
+      "TextChatter": "CC_OVR_Afterlight_Suture",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Personal",
+        "NoSprint",
+        "FreeAttacker"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "WeaponPref": "Melee",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_Agent"
+          ],
+          "TintPrimary": {
+            "r": 0.839216,
+            "g": 0.815686,
+            "b": 0.729412,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.364706,
+            "g": 0.501961,
+            "b": 0.427451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.709804,
+            "g": 0.882353,
+            "b": 0.741176,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_Nexus_Riot"
+          ],
+          "TintPrimary": {
+            "r": 0.839216,
+            "g": 0.815686,
+            "b": 0.729412,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.364706,
+            "g": 0.501961,
+            "b": 0.427451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.709804,
+            "g": 0.882353,
+            "b": 0.741176,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_Nexus 5"
+          ],
+          "TintPrimary": {
+            "r": 0.839216,
+            "g": 0.815686,
+            "b": 0.729412,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.364706,
+            "g": 0.501961,
+            "b": 0.427451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.709804,
+            "g": 0.882353,
+            "b": 0.741176,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_Nexus_Riot"
+          ],
+          "TintPrimary": {
+            "r": 0.839216,
+            "g": 0.815686,
+            "b": 0.729412,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.364706,
+            "g": 0.501961,
+            "b": 0.427451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.709804,
+            "g": 0.882353,
+            "b": 0.741176,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_BanditBrute"
+          ],
+          "TintPrimary": {
+            "r": 0.839216,
+            "g": 0.815686,
+            "b": 0.729412,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.364706,
+            "g": 0.501961,
+            "b": 0.427451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.709804,
+            "g": 0.882353,
+            "b": 0.741176,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.839216,
+            "g": 0.815686,
+            "b": 0.729412,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.364706,
+            "g": 0.501961,
+            "b": 0.427451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.709804,
+            "g": 0.882353,
+            "b": 0.741176,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Afterlight_Suture",
+      "Root": "Nexus3_Support",
+      "Priority": 2,
+      "ArmorHead": 2.0,
+      "ArmorBody": 3.0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "SkillGroups": [
+        "AAHW_Skilled"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "Speed": {
+        "x": 0.55,
+        "y": 0.6,
+        "z": 0.8
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultThrown": "None",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
     }
   ],
   "Chatter": [
@@ -1983,6 +2221,48 @@
       "NameShort": "Belladonna",
       "Filename": "CC_OVR_Afterlight_Belladonna",
       "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Description": "Custom event chatter for Suture. medic-first calls with calm triage, status reports, and direct safety instructions.",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Suture, Marksman, reporting from the mobile wards and ruined triage stations."
+      ],
+      "WakeUp": [
+        "Eyes up. Afterlight Clinic still has work to finish."
+      ],
+      "Attacking": [
+        "Suture taking the marksman lane. treat first, argue later."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the the mobile wards and ruined triage stations."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Suture confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Suture is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Suture - Afterlight Clinic combat chatter",
+      "NameShort": "Suture",
+      "Filename": "CC_OVR_Afterlight_Suture",
+      "Root": "NEXUS",
       "Priority": 1
     }
   ]
