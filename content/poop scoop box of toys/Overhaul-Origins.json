@@ -1,0 +1,156 @@
+{
+  "Origin": [
+    {
+      "Name": "Foundry Hand",
+      "NameShort": "Foundry Hand",
+      "Description": "You grew up on the foundry floor. You know the safe side of a hot door and how to turn scrap into a working tool. Your union colors and borrowed face shield mark the crew that taught you to work together.",
+      "Imprints": 0,
+      "LinkedCharacter": "Arena",
+      "AttributeBonuses": [
+        0,
+        0,
+        -1,
+        1
+      ],
+      "DefaultArmor": [
+        "Gloves_Sappers",
+        "Belt_Merc_1"
+      ],
+      "DefaultUniforms": [
+        {
+          "ArmorPicks": [
+            "Goggles_W01V"
+          ],
+          "TintSecondary": {
+            "r": 0.705882,
+            "g": 0.356863,
+            "b": 0.168627,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.309804,
+            "g": 0.32549,
+            "b": 0.345098,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.968627,
+            "g": 0.631373,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_Hardhat_Laborer"
+          ],
+          "TintSecondary": {
+            "r": 0.705882,
+            "g": 0.356863,
+            "b": 0.168627,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.309804,
+            "g": 0.32549,
+            "b": 0.345098,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.968627,
+            "g": 0.631373,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Outfit_Engineer"
+          ],
+          "TintSecondary": {
+            "r": 0.705882,
+            "g": 0.356863,
+            "b": 0.168627,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.309804,
+            "g": 0.32549,
+            "b": 0.345098,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.968627,
+            "g": 0.631373,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        }
+      ],
+      "Buffs": [
+        {
+          "Description": "Your work kit has room for one extra magazine.",
+          "Amount": 1.0,
+          "Type": "ExtraMags",
+          "AmPercent": false,
+          "ShowAsGood": true,
+          "Name": "Bonus Magazine"
+        },
+        {
+          "Description": "You never trained much for close-quarters fights.",
+          "Amount": 0.1,
+          "Type": "DamageFromH2H",
+          "AmPercent": true,
+          "ShowAsGood": false,
+          "Name": "Damage from Unarmed/Melee"
+        }
+      ],
+      "SkillFocus": "Ranged",
+      "SkillWeakness": "Unarmed",
+      "SpecialSkills": [
+        "O_Tinkerer"
+      ],
+      "Swatch_Pairs": [
+        {
+          "Color1": {
+            "r": 0.309804,
+            "g": 0.32549,
+            "b": 0.345098,
+            "a": 1.0
+          },
+          "Color2": {
+            "r": 0.705882,
+            "g": 0.356863,
+            "b": 0.168627,
+            "a": 1.0
+          },
+          "Name": "Kiln Union colors"
+        }
+      ],
+      "Swatch_Solos": [
+        {
+          "Color1": {
+            "r": 0.968627,
+            "g": 0.631373,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "Name": "Kiln Union signal"
+        }
+      ],
+      "Swatch": "None",
+      "WarchestWeapons": [],
+      "WarchestGear": [],
+      "ExpandNowhere": false,
+      "Filename": "Origin_Overhaul_Kiln",
+      "Root": "Tinkerer",
+      "Priority": 1
+    }
+  ]
+}
