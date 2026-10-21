@@ -1,6 +1,6 @@
 # poop scoop box of toys
 
-The source folder includes the Z-52 roster, the Foundry Arena override, two additional factions, and an Arena-origin pack. The new decks are additive: they do not replace stock enemies or story dialogue.
+The source folder includes the Z-52 roster, its optional Foundry Arena override, two original crews, an Arena-origin pack, and a larger faction overhaul. The overhaul adds 100 named characters with 100 separate chatter cards across ten factions, plus ten more Arena Origins. The new overhaul decks are additive: they do not replace stock enemies or story dialogue.
 
 `Z-52.json` is a typed MadCard deck containing ten Character cards and ten individual Chatter cards. The active destination is `%USERPROFILE%\AppData\LocalLow\Gibbing Tree\Madness Project Nexus\Mods\poop scoop box of toys`. Add the deck to that existing mod while preserving its `info.txt` and other decks. Studio's Downloads mod folder is no longer the deployment destination. The deck is intended for a compatible MadCard loader; it is not a NEM loose-character export.
 
@@ -51,5 +51,28 @@ Validation: the native MadCard loader recognized all 20 cards; 99 explicit refer
 - `Hollow-Mile-Convoy.json` adds Roadmark, Patch, Dovetail and captain Switchback, with individual chatter.
 - `Knockdown-Club.json` adds Knuckle, Slip, Buzzer and Bellmouth, with individual chatter.
 - `Zayden-Crew-Arena.json` adds Zayden, Zenith and Zephyr plus eight moderate Arena origins: Workshop Rat, A.A.H.W. Defector, Z-52 Fugitive, Highway Survivor, Deep Salvager, Rail Runner, Pit Veteran and Clinic Runner.
+- `Overhaul-Origins.json` adds ten more Arena Origins. Each has a small attribute tradeoff and reuses the existing origin's modest perk set and stock gear.
+- `Overhaul-<Faction>.json` contains ten characters and ten distinct chatter cards for one new faction. There are ten faction files and 100 new characters total.
 
-These are separate decks, so remove an individual file to disable that content. The origin bonuses include small tradeoffs and remain independent of the main character cards.
+### New factions
+
+All appearances use existing MPN character roots, armor pieces, and weapons. Each faction has its own two-tone uniform palette and glass accent, and its roster mixes ten stock silhouettes. The characters stay in the early-to-mid power range: levels 4–8, 5–10 health, Basic corpus blocks, and base or skilled groups. No new stage card is included, so installing the overhaul leaves stock Arena waves, story enemies, and story dialogue alone.
+
+| Faction | Leader | Field identity | Roster |
+| --- | --- | --- | --- |
+| Kiln Union | Bricker | Foundry workers who speak plainly and share tools | Bricker, Spall, Rivet, Gauge, Cinderjack, Fuse, Trowel, Slag, Vent, Anvil |
+| Violet Relay | Vesper | Rooftop information traders who exchange useful details | Vesper, Lilt, Halide, Morrow, Quill, Sable, Wink, Aperture, Dialtone, Serein |
+| Ashline Mutual | Crosswind | Convoy guards who reserve space for stranded travelers | Crosswind, Wayfarer, Rations, Beacon, Lowbeam, Stow, Gull, Thread, Mica, Lantern |
+| Latchkey Syndicate | Keyhole | Careful entry specialists with dry heist humor | Keyhole, Wedge, Deadbolt, Chime, Shim, Pinfall, Tumbler, Blank, Click, Hinge |
+| Glass Harbor | Brine | Flooded-dock salvagers who read the water and the tide | Brine, Wake, Buoy, Sounder, Kelp, Breaker, Netter, Tide, Docklight, Sluice |
+| Red Quarry Combine | Powderline | Quarry crews who check every worker before a blast | Powderline, Core, Drillbit, Shale, Scrip, Pick, Cobalt, Seam, Blastcap, Dredge |
+| Siltwater Wardens | Mire | Pump tenders who protect the water supply | Mire, Floodgate, Clarity, Cistern, Sump, Oxbow, Rill, Spillway, Current, Wader |
+| Black Rail Compact | Switchman | Freight-line crews who keep routes and timing clear | Switchman, Coupler, Sleeper, Brake, Crosstie, Ballast, Spur, Axle, Signalman, Nightcar |
+| Afterlight Clinic | Lumen | Mobile medics who put triage before faction arguments | Lumen, Hemlock, Gauze, Sterile, Stitch, Anodyne, Belladonna, Suture, Vial, Bandage |
+| Cinder Circuit | Cinder | Relay technicians and scavengers; Cinder keeps a contact line open to Zayden | Cinder, Arc, Splice, Fanout, Patchbay, Relay, Capacitor, Loopback, Jumper, Ground |
+
+Each roster member has a matching `CC_OVR_*` chatter card. The nine event lines are written for that individual and faction; no shared template lines are used. The radio styles are distinct: Kiln reports the job directly, Violet passes specific intel, Ashline checks on travelers, Latchkey calls clean entries, Harbor watches the tide, Quarry gives blast warnings, Siltwater reports pump safety, Rail calls track timing, Afterlight gives calm triage, and Cinder Circuit reports electrical hazards. `tools/Build-ModOverhaul.ps1` regenerates the ten decks reproducibly.
+
+The ten new Origins are Foundry Hand, Signal Broker, Road Escort, Quiet Entry, Dock Salvager, Quarry Spotter, Pump Tender, Line Runner, Ward Volunteer, and Relay Tinkerer. Their attribute adjustments stay within one point per stat and sum to zero; their copied perk sets preserve the small benefits and tradeoffs in the existing Arena-origin pack. `tools/Build-ModOrigins.ps1` rebuilds those cards.
+
+These are separate decks, so remove an individual file to disable that content. Keep `Foundry-Z52.json` only if you want its existing optional Foundry override. Copy the other `Overhaul-*.json` files into the active mod folder to use the new roster and Origins.
