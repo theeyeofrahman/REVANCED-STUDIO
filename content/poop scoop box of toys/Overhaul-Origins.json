@@ -582,6 +582,158 @@
       "Filename": "Origin_Overhaul_Latchkey",
       "Root": "None",
       "Priority": 1
+    },
+    {
+      "Name": "Dock Salvager",
+      "NameShort": "Dock Salvager",
+      "Description": "You pulled useful parts from flooded warehouses with Glass Harbor. Slate-blue gear and sea-glass lenses still smell like salt and machine oil.",
+      "Imprints": 0,
+      "LinkedCharacter": "Arena",
+      "AttributeBonuses": [
+        -1,
+        0,
+        1,
+        0
+      ],
+      "DefaultArmor": [
+        "Gloves_Sappers",
+        "Backpack_Merc_1"
+      ],
+      "DefaultUniforms": [
+        {
+          "ArmorPicks": [
+            "Mouth_BanditMining 1"
+          ],
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Outfit_BanditMining1"
+          ],
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Goggles_RetroRadiation"
+          ],
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        }
+      ],
+      "Buffs": [
+        {
+          "Description": "You keep one extra magazine for your main weapon.",
+          "Amount": 1.0,
+          "Type": "ExtraMags",
+          "AmPercent": false,
+          "ShowAsGood": true,
+          "Name": "Scavenged Ammunition"
+        },
+        {
+          "Description": "The salvage pack makes quick movement harder.",
+          "Amount": -0.05,
+          "Type": "EncumbranceMax",
+          "AmPercent": true,
+          "ShowAsGood": false,
+          "Name": "Loaded Down"
+        }
+      ],
+      "SkillFocus": "Ranged",
+      "SkillWeakness": "Acrobatic",
+      "SpecialSkills": [
+        "O_Tinkerer"
+      ],
+      "Swatch_Pairs": [
+        {
+          "Color1": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "Color2": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "Name": "Glass Harbor colors"
+        }
+      ],
+      "Swatch_Solos": [
+        {
+          "Color1": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "Name": "Glass Harbor signal"
+        }
+      ],
+      "Swatch": "None",
+      "WarchestWeapons": [],
+      "WarchestGear": [],
+      "ExpandNowhere": false,
+      "Filename": "Origin_Overhaul_Harbor",
+      "Root": "Tinkerer",
+      "Priority": 1
     }
   ]
 }
