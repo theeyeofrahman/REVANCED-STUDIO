@@ -303,6 +303,158 @@
       "Filename": "Origin_Overhaul_Violet",
       "Root": "Agent",
       "Priority": 1
+    },
+    {
+      "Name": "Road Escort",
+      "NameShort": "Road Escort",
+      "Description": "You rode the Ashline convoys as a guard and navigator. Dust-colored travel gear carries the faded teal mark of a crew that saves room for one more passenger.",
+      "Imprints": 0,
+      "LinkedCharacter": "Arena",
+      "AttributeBonuses": [
+        0,
+        1,
+        -1,
+        0
+      ],
+      "DefaultArmor": [
+        "Backpack_Merc_1",
+        "Boots_Leather"
+      ],
+      "DefaultUniforms": [
+        {
+          "ArmorPicks": [
+            "Mask_Bandit 1"
+          ],
+          "TintSecondary": {
+            "r": 0.305882,
+            "g": 0.466667,
+            "b": 0.45098,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.521569,
+            "g": 0.454902,
+            "b": 0.364706,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.921569,
+            "g": 0.796078,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_Bandit 2"
+          ],
+          "TintSecondary": {
+            "r": 0.305882,
+            "g": 0.466667,
+            "b": 0.45098,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.521569,
+            "g": 0.454902,
+            "b": 0.364706,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.921569,
+            "g": 0.796078,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Outfit_Bandit1"
+          ],
+          "TintSecondary": {
+            "r": 0.305882,
+            "g": 0.466667,
+            "b": 0.45098,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.521569,
+            "g": 0.454902,
+            "b": 0.364706,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.921569,
+            "g": 0.796078,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        }
+      ],
+      "Buffs": [
+        {
+          "Description": "You learned to take slightly faster follow-up shots.",
+          "Amount": 0.05,
+          "Type": "RateOfFireNon_Automatics",
+          "AmPercent": true,
+          "ShowAsGood": true,
+          "Name": "Careful Shot"
+        },
+        {
+          "Description": "Keeping ahead of Z-52 cuts into your earnings.",
+          "Amount": -0.05,
+          "Type": "CashBonus",
+          "AmPercent": true,
+          "ShowAsGood": false,
+          "Name": "Wanted"
+        }
+      ],
+      "SkillFocus": "Ranged",
+      "SkillWeakness": "Melee",
+      "SpecialSkills": [
+        "O_Infiltrator"
+      ],
+      "Swatch_Pairs": [
+        {
+          "Color1": {
+            "r": 0.521569,
+            "g": 0.454902,
+            "b": 0.364706,
+            "a": 1.0
+          },
+          "Color2": {
+            "r": 0.305882,
+            "g": 0.466667,
+            "b": 0.45098,
+            "a": 1.0
+          },
+          "Name": "Ashline Mutual colors"
+        }
+      ],
+      "Swatch_Solos": [
+        {
+          "Color1": {
+            "r": 0.921569,
+            "g": 0.796078,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "Name": "Ashline Mutual signal"
+        }
+      ],
+      "Swatch": "None",
+      "WarchestWeapons": [],
+      "WarchestGear": [],
+      "ExpandNowhere": false,
+      "Filename": "Origin_Overhaul_Ashline",
+      "Root": "Mercenary",
+      "Priority": 1
     }
   ]
 }
