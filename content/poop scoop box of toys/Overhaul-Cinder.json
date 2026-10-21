@@ -1,0 +1,288 @@
+{
+  "Character": [
+    {
+      "Name": "Cinder",
+      "NameShort": "Cinder",
+      "Description": "Cinder is the Field lead of the Cinder Circuit, working the switching rooms and scavenged relay towers. sets the crew plan and gives every member a clear way out. Their field kit shows the crew's colors: graphite mechanic suits with copper panels and live-cyan glass.",
+      "Level": 8,
+      "Title": "Field lead",
+      "Faction": "Cinder Circuit",
+      "Health": 10,
+      "Attributes": [
+        12,
+        11,
+        11,
+        10
+      ],
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_B",
+      "TextChatter": "CC_OVR_Cinder_Cinder",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "DefaultWeapon": "R_MP5",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_N51BattleDress"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_N51Recon"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Goggles_N51Recon"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Helmet_n51Recon"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_FullGloves"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Cinder_Cinder",
+      "Root": "N51_0_Recon",
+      "Priority": 2,
+      "ArmorHead": 0.0,
+      "ArmorBody": 1.0,
+      "TacBar": 0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "SkillGroups": [
+        "AAHW_Skilled"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Runner",
+        "Personal",
+        "FreeAttacker"
+      ],
+      "Speed": {
+        "x": 0.9,
+        "y": 0.75,
+        "z": 1.0
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultThrown": "None",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
+    }
+  ],
+  "Chatter": [
+    {
+      "Description": "Custom event chatter for Cinder. technician banter, quick diagnostics, and clear electrical hazards; Cinder keeps a line open to Zayden.",
+      "Font": "BlackOpsOne-Regular",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Cinder, Field lead, reporting from the switching rooms and scavenged relay towers."
+      ],
+      "WakeUp": [
+        "Eyes up. Cinder Circuit still has work to finish."
+      ],
+      "Attacking": [
+        "Cinder taking the field lead lane. nothing is dead until the wire is cut."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the the switching rooms and scavenged relay towers."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Cinder confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Cinder is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Cinder - Cinder Circuit combat chatter",
+      "NameShort": "Cinder",
+      "Filename": "CC_OVR_Cinder_Cinder",
+      "Root": "N51",
+      "Priority": 1
+    }
+  ]
+}
