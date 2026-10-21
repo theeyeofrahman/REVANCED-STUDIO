@@ -1,0 +1,288 @@
+{
+  "Character": [
+    {
+      "Name": "Powderline",
+      "NameShort": "Powderline",
+      "Description": "Powderline is the Field lead of the Red Quarry Combine, working the cut stone pits and freight lifts. sets the crew plan and gives every member a clear way out. Their field kit shows the crew's colors: oxide-red plates over quarry gray with amber safety glass.",
+      "Level": 8,
+      "Title": "Field lead",
+      "Faction": "Red Quarry Combine",
+      "Health": 10,
+      "Attributes": [
+        12,
+        11,
+        11,
+        10
+      ],
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_B",
+      "TextChatter": "CC_OVR_Quarry_Powderline",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "DefaultWeapon": "R_MP5",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_N51BattleDress"
+          ],
+          "TintPrimary": {
+            "r": 0.317647,
+            "g": 0.25098,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.647059,
+            "g": 0.329412,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.901961,
+            "g": 0.690196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_N51Recon"
+          ],
+          "TintPrimary": {
+            "r": 0.317647,
+            "g": 0.25098,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.647059,
+            "g": 0.329412,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.901961,
+            "g": 0.690196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Goggles_N51Recon"
+          ],
+          "TintPrimary": {
+            "r": 0.317647,
+            "g": 0.25098,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.647059,
+            "g": 0.329412,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.901961,
+            "g": 0.690196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Helmet_n51Recon"
+          ],
+          "TintPrimary": {
+            "r": 0.317647,
+            "g": 0.25098,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.647059,
+            "g": 0.329412,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.901961,
+            "g": 0.690196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_FullGloves"
+          ],
+          "TintPrimary": {
+            "r": 0.317647,
+            "g": 0.25098,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.647059,
+            "g": 0.329412,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.901961,
+            "g": 0.690196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.317647,
+            "g": 0.25098,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.647059,
+            "g": 0.329412,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.901961,
+            "g": 0.690196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Quarry_Powderline",
+      "Root": "N51_0_Recon",
+      "Priority": 2,
+      "ArmorHead": 0.0,
+      "ArmorBody": 1.0,
+      "TacBar": 0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "SkillGroups": [
+        "AAHW_Skilled"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Runner",
+        "Personal",
+        "FreeAttacker"
+      ],
+      "Speed": {
+        "x": 0.9,
+        "y": 0.75,
+        "z": 1.0
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultThrown": "None",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
+    }
+  ],
+  "Chatter": [
+    {
+      "Description": "Custom event chatter for Powderline. crew-first callouts, measured blast warnings, and hard-earned mine humor.",
+      "Font": "BlackOpsOne-Regular",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Powderline, Field lead, reporting from the cut stone pits and freight lifts."
+      ],
+      "WakeUp": [
+        "Eyes up. Red Quarry Combine still has work to finish."
+      ],
+      "Attacking": [
+        "Powderline taking the field lead lane. no one works a blast alone."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the the cut stone pits and freight lifts."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Powderline confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Powderline is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Powderline - Red Quarry Combine combat chatter",
+      "NameShort": "Powderline",
+      "Filename": "CC_OVR_Quarry_Powderline",
+      "Root": "N51",
+      "Priority": 1
+    }
+  ]
+}
