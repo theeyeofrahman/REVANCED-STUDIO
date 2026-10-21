@@ -2161,6 +2161,245 @@
       "Kick": "None",
       "Headbutt": "None",
       "SlamExplode": "None"
+    },
+    {
+      "Name": "Bandage",
+      "NameShort": "Bandage",
+      "Description": "Bandage is the Trainee of the Afterlight Clinic, working the mobile wards and ruined triage stations. is the newest member, learning the route from people who trust them. Their field kit shows the crew's colors: weathered bone-white panels with clinic-green markings.",
+      "Level": 4,
+      "Title": "Trainee",
+      "TacBar": 0,
+      "Scale": 1.2,
+      "Faction": "Afterlight Clinic",
+      "Health": 5,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "Attributes": [
+        8,
+        9,
+        9,
+        8
+      ],
+      "Speed": {
+        "x": 0.7,
+        "y": 0.7,
+        "z": 1.0
+      },
+      "ArmorHead": 3.0,
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_A",
+      "TextChatter": "CC_OVR_Afterlight_Bandage",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "WeaponPref": "Heavy",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_Deimos_MercCoatArmored"
+          ],
+          "TintPrimary": {
+            "r": 0.839216,
+            "g": 0.815686,
+            "b": 0.729412,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.364706,
+            "g": 0.501961,
+            "b": 0.427451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.709804,
+            "g": 0.882353,
+            "b": 0.741176,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_N51MilitaryVest"
+          ],
+          "TintPrimary": {
+            "r": 0.839216,
+            "g": 0.815686,
+            "b": 0.729412,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.364706,
+            "g": 0.501961,
+            "b": 0.427451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.709804,
+            "g": 0.882353,
+            "b": 0.741176,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_N51FacePlate"
+          ],
+          "TintPrimary": {
+            "r": 0.839216,
+            "g": 0.815686,
+            "b": 0.729412,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.364706,
+            "g": 0.501961,
+            "b": 0.427451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.709804,
+            "g": 0.882353,
+            "b": 0.741176,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_N51GreyBeret"
+          ],
+          "TintPrimary": {
+            "r": 0.839216,
+            "g": 0.815686,
+            "b": 0.729412,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.364706,
+            "g": 0.501961,
+            "b": 0.427451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.709804,
+            "g": 0.882353,
+            "b": 0.741176,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_FullGloves"
+          ],
+          "TintPrimary": {
+            "r": 0.839216,
+            "g": 0.815686,
+            "b": 0.729412,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.364706,
+            "g": 0.501961,
+            "b": 0.427451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.709804,
+            "g": 0.882353,
+            "b": 0.741176,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.839216,
+            "g": 0.815686,
+            "b": 0.729412,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.364706,
+            "g": 0.501961,
+            "b": 0.427451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.709804,
+            "g": 0.882353,
+            "b": 0.741176,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Afterlight_Bandage",
+      "Root": "N51_5_Officer",
+      "Priority": 2,
+      "ArmorBody": 4.0,
+      "SkillGroups": [
+        "AAHW_Base"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Tactical",
+        "HoldCover",
+        "FreeAttacker"
+      ],
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultThrown": "None",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
     }
   ],
   "Chatter": [
@@ -2546,6 +2785,48 @@
       "NameShort": "Vial",
       "Filename": "CC_OVR_Afterlight_Vial",
       "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Description": "Custom event chatter for Bandage. medic-first calls with calm triage, status reports, and direct safety instructions.",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Bandage, Trainee, reporting from the mobile wards and ruined triage stations."
+      ],
+      "WakeUp": [
+        "Eyes up. Afterlight Clinic still has work to finish."
+      ],
+      "Attacking": [
+        "Bandage taking the trainee lane. treat first, argue later."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the the mobile wards and ruined triage stations."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Bandage confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Bandage is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Bandage - Afterlight Clinic combat chatter",
+      "NameShort": "Bandage",
+      "Filename": "CC_OVR_Afterlight_Bandage",
+      "Root": "N51_Officer",
       "Priority": 1
     }
   ]
