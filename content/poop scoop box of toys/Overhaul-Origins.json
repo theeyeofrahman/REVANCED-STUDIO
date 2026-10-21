@@ -455,6 +455,133 @@
       "Filename": "Origin_Overhaul_Ashline",
       "Root": "Mercenary",
       "Priority": 1
+    },
+    {
+      "Name": "Quiet Entry",
+      "NameShort": "Quiet Entry",
+      "Description": "You learned to open sealed doors for the Latchkey crew. Charcoal clothes and brass details help you blend into old service corridors; your dry humor keeps jobs from getting tense.",
+      "Imprints": 0,
+      "LinkedCharacter": "Arena",
+      "AttributeBonuses": [
+        0,
+        1,
+        0,
+        -1
+      ],
+      "DefaultArmor": [
+        "Gloves_LeatherMarksman",
+        "Boots_Leather"
+      ],
+      "DefaultUniforms": [
+        {
+          "ArmorPicks": [
+            "Hat_Sanford_goggleHood"
+          ],
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Outfit_Sanford_Bandolier"
+          ],
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        }
+      ],
+      "Buffs": [
+        {
+          "Description": "A little road experience helps you shake off dizziness.",
+          "Amount": 0.1,
+          "Type": "ResistDizzy",
+          "AmPercent": true,
+          "ShowAsGood": true,
+          "Name": "Keep Your Feet"
+        },
+        {
+          "Description": "You never had proper training against ranged fire.",
+          "Amount": -0.05,
+          "Type": "RangedDamage",
+          "AmPercent": true,
+          "ShowAsGood": false,
+          "Name": "Exposed"
+        }
+      ],
+      "SkillFocus": "Acrobatic",
+      "SkillWeakness": "Unarmed",
+      "SpecialSkills": [
+        "O_ThrowMaster"
+      ],
+      "Swatch_Pairs": [
+        {
+          "Color1": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "Color2": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "Name": "Latchkey Syndicate colors"
+        }
+      ],
+      "Swatch_Solos": [
+        {
+          "Color1": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "Name": "Latchkey Syndicate signal"
+        }
+      ],
+      "Swatch": "None",
+      "WarchestWeapons": [],
+      "WarchestGear": [],
+      "ExpandNowhere": false,
+      "Filename": "Origin_Overhaul_Latchkey",
+      "Root": "None",
+      "Priority": 1
     }
   ]
 }
