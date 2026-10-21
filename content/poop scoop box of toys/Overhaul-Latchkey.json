@@ -2161,6 +2161,245 @@
       "Kick": "None",
       "Headbutt": "None",
       "SlamExplode": "None"
+    },
+    {
+      "Name": "Hinge",
+      "NameShort": "Hinge",
+      "Description": "Hinge is the Trainee of the Latchkey Syndicate, working sealed apartments and corporate vaults. is the newest member, learning the route from people who trust them. Their field kit shows the crew's colors: matte charcoal kits with brass hardware and gold lenses.",
+      "Level": 4,
+      "Title": "Trainee",
+      "TacBar": 0,
+      "Scale": 1.2,
+      "Faction": "Latchkey Syndicate",
+      "Health": 5,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "Attributes": [
+        8,
+        9,
+        9,
+        8
+      ],
+      "Speed": {
+        "x": 0.7,
+        "y": 0.7,
+        "z": 1.0
+      },
+      "ArmorHead": 3.0,
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_A",
+      "TextChatter": "CC_OVR_Latchkey_Hinge",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "WeaponPref": "Heavy",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_Deimos_MercCoatArmored"
+          ],
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_N51MilitaryVest"
+          ],
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_N51FacePlate"
+          ],
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_N51GreyBeret"
+          ],
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_FullGloves"
+          ],
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Latchkey_Hinge",
+      "Root": "N51_5_Officer",
+      "Priority": 2,
+      "ArmorBody": 4.0,
+      "SkillGroups": [
+        "AAHW_Base"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Tactical",
+        "HoldCover",
+        "FreeAttacker"
+      ],
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultThrown": "None",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
     }
   ],
   "Chatter": [
@@ -2546,6 +2785,48 @@
       "NameShort": "Click",
       "Filename": "CC_OVR_Latchkey_Click",
       "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Description": "Custom event chatter for Hinge. dry heist banter and clear entry instructions; they are thieves, not mystics.",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Hinge, Trainee, reporting from sealed apartments and corporate vaults."
+      ],
+      "WakeUp": [
+        "Eyes up. Latchkey Syndicate still has work to finish."
+      ],
+      "Attacking": [
+        "Hinge taking the trainee lane. leave the lock better than you found it."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the sealed apartments and corporate vaults."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Hinge confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Hinge is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Hinge - Latchkey Syndicate combat chatter",
+      "NameShort": "Hinge",
+      "Filename": "CC_OVR_Latchkey_Hinge",
+      "Root": "N51_Officer",
       "Priority": 1
     }
   ]
