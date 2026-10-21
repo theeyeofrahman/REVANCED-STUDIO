@@ -717,6 +717,245 @@
       "Kick": "None",
       "Headbutt": "None",
       "SlamExplode": "None"
+    },
+    {
+      "Name": "Brake",
+      "NameShort": "Brake",
+      "Description": "Brake is the Riflehand of the Black Rail Compact, working the freight lines under the industrial quarter. holds a steady lane and calls out changing enemy positions. Their field kit shows the crew's colors: blackened rail armor with burgundy panels and signal-red lenses.",
+      "Level": 5,
+      "Title": "Riflehand",
+      "TacBar": 0,
+      "Scale": 0.95,
+      "Faction": "Black Rail Compact",
+      "Health": 7,
+      "Attributes": [
+        10,
+        10,
+        9,
+        9
+      ],
+      "ArmorHead": 0.0,
+      "ArmorBody": 1.0,
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_B",
+      "TextChatter": "CC_OVR_Rail_Brake",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "WeaponPref": "Melee",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_Merc"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.192157,
+            "b": 0.215686,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.443137,
+            "g": 0.243137,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.87451,
+            "g": 0.470588,
+            "b": 0.403922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_N51MilitaryVest_slim"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.192157,
+            "b": 0.215686,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.443137,
+            "g": 0.243137,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.87451,
+            "g": 0.470588,
+            "b": 0.403922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_N51AssassinVisor"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.192157,
+            "b": 0.215686,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.443137,
+            "g": 0.243137,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.87451,
+            "g": 0.470588,
+            "b": 0.403922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_HoodTactical"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.192157,
+            "b": 0.215686,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.443137,
+            "g": 0.243137,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.87451,
+            "g": 0.470588,
+            "b": 0.403922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_FullGloves"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.192157,
+            "b": 0.215686,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.443137,
+            "g": 0.243137,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.87451,
+            "g": 0.470588,
+            "b": 0.403922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.192157,
+            "b": 0.215686,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.443137,
+            "g": 0.243137,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.87451,
+            "g": 0.470588,
+            "b": 0.403922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Rail_Brake",
+      "Root": "N51_1_Assassin",
+      "Priority": 2,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "SkillGroups": [
+        "AAHW_Base"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Personal",
+        "Focused",
+        "FreeAttacker"
+      ],
+      "Speed": {
+        "x": 1.05,
+        "y": 0.85,
+        "z": 1.0
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultThrown": "None",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
     }
   ],
   "Chatter": [
@@ -846,6 +1085,49 @@
       "Name": "Sleeper - Black Rail Compact combat chatter",
       "NameShort": "Sleeper",
       "Filename": "CC_OVR_Rail_Sleeper",
+      "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Description": "Custom event chatter for Brake. short dispatch calls with platform, track, and timing details.",
+      "Font": "BlackOpsOne-Regular",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Brake, Riflehand, reporting from the freight lines under the industrial quarter."
+      ],
+      "WakeUp": [
+        "Eyes up. Black Rail Compact still has work to finish."
+      ],
+      "Attacking": [
+        "Brake taking the riflehand lane. the line stays open."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the the freight lines under the industrial quarter."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Brake confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Brake is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Brake - Black Rail Compact combat chatter",
+      "NameShort": "Brake",
+      "Filename": "CC_OVR_Rail_Brake",
       "Root": "N51",
       "Priority": 1
     }
