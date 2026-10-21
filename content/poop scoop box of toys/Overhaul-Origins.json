@@ -151,6 +151,158 @@
       "Filename": "Origin_Overhaul_Kiln",
       "Root": "Tinkerer",
       "Priority": 1
+    },
+    {
+      "Name": "Signal Broker",
+      "NameShort": "Signal Broker",
+      "Description": "You traded route reports between the Violet Relay rooftops. Your plum field coat and pale lens mark a courier trained to notice details and leave before trouble closes in.",
+      "Imprints": 0,
+      "LinkedCharacter": "Arena",
+      "AttributeBonuses": [
+        0,
+        1,
+        0,
+        -1
+      ],
+      "DefaultArmor": [
+        "Belt_Merc_1",
+        "Gloves_LeatherMarksman"
+      ],
+      "DefaultUniforms": [
+        {
+          "ArmorPicks": [
+            "Shades_Agent"
+          ],
+          "TintSecondary": {
+            "r": 0.478431,
+            "g": 0.356863,
+            "b": 0.568627,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.156863,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.780392,
+            "g": 0.627451,
+            "b": 0.917647,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Outfit_Deimos_MercCoat"
+          ],
+          "TintSecondary": {
+            "r": 0.478431,
+            "g": 0.356863,
+            "b": 0.568627,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.156863,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.780392,
+            "g": 0.627451,
+            "b": 0.917647,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_workvest"
+          ],
+          "TintSecondary": {
+            "r": 0.478431,
+            "g": 0.356863,
+            "b": 0.568627,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.156863,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.780392,
+            "g": 0.627451,
+            "b": 0.917647,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        }
+      ],
+      "Buffs": [
+        {
+          "Description": "Field training taught you to keep one extra pistol magazine ready.",
+          "Amount": 1.0,
+          "Type": "ExtraMags_Handgun",
+          "AmPercent": false,
+          "ShowAsGood": true,
+          "Name": "Pistol Magazine"
+        },
+        {
+          "Description": "Without agency support, you keep your kit light.",
+          "Amount": -0.1,
+          "Type": "EncumbranceMax",
+          "AmPercent": true,
+          "ShowAsGood": false,
+          "Name": "Encumbrance"
+        }
+      ],
+      "SkillFocus": "Ranged",
+      "SkillWeakness": "Melee",
+      "SpecialSkills": [
+        "O_Operative"
+      ],
+      "Swatch_Pairs": [
+        {
+          "Color1": {
+            "r": 0.188235,
+            "g": 0.156863,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "Color2": {
+            "r": 0.478431,
+            "g": 0.356863,
+            "b": 0.568627,
+            "a": 1.0
+          },
+          "Name": "Violet Relay colors"
+        }
+      ],
+      "Swatch_Solos": [
+        {
+          "Color1": {
+            "r": 0.780392,
+            "g": 0.627451,
+            "b": 0.917647,
+            "a": 1.0
+          },
+          "Name": "Violet Relay signal"
+        }
+      ],
+      "Swatch": "None",
+      "WarchestWeapons": [],
+      "WarchestGear": [],
+      "ExpandNowhere": false,
+      "Filename": "Origin_Overhaul_Violet",
+      "Root": "Agent",
+      "Priority": 1
     }
   ]
 }
