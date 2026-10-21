@@ -717,6 +717,245 @@
       "Kick": "None",
       "Headbutt": "None",
       "SlamExplode": "None"
+    },
+    {
+      "Name": "Beacon",
+      "NameShort": "Beacon",
+      "Description": "Beacon is the Riflehand of the Ashline Mutual, working the convoy roads beyond the city. holds a steady lane and calls out changing enemy positions. Their field kit shows the crew's colors: dust-tan travel gear with faded teal markings.",
+      "Level": 5,
+      "Title": "Riflehand",
+      "TacBar": 0,
+      "Scale": 0.95,
+      "Faction": "Ashline Mutual",
+      "Health": 7,
+      "Attributes": [
+        10,
+        10,
+        9,
+        9
+      ],
+      "ArmorHead": 0.0,
+      "ArmorBody": 1.0,
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_B",
+      "TextChatter": "CC_OVR_Ashline_Beacon",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "WeaponPref": "Melee",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_Merc"
+          ],
+          "TintPrimary": {
+            "r": 0.521569,
+            "g": 0.454902,
+            "b": 0.364706,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.305882,
+            "g": 0.466667,
+            "b": 0.45098,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.921569,
+            "g": 0.796078,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_N51MilitaryVest_slim"
+          ],
+          "TintPrimary": {
+            "r": 0.521569,
+            "g": 0.454902,
+            "b": 0.364706,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.305882,
+            "g": 0.466667,
+            "b": 0.45098,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.921569,
+            "g": 0.796078,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_N51AssassinVisor"
+          ],
+          "TintPrimary": {
+            "r": 0.521569,
+            "g": 0.454902,
+            "b": 0.364706,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.305882,
+            "g": 0.466667,
+            "b": 0.45098,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.921569,
+            "g": 0.796078,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_HoodTactical"
+          ],
+          "TintPrimary": {
+            "r": 0.521569,
+            "g": 0.454902,
+            "b": 0.364706,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.305882,
+            "g": 0.466667,
+            "b": 0.45098,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.921569,
+            "g": 0.796078,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_FullGloves"
+          ],
+          "TintPrimary": {
+            "r": 0.521569,
+            "g": 0.454902,
+            "b": 0.364706,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.305882,
+            "g": 0.466667,
+            "b": 0.45098,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.921569,
+            "g": 0.796078,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.521569,
+            "g": 0.454902,
+            "b": 0.364706,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.305882,
+            "g": 0.466667,
+            "b": 0.45098,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.921569,
+            "g": 0.796078,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Ashline_Beacon",
+      "Root": "N51_1_Assassin",
+      "Priority": 2,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "SkillGroups": [
+        "AAHW_Base"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Personal",
+        "Focused",
+        "FreeAttacker"
+      ],
+      "Speed": {
+        "x": 1.05,
+        "y": 0.85,
+        "z": 1.0
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultThrown": "None",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
     }
   ],
   "Chatter": [
@@ -846,6 +1085,49 @@
       "Name": "Rations - Ashline Mutual combat chatter",
       "NameShort": "Rations",
       "Filename": "CC_OVR_Ashline_Rations",
+      "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Description": "Custom event chatter for Beacon. protective convoy calls, practical route checks, and reassurance for civilians.",
+      "Font": "BlackOpsOne-Regular",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Beacon, Riflehand, reporting from the convoy roads beyond the city."
+      ],
+      "WakeUp": [
+        "Eyes up. Ashline Mutual still has work to finish."
+      ],
+      "Attacking": [
+        "Beacon taking the riflehand lane. a spare seat is a promise."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the the convoy roads beyond the city."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Beacon confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Beacon is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Beacon - Ashline Mutual combat chatter",
+      "NameShort": "Beacon",
+      "Filename": "CC_OVR_Ashline_Beacon",
       "Root": "N51",
       "Priority": 1
     }
