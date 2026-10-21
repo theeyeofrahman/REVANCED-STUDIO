@@ -2161,6 +2161,245 @@
       "Kick": "None",
       "Headbutt": "None",
       "SlamExplode": "None"
+    },
+    {
+      "Name": "Sluice",
+      "NameShort": "Sluice",
+      "Description": "Sluice is the Trainee of the Glass Harbor, working the flooded docks and container yards. is the newest member, learning the route from people who trust them. Their field kit shows the crew's colors: slate-blue salvage armor with sea-glass lenses.",
+      "Level": 4,
+      "Title": "Trainee",
+      "TacBar": 0,
+      "Scale": 1.2,
+      "Faction": "Glass Harbor",
+      "Health": 5,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "Attributes": [
+        8,
+        9,
+        9,
+        8
+      ],
+      "Speed": {
+        "x": 0.7,
+        "y": 0.7,
+        "z": 1.0
+      },
+      "ArmorHead": 3.0,
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_A",
+      "TextChatter": "CC_OVR_Harbor_Sluice",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "WeaponPref": "Heavy",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_Deimos_MercCoatArmored"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_N51MilitaryVest"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_N51FacePlate"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_N51GreyBeret"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_FullGloves"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Harbor_Sluice",
+      "Root": "N51_5_Officer",
+      "Priority": 2,
+      "ArmorBody": 4.0,
+      "SkillGroups": [
+        "AAHW_Base"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Tactical",
+        "HoldCover",
+        "FreeAttacker"
+      ],
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultThrown": "None",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
     }
   ],
   "Chatter": [
@@ -2546,6 +2785,48 @@
       "NameShort": "Docklight",
       "Filename": "CC_OVR_Harbor_Docklight",
       "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Description": "Custom event chatter for Sluice. dockside shorthand, tide calls, and blunt warnings about bad water.",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Sluice, Trainee, reporting from the flooded docks and container yards."
+      ],
+      "WakeUp": [
+        "Eyes up. Glass Harbor still has work to finish."
+      ],
+      "Attacking": [
+        "Sluice taking the trainee lane. the tide leaves something for us."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the the flooded docks and container yards."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Sluice confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Sluice is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Sluice - Glass Harbor combat chatter",
+      "NameShort": "Sluice",
+      "Filename": "CC_OVR_Harbor_Sluice",
+      "Root": "N51_Officer",
       "Priority": 1
     }
   ]
