@@ -1444,6 +1444,245 @@
       "Kick": "None",
       "Headbutt": "None",
       "SlamExplode": "None"
+    },
+    {
+      "Name": "Tumbler",
+      "NameShort": "Tumbler",
+      "Description": "Tumbler is the Medic of the Latchkey Syndicate, working sealed apartments and corporate vaults. stabilizes injured crew and refuses to leave anyone behind. Their field kit shows the crew's colors: matte charcoal kits with brass hardware and gold lenses.",
+      "Level": 5,
+      "Title": "Medic",
+      "Faction": "Latchkey Syndicate",
+      "Health": 6,
+      "Attributes": [
+        8,
+        10,
+        11,
+        10
+      ],
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_B",
+      "TextChatter": "CC_OVR_Latchkey_Tumbler",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Personal",
+        "HoldCover",
+        "FreeAttacker"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "DefaultWeapon": "R_NM46",
+      "DefaultThrown": "None",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_N51BattleDress"
+          ],
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_Nexus_1"
+          ],
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_Engineer"
+          ],
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_Headset"
+          ],
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_Sappers"
+          ],
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Latchkey_Tumbler",
+      "Root": "N51_0_Recon",
+      "Priority": 2,
+      "ArmorHead": 0.0,
+      "ArmorBody": 1.0,
+      "TacBar": 0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "SkillGroups": [
+        "AAHW_Base"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "Speed": {
+        "x": 0.9,
+        "y": 0.75,
+        "z": 1.0
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
     }
   ],
   "Chatter": [
@@ -1701,6 +1940,49 @@
       "NameShort": "Pinfall",
       "Filename": "CC_OVR_Latchkey_Pinfall",
       "Root": "MERC",
+      "Priority": 1
+    },
+    {
+      "Description": "Custom event chatter for Tumbler. dry heist banter and clear entry instructions; they are thieves, not mystics.",
+      "Font": "BlackOpsOne-Regular",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Tumbler, Medic, reporting from sealed apartments and corporate vaults."
+      ],
+      "WakeUp": [
+        "Eyes up. Latchkey Syndicate still has work to finish."
+      ],
+      "Attacking": [
+        "Tumbler taking the medic lane. leave the lock better than you found it."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the sealed apartments and corporate vaults."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Tumbler confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Tumbler is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Tumbler - Latchkey Syndicate combat chatter",
+      "NameShort": "Tumbler",
+      "Filename": "CC_OVR_Latchkey_Tumbler",
+      "Root": "N51",
       "Priority": 1
     }
   ]
