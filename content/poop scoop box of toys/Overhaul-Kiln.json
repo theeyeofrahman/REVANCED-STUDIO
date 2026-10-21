@@ -1683,6 +1683,244 @@
       "Kick": "None",
       "Headbutt": "None",
       "SlamExplode": "None"
+    },
+    {
+      "Name": "Slag",
+      "NameShort": "Slag",
+      "Description": "Slag is the Marksman of the Kiln Union, working the abandoned foundry belt. spots threats early and shares a clean shot with the rest of the team. Their field kit shows the crew's colors: soot-dark work armor with ember-orange face glass.",
+      "Level": 6,
+      "Title": "Marksman",
+      "TacBar": 0,
+      "Faction": "Kiln Union",
+      "Health": 7,
+      "Attributes": [
+        9,
+        12,
+        9,
+        11
+      ],
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "Support",
+      "TextChatter": "CC_OVR_Kiln_Slag",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Personal",
+        "NoSprint",
+        "FreeAttacker"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "WeaponPref": "Melee",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_Agent"
+          ],
+          "TintPrimary": {
+            "r": 0.309804,
+            "g": 0.32549,
+            "b": 0.345098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.705882,
+            "g": 0.356863,
+            "b": 0.168627,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.968627,
+            "g": 0.631373,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_Nexus_Riot"
+          ],
+          "TintPrimary": {
+            "r": 0.309804,
+            "g": 0.32549,
+            "b": 0.345098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.705882,
+            "g": 0.356863,
+            "b": 0.168627,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.968627,
+            "g": 0.631373,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_Nexus 5"
+          ],
+          "TintPrimary": {
+            "r": 0.309804,
+            "g": 0.32549,
+            "b": 0.345098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.705882,
+            "g": 0.356863,
+            "b": 0.168627,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.968627,
+            "g": 0.631373,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_Nexus_Riot"
+          ],
+          "TintPrimary": {
+            "r": 0.309804,
+            "g": 0.32549,
+            "b": 0.345098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.705882,
+            "g": 0.356863,
+            "b": 0.168627,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.968627,
+            "g": 0.631373,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_BanditBrute"
+          ],
+          "TintPrimary": {
+            "r": 0.309804,
+            "g": 0.32549,
+            "b": 0.345098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.705882,
+            "g": 0.356863,
+            "b": 0.168627,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.968627,
+            "g": 0.631373,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.309804,
+            "g": 0.32549,
+            "b": 0.345098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.705882,
+            "g": 0.356863,
+            "b": 0.168627,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.968627,
+            "g": 0.631373,
+            "b": 0.219608,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Kiln_Slag",
+      "Root": "Nexus3_Support",
+      "Priority": 2,
+      "ArmorHead": 2.0,
+      "ArmorBody": 3.0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "SkillGroups": [
+        "AAHW_Skilled"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "Speed": {
+        "x": 0.55,
+        "y": 0.6,
+        "z": 0.8
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultThrown": "None",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
     }
   ],
   "Chatter": [
@@ -1983,6 +2221,48 @@
       "NameShort": "Trowel",
       "Filename": "CC_OVR_Kiln_Trowel",
       "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Description": "Custom event chatter for Slag. plainspoken shop-floor radio calls; they explain the job and never hide behind riddles.",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Slag, Marksman, reporting from the abandoned foundry belt."
+      ],
+      "WakeUp": [
+        "Eyes up. Kiln Union still has work to finish."
+      ],
+      "Attacking": [
+        "Slag taking the marksman lane. finish the shift, bring everyone home."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the the abandoned foundry belt."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Slag confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Slag is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Slag - Kiln Union combat chatter",
+      "NameShort": "Slag",
+      "Filename": "CC_OVR_Kiln_Slag",
+      "Root": "NEXUS",
       "Priority": 1
     }
   ]
