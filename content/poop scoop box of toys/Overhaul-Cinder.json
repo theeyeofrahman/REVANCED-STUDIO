@@ -1921,6 +1921,246 @@
       "Kick": "None",
       "Headbutt": "None",
       "SlamExplode": "None"
+    },
+    {
+      "Name": "Jumper",
+      "NameShort": "Jumper",
+      "Description": "Jumper is the Runner of the Cinder Circuit, working the switching rooms and scavenged relay towers. moves messages and supplies through gaps the larger crew cannot use. Their field kit shows the crew's colors: graphite mechanic suits with copper panels and live-cyan glass.",
+      "Level": 4,
+      "Title": "Runner",
+      "TacBar": 0,
+      "Scale": 1.08,
+      "Faction": "Cinder Circuit",
+      "Health": 5,
+      "Attributes": [
+        8,
+        12,
+        8,
+        8
+      ],
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_B",
+      "TextChatter": "CC_OVR_Cinder_Jumper",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "DefaultWeapon": "R_Hrifle_NFAL",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_Deimos_MercCoat"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_N51MilitaryVest_slim"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_N51FacePlate_Goggles"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_N51Beret"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_FullGloves"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Cinder_Jumper",
+      "Root": "N51_2_Commando",
+      "Priority": 2,
+      "ArmorHead": 1.0,
+      "ArmorBody": 2.0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "SkillGroups": [
+        "AAHW_Base"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Tactical",
+        "HoldCover",
+        "FreeAttacker"
+      ],
+      "Speed": {
+        "x": 0.85,
+        "y": 0.75,
+        "z": 1.0
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultThrown": "None",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
     }
   ],
   "Chatter": [
@@ -2263,6 +2503,49 @@
       "NameShort": "Loopback",
       "Filename": "CC_OVR_Cinder_Loopback",
       "Root": "NEXUS",
+      "Priority": 1
+    },
+    {
+      "Description": "Custom event chatter for Jumper. technician banter, quick diagnostics, and clear electrical hazards; Cinder keeps a line open to Zayden.",
+      "Font": "BlackOpsOne-Regular",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Jumper, Runner, reporting from the switching rooms and scavenged relay towers."
+      ],
+      "WakeUp": [
+        "Eyes up. Cinder Circuit still has work to finish."
+      ],
+      "Attacking": [
+        "Jumper taking the runner lane. nothing is dead until the wire is cut."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the the switching rooms and scavenged relay towers."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Jumper confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Jumper is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Jumper - Cinder Circuit combat chatter",
+      "NameShort": "Jumper",
+      "Filename": "CC_OVR_Cinder_Jumper",
+      "Root": "N51",
       "Priority": 1
     }
   ]
