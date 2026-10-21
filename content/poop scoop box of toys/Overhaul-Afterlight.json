@@ -238,6 +238,245 @@
       "Kick": "None",
       "Headbutt": "None",
       "SlamExplode": "None"
+    },
+    {
+      "Name": "Hemlock",
+      "NameShort": "Hemlock",
+      "Description": "Hemlock is the Quartermaster of the Afterlight Clinic, working the mobile wards and ruined triage stations. keeps the crew supplied and knows which kit can be repaired in the field. Their field kit shows the crew's colors: weathered bone-white panels with clinic-green markings.",
+      "Level": 6,
+      "Title": "Quartermaster",
+      "Faction": "Afterlight Clinic",
+      "Health": 7,
+      "Attributes": [
+        9,
+        9,
+        10,
+        11
+      ],
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_B",
+      "TextChatter": "CC_OVR_Afterlight_Hemlock",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "DefaultWeapon": "R_FNC",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_Agent"
+          ],
+          "TintPrimary": {
+            "r": 0.839216,
+            "g": 0.815686,
+            "b": 0.729412,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.364706,
+            "g": 0.501961,
+            "b": 0.427451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.709804,
+            "g": 0.882353,
+            "b": 0.741176,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_N51KevlarKarrier_pouches"
+          ],
+          "TintPrimary": {
+            "r": 0.839216,
+            "g": 0.815686,
+            "b": 0.729412,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.364706,
+            "g": 0.501961,
+            "b": 0.427451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.709804,
+            "g": 0.882353,
+            "b": 0.741176,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_N51FacePlate_Goggles"
+          ],
+          "TintPrimary": {
+            "r": 0.839216,
+            "g": 0.815686,
+            "b": 0.729412,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.364706,
+            "g": 0.501961,
+            "b": 0.427451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.709804,
+            "g": 0.882353,
+            "b": 0.741176,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Helmet_n51Commando"
+          ],
+          "TintPrimary": {
+            "r": 0.839216,
+            "g": 0.815686,
+            "b": 0.729412,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.364706,
+            "g": 0.501961,
+            "b": 0.427451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.709804,
+            "g": 0.882353,
+            "b": 0.741176,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_FullGloves"
+          ],
+          "TintPrimary": {
+            "r": 0.839216,
+            "g": 0.815686,
+            "b": 0.729412,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.364706,
+            "g": 0.501961,
+            "b": 0.427451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.709804,
+            "g": 0.882353,
+            "b": 0.741176,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.839216,
+            "g": 0.815686,
+            "b": 0.729412,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.364706,
+            "g": 0.501961,
+            "b": 0.427451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.709804,
+            "g": 0.882353,
+            "b": 0.741176,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Afterlight_Hemlock",
+      "Root": "N51_2_Commando",
+      "Priority": 2,
+      "ArmorHead": 1.0,
+      "ArmorBody": 2.0,
+      "TacBar": 0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "SkillGroups": [
+        "AAHW_Base"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Personal",
+        "HoldCover",
+        "FreeAttacker"
+      ],
+      "Speed": {
+        "x": 0.9,
+        "y": 0.75,
+        "z": 1.0
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultThrown": "None",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
     }
   ],
   "Chatter": [
@@ -281,6 +520,49 @@
       "Name": "Lumen - Afterlight Clinic combat chatter",
       "NameShort": "Lumen",
       "Filename": "CC_OVR_Afterlight_Lumen",
+      "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Description": "Custom event chatter for Hemlock. medic-first calls with calm triage, status reports, and direct safety instructions.",
+      "Font": "BlackOpsOne-Regular",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Hemlock, Quartermaster, reporting from the mobile wards and ruined triage stations."
+      ],
+      "WakeUp": [
+        "Eyes up. Afterlight Clinic still has work to finish."
+      ],
+      "Attacking": [
+        "Hemlock taking the quartermaster lane. treat first, argue later."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the the mobile wards and ruined triage stations."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Hemlock confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Hemlock is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Hemlock - Afterlight Clinic combat chatter",
+      "NameShort": "Hemlock",
+      "Filename": "CC_OVR_Afterlight_Hemlock",
       "Root": "N51",
       "Priority": 1
     }
