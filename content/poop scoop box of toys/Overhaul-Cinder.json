@@ -1683,6 +1683,244 @@
       "Kick": "None",
       "Headbutt": "None",
       "SlamExplode": "None"
+    },
+    {
+      "Name": "Loopback",
+      "NameShort": "Loopback",
+      "Description": "Loopback is the Marksman of the Cinder Circuit, working the switching rooms and scavenged relay towers. spots threats early and shares a clean shot with the rest of the team. Their field kit shows the crew's colors: graphite mechanic suits with copper panels and live-cyan glass.",
+      "Level": 6,
+      "Title": "Marksman",
+      "TacBar": 0,
+      "Faction": "Cinder Circuit",
+      "Health": 7,
+      "Attributes": [
+        9,
+        12,
+        9,
+        11
+      ],
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "Support",
+      "TextChatter": "CC_OVR_Cinder_Loopback",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Personal",
+        "NoSprint",
+        "FreeAttacker"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "WeaponPref": "Melee",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_Agent"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_Nexus_Riot"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_Nexus 5"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_Nexus_Riot"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_BanditBrute"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Cinder_Loopback",
+      "Root": "Nexus3_Support",
+      "Priority": 2,
+      "ArmorHead": 2.0,
+      "ArmorBody": 3.0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "SkillGroups": [
+        "AAHW_Skilled"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "Speed": {
+        "x": 0.55,
+        "y": 0.6,
+        "z": 0.8
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultThrown": "None",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
     }
   ],
   "Chatter": [
@@ -1983,6 +2221,48 @@
       "NameShort": "Capacitor",
       "Filename": "CC_OVR_Cinder_Capacitor",
       "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Description": "Custom event chatter for Loopback. technician banter, quick diagnostics, and clear electrical hazards; Cinder keeps a line open to Zayden.",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Loopback, Marksman, reporting from the switching rooms and scavenged relay towers."
+      ],
+      "WakeUp": [
+        "Eyes up. Cinder Circuit still has work to finish."
+      ],
+      "Attacking": [
+        "Loopback taking the marksman lane. nothing is dead until the wire is cut."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the the switching rooms and scavenged relay towers."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Loopback confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Loopback is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Loopback - Cinder Circuit combat chatter",
+      "NameShort": "Loopback",
+      "Filename": "CC_OVR_Cinder_Loopback",
+      "Root": "NEXUS",
       "Priority": 1
     }
   ]
