@@ -956,6 +956,249 @@
       "Kick": "None",
       "Headbutt": "None",
       "SlamExplode": "None"
+    },
+    {
+      "Name": "Sump",
+      "NameShort": "Sump",
+      "Description": "Sump is the Bulwark of the Siltwater Wardens, working the reservoir pumps and drainage tunnels. takes the exposed approach so lighter crew members can reposition. Their field kit shows the crew's colors: river-green rain gear with deep-blue seals.",
+      "Level": 6,
+      "Title": "Bulwark",
+      "TacBar": 0,
+      "Faction": "Siltwater Wardens",
+      "Health": 9,
+      "Attributes": [
+        11,
+        9,
+        11,
+        8
+      ],
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "MERC",
+      "TextChatter": "CC_OVR_Siltwater_Sump",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "AltMaterials": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "DefaultWeapon": "R_MERC_H",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_N51BattleDress"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.278431,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.439216,
+            "g": 0.52549,
+            "b": 0.415686,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.721569,
+            "g": 0.843137,
+            "b": 0.611765,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_N51Recon"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.278431,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.439216,
+            "g": 0.52549,
+            "b": 0.415686,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.721569,
+            "g": 0.843137,
+            "b": 0.611765,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Goggles_N51Overwatch"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.278431,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.439216,
+            "g": 0.52549,
+            "b": 0.415686,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.721569,
+            "g": 0.843137,
+            "b": 0.611765,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_HoodLong"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.278431,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.439216,
+            "g": 0.52549,
+            "b": 0.415686,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.721569,
+            "g": 0.843137,
+            "b": 0.611765,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_LeatherMarksman"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.278431,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.439216,
+            "g": 0.52549,
+            "b": 0.415686,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.721569,
+            "g": 0.843137,
+            "b": 0.611765,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.278431,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.439216,
+            "g": 0.52549,
+            "b": 0.415686,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.721569,
+            "g": 0.843137,
+            "b": 0.611765,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Siltwater_Sump",
+      "Root": "Merc2_Sniper",
+      "Priority": 2,
+      "ArmorHead": 0.0,
+      "ArmorBody": 1.0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "SkillGroups": [
+        "AAHW_Base"
+      ],
+      "Behaviors": [
+        "Camper",
+        "Accurate",
+        "TargetShy",
+        "HoldCover"
+      ],
+      "Speed": {
+        "x": 1.0,
+        "y": 0.8,
+        "z": 1.0
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultThrown": "None",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
     }
   ],
   "Chatter": [
@@ -1129,6 +1372,48 @@
       "NameShort": "Cistern",
       "Filename": "CC_OVR_Siltwater_Cistern",
       "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Description": "Custom event chatter for Sump. calm water-system reports, contamination checks, and clear evacuation directions.",
+      "Font": "BlackOpsOne-Regular",
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Sump, Bulwark, reporting from the reservoir pumps and drainage tunnels."
+      ],
+      "WakeUp": [
+        "Eyes up. Siltwater Wardens still has work to finish."
+      ],
+      "Attacking": [
+        "Sump taking the bulwark lane. keep the pumps clean and the people breathing."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the the reservoir pumps and drainage tunnels."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Sump confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Sump is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Sump - Siltwater Wardens combat chatter",
+      "NameShort": "Sump",
+      "Filename": "CC_OVR_Siltwater_Sump",
+      "Root": "MERC",
       "Priority": 1
     }
   ]
