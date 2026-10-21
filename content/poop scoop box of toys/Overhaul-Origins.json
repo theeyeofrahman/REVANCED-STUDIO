@@ -1294,6 +1294,158 @@
       "Filename": "Origin_Overhaul_Afterlight",
       "Root": "Tinkerer",
       "Priority": 1
+    },
+    {
+      "Name": "Relay Tinkerer",
+      "NameShort": "Relay Tinkerer",
+      "Description": "You kept Cinder Circuit radios and relay towers alive with scavenged parts. Graphite coveralls, copper panels, and live-cyan lenses show your repair crew. Cinder still answers when Zayden calls.",
+      "Imprints": 0,
+      "LinkedCharacter": "Arena",
+      "AttributeBonuses": [
+        0,
+        0,
+        1,
+        -1
+      ],
+      "DefaultArmor": [
+        "Gloves_Sappers",
+        "Backpack_Merc_1"
+      ],
+      "DefaultUniforms": [
+        {
+          "ArmorPicks": [
+            "Mouth_BanditMining 1"
+          ],
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Outfit_BanditMining1"
+          ],
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Goggles_RetroRadiation"
+          ],
+          "TintSecondary": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        }
+      ],
+      "Buffs": [
+        {
+          "Description": "You keep one extra magazine for your main weapon.",
+          "Amount": 1.0,
+          "Type": "ExtraMags",
+          "AmPercent": false,
+          "ShowAsGood": true,
+          "Name": "Scavenged Ammunition"
+        },
+        {
+          "Description": "The salvage pack makes quick movement harder.",
+          "Amount": -0.05,
+          "Type": "EncumbranceMax",
+          "AmPercent": true,
+          "ShowAsGood": false,
+          "Name": "Loaded Down"
+        }
+      ],
+      "SkillFocus": "Ranged",
+      "SkillWeakness": "Acrobatic",
+      "SpecialSkills": [
+        "O_Tinkerer"
+      ],
+      "Swatch_Pairs": [
+        {
+          "Color1": {
+            "r": 0.203922,
+            "g": 0.227451,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "Color2": {
+            "r": 0.72549,
+            "g": 0.388235,
+            "b": 0.231373,
+            "a": 1.0
+          },
+          "Name": "Cinder Circuit colors"
+        }
+      ],
+      "Swatch_Solos": [
+        {
+          "Color1": {
+            "r": 0.411765,
+            "g": 0.847059,
+            "b": 0.803922,
+            "a": 1.0
+          },
+          "Name": "Cinder Circuit signal"
+        }
+      ],
+      "Swatch": "None",
+      "WarchestWeapons": [],
+      "WarchestGear": [],
+      "ExpandNowhere": false,
+      "Filename": "Origin_Overhaul_Cinder",
+      "Root": "Tinkerer",
+      "Priority": 1
     }
   ]
 }
