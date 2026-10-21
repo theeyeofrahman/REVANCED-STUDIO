@@ -477,6 +477,246 @@
       "Kick": "None",
       "Headbutt": "None",
       "SlamExplode": "None"
+    },
+    {
+      "Name": "Buoy",
+      "NameShort": "Buoy",
+      "Description": "Buoy is the Pathfinder of the Glass Harbor, working the flooded docks and container yards. reads routes, sightlines, and exits before the rest of the crew arrives. Their field kit shows the crew's colors: slate-blue salvage armor with sea-glass lenses.",
+      "Title": "Pathfinder",
+      "Scale": 1.05,
+      "Faction": "Glass Harbor",
+      "Health": 6,
+      "Attributes": [
+        8,
+        12,
+        9,
+        9
+      ],
+      "Speed": {
+        "x": 0.8,
+        "y": 0.75,
+        "z": 1.0
+      },
+      "ArmorBody": 3.0,
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_B",
+      "TextChatter": "CC_OVR_Harbor_Buoy",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "WeaponPref": "Shotgun",
+      "DefaultWeapon": "R_Shot_ChopPump5",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_N51BattleDress"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_N51RiotVest"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_Nexus 2"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_Nexus_Riot"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_FullGloves"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Harbor_Buoy",
+      "Root": "N51_2_Commando",
+      "Priority": 2,
+      "Level": 5,
+      "ArmorHead": 2.0,
+      "TacBar": 0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "SkillGroups": [
+        "AAHW_Base"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Personal",
+        "FreeAttacker"
+      ],
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultThrown": "None",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
     }
   ],
   "Chatter": [
@@ -563,6 +803,49 @@
       "Name": "Wake - Glass Harbor combat chatter",
       "NameShort": "Wake",
       "Filename": "CC_OVR_Harbor_Wake",
+      "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Description": "Custom event chatter for Buoy. dockside shorthand, tide calls, and blunt warnings about bad water.",
+      "Font": "BlackOpsOne-Regular",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Buoy, Pathfinder, reporting from the flooded docks and container yards."
+      ],
+      "WakeUp": [
+        "Eyes up. Glass Harbor still has work to finish."
+      ],
+      "Attacking": [
+        "Buoy taking the pathfinder lane. the tide leaves something for us."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the the flooded docks and container yards."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Buoy confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Buoy is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Buoy - Glass Harbor combat chatter",
+      "NameShort": "Buoy",
+      "Filename": "CC_OVR_Harbor_Buoy",
       "Root": "N51",
       "Priority": 1
     }
