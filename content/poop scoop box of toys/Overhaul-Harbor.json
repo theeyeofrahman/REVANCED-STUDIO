@@ -1444,6 +1444,245 @@
       "Kick": "None",
       "Headbutt": "None",
       "SlamExplode": "None"
+    },
+    {
+      "Name": "Netter",
+      "NameShort": "Netter",
+      "Description": "Netter is the Medic of the Glass Harbor, working the flooded docks and container yards. stabilizes injured crew and refuses to leave anyone behind. Their field kit shows the crew's colors: slate-blue salvage armor with sea-glass lenses.",
+      "Level": 5,
+      "Title": "Medic",
+      "Faction": "Glass Harbor",
+      "Health": 6,
+      "Attributes": [
+        8,
+        10,
+        11,
+        10
+      ],
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_B",
+      "TextChatter": "CC_OVR_Harbor_Netter",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Personal",
+        "HoldCover",
+        "FreeAttacker"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "DefaultWeapon": "R_NM46",
+      "DefaultThrown": "None",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_N51BattleDress"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_Nexus_1"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_Engineer"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_Headset"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_Sappers"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.203922,
+            "g": 0.290196,
+            "b": 0.352941,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.235294,
+            "g": 0.482353,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.568627,
+            "g": 0.882353,
+            "b": 0.843137,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Harbor_Netter",
+      "Root": "N51_0_Recon",
+      "Priority": 2,
+      "ArmorHead": 0.0,
+      "ArmorBody": 1.0,
+      "TacBar": 0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "SkillGroups": [
+        "AAHW_Base"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "Speed": {
+        "x": 0.9,
+        "y": 0.75,
+        "z": 1.0
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
     }
   ],
   "Chatter": [
@@ -1701,6 +1940,49 @@
       "NameShort": "Breaker",
       "Filename": "CC_OVR_Harbor_Breaker",
       "Root": "MERC",
+      "Priority": 1
+    },
+    {
+      "Description": "Custom event chatter for Netter. dockside shorthand, tide calls, and blunt warnings about bad water.",
+      "Font": "BlackOpsOne-Regular",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Netter, Medic, reporting from the flooded docks and container yards."
+      ],
+      "WakeUp": [
+        "Eyes up. Glass Harbor still has work to finish."
+      ],
+      "Attacking": [
+        "Netter taking the medic lane. the tide leaves something for us."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the the flooded docks and container yards."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Netter confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Netter is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Netter - Glass Harbor combat chatter",
+      "NameShort": "Netter",
+      "Filename": "CC_OVR_Harbor_Netter",
+      "Root": "N51",
       "Priority": 1
     }
   ]
