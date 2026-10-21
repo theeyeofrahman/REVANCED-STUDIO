@@ -886,6 +886,134 @@
       "Filename": "Origin_Overhaul_Quarry",
       "Root": "Agent",
       "Priority": 1
+    },
+    {
+      "Name": "Pump Tender",
+      "NameShort": "Pump Tender",
+      "Description": "You kept the Siltwater pumps running through dry seasons. River-green weather gear and sealed blue kit mark a careful worker who checks the water before anyone drinks.",
+      "Imprints": 0,
+      "LinkedCharacter": "Arena",
+      "AttributeBonuses": [
+        -1,
+        0,
+        1,
+        0
+      ],
+      "DefaultArmor": [
+        "Gloves_BoxingGloves",
+        "Boots_Heavy",
+        "Belt_Merc_1"
+      ],
+      "DefaultUniforms": [
+        {
+          "ArmorPicks": [
+            "Mask_Hockey"
+          ],
+          "TintSecondary": {
+            "r": 0.439216,
+            "g": 0.52549,
+            "b": 0.415686,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.278431,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.721569,
+            "g": 0.843137,
+            "b": 0.611765,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        },
+        {
+          "ArmorPicks": [
+            "Outfit_MafiaOvercoat"
+          ],
+          "TintSecondary": {
+            "r": 0.439216,
+            "g": 0.52549,
+            "b": 0.415686,
+            "a": 1.0
+          },
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.278431,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.721569,
+            "g": 0.843137,
+            "b": 0.611765,
+            "a": 1.0
+          },
+          "AltMesh": 0,
+          "AltMaterial": 0
+        }
+      ],
+      "Buffs": [
+        {
+          "Description": "Pit work gives you a small edge in hand-to-hand damage.",
+          "Amount": 0.05,
+          "Type": "UnarmedDamage",
+          "AmPercent": true,
+          "ShowAsGood": true,
+          "Name": "Close-Quarters Habit"
+        },
+        {
+          "Description": "You have less practice avoiding ranged fire.",
+          "Amount": -0.05,
+          "Type": "RangedDamage",
+          "AmPercent": true,
+          "ShowAsGood": false,
+          "Name": "Open-Lane Risk"
+        }
+      ],
+      "SkillFocus": "Melee",
+      "SkillWeakness": "Ranged",
+      "SpecialSkills": [
+        "O_FreeExecute"
+      ],
+      "Swatch_Pairs": [
+        {
+          "Color1": {
+            "r": 0.188235,
+            "g": 0.278431,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "Color2": {
+            "r": 0.439216,
+            "g": 0.52549,
+            "b": 0.415686,
+            "a": 1.0
+          },
+          "Name": "Siltwater Wardens colors"
+        }
+      ],
+      "Swatch_Solos": [
+        {
+          "Color1": {
+            "r": 0.721569,
+            "g": 0.843137,
+            "b": 0.611765,
+            "a": 1.0
+          },
+          "Name": "Siltwater Wardens signal"
+        }
+      ],
+      "Swatch": "None",
+      "WarchestWeapons": [],
+      "WarchestGear": [],
+      "ExpandNowhere": false,
+      "Filename": "Origin_Overhaul_Siltwater",
+      "Root": "Disquieted",
+      "Priority": 1
     }
   ]
 }
