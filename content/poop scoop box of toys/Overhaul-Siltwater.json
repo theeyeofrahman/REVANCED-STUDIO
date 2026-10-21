@@ -477,6 +477,246 @@
       "Kick": "None",
       "Headbutt": "None",
       "SlamExplode": "None"
+    },
+    {
+      "Name": "Clarity",
+      "NameShort": "Clarity",
+      "Description": "Clarity is the Pathfinder of the Siltwater Wardens, working the reservoir pumps and drainage tunnels. reads routes, sightlines, and exits before the rest of the crew arrives. Their field kit shows the crew's colors: river-green rain gear with deep-blue seals.",
+      "Title": "Pathfinder",
+      "Scale": 1.05,
+      "Faction": "Siltwater Wardens",
+      "Health": 6,
+      "Attributes": [
+        8,
+        12,
+        9,
+        9
+      ],
+      "Speed": {
+        "x": 0.8,
+        "y": 0.75,
+        "z": 1.0
+      },
+      "ArmorBody": 3.0,
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_B",
+      "TextChatter": "CC_OVR_Siltwater_Clarity",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "WeaponPref": "Shotgun",
+      "DefaultWeapon": "R_Shot_ChopPump5",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_N51BattleDress"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.278431,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.439216,
+            "g": 0.52549,
+            "b": 0.415686,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.721569,
+            "g": 0.843137,
+            "b": 0.611765,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_N51RiotVest"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.278431,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.439216,
+            "g": 0.52549,
+            "b": 0.415686,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.721569,
+            "g": 0.843137,
+            "b": 0.611765,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_Nexus 2"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.278431,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.439216,
+            "g": 0.52549,
+            "b": 0.415686,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.721569,
+            "g": 0.843137,
+            "b": 0.611765,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_Nexus_Riot"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.278431,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.439216,
+            "g": 0.52549,
+            "b": 0.415686,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.721569,
+            "g": 0.843137,
+            "b": 0.611765,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_FullGloves"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.278431,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.439216,
+            "g": 0.52549,
+            "b": 0.415686,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.721569,
+            "g": 0.843137,
+            "b": 0.611765,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.278431,
+            "b": 0.290196,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.439216,
+            "g": 0.52549,
+            "b": 0.415686,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.721569,
+            "g": 0.843137,
+            "b": 0.611765,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Siltwater_Clarity",
+      "Root": "N51_2_Commando",
+      "Priority": 2,
+      "Level": 5,
+      "ArmorHead": 2.0,
+      "TacBar": 0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "SkillGroups": [
+        "AAHW_Base"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Personal",
+        "FreeAttacker"
+      ],
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultThrown": "None",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
     }
   ],
   "Chatter": [
@@ -563,6 +803,49 @@
       "Name": "Floodgate - Siltwater Wardens combat chatter",
       "NameShort": "Floodgate",
       "Filename": "CC_OVR_Siltwater_Floodgate",
+      "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Description": "Custom event chatter for Clarity. calm water-system reports, contamination checks, and clear evacuation directions.",
+      "Font": "BlackOpsOne-Regular",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Clarity, Pathfinder, reporting from the reservoir pumps and drainage tunnels."
+      ],
+      "WakeUp": [
+        "Eyes up. Siltwater Wardens still has work to finish."
+      ],
+      "Attacking": [
+        "Clarity taking the pathfinder lane. keep the pumps clean and the people breathing."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the the reservoir pumps and drainage tunnels."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Clarity confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Clarity is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Clarity - Siltwater Wardens combat chatter",
+      "NameShort": "Clarity",
+      "Filename": "CC_OVR_Siltwater_Clarity",
       "Root": "N51",
       "Priority": 1
     }
