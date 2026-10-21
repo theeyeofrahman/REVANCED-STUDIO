@@ -1683,6 +1683,244 @@
       "Kick": "None",
       "Headbutt": "None",
       "SlamExplode": "None"
+    },
+    {
+      "Name": "Aperture",
+      "NameShort": "Aperture",
+      "Description": "Aperture is the Marksman of the Violet Relay, working the rooftops and old signal exchanges. spots threats early and shares a clean shot with the rest of the team. Their field kit shows the crew's colors: deep plum coats over pale plates with violet glass.",
+      "Level": 6,
+      "Title": "Marksman",
+      "TacBar": 0,
+      "Faction": "Violet Relay",
+      "Health": 7,
+      "Attributes": [
+        9,
+        12,
+        9,
+        11
+      ],
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "Support",
+      "TextChatter": "CC_OVR_Violet_Aperture",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Personal",
+        "NoSprint",
+        "FreeAttacker"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "WeaponPref": "Melee",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_Agent"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.156863,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.478431,
+            "g": 0.356863,
+            "b": 0.568627,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.780392,
+            "g": 0.627451,
+            "b": 0.917647,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_Nexus_Riot"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.156863,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.478431,
+            "g": 0.356863,
+            "b": 0.568627,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.780392,
+            "g": 0.627451,
+            "b": 0.917647,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_Nexus 5"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.156863,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.478431,
+            "g": 0.356863,
+            "b": 0.568627,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.780392,
+            "g": 0.627451,
+            "b": 0.917647,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_Nexus_Riot"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.156863,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.478431,
+            "g": 0.356863,
+            "b": 0.568627,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.780392,
+            "g": 0.627451,
+            "b": 0.917647,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_BanditBrute"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.156863,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.478431,
+            "g": 0.356863,
+            "b": 0.568627,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.780392,
+            "g": 0.627451,
+            "b": 0.917647,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.188235,
+            "g": 0.156863,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.478431,
+            "g": 0.356863,
+            "b": 0.568627,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.780392,
+            "g": 0.627451,
+            "b": 0.917647,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Violet_Aperture",
+      "Root": "Nexus3_Support",
+      "Priority": 2,
+      "ArmorHead": 2.0,
+      "ArmorBody": 3.0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "SkillGroups": [
+        "AAHW_Skilled"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "Speed": {
+        "x": 0.55,
+        "y": 0.6,
+        "z": 0.8
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultThrown": "None",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
     }
   ],
   "Chatter": [
@@ -1983,6 +2221,48 @@
       "NameShort": "Wink",
       "Filename": "CC_OVR_Violet_Wink",
       "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Description": "Custom event chatter for Aperture. cool, precise intelligence trades; every call includes a useful detail.",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Aperture, Marksman, reporting from the rooftops and old signal exchanges."
+      ],
+      "WakeUp": [
+        "Eyes up. Violet Relay still has work to finish."
+      ],
+      "Attacking": [
+        "Aperture taking the marksman lane. information is a way out."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the the rooftops and old signal exchanges."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Aperture confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Aperture is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Aperture - Violet Relay combat chatter",
+      "NameShort": "Aperture",
+      "Filename": "CC_OVR_Violet_Aperture",
+      "Root": "NEXUS",
       "Priority": 1
     }
   ]
