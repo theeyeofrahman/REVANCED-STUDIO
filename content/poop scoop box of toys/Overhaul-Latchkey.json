@@ -477,6 +477,246 @@
       "Kick": "None",
       "Headbutt": "None",
       "SlamExplode": "None"
+    },
+    {
+      "Name": "Deadbolt",
+      "NameShort": "Deadbolt",
+      "Description": "Deadbolt is the Pathfinder of the Latchkey Syndicate, working sealed apartments and corporate vaults. reads routes, sightlines, and exits before the rest of the crew arrives. Their field kit shows the crew's colors: matte charcoal kits with brass hardware and gold lenses.",
+      "Title": "Pathfinder",
+      "Scale": 1.05,
+      "Faction": "Latchkey Syndicate",
+      "Health": 6,
+      "Attributes": [
+        8,
+        12,
+        9,
+        9
+      ],
+      "Speed": {
+        "x": 0.8,
+        "y": 0.75,
+        "z": 1.0
+      },
+      "ArmorBody": 3.0,
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "N51_B",
+      "TextChatter": "CC_OVR_Latchkey_Deadbolt",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "WeaponPref": "Shotgun",
+      "DefaultWeapon": "R_Shot_ChopPump5",
+      "UnarmedReplacement": "None",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_N51BattleDress"
+          ],
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_N51RiotVest"
+          ],
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_Nexus 2"
+          ],
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_Nexus_Riot"
+          ],
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_FullGloves"
+          ],
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.160784,
+            "g": 0.160784,
+            "b": 0.145098,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.588235,
+            "g": 0.443137,
+            "b": 0.227451,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.905882,
+            "g": 0.768627,
+            "b": 0.423529,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Latchkey_Deadbolt",
+      "Root": "N51_2_Commando",
+      "Priority": 2,
+      "Level": 5,
+      "ArmorHead": 2.0,
+      "TacBar": 0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "SkillGroups": [
+        "AAHW_Base"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Personal",
+        "FreeAttacker"
+      ],
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultThrown": "None",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
     }
   ],
   "Chatter": [
@@ -563,6 +803,49 @@
       "Name": "Wedge - Latchkey Syndicate combat chatter",
       "NameShort": "Wedge",
       "Filename": "CC_OVR_Latchkey_Wedge",
+      "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Description": "Custom event chatter for Deadbolt. dry heist banter and clear entry instructions; they are thieves, not mystics.",
+      "Font": "BlackOpsOne-Regular",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Deadbolt, Pathfinder, reporting from sealed apartments and corporate vaults."
+      ],
+      "WakeUp": [
+        "Eyes up. Latchkey Syndicate still has work to finish."
+      ],
+      "Attacking": [
+        "Deadbolt taking the pathfinder lane. leave the lock better than you found it."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the sealed apartments and corporate vaults."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Deadbolt confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Deadbolt is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Deadbolt - Latchkey Syndicate combat chatter",
+      "NameShort": "Deadbolt",
+      "Filename": "CC_OVR_Latchkey_Deadbolt",
       "Root": "N51",
       "Priority": 1
     }
