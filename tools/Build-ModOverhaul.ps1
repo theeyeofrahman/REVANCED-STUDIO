@@ -67,14 +67,14 @@ for($f=0;$f -lt $taskFactions.Count;$f++){
   $taskVoice.Filename=$taskChatterId;$taskVoice.Name="$taskName - $($taskFaction.Name) combat chatter";$taskVoice.NameShort=$taskName;$taskVoice.Priority=1
   $taskVoice.Description="Custom event chatter for $taskName. $($taskFaction.Style)"
   $taskVoice.Spawned=@("$taskName, $taskRole, reporting from $($taskFaction.Territory).")
-  $taskVoice.WakeUp=@("Eyes up. $($taskFaction.Name) still has work to finish.")
+  $taskVoice.WakeUp=@("$taskName, eyes up. $($taskFaction.Name) still has work to finish.")
   $taskVoice.Attacking=@("$taskName taking the $($taskRole.ToLower()) lane. $($taskFaction.Motto).")
-  $taskVoice.Chasing=@("Keep my signal. I'm pushing them toward the $($taskFaction.Territory).")
-  $taskVoice.Waiting=@("Holding position. Check your route before you move.")
-  $taskVoice.FriendDied=@("We lost one of ours. Mark the spot; the rest of us keep moving.")
+  $taskVoice.Chasing=@("$taskName on the pursuit. Keep my signal as I push them toward the $($taskFaction.Territory).")
+  $taskVoice.Waiting=@("$taskName holding at the $($taskFaction.Key) staging point. Check your route before you move.")
+  $taskVoice.FriendDied=@("$taskName here. We lost one of ours; I'll cover the crew while you mark the spot.")
   $taskVoice.EnemyDown=@("$taskName confirms one hostile down. Watch the next angle.")
   $taskVoice.Wounded=@("$taskName is hit! Still moving; get me behind cover!")
-  $taskVoice.Died=@("Tell the crew I made it this far with them.")
+  $taskVoice.Died=@("$taskName signing off. Tell the $($taskFaction.Name) crew I kept my word.")
   $taskVoices+=$taskVoice
  }
  if($taskCards.Count -gt 0){$taskLines[$taskFaction.Key]=[ordered]@{Character=$taskCards;Chatter=$taskVoices}}
