@@ -1683,6 +1683,244 @@
       "Kick": "None",
       "Headbutt": "None",
       "SlamExplode": "None"
+    },
+    {
+      "Name": "Thread",
+      "NameShort": "Thread",
+      "Description": "Thread is the Marksman of the Ashline Mutual, working the convoy roads beyond the city. spots threats early and shares a clean shot with the rest of the team. Their field kit shows the crew's colors: dust-tan travel gear with faded teal markings.",
+      "Level": 6,
+      "Title": "Marksman",
+      "TacBar": 0,
+      "Faction": "Ashline Mutual",
+      "Health": 7,
+      "Attributes": [
+        9,
+        12,
+        9,
+        11
+      ],
+      "ExecutionsOffensive": [
+        "empty"
+      ],
+      "ExecutionsDefensive": [
+        "empty"
+      ],
+      "VoiceSet": "Support",
+      "TextChatter": "CC_OVR_Ashline_Thread",
+      "Reskins": [
+        "empty"
+      ],
+      "AltParts": [
+        "empty"
+      ],
+      "TintsPrimary": [
+        "empty"
+      ],
+      "TintsSecondary": [
+        "empty"
+      ],
+      "Behaviors": [
+        "Personal",
+        "NoSprint",
+        "FreeAttacker"
+      ],
+      "Traits": [
+        "empty"
+      ],
+      "Vocations": [
+        "empty"
+      ],
+      "SpecialSkills": [
+        "empty"
+      ],
+      "WeaponPref": "Melee",
+      "DefaultArmor": [
+        "empty"
+      ],
+      "Uniform": [
+        {
+          "ArmorPicks": [
+            "Outfit_Agent"
+          ],
+          "TintPrimary": {
+            "r": 0.521569,
+            "g": 0.454902,
+            "b": 0.364706,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.305882,
+            "g": 0.466667,
+            "b": 0.45098,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.921569,
+            "g": 0.796078,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Armor_Nexus_Riot"
+          ],
+          "TintPrimary": {
+            "r": 0.521569,
+            "g": 0.454902,
+            "b": 0.364706,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.305882,
+            "g": 0.466667,
+            "b": 0.45098,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.921569,
+            "g": 0.796078,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Mask_Nexus 5"
+          ],
+          "TintPrimary": {
+            "r": 0.521569,
+            "g": 0.454902,
+            "b": 0.364706,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.305882,
+            "g": 0.466667,
+            "b": 0.45098,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.921569,
+            "g": 0.796078,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Hat_Nexus_Riot"
+          ],
+          "TintPrimary": {
+            "r": 0.521569,
+            "g": 0.454902,
+            "b": 0.364706,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.305882,
+            "g": 0.466667,
+            "b": 0.45098,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.921569,
+            "g": 0.796078,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Gloves_BanditBrute"
+          ],
+          "TintPrimary": {
+            "r": 0.521569,
+            "g": 0.454902,
+            "b": 0.364706,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.305882,
+            "g": 0.466667,
+            "b": 0.45098,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.921569,
+            "g": 0.796078,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        },
+        {
+          "ArmorPicks": [
+            "Boots_Heavy"
+          ],
+          "TintPrimary": {
+            "r": 0.521569,
+            "g": 0.454902,
+            "b": 0.364706,
+            "a": 1.0
+          },
+          "TintSecondary": {
+            "r": 0.305882,
+            "g": 0.466667,
+            "b": 0.45098,
+            "a": 1.0
+          },
+          "TintGlass": {
+            "r": 0.921569,
+            "g": 0.796078,
+            "b": 0.513725,
+            "a": 1.0
+          },
+          "AltMaterial": 0,
+          "AltMesh": 0
+        }
+      ],
+      "Filename": "OVR_Ashline_Thread",
+      "Root": "Nexus3_Support",
+      "Priority": 2,
+      "ArmorHead": 2.0,
+      "ArmorBody": 3.0,
+      "CorpusBlocks": [
+        "Basic"
+      ],
+      "SkillGroups": [
+        "AAHW_Skilled"
+      ],
+      "Skills": [
+        "empty"
+      ],
+      "RemovedSkills": [
+        "empty"
+      ],
+      "Speed": {
+        "x": 0.55,
+        "y": 0.6,
+        "z": 0.8
+      },
+      "SprintBonus": 0.0,
+      "Toughness": 0.0,
+      "CountWornArmor": false,
+      "DefaultThrown": "None",
+      "DefaultOffHand": "None",
+      "DefaultSidearm": "None",
+      "Fist": "U_Fist",
+      "Kick": "None",
+      "Headbutt": "None",
+      "SlamExplode": "None"
     }
   ],
   "Chatter": [
@@ -1983,6 +2221,48 @@
       "NameShort": "Gull",
       "Filename": "CC_OVR_Ashline_Gull",
       "Root": "N51",
+      "Priority": 1
+    },
+    {
+      "Description": "Custom event chatter for Thread. protective convoy calls, practical route checks, and reassurance for civilians.",
+      "Size": 11,
+      "Color": {
+        "b": 0.96,
+        "a": 1.0,
+        "g": 0.89,
+        "r": 0.3
+      },
+      "Spawned": [
+        "Thread, Marksman, reporting from the convoy roads beyond the city."
+      ],
+      "WakeUp": [
+        "Eyes up. Ashline Mutual still has work to finish."
+      ],
+      "Attacking": [
+        "Thread taking the marksman lane. a spare seat is a promise."
+      ],
+      "Chasing": [
+        "Keep my signal. I'm pushing them toward the the convoy roads beyond the city."
+      ],
+      "Waiting": [
+        "Holding position. Check your route before you move."
+      ],
+      "FriendDied": [
+        "We lost one of ours. Mark the spot; the rest of us keep moving."
+      ],
+      "EnemyDown": [
+        "Thread confirms one hostile down. Watch the next angle."
+      ],
+      "Wounded": [
+        "Thread is hit! Still moving; get me behind cover!"
+      ],
+      "Died": [
+        "Tell the crew I made it this far with them."
+      ],
+      "Name": "Thread - Ashline Mutual combat chatter",
+      "NameShort": "Thread",
+      "Filename": "CC_OVR_Ashline_Thread",
+      "Root": "NEXUS",
       "Priority": 1
     }
   ]
